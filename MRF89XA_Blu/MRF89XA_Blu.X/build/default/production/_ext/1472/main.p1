@@ -1,0 +1,447 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"1723 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1847.h
+[s S89 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S89 . SCS0 SCS1 . IRCF0 IRCF1 IRCF2 IRCF3 SPLLEN ]
+"1733
+[s S90 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S90 . SCS . IRCF ]
+"1722
+[u S88 `S89 1 `S90 1 ]
+[n S88 . . . ]
+"1739
+[v _OSCCONbits `VS88 ~T0 @X0 0 e@153 ]
+"2790
+[v _APFCON0 `Vuc ~T0 @X0 0 e@285 ]
+"2872
+[v _ANSELA `Vuc ~T0 @X0 0 e@396 ]
+"2924
+[v _ANSELB `Vuc ~T0 @X0 0 e@397 ]
+"1225
+[v _TRISB `Vuc ~T0 @X0 0 e@141 ]
+"1163
+[v _TRISA `Vuc ~T0 @X0 0 e@140 ]
+"2050
+[v _LATA `Vuc ~T0 @X0 0 e@268 ]
+"2107
+[v _LATB `Vuc ~T0 @X0 0 e@269 ]
+[p mainexit ]
+"355
+[s S26 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S26 . IOCIF INTF TMR0IF IOCIE INTE TMR0IE PEIE GIE ]
+"365
+[s S27 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S27 . . T0IF . T0IE ]
+"354
+[u S25 `S26 1 `S27 1 ]
+[n S25 . . . ]
+"372
+[v _INTCONbits `VS25 ~T0 @X0 0 e@11 ]
+"13 ../bootloader.h
+[v _Boot_EraseFbl `(v ~T0 @X0 0 ef ]
+"14
+[v _Boot_ProgrFbl `(v ~T0 @X0 0 ef ]
+"52 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1847.h
+[; <" INDF0 equ 00h ;# ">
+"72
+[; <" INDF1 equ 01h ;# ">
+"92
+[; <" PCL equ 02h ;# ">
+"112
+[; <" STATUS equ 03h ;# ">
+"175
+[; <" FSR0L equ 04h ;# ">
+"195
+[; <" FSR0H equ 05h ;# ">
+"219
+[; <" FSR1L equ 06h ;# ">
+"239
+[; <" FSR1H equ 07h ;# ">
+"259
+[; <" BSR equ 08h ;# ">
+"311
+[; <" WREG equ 09h ;# ">
+"331
+[; <" PCLATH equ 0Ah ;# ">
+"351
+[; <" INTCON equ 0Bh ;# ">
+"429
+[; <" PORTA equ 0Ch ;# ">
+"491
+[; <" PORTB equ 0Dh ;# ">
+"553
+[; <" PIR1 equ 011h ;# ">
+"615
+[; <" PIR2 equ 012h ;# ">
+"666
+[; <" PIR3 equ 013h ;# ">
+"706
+[; <" PIR4 equ 014h ;# ">
+"732
+[; <" TMR0 equ 015h ;# ">
+"752
+[; <" TMR1 equ 016h ;# ">
+"759
+[; <" TMR1L equ 016h ;# ">
+"779
+[; <" TMR1H equ 017h ;# ">
+"799
+[; <" T1CON equ 018h ;# ">
+"871
+[; <" T1GCON equ 019h ;# ">
+"948
+[; <" TMR2 equ 01Ah ;# ">
+"968
+[; <" PR2 equ 01Bh ;# ">
+"988
+[; <" T2CON equ 01Ch ;# ">
+"1059
+[; <" CPSCON0 equ 01Eh ;# ">
+"1119
+[; <" CPSCON1 equ 01Fh ;# ">
+"1165
+[; <" TRISA equ 08Ch ;# ">
+"1227
+[; <" TRISB equ 08Dh ;# ">
+"1289
+[; <" PIE1 equ 091h ;# ">
+"1351
+[; <" PIE2 equ 092h ;# ">
+"1402
+[; <" PIE3 equ 093h ;# ">
+"1442
+[; <" PIE4 equ 094h ;# ">
+"1468
+[; <" OPTION_REG equ 095h ;# ">
+"1551
+[; <" PCON equ 096h ;# ">
+"1602
+[; <" WDTCON equ 097h ;# ">
+"1661
+[; <" OSCTUNE equ 098h ;# ">
+"1719
+[; <" OSCCON equ 099h ;# ">
+"1791
+[; <" OSCSTAT equ 09Ah ;# ">
+"1853
+[; <" ADRES equ 09Bh ;# ">
+"1860
+[; <" ADRESL equ 09Bh ;# ">
+"1880
+[; <" ADRESH equ 09Ch ;# ">
+"1900
+[; <" ADCON0 equ 09Dh ;# ">
+"1980
+[; <" ADCON1 equ 09Eh ;# ">
+"2052
+[; <" LATA equ 010Ch ;# ">
+"2109
+[; <" LATB equ 010Dh ;# ">
+"2171
+[; <" CM1CON0 equ 0111h ;# ">
+"2228
+[; <" CM1CON1 equ 0112h ;# ">
+"2294
+[; <" CM2CON0 equ 0113h ;# ">
+"2351
+[; <" CM2CON1 equ 0114h ;# ">
+"2417
+[; <" CMOUT equ 0115h ;# ">
+"2443
+[; <" BORCON equ 0116h ;# ">
+"2470
+[; <" FVRCON equ 0117h ;# ">
+"2546
+[; <" DACCON0 equ 0118h ;# ">
+"2607
+[; <" DACCON1 equ 0119h ;# ">
+"2659
+[; <" SRCON0 equ 011Ah ;# ">
+"2730
+[; <" SRCON1 equ 011Bh ;# ">
+"2792
+[; <" APFCON0 equ 011Dh ;# ">
+"2854
+[; <" APFCON1 equ 011Eh ;# ">
+"2874
+[; <" ANSELA equ 018Ch ;# ">
+"2926
+[; <" ANSELB equ 018Dh ;# ">
+"2991
+[; <" EEADR equ 0191h ;# ">
+"2998
+[; <" EEADRL equ 0191h ;# ">
+"3018
+[; <" EEADRH equ 0192h ;# ">
+"3038
+[; <" EEDAT equ 0193h ;# ">
+"3045
+[; <" EEDATL equ 0193h ;# ">
+"3050
+[; <" EEDATA equ 0193h ;# ">
+"3083
+[; <" EEDATH equ 0194h ;# ">
+"3103
+[; <" EECON1 equ 0195h ;# ">
+"3165
+[; <" EECON2 equ 0196h ;# ">
+"3185
+[; <" RCREG equ 0199h ;# ">
+"3205
+[; <" TXREG equ 019Ah ;# ">
+"3225
+[; <" SP1BRG equ 019Bh ;# ">
+"3232
+[; <" SP1BRGL equ 019Bh ;# ">
+"3237
+[; <" SPBRG equ 019Bh ;# ">
+"3241
+[; <" SPBRGL equ 019Bh ;# ">
+"3286
+[; <" SP1BRGH equ 019Ch ;# ">
+"3291
+[; <" SPBRGH equ 019Ch ;# ">
+"3324
+[; <" RCSTA equ 019Dh ;# ">
+"3386
+[; <" TXSTA equ 019Eh ;# ">
+"3448
+[; <" BAUDCON equ 019Fh ;# ">
+"3500
+[; <" WPUA equ 020Ch ;# ">
+"3529
+[; <" WPUB equ 020Dh ;# ">
+"3599
+[; <" SSP1BUF equ 0211h ;# ">
+"3604
+[; <" SSPBUF equ 0211h ;# ">
+"3637
+[; <" SSP1ADD equ 0212h ;# ">
+"3642
+[; <" SSPADD equ 0212h ;# ">
+"3675
+[; <" SSP1MSK equ 0213h ;# ">
+"3680
+[; <" SSPMSK equ 0213h ;# ">
+"3713
+[; <" SSP1STAT equ 0214h ;# ">
+"3718
+[; <" SSPSTAT equ 0214h ;# ">
+"3835
+[; <" SSP1CON1 equ 0215h ;# ">
+"3840
+[; <" SSPCON1 equ 0215h ;# ">
+"3844
+[; <" SSPCON equ 0215h ;# ">
+"4039
+[; <" SSP1CON2 equ 0216h ;# ">
+"4044
+[; <" SSPCON2 equ 0216h ;# ">
+"4161
+[; <" SSP1CON3 equ 0217h ;# ">
+"4166
+[; <" SSPCON3 equ 0217h ;# ">
+"4283
+[; <" SSP2BUF equ 0219h ;# ">
+"4303
+[; <" SSP2ADD equ 021Ah ;# ">
+"4323
+[; <" SSP2MSK equ 021Bh ;# ">
+"4343
+[; <" SSP2STAT equ 021Ch ;# ">
+"4405
+[; <" SSP2CON1 equ 021Dh ;# ">
+"4475
+[; <" SSP2CON2 equ 021Eh ;# ">
+"4537
+[; <" SSP2CON3 equ 021Fh ;# ">
+"4599
+[; <" CCPR1 equ 0291h ;# ">
+"4606
+[; <" CCPR1L equ 0291h ;# ">
+"4626
+[; <" CCPR1H equ 0292h ;# ">
+"4646
+[; <" CCP1CON equ 0293h ;# ">
+"4728
+[; <" PWM1CON equ 0294h ;# ">
+"4798
+[; <" CCP1AS equ 0295h ;# ">
+"4803
+[; <" ECCP1AS equ 0295h ;# ">
+"4960
+[; <" PSTR1CON equ 0296h ;# ">
+"5004
+[; <" CCPR2 equ 0298h ;# ">
+"5011
+[; <" CCPR2L equ 0298h ;# ">
+"5031
+[; <" CCPR2H equ 0299h ;# ">
+"5051
+[; <" CCP2CON equ 029Ah ;# ">
+"5133
+[; <" PWM2CON equ 029Bh ;# ">
+"5203
+[; <" CCP2AS equ 029Ch ;# ">
+"5208
+[; <" ECCP2AS equ 029Ch ;# ">
+"5365
+[; <" PSTR2CON equ 029Dh ;# ">
+"5409
+[; <" CCPTMRS equ 029Eh ;# ">
+"5414
+[; <" CCPTMRS0 equ 029Eh ;# ">
+"5583
+[; <" CCPR3 equ 0311h ;# ">
+"5590
+[; <" CCPR3L equ 0311h ;# ">
+"5610
+[; <" CCPR3H equ 0312h ;# ">
+"5630
+[; <" CCP3CON equ 0313h ;# ">
+"5694
+[; <" CCPR4 equ 0318h ;# ">
+"5701
+[; <" CCPR4L equ 0318h ;# ">
+"5721
+[; <" CCPR4H equ 0319h ;# ">
+"5741
+[; <" CCP4CON equ 031Ah ;# ">
+"5805
+[; <" IOCBP equ 0394h ;# ">
+"5875
+[; <" IOCBN equ 0395h ;# ">
+"5945
+[; <" IOCBF equ 0396h ;# ">
+"6015
+[; <" CLKRCON equ 039Ah ;# ">
+"6091
+[; <" MDCON equ 039Ch ;# ">
+"6142
+[; <" MDSRC equ 039Dh ;# ">
+"6195
+[; <" MDCARL equ 039Eh ;# ">
+"6260
+[; <" MDCARH equ 039Fh ;# ">
+"6325
+[; <" TMR4 equ 0415h ;# ">
+"6345
+[; <" PR4 equ 0416h ;# ">
+"6365
+[; <" T4CON equ 0417h ;# ">
+"6436
+[; <" TMR6 equ 041Ch ;# ">
+"6456
+[; <" PR6 equ 041Dh ;# ">
+"6476
+[; <" T6CON equ 041Eh ;# ">
+"6547
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"6579
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"6599
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"6619
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"6639
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"6659
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"6679
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"6699
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"6719
+[; <" STKPTR equ 0FEDh ;# ">
+"6739
+[; <" TOSL equ 0FEEh ;# ">
+"6759
+[; <" TOSH equ 0FEFh ;# ">
+"18 ../main.c
+[p x FOSC=INTOSC ]
+"19
+[p x WDTE=OFF ]
+"20
+[p x PWRTE=OFF ]
+"21
+[p x MCLRE=ON ]
+"22
+[p x CP=OFF ]
+"23
+[p x CPD=OFF ]
+"24
+[p x BOREN=ON ]
+"25
+[p x CLKOUTEN=OFF ]
+"26
+[p x IESO=OFF ]
+"27
+[p x FCMEN=ON ]
+"30
+[p x WRT=OFF ]
+"31
+[p x PLLEN=OFF ]
+"32
+[p x STVREN=ON ]
+"33
+[p x BORV=HI ]
+"34
+[p x LVP=ON ]
+"66
+[v _Clock_Init `(v ~T0 @X0 1 sf ]
+"67
+{
+[e :U _Clock_Init ]
+[f ]
+"68
+[v _delay `Vus ~T0 @X0 1 a ]
+[e = _delay -> -> 15625 `i `us ]
+"72
+[e $U 359  ]
+[e :U 360 ]
+[e :U 359 ]
+[e $ != -> -- _delay -> -> 1 `i `us `ui -> -> -> 0 `i `Vus `ui 360  ]
+[e :U 361 ]
+"74
+[e = . . _OSCCONbits 1 2 -> -> 12 `i `uc ]
+"75
+[e :UE 358 ]
+}
+"76
+[v _Ports_Init `(v ~T0 @X0 1 sf ]
+{
+[e :U _Ports_Init ]
+[f ]
+"77
+[e = _APFCON0 -> -> 64 `i `uc ]
+"98
+[e = _ANSELA -> -> 1 `i `uc ]
+"99
+[e = _ANSELB -> -> 0 `i `uc ]
+"101
+[e = _TRISB -> -> 227 `i `uc ]
+"102
+[e = _TRISA -> -> 45 `i `uc ]
+"104
+[e = _LATA -> -> 146 `i `uc ]
+"105
+[e = _LATB -> -> 8 `i `uc ]
+"106
+[e :UE 362 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"108
+[v _main `(i ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"109
+[e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
+"113
+[e ( _Clock_Init ..  ]
+"115
+[e ( _Boot_EraseFbl ..  ]
+"116
+[e ( _Boot_ProgrFbl ..  ]
+"117
+[e :UE 363 ]
+}

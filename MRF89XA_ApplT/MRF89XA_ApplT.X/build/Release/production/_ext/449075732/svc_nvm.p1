@@ -1,0 +1,888 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"8 ../../LIBC/NVM/svc_nvm.c
+[c E2944 0 1 2 3 4 5 6 7 8 9 .. ]
+[n E2944 . NVM_NWDATA NVM_PARAM NVM_PIRDATA NVM_TEMPPROG NVM_TEMPPROG2 NVM_ACTNAD NVM_TEMPHISTORY NVM_TEMPCTRL NVM_TEMPPAR NVM_NUM_BLOCKS  ]
+"26 ../nvm_block_cfg.h
+[v _RAM_NWID `uc ~T0 @X0 -> 0 `x e ]
+"28
+[s S358 `uc 1 `us 1 `uc 1 `uc 1 ]
+[n S358 . C_TEMP_OFFS C_TEMP_GAIN C_DEF_TEMP_PR C_DEF_TEMP_NOPR ]
+"38
+[v _RAM_PARAM `S358 ~T0 @X0 0 e ]
+"11 ../../LIBC/PRESENCE\app_Presence.h
+[s S359 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `us 1 `us 1 ]
+[n S359 . PIR_CTRL NAD1 NAD2 NAD3 NAD4 PIR_TIME PIR_TIME_NIGHT ]
+"45 ../nvm_block_cfg.h
+[v _RAM_PIRDATA `S359 ~T0 @X0 0 e ]
+"51
+[v _RAM_TEMPPROG `uc ~T0 @X0 -> 0 `x e ]
+"54
+[v _RAM_TEMPPROG2 `uc ~T0 @X0 -> 0 `x e ]
+"62
+[v _RAM_TEMP_REGDATA `uc ~T0 @X0 -> 0 `x e ]
+"56
+[v _TEMP_HISTORY `uc ~T0 @X0 -> 0 `x e ]
+"11 ../app_TempReg.h
+[s S360 `c 1 `c -> 3 `i ]
+[n S360 . lim de ]
+"15
+[v _RAM_CTRL `S360 ~T0 @X0 -> 0 `x e ]
+"18
+[s S361 `uc 1 `uc 1 `uc 1 `uc 1 ]
+[n S361 . StartPwm EvalTime Rsv1 Rsv2 ]
+"25
+[v _REG_PARAMS_RAM `S361 ~T0 @X0 0 e ]
+"27 ../nvm_block_cfg.h
+[v _ROM_NWID `Cuc ~T0 @X0 -> 0 `x e ]
+"39
+[v _ROM_PARAM `CS358 ~T0 @X0 0 e ]
+"46
+[v _ROM_PIRDATA `CS359 ~T0 @X0 0 e ]
+"52
+[v _ROM_TEMPPROG `Cuc ~T0 @X0 -> 0 `x e ]
+"63
+[v _ROM_TEMP_REGDATA `Cuc ~T0 @X0 -> 0 `x e ]
+"16 ../app_TempReg.h
+[v _ROM_CRTRL `CS360 ~T0 @X0 -> 0 `x e ]
+"26
+[v _REG_PARAMS_ROM `CS361 ~T0 @X0 0 e ]
+"55 ../../LIBC/NVM/svc_nvm.c
+[c E3002 0 1 2 .. ]
+[n E3002 . NVM_DIFF NVM_WRITE_BYTE NVM_WRITE_CS  ]
+"7 ../drv_eep.h
+[v _Read_Eep `(uc ~T0 @X0 0 ef1`uc ]
+"124 ../../LIBC/NVM/svc_nvm.c
+[c E2781 0 1 .. ]
+[n E2781 _BOOL FALSE TRUE  ]
+"9 ../drv_eep.h
+[v _Write_Eep `(v ~T0 @X0 0 ef2`uc`uc ]
+"52 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1847.h
+[; <" INDF0 equ 00h ;# ">
+"72
+[; <" INDF1 equ 01h ;# ">
+"92
+[; <" PCL equ 02h ;# ">
+"112
+[; <" STATUS equ 03h ;# ">
+"175
+[; <" FSR0L equ 04h ;# ">
+"195
+[; <" FSR0H equ 05h ;# ">
+"219
+[; <" FSR1L equ 06h ;# ">
+"239
+[; <" FSR1H equ 07h ;# ">
+"259
+[; <" BSR equ 08h ;# ">
+"311
+[; <" WREG equ 09h ;# ">
+"331
+[; <" PCLATH equ 0Ah ;# ">
+"351
+[; <" INTCON equ 0Bh ;# ">
+"429
+[; <" PORTA equ 0Ch ;# ">
+"491
+[; <" PORTB equ 0Dh ;# ">
+"553
+[; <" PIR1 equ 011h ;# ">
+"615
+[; <" PIR2 equ 012h ;# ">
+"666
+[; <" PIR3 equ 013h ;# ">
+"706
+[; <" PIR4 equ 014h ;# ">
+"732
+[; <" TMR0 equ 015h ;# ">
+"752
+[; <" TMR1 equ 016h ;# ">
+"759
+[; <" TMR1L equ 016h ;# ">
+"779
+[; <" TMR1H equ 017h ;# ">
+"799
+[; <" T1CON equ 018h ;# ">
+"871
+[; <" T1GCON equ 019h ;# ">
+"948
+[; <" TMR2 equ 01Ah ;# ">
+"968
+[; <" PR2 equ 01Bh ;# ">
+"988
+[; <" T2CON equ 01Ch ;# ">
+"1059
+[; <" CPSCON0 equ 01Eh ;# ">
+"1119
+[; <" CPSCON1 equ 01Fh ;# ">
+"1165
+[; <" TRISA equ 08Ch ;# ">
+"1227
+[; <" TRISB equ 08Dh ;# ">
+"1289
+[; <" PIE1 equ 091h ;# ">
+"1351
+[; <" PIE2 equ 092h ;# ">
+"1402
+[; <" PIE3 equ 093h ;# ">
+"1442
+[; <" PIE4 equ 094h ;# ">
+"1468
+[; <" OPTION_REG equ 095h ;# ">
+"1551
+[; <" PCON equ 096h ;# ">
+"1602
+[; <" WDTCON equ 097h ;# ">
+"1661
+[; <" OSCTUNE equ 098h ;# ">
+"1719
+[; <" OSCCON equ 099h ;# ">
+"1791
+[; <" OSCSTAT equ 09Ah ;# ">
+"1853
+[; <" ADRES equ 09Bh ;# ">
+"1860
+[; <" ADRESL equ 09Bh ;# ">
+"1880
+[; <" ADRESH equ 09Ch ;# ">
+"1900
+[; <" ADCON0 equ 09Dh ;# ">
+"1980
+[; <" ADCON1 equ 09Eh ;# ">
+"2052
+[; <" LATA equ 010Ch ;# ">
+"2109
+[; <" LATB equ 010Dh ;# ">
+"2171
+[; <" CM1CON0 equ 0111h ;# ">
+"2228
+[; <" CM1CON1 equ 0112h ;# ">
+"2294
+[; <" CM2CON0 equ 0113h ;# ">
+"2351
+[; <" CM2CON1 equ 0114h ;# ">
+"2417
+[; <" CMOUT equ 0115h ;# ">
+"2443
+[; <" BORCON equ 0116h ;# ">
+"2470
+[; <" FVRCON equ 0117h ;# ">
+"2546
+[; <" DACCON0 equ 0118h ;# ">
+"2607
+[; <" DACCON1 equ 0119h ;# ">
+"2659
+[; <" SRCON0 equ 011Ah ;# ">
+"2730
+[; <" SRCON1 equ 011Bh ;# ">
+"2792
+[; <" APFCON0 equ 011Dh ;# ">
+"2854
+[; <" APFCON1 equ 011Eh ;# ">
+"2874
+[; <" ANSELA equ 018Ch ;# ">
+"2926
+[; <" ANSELB equ 018Dh ;# ">
+"2991
+[; <" EEADR equ 0191h ;# ">
+"2998
+[; <" EEADRL equ 0191h ;# ">
+"3018
+[; <" EEADRH equ 0192h ;# ">
+"3038
+[; <" EEDAT equ 0193h ;# ">
+"3045
+[; <" EEDATL equ 0193h ;# ">
+"3050
+[; <" EEDATA equ 0193h ;# ">
+"3083
+[; <" EEDATH equ 0194h ;# ">
+"3103
+[; <" EECON1 equ 0195h ;# ">
+"3165
+[; <" EECON2 equ 0196h ;# ">
+"3185
+[; <" RCREG equ 0199h ;# ">
+"3205
+[; <" TXREG equ 019Ah ;# ">
+"3225
+[; <" SP1BRG equ 019Bh ;# ">
+"3232
+[; <" SP1BRGL equ 019Bh ;# ">
+"3237
+[; <" SPBRG equ 019Bh ;# ">
+"3241
+[; <" SPBRGL equ 019Bh ;# ">
+"3286
+[; <" SP1BRGH equ 019Ch ;# ">
+"3291
+[; <" SPBRGH equ 019Ch ;# ">
+"3324
+[; <" RCSTA equ 019Dh ;# ">
+"3386
+[; <" TXSTA equ 019Eh ;# ">
+"3448
+[; <" BAUDCON equ 019Fh ;# ">
+"3500
+[; <" WPUA equ 020Ch ;# ">
+"3529
+[; <" WPUB equ 020Dh ;# ">
+"3599
+[; <" SSP1BUF equ 0211h ;# ">
+"3604
+[; <" SSPBUF equ 0211h ;# ">
+"3637
+[; <" SSP1ADD equ 0212h ;# ">
+"3642
+[; <" SSPADD equ 0212h ;# ">
+"3675
+[; <" SSP1MSK equ 0213h ;# ">
+"3680
+[; <" SSPMSK equ 0213h ;# ">
+"3713
+[; <" SSP1STAT equ 0214h ;# ">
+"3718
+[; <" SSPSTAT equ 0214h ;# ">
+"3835
+[; <" SSP1CON1 equ 0215h ;# ">
+"3840
+[; <" SSPCON1 equ 0215h ;# ">
+"3844
+[; <" SSPCON equ 0215h ;# ">
+"4039
+[; <" SSP1CON2 equ 0216h ;# ">
+"4044
+[; <" SSPCON2 equ 0216h ;# ">
+"4161
+[; <" SSP1CON3 equ 0217h ;# ">
+"4166
+[; <" SSPCON3 equ 0217h ;# ">
+"4283
+[; <" SSP2BUF equ 0219h ;# ">
+"4303
+[; <" SSP2ADD equ 021Ah ;# ">
+"4323
+[; <" SSP2MSK equ 021Bh ;# ">
+"4343
+[; <" SSP2STAT equ 021Ch ;# ">
+"4405
+[; <" SSP2CON1 equ 021Dh ;# ">
+"4475
+[; <" SSP2CON2 equ 021Eh ;# ">
+"4537
+[; <" SSP2CON3 equ 021Fh ;# ">
+"4599
+[; <" CCPR1 equ 0291h ;# ">
+"4606
+[; <" CCPR1L equ 0291h ;# ">
+"4626
+[; <" CCPR1H equ 0292h ;# ">
+"4646
+[; <" CCP1CON equ 0293h ;# ">
+"4728
+[; <" PWM1CON equ 0294h ;# ">
+"4798
+[; <" CCP1AS equ 0295h ;# ">
+"4803
+[; <" ECCP1AS equ 0295h ;# ">
+"4960
+[; <" PSTR1CON equ 0296h ;# ">
+"5004
+[; <" CCPR2 equ 0298h ;# ">
+"5011
+[; <" CCPR2L equ 0298h ;# ">
+"5031
+[; <" CCPR2H equ 0299h ;# ">
+"5051
+[; <" CCP2CON equ 029Ah ;# ">
+"5133
+[; <" PWM2CON equ 029Bh ;# ">
+"5203
+[; <" CCP2AS equ 029Ch ;# ">
+"5208
+[; <" ECCP2AS equ 029Ch ;# ">
+"5365
+[; <" PSTR2CON equ 029Dh ;# ">
+"5409
+[; <" CCPTMRS equ 029Eh ;# ">
+"5414
+[; <" CCPTMRS0 equ 029Eh ;# ">
+"5583
+[; <" CCPR3 equ 0311h ;# ">
+"5590
+[; <" CCPR3L equ 0311h ;# ">
+"5610
+[; <" CCPR3H equ 0312h ;# ">
+"5630
+[; <" CCP3CON equ 0313h ;# ">
+"5694
+[; <" CCPR4 equ 0318h ;# ">
+"5701
+[; <" CCPR4L equ 0318h ;# ">
+"5721
+[; <" CCPR4H equ 0319h ;# ">
+"5741
+[; <" CCP4CON equ 031Ah ;# ">
+"5805
+[; <" IOCBP equ 0394h ;# ">
+"5875
+[; <" IOCBN equ 0395h ;# ">
+"5945
+[; <" IOCBF equ 0396h ;# ">
+"6015
+[; <" CLKRCON equ 039Ah ;# ">
+"6091
+[; <" MDCON equ 039Ch ;# ">
+"6142
+[; <" MDSRC equ 039Dh ;# ">
+"6195
+[; <" MDCARL equ 039Eh ;# ">
+"6260
+[; <" MDCARH equ 039Fh ;# ">
+"6325
+[; <" TMR4 equ 0415h ;# ">
+"6345
+[; <" PR4 equ 0416h ;# ">
+"6365
+[; <" T4CON equ 0417h ;# ">
+"6436
+[; <" TMR6 equ 041Ch ;# ">
+"6456
+[; <" PR6 equ 041Dh ;# ">
+"6476
+[; <" T6CON equ 041Eh ;# ">
+"6547
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"6579
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"6599
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"6619
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"6639
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"6659
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"6679
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"6699
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"6719
+[; <" STKPTR equ 0FEDh ;# ">
+"6739
+[; <" TOSL equ 0FEEh ;# ">
+"6759
+[; <" TOSH equ 0FEFh ;# ">
+"8 ../../LIBC/NVM/svc_nvm.c
+[v _NVM_BlockSize `Cuc ~T0 @X0 . `E2944 9 e ]
+[i _NVM_BlockSize
+:U ..
+"11 ../nvm_block_cfg.h
+-> -> 5 `i `uc
+"12
+-> -> 5 `i `uc
+"13
+-> -> 9 `i `uc
+"14
+-> -> 14 `i `uc
+"15
+-> -> 14 `i `uc
+"16
+-> -> 4 `i `uc
+"17
+-> -> 24 `i `uc
+"18
+-> -> 28 `i `uc
+"19
+-> -> 4 `i `uc
+..
+]
+"15 ../../LIBC/NVM/svc_nvm.c
+[v _NVM_BlockAddr `Cuc ~T0 @X0 . `E2944 9 e ]
+[i _NVM_BlockAddr
+:U ..
+"11 ../nvm_block_cfg.h
+-> -> 240 `i `uc
+"12
+-> -> 0 `i `uc
+"13
+-> -> 10 `i `uc
+"14
+-> -> 20 `i `uc
+"15
+-> -> 40 `i `uc
+"16
+-> -> 140 `i `uc
+"17
+-> -> 60 `i `uc
+"18
+-> -> 150 `i `uc
+"19
+-> -> 180 `i `uc
+..
+]
+[v F2994 `*Muc ~T0 @X0 1 t ]
+"21 ../../LIBC/NVM/svc_nvm.c
+[v _NVM_BlockRAM `C*Muc ~T0 @X0 . `E2944 9 e ]
+[i _NVM_BlockRAM
+:U ..
+"11 ../nvm_block_cfg.h
+-> &U *U + &U _RAM_NWID * -> -> -> 0 `i `ui `ux -> -> # *U &U _RAM_NWID `ui `ux `*Muc
+"12
+-> &U _RAM_PARAM `*Muc
+"13
+-> &U _RAM_PIRDATA `*Muc
+"14
+-> &U *U + &U _RAM_TEMPPROG * -> -> -> 0 `i `ui `ux -> -> # *U &U _RAM_TEMPPROG `ui `ux `*Muc
+"15
+-> &U *U + &U _RAM_TEMPPROG2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _RAM_TEMPPROG2 `ui `ux `*Muc
+"16
+-> &U *U + &U _RAM_TEMP_REGDATA * -> -> -> 0 `i `ui `ux -> -> # *U &U _RAM_TEMP_REGDATA `ui `ux `*Muc
+"17
+-> &U *U + &U _TEMP_HISTORY * -> -> -> 0 `i `ui `ux -> -> # *U &U _TEMP_HISTORY `ui `ux `*Muc
+"18
+-> &U *U + &U _RAM_CTRL * -> -> -> 0 `i `ui `ux -> -> # *U &U _RAM_CTRL `ui `ux `*Muc
+"19
+-> &U _REG_PARAMS_RAM `*Muc
+..
+]
+[v F2999 `*CBuc ~T0 @X0 1 t ]
+"27 ../../LIBC/NVM/svc_nvm.c
+[v _NVM_BlockROM `C*CBuc ~T0 @X0 . `E2944 9 e ]
+[i _NVM_BlockROM
+:U ..
+"11 ../nvm_block_cfg.h
+-> &U *U + &U _ROM_NWID * -> -> -> 0 `i `ui `ux -> -> # *U &U _ROM_NWID `ui `ux `*CBuc
+"12
+-> -> &U _ROM_PARAM `*Buc `*CBuc
+"13
+-> -> &U _ROM_PIRDATA `*Buc `*CBuc
+"14
+-> &U *U + &U _ROM_TEMPPROG * -> -> -> 0 `i `ui `ux -> -> # *U &U _ROM_TEMPPROG `ui `ux `*CBuc
+"15
+-> &U *U + &U _ROM_TEMPPROG * -> -> -> 0 `i `ui `ux -> -> # *U &U _ROM_TEMPPROG `ui `ux `*CBuc
+"16
+-> &U *U + &U _ROM_TEMP_REGDATA * -> -> -> 0 `i `ui `ux -> -> # *U &U _ROM_TEMP_REGDATA `ui `ux `*CBuc
+"17
+-> -> 0 `i `*CBuc
+"18
+-> &U *U + &U _ROM_CRTRL * -> -> -> 0 `i `ui `ux -> -> # *U &U _ROM_CRTRL `ui `ux `*CBuc
+"19
+-> &U _REG_PARAMS_ROM `*CBuc
+..
+]
+"40 ../../LIBC/NVM/svc_nvm.c
+[v _NVM_BlockStatus `uc ~T0 @X0 . `E2944 9 e ]
+"49
+[v _CSm `uc ~T0 @X0 1 s ]
+"50
+[v _CurrentBlock `uc ~T0 @X0 1 s ]
+"51
+[v _ByteCount `uc ~T0 @X0 1 s ]
+"52
+[v _pRam `*uc ~T0 @X0 1 s ]
+"53
+[v _pRom `*CBuc ~T0 @X0 1 s ]
+[i _pRom
+-> -> 0 `i `*CBuc
+]
+"54
+[v _addr `uc ~T0 @X0 1 s ]
+"55
+[v _NVMState `E3002 ~T0 @X0 1 s ]
+"56
+[v _WorkBuff `uc ~T0 @X0 -> 30 `i s ]
+"59
+[v _PrepBlockData `(v ~T0 @X0 1 sf ]
+{
+[e :U _PrepBlockData ]
+[f ]
+"60
+[e = _addr *U + &U _NVM_BlockAddr * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockAddr `ui `ux ]
+"61
+[e = _pRam -> *U + &U _NVM_BlockRAM * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockRAM `ui `ux `*uc ]
+"62
+[e = _pRom -> *U + &U _NVM_BlockROM * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockROM `ui `ux `*CBuc ]
+"63
+[e = _ByteCount *U + &U _NVM_BlockSize * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockSize `ui `ux ]
+"68
+[e = _CSm -> -> 0 `i `uc ]
+"69
+[e :UE 362 ]
+}
+"71
+[v _NVM_ReadBlock `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _NVM_ReadBlock ]
+[v _BlockIndex `uc ~T0 @X0 1 r1 ]
+[f ]
+"72
+[e = *U + &U _NVM_BlockStatus * -> _BlockIndex `ux -> -> # *U &U _NVM_BlockStatus `ui `ux -> -> 0 `i `uc ]
+"73
+[e :UE 363 ]
+}
+"75
+[v _NVM_WriteBlock `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _NVM_WriteBlock ]
+[v _BlockIndex `uc ~T0 @X0 1 r1 ]
+[f ]
+"76
+[e =| *U + &U _NVM_BlockStatus * -> _BlockIndex `ux -> -> # *U &U _NVM_BlockStatus `ui `ux -> -> 4 `i `uc ]
+"77
+[e :UE 364 ]
+}
+"79
+[v _ReadBlock `(v ~T0 @X0 1 sf ]
+{
+[e :U _ReadBlock ]
+[f ]
+"80
+[e ( _PrepBlockData ..  ]
+"81
+[e $U 366  ]
+[e :U 367 ]
+{
+"82
+[e = *U _pRam ( _Read_Eep (1 _addr ]
+"83
+[e =+ _CSm *U _pRam ]
+"84
+[e ++ _addr -> -> 1 `i `uc ]
+"85
+[e ++ _pRam * -> -> 1 `i `x -> -> # *U _pRam `i `x ]
+"86
+}
+[e :U 366 ]
+"81
+[e $ != -> -- _ByteCount -> -> 1 `i `uc `i -> -> -> 0 `i `uc `i 367  ]
+[e :U 368 ]
+"87
+[e $ ! == -> _CSm `i -> ( _Read_Eep (1 _addr `i 369  ]
+{
+"88
+[e = *U + &U _NVM_BlockStatus * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockStatus `ui `ux -> -> 1 `i `uc ]
+"89
+}
+[e $U 370  ]
+[e :U 369 ]
+{
+"91
+[e = *U + &U _NVM_BlockStatus * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockStatus `ui `ux -> -> 2 `i `uc ]
+"92
+[e ( _PrepBlockData ..  ]
+"93
+[e $ ! != -> -> 0 `i `*CBuc _pRom 371  ]
+{
+"94
+[e $U 372  ]
+[e :U 373 ]
+{
+"95
+[e = *U _pRam *U _pRom ]
+"96
+[e ++ _pRam * -> -> 1 `i `x -> -> # *U _pRam `i `x ]
+"97
+[e ++ _pRom * -> -> 1 `i `x -> -> # *U _pRom `i `x ]
+"98
+}
+[e :U 372 ]
+"94
+[e $ != -> -- _ByteCount -> -> 1 `i `uc `i -> -> -> 0 `i `uc `i 373  ]
+[e :U 374 ]
+"99
+[e = *U + &U _NVM_BlockStatus * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockStatus `ui `ux -> -> 3 `i `uc ]
+"100
+}
+[e :U 371 ]
+"101
+}
+[e :U 370 ]
+"102
+[e :UE 365 ]
+}
+"104
+[v _NVM_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _NVM_Init ]
+[f ]
+"107
+{
+[e = _CurrentBlock -> -> 0 `i `uc ]
+[e $ < -> _CurrentBlock `i -> . `E2944 9 `i 376  ]
+[e $U 377  ]
+"108
+[e :U 376 ]
+{
+"112
+[e ( _ReadBlock ..  ]
+"113
+}
+"107
+[e ++ _CurrentBlock -> -> 1 `i `uc ]
+[e $ < -> _CurrentBlock `i -> . `E2944 9 `i 376  ]
+[e :U 377 ]
+"113
+}
+"115
+[e = _CurrentBlock -> -> 0 `i `uc ]
+"116
+[e ( _PrepBlockData ..  ]
+"117
+[e = _NVMState . `E3002 0 ]
+"118
+[e :UE 375 ]
+}
+"120
+[v _NVM_IsIdle `(uc ~T0 @X0 1 ef ]
+{
+[e :U _NVM_IsIdle ]
+[f ]
+"121
+[v _i `uc ~T0 @X0 1 a ]
+"122
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> . `E2944 9 `i 380  ]
+[e $U 381  ]
+[e :U 380 ]
+{
+"123
+[e $ ! != & -> *U + &U _NVM_BlockStatus * -> _i `ux -> -> # *U &U _NVM_BlockStatus `ui `ux `i -> 4 `i -> 0 `i 383  ]
+{
+"124
+[e ) -> . `E2781 0 `uc ]
+[e $UE 379  ]
+"125
+}
+[e :U 383 ]
+"126
+}
+"122
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> . `E2944 9 `i 380  ]
+[e :U 381 ]
+"126
+}
+"127
+[e ) -> -> == -> _NVMState `i -> . `E3002 0 `i `i `uc ]
+[e $UE 379  ]
+"128
+[e :UE 379 ]
+}
+"130
+[v _NVM_Task `(v ~T0 @X0 1 ef ]
+{
+[e :U _NVM_Task ]
+[f ]
+"131
+[v _i `uc ~T0 @X0 1 a ]
+"133
+[e $U 386  ]
+{
+"134
+[e :U 387 ]
+"135
+{
+[e = _CurrentBlock -> -> 0 `i `uc ]
+[e $ < -> _CurrentBlock `i -> . `E2944 9 `i 388  ]
+[e $U 389  ]
+[e :U 388 ]
+{
+"136
+[e $ ! == -> *U + &U _NVM_BlockStatus * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockStatus `ui `ux `i -> 0 `i 391  ]
+{
+"137
+[e ( _ReadBlock ..  ]
+"138
+[e $UE 384  ]
+"139
+}
+[e $U 392  ]
+"140
+[e :U 391 ]
+[e $ ! != & -> *U + &U _NVM_BlockStatus * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockStatus `ui `ux `i -> 4 `i -> 0 `i 393  ]
+{
+"141
+[e =& *U + &U _NVM_BlockStatus * -> _CurrentBlock `ux -> -> # *U &U _NVM_BlockStatus `ui `ux -> -> 251 `i `uc ]
+"142
+[e ( _PrepBlockData ..  ]
+"143
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 397  ]
+[e :U 394 ]
+{
+"144
+[e = *U + &U _WorkBuff * -> _i `ux -> -> # *U &U _WorkBuff `ui `ux *U _pRam ]
+"145
+[e ++ _pRam * -> -> 1 `i `x -> -> # *U _pRam `i `x ]
+"146
+}
+"143
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 397 ]
+[e $ < -> _i `i -> _ByteCount `i 394  ]
+[e :U 395 ]
+"146
+}
+"147
+[e = _pRam &U _WorkBuff ]
+"148
+[e = _NVMState . `E3002 1 ]
+"149
+[e $UE 384  ]
+"150
+}
+[e :U 393 ]
+"151
+[e :U 392 ]
+}
+"135
+[e ++ _CurrentBlock -> -> 1 `i `uc ]
+[e $ < -> _CurrentBlock `i -> . `E2944 9 `i 388  ]
+[e :U 389 ]
+"151
+}
+"152
+[e $U 385  ]
+"154
+[e :U 398 ]
+"156
+[e $ ! != -> ( _Read_Eep (1 _addr `i -> *U _pRam `i 399  ]
+"158
+{
+"159
+[e ( _Write_Eep (2 , _addr *U _pRam ]
+"160
+}
+[e :U 399 ]
+"161
+[e =+ _CSm *U _pRam ]
+"162
+[e ++ _addr -> -> 1 `i `uc ]
+"163
+[e ++ _pRam * -> -> 1 `i `x -> -> # *U _pRam `i `x ]
+"164
+[e -- _ByteCount -> -> 1 `i `uc ]
+"165
+[e $ ! == -> 0 `i -> _ByteCount `i 400  ]
+{
+"166
+[e = _NVMState . `E3002 2 ]
+"167
+}
+[e :U 400 ]
+"168
+[e $U 385  ]
+"170
+[e :U 401 ]
+"172
+[e $ ! != -> ( _Read_Eep (1 _addr `i -> _CSm `i 402  ]
+"174
+{
+"175
+[e ( _Write_Eep (2 , _addr _CSm ]
+"176
+}
+[e :U 402 ]
+"177
+[e = _NVMState . `E3002 0 ]
+"178
+[e $U 385  ]
+"180
+[e :U 403 ]
+"181
+[e = _NVMState . `E3002 0 ]
+"182
+[e $U 385  ]
+"183
+}
+[e $U 385  ]
+"133
+[e :U 386 ]
+[e [\ _NVMState , $ . `E3002 0 387
+ , $ . `E3002 1 398
+ , $ . `E3002 2 401
+ 403 ]
+"183
+[e :U 385 ]
+"184
+[e :UE 384 ]
+}
+"200
+[v _NVM_GetBlockLenght `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _NVM_GetBlockLenght ]
+[v _Block `uc ~T0 @X0 1 r1 ]
+[f ]
+"201
+[e $ ! < -> _Block `i -> . `E2944 9 `i 405  ]
+{
+"202
+[e ) *U + &U _NVM_BlockSize * -> _Block `ux -> -> # *U &U _NVM_BlockSize `ui `ux ]
+[e $UE 404  ]
+"203
+}
+[e $U 406  ]
+[e :U 405 ]
+{
+"204
+[e ) -> -> 0 `i `uc ]
+[e $UE 404  ]
+"205
+}
+[e :U 406 ]
+"206
+[e :UE 404 ]
+}
+"208
+[v _NVM_WriteBlockData `(uc ~T0 @X0 1 ef3`uc`uc`uc ]
+{
+[e :U _NVM_WriteBlockData ]
+[v _Block `uc ~T0 @X0 1 r1 ]
+[v _offset `uc ~T0 @X0 1 r2 ]
+[v _data `uc ~T0 @X0 1 r3 ]
+[f ]
+"209
+[v _pr `*uc ~T0 @X0 1 a ]
+"210
+[e $ ! && < -> _Block `i -> . `E2944 9 `i < -> _offset `i -> *U + &U _NVM_BlockSize * -> _Block `ux -> -> # *U &U _NVM_BlockSize `ui `ux `i 408  ]
+{
+"211
+[e = _pr -> *U + &U _NVM_BlockRAM * -> _Block `ux -> -> # *U &U _NVM_BlockRAM `ui `ux `*uc ]
+"212
+[e = *U + _pr * -> _offset `ux -> -> # *U _pr `ui `ux _data ]
+"213
+[e ) -> -> 0 `i `uc ]
+[e $UE 407  ]
+"214
+}
+[e $U 409  ]
+[e :U 408 ]
+{
+"215
+[e ) -> -> 1 `i `uc ]
+[e $UE 407  ]
+"216
+}
+[e :U 409 ]
+"217
+[e :UE 407 ]
+}
+"219
+[v _NVM_ReadBlockData `(uc ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _NVM_ReadBlockData ]
+[v _Block `uc ~T0 @X0 1 r1 ]
+[v _offset `uc ~T0 @X0 1 r2 ]
+[f ]
+"220
+[v _pr `*uc ~T0 @X0 1 a ]
+"221
+[e = _pr -> *U + &U _NVM_BlockRAM * -> _Block `ux -> -> # *U &U _NVM_BlockRAM `ui `ux `*uc ]
+"222
+[e ) *U + _pr * -> _offset `ux -> -> # *U _pr `ui `ux ]
+[e $UE 410  ]
+"223
+[e :UE 410 ]
+}

@@ -1,0 +1,422 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC PIC14 PIC14E SPEEDOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF18323 ]
+[d frameptr 6 ]
+"142 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[e E5720 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"29 C:\Projects\MRF89XA_Switch/svc_comm.c
+[e E5720 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"129 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _MRF89XAInit MRF89XAInit `(uc  1 e 1 0 ]
+"164
+[v _MRF89XARegisterSet MRF89XARegisterSet `(v  1 e 1 0 ]
+"172
+[v _MRF89XARegisterRead MRF89XARegisterRead `(uc  1 e 1 0 ]
+"199
+[v _MRF89XASendFrame MRF89XASendFrame `(v  1 e 1 0 ]
+"226
+[v _WriteFIFO WriteFIFO `(v  1 s 1 WriteFIFO ]
+"233
+[v _ReadFIFO ReadFIFO `(uc  1 s 1 ReadFIFO ]
+"241
+[v _MRF89XASetRFMode MRF89XASetRFMode `(v  1 e 1 0 ]
+"256
+[v _MRF89XACheckRSSI MRF89XACheckRSSI `(v  1 e 1 0 ]
+"6 C:\Projects\MRF89XA_Switch/drv_spi.c
+[v _SPI_HF_Init SPI_HF_Init `(v  1 e 1 0 ]
+"29
+[v _SPI_HF_Put SPI_HF_Put `(v  1 e 1 0 ]
+"61
+[v _SPI_HF_Get SPI_HF_Get `(uc  1 e 1 0 ]
+"94
+[v _SPI_HF_Deinit SPI_HF_Deinit `(v  1 e 1 0 ]
+"70 C:\Projects\MRF89XA_Switch/main.c
+[v _Clock_Init Clock_Init `(v  1 s 1 Clock_Init ]
+"94
+[v _Ports_Init Ports_Init `(v  1 s 1 Ports_Init ]
+"169
+[v _CalcUbat CalcUbat `(uc  1 e 1 0 ]
+"173
+[v _ConvBat ConvBat `(v  1 s 1 ConvBat ]
+"231
+[v _MainLoop MainLoop `(v  1 e 1 0 ]
+"349
+[v _main main `(i  1 e 2 0 ]
+"27 C:\Projects\MRF89XA_Switch/svc_comm.c
+[v _Comm_Init Comm_Init `(v  1 e 1 0 ]
+"44
+[v _Comm_Transmit Comm_Transmit `(v  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"85 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _InitConfigRegs InitConfigRegs `DC[32]uc  1 e 32 0 ]
+"121
+[v _TxPacket TxPacket `[64]uc  1 e 64 0 ]
+"62 C:\Projects\MRF89XA_Switch/main.c
+[v _temp temp `VEuc  1 s 1 temp ]
+"63
+[v _Voltage Voltage `uc  1 e 1 0 ]
+"64
+[v _SWSstate SWSstate `uc  1 e 1 0 ]
+"65
+[v _WSOpenTime WSOpenTime `us  1 e 2 0 ]
+"66
+[v _WSDeb WSDeb `uc  1 e 1 0 ]
+[s S466 . 1 `uc 1 MY_NAD 1 0 ]
+"22 C:\Projects\MRF89XA_Switch/svc_comm.c
+[v _ComData ComData `S466  1 e 1 0 ]
+"5 C:\Projects\MRF89XA_Switch/svc_nvm_blocks.c
+[v _ROM_NWID ROM_NWID `DC[5]uc  1 e 5 0 ]
+"349 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16lf18323.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S147 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"362
+[u S152 . 1 `S147 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES152  1 e 1 @11 ]
+[s S130 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"397
+[u S137 . 1 `S130 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES137  1 e 1 @12 ]
+[s S399 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"495
+[u S404 . 1 `S399 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES404  1 e 1 @16 ]
+"1522
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1567
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S264 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+]
+"1582
+[u S271 . 1 `S264 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES271  1 e 1 @142 ]
+"1617
+[v _PIE0 PIE0 `VEuc  1 e 1 @144 ]
+"1650
+[v _PIE1 PIE1 `VEuc  1 e 1 @145 ]
+"1712
+[v _PIE2 PIE2 `VEuc  1 e 1 @146 ]
+"1751
+[v _PIE3 PIE3 `VEuc  1 e 1 @147 ]
+"1790
+[v _PIE4 PIE4 `VEuc  1 e 1 @148 ]
+"1823
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1909
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1929
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S56 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :6:2 
+]
+"1955
+[s S60 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+`uc 1 CHS5 1 0 :1:7 
+]
+[s S69 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S72 . 1 `S56 1 . 1 0 `S60 1 . 1 0 `S69 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES72  1 e 1 @157 ]
+"2015
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2087
+[v _ADACT ADACT `VEuc  1 e 1 @159 ]
+"2133
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S323 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"2148
+[u S330 . 1 `S323 1 . 1 0 ]
+[v _LATAbits LATAbits `VES330  1 e 1 @268 ]
+"2178
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S95 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"2193
+[u S102 . 1 `S95 1 . 1 0 ]
+[v _LATCbits LATCbits `VES102  1 e 1 @270 ]
+"2537
+[v _FVRCON FVRCON `VEuc  1 e 1 @279 ]
+"2721
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2766
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3661
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3711
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"3761
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4523
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"4645
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S287 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4678
+[s S293 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S298 . 1 `S287 1 . 1 0 `S293 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES298  1 e 1 @533 ]
+"4915
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+"5037
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @535 ]
+"5853
+[v _IOCAF IOCAF `VEuc  1 e 1 @915 ]
+"9482
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"9527
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"9566
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"9606
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"9651
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"9679
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"9776
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"9916
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"10117
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"10183
+[v _INTPPS INTPPS `VEuc  1 e 1 @3600 ]
+"10703
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3616 ]
+"10755
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3617 ]
+"11431
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @3744 ]
+"11535
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @3746 ]
+"14050
+[v _ADCMD ADCMD `VEb  1 e 0 @18589 ]
+"14662
+[v _FVRMD FVRMD `VEb  1 e 0 @18574 ]
+"14700
+[v _IDLEN IDLEN `VEb  1 e 0 @18631 ]
+"14766
+[v _IOCAN5 IOCAN5 `VEb  1 e 0 @7317 ]
+"14816
+[v _IOCIE IOCIE `VEb  1 e 0 @1156 ]
+"14818
+[v _IOCIF IOCIF `VEb  1 e 0 @132 ]
+"15210
+[v _MSSP1MD MSSP1MD `VEb  1 e 0 @18601 ]
+"15706
+[v _SSP1IE SSP1IE `VEb  1 e 0 @1163 ]
+"15708
+[v _SSP1IF SSP1IF `VEb  1 e 0 @139 ]
+"15760
+[v _SWDTEN SWDTEN `VEb  1 e 0 @1208 ]
+"15764
+[v _SYSCMD SYSCMD `VEb  1 e 0 @18575 ]
+"349 C:\Projects\MRF89XA_Switch/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"361
+} 0
+"94
+[v _Ports_Init Ports_Init `(v  1 s 1 Ports_Init ]
+{
+"137
+} 0
+"231
+[v _MainLoop MainLoop `(v  1 e 1 0 ]
+{
+"293
+} 0
+"6 C:\Projects\MRF89XA_Switch/drv_spi.c
+[v _SPI_HF_Init SPI_HF_Init `(v  1 e 1 0 ]
+{
+"27
+} 0
+"94
+[v _SPI_HF_Deinit SPI_HF_Deinit `(v  1 e 1 0 ]
+{
+"100
+} 0
+"173 C:\Projects\MRF89XA_Switch/main.c
+[v _ConvBat ConvBat `(v  1 s 1 ConvBat ]
+{
+"194
+} 0
+"44 C:\Projects\MRF89XA_Switch/svc_comm.c
+[v _Comm_Transmit Comm_Transmit `(v  1 e 1 0 ]
+{
+[v Comm_Transmit@val val `uc  1 a 1 wreg ]
+"45
+[v Comm_Transmit@input input `uc  1 a 1 9 ]
+"44
+[v Comm_Transmit@val val `uc  1 a 1 wreg ]
+"47
+[v Comm_Transmit@val val `uc  1 a 1 8 ]
+"80
+} 0
+"199 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _MRF89XASendFrame MRF89XASendFrame `(v  1 e 1 0 ]
+{
+"200
+[v MRF89XASendFrame@i i `uc  1 a 1 6 ]
+"224
+} 0
+"226
+[v _WriteFIFO WriteFIFO `(v  1 s 1 WriteFIFO ]
+{
+[v WriteFIFO@Data Data `uc  1 a 1 wreg ]
+[v WriteFIFO@Data Data `uc  1 a 1 wreg ]
+"228
+[v WriteFIFO@Data Data `uc  1 a 1 2 ]
+"231
+} 0
+"169 C:\Projects\MRF89XA_Switch/main.c
+[v _CalcUbat CalcUbat `(uc  1 e 1 0 ]
+{
+"171
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"27 C:\Projects\MRF89XA_Switch/svc_comm.c
+[v _Comm_Init Comm_Init `(v  1 e 1 0 ]
+{
+"42
+} 0
+"129 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _MRF89XAInit MRF89XAInit `(uc  1 e 1 0 ]
+{
+"130
+[v MRF89XAInit@i i `uc  1 a 1 8 ]
+[v MRF89XAInit@input input `uc  1 a 1 7 ]
+[v MRF89XAInit@res res `uc  1 a 1 6 ]
+"162
+} 0
+"241
+[v _MRF89XASetRFMode MRF89XASetRFMode `(v  1 e 1 0 ]
+{
+[v MRF89XASetRFMode@mode mode `uc  1 a 1 wreg ]
+"242
+[v MRF89XASetRFMode@mcparam0_read mcparam0_read `uc  1 a 1 5 ]
+"241
+[v MRF89XASetRFMode@mode mode `uc  1 a 1 wreg ]
+"245
+[v MRF89XASetRFMode@mode mode `uc  1 a 1 4 ]
+"252
+} 0
+"164
+[v _MRF89XARegisterSet MRF89XARegisterSet `(v  1 e 1 0 ]
+{
+[v MRF89XARegisterSet@address address `uc  1 a 1 wreg ]
+[v MRF89XARegisterSet@address address `uc  1 a 1 wreg ]
+[v MRF89XARegisterSet@value value `uc  1 p 1 2 ]
+[v MRF89XARegisterSet@address address `uc  1 a 1 3 ]
+"170
+} 0
+"172
+[v _MRF89XARegisterRead MRF89XARegisterRead `(uc  1 e 1 0 ]
+{
+[v MRF89XARegisterRead@address address `uc  1 a 1 wreg ]
+"173
+[v MRF89XARegisterRead@value value `uc  1 a 1 2 ]
+"172
+[v MRF89XARegisterRead@address address `uc  1 a 1 wreg ]
+"174
+[v MRF89XARegisterRead@address address `uc  1 a 1 3 ]
+"181
+} 0
+"29 C:\Projects\MRF89XA_Switch/drv_spi.c
+[v _SPI_HF_Put SPI_HF_Put `(v  1 e 1 0 ]
+{
+[v SPI_HF_Put@v v `uc  1 a 1 wreg ]
+"30
+[v SPI_HF_Put@i i `VEuc  1 a 1 1 ]
+"29
+[v SPI_HF_Put@v v `uc  1 a 1 wreg ]
+"33
+[v SPI_HF_Put@v v `uc  1 a 1 0 ]
+"59
+} 0
+"61
+[v _SPI_HF_Get SPI_HF_Get `(uc  1 e 1 0 ]
+{
+"62
+[v SPI_HF_Get@spidata spidata `VEuc  1 a 1 0 ]
+"92
+} 0
+"70 C:\Projects\MRF89XA_Switch/main.c
+[v _Clock_Init Clock_Init `(v  1 s 1 Clock_Init ]
+{
+"88
+} 0

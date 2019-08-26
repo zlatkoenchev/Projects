@@ -1,0 +1,1090 @@
+MPLINK 5.00, LINKER
+Linker Map File - Created Sun Apr 03 20:05:53 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+              high_vector       code   0x000008    program   0x000006
+               low_vector       code   0x000018    program   0x000006
+  _RESET_INTERRUPT_VECTOR       code   0x000800    program   0x000006
+                   .cinit    romdata   0x00082a    program   0x000026
+             .code_mppt.o       code   0x000850    program   0x00158e
+             .code_Menu.o       code   0x001dde    program   0x0014ee
+          .code_LCD_drv.o       code   0x0032cc    program   0x0006ce
+           .code_IO_drv.o       code   0x00399a    program   0x0004ce
+      .code_Temperature.o       code   0x003e68    program   0x0003b2
+           .code_string.o       code   0x00421a    program   0x000200
+           .code_button.o       code   0x00441a    program   0x0001fe
+               .code_EM.o       code   0x004618    program   0x000190
+               _cinit_scn       code   0x0047a8    program   0x00009e
+             .code_main.o       code   0x004846    program   0x00007a
+          .code_fxm3232.o       code   0x0048c0    program   0x000070
+          .code_write_B.o       code   0x004930    program   0x000066
+         .code_pw2setdc.o       code   0x004996    program   0x00005e
+         .code_pw1setdc.o       code   0x0049f4    program   0x00005e
+         .code_fxd3232u.o       code   0x004a52    program   0x000048
+           .code_read_B.o       code   0x004a9a    program   0x000044
+                     PROG       code   0x004ade    program   0x00003c
+         .code_fxd1616u.o       code   0x004b1a    program   0x00002c
+             .code_stat.o       code   0x004b46    program   0x000026
+                    .code       code   0x004b6c    program   0x000020
+             _startup_scn       code   0x004b8c    program   0x00001c
+           .code___init.o       code   0x004ba8    program   0x000002
+      .idata_fxd1616u.o_i    romdata   0x004baa    program   0x000000
+          .idata_stat.o_i    romdata   0x004baa    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x004baa    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x004baa    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x004baa    program   0x000000
+          .romdata_stat.o    romdata   0x004baa    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x004baa    program   0x000000
+       .romdata_fxm3232.o    romdata   0x004baa    program   0x000000
+        .idata_read_B.o_i    romdata   0x004baa    program   0x000000
+        .romdata_read_B.o    romdata   0x004baa    program   0x000000
+      .idata_pw1setdc.o_i    romdata   0x004baa    program   0x000000
+      .romdata_pw1setdc.o    romdata   0x004baa    program   0x000000
+      .idata_pw2setdc.o_i    romdata   0x004baa    program   0x000000
+      .romdata_pw2setdc.o    romdata   0x004baa    program   0x000000
+       .idata_write_B.o_i    romdata   0x004baa    program   0x000000
+       .romdata_write_B.o    romdata   0x004baa    program   0x000000
+        .idata___init.o_i    romdata   0x004baa    program   0x000000
+        .romdata___init.o    romdata   0x004baa    program   0x000000
+         .idata_c018i.o_i    romdata   0x004baa    program   0x000000
+         .romdata_c018i.o    romdata   0x004baa    program   0x000000
+          .idata_main.o_i    romdata   0x004baa    program   0x000000
+          .romdata_main.o    romdata   0x004baa    program   0x000000
+        .romdata_IO_drv.o    romdata   0x004baa    program   0x000000
+       .idata_LCD_drv.o_i    romdata   0x004baa    program   0x000040
+       .romdata_LCD_drv.o    romdata   0x004baa    program   0x000000
+          .idata_mppt.o_i    romdata   0x004baa    program   0x000000
+          .romdata_mppt.o    romdata   0x004baa    program   0x000000
+            .romdata_EM.o    romdata   0x004baa    program   0x000000
+   .idata_Temperature.o_i    romdata   0x004baa    program   0x000000
+   .romdata_Temperature.o    romdata   0x004baa    program   0x000000
+        .idata_string.o_i    romdata   0x004baa    program   0x000000
+        .romdata_string.o    romdata   0x004baa    program   0x000000
+          .idata_Menu.o_i    romdata   0x004baa    program   0x000000
+          .romdata_Menu.o    romdata   0x004baa    program   0x000000
+        .idata_button.o_i    romdata   0x004baa    program   0x000000
+           .romdata_DTC.o    romdata   0x004baa    program   0x000000
+        .romdata_button.o    romdata   0x004baa    program   0x000000
+        .idata_IO_drv.o_i    romdata   0x004bea    program   0x000008
+            .idata_EM.o_i    romdata   0x004bf2    program   0x000082
+              .code_DTC.o       code   0x004c74    program   0x000000
+            .code_c018i.o       code   0x004c74    program   0x000000
+           .idata_DTC.o_i    romdata   0x004c74    program   0x000000
+    .config_300000_main.o    romdata   0x300000    program   0x000001
+    .config_300001_main.o    romdata   0x300001    program   0x000001
+    .config_300002_main.o    romdata   0x300002    program   0x000001
+    .config_300003_main.o    romdata   0x300003    program   0x000001
+    .config_300005_main.o    romdata   0x300005    program   0x000001
+    .config_300006_main.o    romdata   0x300006    program   0x000001
+                MATH_DATA      udata   0x000000       data   0x000014
+                 .tmpdata      udata   0x000014       data   0x000004
+             high_isr_tmp      udata   0x000018       data   0x000002
+              .idata_EM.o      idata   0x000060       data   0x000082
+          .udata_IO_drv.o      udata   0x0000e2       data   0x000019
+            .udata_stat.o      udata   0x0000fb       data   0x000002
+             .idata_DTC.o      idata   0x0000fd       data   0x000000
+            .idata_stat.o      idata   0x0000fd       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000fd       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000fd       data   0x000000
+        .udata_fxd3232u.o      udata   0x0000fd       data   0x000000
+        .idata_fxd3232u.o      idata   0x0000fd       data   0x000000
+         .udata_fxm3232.o      udata   0x0000fd       data   0x000000
+         .idata_fxm3232.o      idata   0x0000fd       data   0x000000
+          .udata_read_B.o      udata   0x0000fd       data   0x000000
+          .idata_read_B.o      idata   0x0000fd       data   0x000000
+        .udata_pw1setdc.o      udata   0x0000fd       data   0x000000
+        .idata_pw1setdc.o      idata   0x0000fd       data   0x000000
+        .udata_pw2setdc.o      udata   0x0000fd       data   0x000000
+        .idata_pw2setdc.o      idata   0x0000fd       data   0x000000
+         .udata_write_B.o      udata   0x0000fd       data   0x000000
+         .idata_write_B.o      idata   0x0000fd       data   0x000000
+          .udata___init.o      udata   0x0000fd       data   0x000000
+          .idata___init.o      idata   0x0000fd       data   0x000000
+             .udata_DTC.o      udata   0x0000fd       data   0x000000
+          .idata_button.o      idata   0x0000fd       data   0x000000
+           .idata_c018i.o      idata   0x0000fd       data   0x000000
+            .idata_main.o      idata   0x0000fd       data   0x000000
+            .idata_Menu.o      idata   0x0000fd       data   0x000000
+          .idata_string.o      idata   0x0000fd       data   0x000000
+          .udata_string.o      udata   0x0000fd       data   0x000000
+     .idata_Temperature.o      idata   0x0000fd       data   0x000000
+            .idata_mppt.o      idata   0x0000fd       data   0x000000
+            .udata_mppt.o      udata   0x000100       data   0x00006e
+              .udata_EM.o      udata   0x00016e       data   0x000044
+         .idata_LCD_drv.o      idata   0x0001b2       data   0x000040
+          .udata_button.o      udata   0x0001f2       data   0x00000d
+            .udata_main.o      udata   0x0001ff       data   0x000001
+         .udata_LCD_drv.o      udata   0x000200       data   0x000010
+           .udata_c018i.o      udata   0x000210       data   0x00000a
+     .udata_Temperature.o      udata   0x00021a       data   0x00000a
+          .idata_IO_drv.o      idata   0x000224       data   0x000008
+            .udata_Menu.o      udata   0x00022c       data   0x000006
+                   .stack      udata   0x000300       data   0x000100
+            SFR_UNBANKED0      udata   0x000f62       data   0x00009e
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000d      
+                            0x000018    0x00001d      
+                            0x000800    0x000805      
+                            0x00082a    0x004c73      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+            17512 out of 24856 program addresses used, program memory utilization is 70%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                But_GetBi   0x0045e0    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                 But_Init   0x00441a    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                 But_Task   0x004472    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                  EM_Init   0x004618    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+            EM_StorageDis   0x004790    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+             EM_StorageEn   0x004778    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                  EM_Task   0x0046b2    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                 FXD1616U   0x004b1a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                 FXD3232U   0x004a52    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                 FXM1616U   0x004ade    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+                  FXM3232   0x0048c0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+                IOGetADCF   0x003ba0    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                IOGetBut1   0x003bfc    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                IOGetBut2   0x003c04    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+              IOGetOSFlag   0x003c0c    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                 IO_Init1   0x00399a    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                 IO_Init2   0x003a58    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+            LCD_ClearLine   0x0037d8    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+                 LCD_Init   0x003382    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+        LCD_SendLineToLCD   0x00362e    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+             LCD_SetCGRAM   0x003808    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+               LCD_WaitMs   0x0032f0    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+               LCD_WaitUs   0x0032cc    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+       MMPT_ImmediateStop   0x000be0    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                MPPT_Algo   0x000ee8    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+          MPPT_CalcEnergy   0x000dd0    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+           MPPT_CalcPower   0x000bea    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+         MPPT_CheckErrors   0x000e92    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+         MPPT_DoFiltering   0x0009e8    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+           MPPT_DriveLEDs   0x001c52    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetCi   0x000884    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetCo   0x000934    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetEi   0x0008ec    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetEo   0x000948    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+              MPPT_GetInc   0x0009b8    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+             MPPT_GetMPPT   0x000958    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+              MPPT_GetPWM   0x000988    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetPi   0x0008b8    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetPo   0x00093e    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+             MPPT_GetRout   0x000952    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetVi   0x000850    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetVo   0x00092a    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                MPPT_Init   0x001bdc    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+          MPPT_InitFilter   0x001a56    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+         MPPT_ManageState   0x001122    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+          MPPT_ReadInputs   0x00165a    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+              MPPT_SetPWM   0x000b8e    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                MPPT_Task   0x001dc2    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                Menu_Draw   0x001edc    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+       Menu_HandleButtons   0x001df8    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+                Menu_Init   0x001dde    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+              Menu_Manage   0x002d94    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+                Menu_Task   0x001dee    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+               Read_b_eep   0x004a9a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\read_B.c
+                SetDCPWM1   0x0049f4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+                SetDCPWM2   0x004996    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2setdc.c
+                Stat_Init   0x004b46    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\stat.c
+                Stat_Task   0x004b52    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\stat.c
+            Temp_Fan_Task   0x003e68    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                 Temp_Get   0x0041f4    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+              Temp_GetFan   0x004214    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                Temp_Init   0x003f04    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                Temp_Task   0x003f12    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+              Write_b_eep   0x004930    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\write_B.c
+       ___return_lbl00000   0x004ad2    program     static                          
+       ___return_lbl00000   0x004a98    program     static                          
+       ___return_lbl00000   0x00492e    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x000804    program     static                          
+       ___return_lbl00000   0x004b44    program     static                          
+       ___return_lbl00001   0x004ba6    program     static                          
+       ___return_lbl00002   0x004844    program     static                          
+       ___return_lbl00033   0x00000c    program     static                          
+       ___return_lbl00035   0x00001c    program     static                          
+               __config_0   0x300000    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_1   0x300001    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_2   0x300002    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_3   0x300003    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_4   0x300005    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_5   0x300006    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+                   __init   0x004ba8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+              __tmplbl_53   0x002d24    program     static                          
+              __tmplbl_54   0x002ce0    program     static                          
+              __tmplbl_55   0x002cb6    program     static                          
+              __tmplbl_56   0x002c88    program     static                          
+              __tmplbl_57   0x002c46    program     static                          
+              __tmplbl_58   0x002c1a    program     static                          
+              __tmplbl_59   0x002bca    program     static                          
+              __tmplbl_60   0x002ba8    program     static                          
+              __tmplbl_61   0x002b88    program     static                          
+              __tmplbl_62   0x002b6a    program     static                          
+              __tmplbl_63   0x002b2e    program     static                          
+              __tmplbl_64   0x002afc    program     static                          
+              __tmplbl_65   0x002acc    program     static                          
+              __tmplbl_66   0x002aa6    program     static                          
+              __tmplbl_67   0x002a88    program     static                          
+              __tmplbl_68   0x002a6a    program     static                          
+              __tmplbl_69   0x002a4c    program     static                          
+              __tmplbl_70   0x0029e6    program     static                          
+              __tmplbl_71   0x0029ae    program     static                          
+              __tmplbl_72   0x00294c    program     static                          
+              __tmplbl_73   0x0028f4    program     static                          
+              __tmplbl_74   0x00289c    program     static                          
+              __tmplbl_75   0x002844    program     static                          
+              __tmplbl_88   0x002d76    program     static                          
+              __tmplbl_89   0x002a3c    program     static                          
+              __tmplbl_90   0x002c3a    program     static                          
+              __tmplbl_91   0x002d76    program     static                          
+              __tmplbl_92   0x002d68    program     static                          
+            __zero_memory   0x004b6c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                _do_cinit   0x0047a8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   _false   0x004a94    program     static                          
+                   _reset   0x000800    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+                 _startup   0x004b8c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                compare_l   0x004b82    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                copy_loop   0x00481a    program     static                          
+            copy_one_byte   0x004820    program     static                          
+                     done   0x004844    program     static                          
+             done_copying   0x00482e    program     static                          
+                  endloop   0x004b40    program     static                          
+                  hex2dec   0x00421a    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\string.c
+                 hex2text   0x00430c    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\string.c
+               hex2text_b   0x0043a6    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\string.c
+                 high_isr   0x003c18    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+ interrupt_at_high_vector   0x000008    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+  interrupt_at_low_vector   0x000018    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                     loop   0x004a60    program     static                          
+                     loop   0x004b24    program     static                          
+                     loop   0x004b9c    program     static                          
+                   loop_h   0x004b7a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x004b84    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  low_isr   0x003e46    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                     main   0x004846    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+                     test   0x0047c2    program     static                          
+               zero_block   0x004b7a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADCVal   0x0000eb       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                    ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  AR_time   0x0001fa       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                  BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ButNew   0x0001f2       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                   ButOld   0x0001f4       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                 ButPress   0x0001f6       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                  Button1   0x0000e2       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                  Button2   0x0000e3       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                  Buttons   0x0000e4       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                   CCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               CCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  CCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              CCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              CCP2CONbits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    CCPR2   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCPR2H   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCPR2L   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    CGRAM   0x0001b2       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                CMCONbits   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CVRCON   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 CurADCCh   0x0000e5       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                     DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDREbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 ECCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+             ECCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 ECCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+             ECCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     FSR0   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR0H   0x000fea       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR0L   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     FSR1   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR1H   0x000fe2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     FSR2   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR2H   0x000fda       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR2L   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   Filter   0x00013b       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                  HLVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              HLVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    INDF0   0x000fef       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    INDF1   0x000fe7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    INDF2   0x000fdf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   INTCON   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  INTCON2   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  INTCON3   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATD   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATDbits   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATE   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   LVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               LVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                Log2ADCCh   0x000224       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                LongPress   0x0001fc       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                MaxOutADC   0x0000e8       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   OSCntr   0x0000e6       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                   OSFlag   0x0000ea       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      PCL   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PCLATH   0x000ffa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PCLATU   0x000ffb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PLUSW0   0x000feb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PLUSW1   0x000fe3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PLUSW2   0x000fdb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTD   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTDbits   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTE   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTEbits   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTDEC0   0x000fed       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTDEC1   0x000fe5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTDEC2   0x000fdd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTINC0   0x000fee       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTINC1   0x000fe6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTINC2   0x000fde       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      PR2   0x000fcb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  PREINC0   0x000fec       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  PREINC1   0x000fe4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  PREINC2   0x000fdc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PROD   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PRODH   0x000ff4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     RCON   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 RCONbits   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     SIGN   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                    SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SPPCFG   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               SPPCFGbits   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SPPCON   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               SPPCONbits   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  SPPDATA   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SPPEPS   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               SPPEPSbits   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SSPADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  SSPCON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              SSPCON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  SSPSTAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              SSPSTATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   STATUS   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  Storage   0x000170       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                    T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    T2CON   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   TABLAT   0x000ff5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   TBLPTR   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  TBLPTRH   0x000ff7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  TBLPTRL   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  TBLPTRU   0x000ff8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR0H   0x000fd7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR0L   0x000fd6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR1H   0x000fcf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR1L   0x000fce       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     TMR2   0x000fcc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      TOS   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     TOSH   0x000ffe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     TOSL   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     TOSU   0x000fff       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISEbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   Timers   0x0001f8       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                    UADDR   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UADDRbits   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UCFG   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UCFGbits   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UCON   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UCONbits   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEIE   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEIEbits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEIR   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEIRbits   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP0   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP0bits   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP1   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP10   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP10bits   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP11   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP11bits   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP12   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP12bits   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP13   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP13bits   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP14   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP14bits   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP15   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP15bits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP1bits   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP2   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP2bits   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP3   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP3bits   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP4   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP4bits   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP5   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP5bits   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP6   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP6bits   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP7   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP7bits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP8   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP8bits   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP9   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP9bits   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UFRM   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UFRMH   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UFRMHbits   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UFRML   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UFRMLbits   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      UIE   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  UIEbits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      UIR   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  UIRbits   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    USTAT   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                USTATbits   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   WDTCON   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               WDTCONbits   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     WREG   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 __AARGB0   0x000009       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB7   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __BARGB0   0x00000e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB3   0x00000b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                __FPFLAGS   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                  __REMB0   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB3   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __TEMP   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB3   0x000010       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\write_B.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2setdc.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\read_B.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\string.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                  __tmp_1   0x000018       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                       cb   0x00016f       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                curr_byte   0x000213       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x000215       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x000217       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                  divider   0x0001ff       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+                  divider   0x0000fb       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\stat.c
+                       dw   0x000165       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                        i   0x0001fe       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                        i   0x00016d       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                     prom   0x000210       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   sGMPPT   0x00012a       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                    sMENU   0x00022c       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+                    sMPPT   0x000100       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                    u8Def   0x000060       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                 u8FanLvl   0x00021c       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+               u8FanState   0x00021b       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                 u8FanTmr   0x00021d       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+              u8InitState   0x00021a       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                 u8Mirror   0x000171       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                    u8Sec   0x0000a1       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                   u8Temp   0x000222       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                u8WriteCS   0x00016e       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                    uLine   0x000200       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+            uwTemperature   0x00021e       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                       w1   0x000169       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                       w2   0x00016b       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+ interrupt_at_high_vector   0x000008    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+       ___return_lbl00033   0x00000c    program     static                          
+  interrupt_at_low_vector   0x000018    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+       ___return_lbl00035   0x00001c    program     static                          
+                   _reset   0x000800    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+       ___return_lbl00000   0x000804    program     static                          
+               MPPT_GetVi   0x000850    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetCi   0x000884    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetPi   0x0008b8    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetEi   0x0008ec    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetVo   0x00092a    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetCo   0x000934    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetPo   0x00093e    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+               MPPT_GetEo   0x000948    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+             MPPT_GetRout   0x000952    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+             MPPT_GetMPPT   0x000958    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+              MPPT_GetPWM   0x000988    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+              MPPT_GetInc   0x0009b8    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+         MPPT_DoFiltering   0x0009e8    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+              MPPT_SetPWM   0x000b8e    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+       MMPT_ImmediateStop   0x000be0    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+           MPPT_CalcPower   0x000bea    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+          MPPT_CalcEnergy   0x000dd0    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+         MPPT_CheckErrors   0x000e92    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                MPPT_Algo   0x000ee8    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+         MPPT_ManageState   0x001122    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+          MPPT_ReadInputs   0x00165a    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+          MPPT_InitFilter   0x001a56    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                MPPT_Init   0x001bdc    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+           MPPT_DriveLEDs   0x001c52    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                MPPT_Task   0x001dc2    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                Menu_Init   0x001dde    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+                Menu_Task   0x001dee    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+       Menu_HandleButtons   0x001df8    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+                Menu_Draw   0x001edc    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+              __tmplbl_75   0x002844    program     static                          
+              __tmplbl_74   0x00289c    program     static                          
+              __tmplbl_73   0x0028f4    program     static                          
+              __tmplbl_72   0x00294c    program     static                          
+              __tmplbl_71   0x0029ae    program     static                          
+              __tmplbl_70   0x0029e6    program     static                          
+              __tmplbl_89   0x002a3c    program     static                          
+              __tmplbl_69   0x002a4c    program     static                          
+              __tmplbl_68   0x002a6a    program     static                          
+              __tmplbl_67   0x002a88    program     static                          
+              __tmplbl_66   0x002aa6    program     static                          
+              __tmplbl_65   0x002acc    program     static                          
+              __tmplbl_64   0x002afc    program     static                          
+              __tmplbl_63   0x002b2e    program     static                          
+              __tmplbl_62   0x002b6a    program     static                          
+              __tmplbl_61   0x002b88    program     static                          
+              __tmplbl_60   0x002ba8    program     static                          
+              __tmplbl_59   0x002bca    program     static                          
+              __tmplbl_58   0x002c1a    program     static                          
+              __tmplbl_90   0x002c3a    program     static                          
+              __tmplbl_57   0x002c46    program     static                          
+              __tmplbl_56   0x002c88    program     static                          
+              __tmplbl_55   0x002cb6    program     static                          
+              __tmplbl_54   0x002ce0    program     static                          
+              __tmplbl_53   0x002d24    program     static                          
+              __tmplbl_92   0x002d68    program     static                          
+              __tmplbl_88   0x002d76    program     static                          
+              __tmplbl_91   0x002d76    program     static                          
+              Menu_Manage   0x002d94    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+               LCD_WaitUs   0x0032cc    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+               LCD_WaitMs   0x0032f0    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+                 LCD_Init   0x003382    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+        LCD_SendLineToLCD   0x00362e    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+            LCD_ClearLine   0x0037d8    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+             LCD_SetCGRAM   0x003808    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+                 IO_Init1   0x00399a    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                 IO_Init2   0x003a58    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                IOGetADCF   0x003ba0    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                IOGetBut1   0x003bfc    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                IOGetBut2   0x003c04    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+              IOGetOSFlag   0x003c0c    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                 high_isr   0x003c18    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                  low_isr   0x003e46    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+            Temp_Fan_Task   0x003e68    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                Temp_Init   0x003f04    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                Temp_Task   0x003f12    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                 Temp_Get   0x0041f4    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+              Temp_GetFan   0x004214    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                  hex2dec   0x00421a    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\string.c
+                 hex2text   0x00430c    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\string.c
+               hex2text_b   0x0043a6    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\string.c
+                 But_Init   0x00441a    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                 But_Task   0x004472    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                But_GetBi   0x0045e0    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                  EM_Init   0x004618    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                  EM_Task   0x0046b2    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+             EM_StorageEn   0x004778    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+            EM_StorageDis   0x004790    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                _do_cinit   0x0047a8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x0047c2    program     static                          
+                copy_loop   0x00481a    program     static                          
+            copy_one_byte   0x004820    program     static                          
+             done_copying   0x00482e    program     static                          
+                     done   0x004844    program     static                          
+       ___return_lbl00002   0x004844    program     static                          
+                     main   0x004846    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+                  FXM3232   0x0048c0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x00492e    program     static                          
+              Write_b_eep   0x004930    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\write_B.c
+                SetDCPWM2   0x004996    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2setdc.c
+                SetDCPWM1   0x0049f4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+                 FXD3232U   0x004a52    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x004a60    program     static                          
+                   _false   0x004a94    program     static                          
+       ___return_lbl00000   0x004a98    program     static                          
+               Read_b_eep   0x004a9a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\read_B.c
+       ___return_lbl00000   0x004ad2    program     static                          
+                 FXM1616U   0x004ade    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+                 FXD1616U   0x004b1a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x004b24    program     static                          
+                  endloop   0x004b40    program     static                          
+       ___return_lbl00000   0x004b44    program     static                          
+                Stat_Init   0x004b46    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\stat.c
+                Stat_Task   0x004b52    program     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\stat.c
+            __zero_memory   0x004b6c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_h   0x004b7a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               zero_block   0x004b7a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                compare_l   0x004b82    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x004b84    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 _startup   0x004b8c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x004b9c    program     static                          
+       ___return_lbl00001   0x004ba6    program     static                          
+                   __init   0x004ba8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+               __config_0   0x300000    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_1   0x300001    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_2   0x300002    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_3   0x300003    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_4   0x300005    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+               __config_5   0x300006    program     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+                     SIGN   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                  __REMB3   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB7   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB0   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB0   0x000009       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __BARGB3   0x00000b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB0   0x00000e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __TEMPB3   0x000010       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                   __TEMP   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\write_B.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw2setdc.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\read_B.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\string.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                  __tmp_1   0x000018       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                    u8Def   0x000060       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                    u8Sec   0x0000a1       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                  Button1   0x0000e2       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                  Button2   0x0000e3       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                  Buttons   0x0000e4       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                 CurADCCh   0x0000e5       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                   OSCntr   0x0000e6       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                MaxOutADC   0x0000e8       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                   OSFlag   0x0000ea       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                   ADCVal   0x0000eb       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                  divider   0x0000fb       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\stat.c
+                    sMPPT   0x000100       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                   sGMPPT   0x00012a       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                   Filter   0x00013b       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                       dw   0x000165       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                       w1   0x000169       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                       w2   0x00016b       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                        i   0x00016d       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\mppt.c
+                u8WriteCS   0x00016e       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                       cb   0x00016f       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                  Storage   0x000170       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                 u8Mirror   0x000171       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\EM.c
+                    CGRAM   0x0001b2       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+                   ButNew   0x0001f2       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                   ButOld   0x0001f4       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                 ButPress   0x0001f6       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                   Timers   0x0001f8       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                  AR_time   0x0001fa       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                LongPress   0x0001fc       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                        i   0x0001fe       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\button.c
+                  divider   0x0001ff       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\main.c
+                    uLine   0x000200       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\LCD_drv.c
+                     prom   0x000210       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x000213       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x000215       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x000217       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+              u8InitState   0x00021a       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+               u8FanState   0x00021b       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                 u8FanLvl   0x00021c       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                 u8FanTmr   0x00021d       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+            uwTemperature   0x00021e       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                   u8Temp   0x000222       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Temperature.c
+                Log2ADCCh   0x000224       data     extern C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\IO_drv.c
+                    sMENU   0x00022c       data     static C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost\user\Menu.c
+                  SPPDATA   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SPPCFG   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               SPPCFGbits   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               SPPEPSbits   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SPPEPS   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               SPPCONbits   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SPPCON   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UFRML   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UFRMLbits   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UFRM   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UFRMH   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UFRMHbits   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  UIRbits   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      UIR   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  UIEbits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      UIE   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEIRbits   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEIR   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEIEbits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEIE   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                USTATbits   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    USTAT   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UCON   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UCONbits   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UADDR   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UADDRbits   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UCFGbits   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UCFG   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP0bits   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP0   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP1bits   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP1   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP2bits   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP2   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP3   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP3bits   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP4   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP4bits   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP5bits   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP5   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP6bits   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP6   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP7bits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP7   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP8bits   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP8   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP9bits   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP9   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP10   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP10bits   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP11   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP11bits   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP12   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP12bits   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP13   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP13bits   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP14bits   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP14   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP15bits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP15   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTDbits   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTD   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTEbits   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PORTE   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATD   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATDbits   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATE   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDREbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISEbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                CMCONbits   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CVRCON   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               CCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+             ECCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 ECCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              CCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  CCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              CCP2CONbits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    CCPR2   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCPR2L   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCPR2H   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 ECCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+             ECCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  SSPCON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              SSPCON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  SSPSTAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              SSPSTATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SSPADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    T2CON   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      PR2   0x000fcb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     TMR2   0x000fcc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR1L   0x000fce       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR1H   0x000fcf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     RCON   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 RCONbits   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   WDTCON   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               WDTCONbits   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               LVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   LVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              HLVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  HLVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR0L   0x000fd6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TMR0H   0x000fd7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   STATUS   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR2L   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     FSR2   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR2H   0x000fda       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PLUSW2   0x000fdb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  PREINC2   0x000fdc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTDEC2   0x000fdd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTINC2   0x000fde       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    INDF2   0x000fdf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     FSR1   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR1H   0x000fe2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PLUSW1   0x000fe3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  PREINC1   0x000fe4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTDEC1   0x000fe5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTINC1   0x000fe6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    INDF1   0x000fe7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     WREG   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     FSR0   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR0L   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    FSR0H   0x000fea       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PLUSW0   0x000feb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  PREINC0   0x000fec       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTDEC0   0x000fed       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 POSTINC0   0x000fee       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    INDF0   0x000fef       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  INTCON3   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  INTCON2   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   INTCON   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     PROD   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    PRODH   0x000ff4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   TABLAT   0x000ff5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   TBLPTR   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  TBLPTRL   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  TBLPTRH   0x000ff7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  TBLPTRU   0x000ff8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      PCL   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PCLATH   0x000ffa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   PCLATU   0x000ffb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                      TOS   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     TOSL   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     TOSH   0x000ffe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     TOSU   0x000fff       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+
+

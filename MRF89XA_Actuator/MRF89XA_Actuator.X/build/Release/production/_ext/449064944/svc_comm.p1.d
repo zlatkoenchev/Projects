@@ -1,0 +1,25 @@
+ build/Release/production/_ext/449064944/svc_comm.d  \
+ build/Release/production/_ext/449064944/svc_comm.p1:  \
+ ../../LIBC/COM/svc_comm.c  \
+../../LIBC/COM/Protocol.h  \
+../compiler.h  \
+../drv_spi_hf.h  \
+../drv_io.h  \
+../MRF89XA_Cfg.h  \
+../svc_comm_cfg_rx.h  \
+../svc_comm_cfg_tx.h  \
+../../LIBC/RTC/app_RTC.h  \
+../app_control.h  \
+../drv_eep.h  \
+../svc_uds.h  \
+../../LIBC/Runtime/runtime.h  \
+../../LIBC/MRF89_Drv/MRF89XA.h  \
+../GenericTypeDefs.h  \
+../app_RTC_cfg.h  \
+../../LIBC/COM/svc_comm.h  \
+../main.h  \
+../config.h  \
+../types.h  \
+../../LIBC/NVM/svc_nvm.h  \
+../../LIBC/PRESENCE/app_Presence.h  \
+../nvm_block_cfg.h 

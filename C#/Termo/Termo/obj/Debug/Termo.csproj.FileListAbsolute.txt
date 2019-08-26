@@ -1,0 +1,16 @@
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Termo\bin\Debug\Termo.exe
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Termo\bin\Debug\Termo.pdb
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Termo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Termo\obj\Debug\Termo.Form1.resources
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Termo\obj\Debug\Termo.Properties.Resources.resources
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Termo\obj\Debug\Termo.csproj.GenerateResource.Cache
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Termo\obj\Debug\Termo.exe
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Termo\obj\Debug\Termo.pdb
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Termo\Termo\obj\Debug\Termo.exe
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Termo\Termo\obj\Debug\Termo.pdb
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Termo\Termo\bin\Debug\Termo.exe
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Termo\Termo\bin\Debug\Termo.pdb
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Termo\Termo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Termo\Termo\obj\Debug\Termo.Form1.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Termo\Termo\obj\Debug\Termo.Properties.Resources.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Termo\Termo\obj\Debug\Termo.csproj.GenerateResource.Cache

@@ -1,0 +1,51 @@
+(ExpressProject "Termostat"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\zlatko.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\actuator.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "5")
+    (LAYOUT_Netlist_File "C:\Projects\Orcad\Actuator\actuator..mnl")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (LAYOUT_Run_ECO "FALSE")
+    (LAYOUT_Units "0"))
+  (Folder "Outputs"
+    (File ".\actuator..mnl"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (LastUsedLibraryBrowseDirectory "C:\Program Files\OrCAD\CAPTURE\LIBRARY")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Projects\Orcad\Actuator\actuator.dsn")
+      (Path "Design Resources" "C:\Projects\Orcad\Actuator\actuator.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "C:\Projects\Orcad\Actuator\actuator.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "C:\Projects\Orcad\zlatko.olb")
+      (Path "Outputs")
+      (Select "Design Resources" "C:\Projects\Orcad\Actuator\actuator.dsn"
+         "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 287 0 425"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1210 52 486")
+        (Scroll "293 540")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))))

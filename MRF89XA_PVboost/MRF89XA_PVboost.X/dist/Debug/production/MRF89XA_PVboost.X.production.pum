@@ -1,0 +1,37 @@
+
+Psect Usage Map:
+
+ Psect      | Contents                         | Memory Range  | Size
+------------|----------------------------------|---------------|-------------
+ reset_vec  | Reset vector                     | 0000h - 0000h |   1 word   
+ intentry   | Interrupt context entry code     | 0004h - 0010h |  13 words  
+ end_init   | Initialization code              | 0011h - 0011h |   1 word   
+ cinit      | Initialization code              | 0012h - 0014h |   3 words  
+ text9      | Program and library code         | 0015h - 01B2h | 414 words  
+ text1      | Program and library code         | 01B3h - 01F1h |  63 words  
+ text16     | Program and library code         | 01F2h - 0230h |  63 words  
+ text14     | Program and library code         | 0231h - 0261h |  49 words  
+ maintext   | Program code for main() function | 0262h - 028Dh |  44 words  
+ text15     | Program and library code         | 028Eh - 02B2h |  37 words  
+ text7      | Program and library code         | 02B3h - 02CAh |  24 words  
+ text5      | Program and library code         | 02CBh - 02DDh |  19 words  
+ text11     | Program and library code         | 02DEh - 02F0h |  19 words  
+ text3      | Program and library code         | 02F1h - 02FFh |  15 words  
+ text8      | Program and library code         | 0300h - 030Eh |  15 words  
+ text2      | Program and library code         | 030Fh - 031Ch |  14 words  
+ text12     | Program and library code         | 031Dh - 032Ah |  14 words  
+ text6      | Program and library code         | 032Bh - 0335h |  11 words  
+ text13     | Program and library code         | 0336h - 033Eh |   9 words  
+ text4      | Program and library code         | 033Fh - 0343h |   5 words  
+ text10     | Program and library code         | 0344h - 0348h |   5 words  
+------------|----------------------------------|---------------|-------------
+ cstackCOMM | Stack in common memory           | 0070h - 007Ch |  13 bytes  
+            |                                  |               |             
+ bssBANK0   | BSS variables in bank 0          | 0020h - 0052h |  51 bytes  
+ cstackBANK | Stack in bank 0                  | 0053h - 0065h |  19 bytes  
+            |                                  |               |             
+ abs_s1     | Absolute RAM variables           | 007Eh - 007Fh |   2 bytes  
+------------|----------------------------------|---------------|-------------
+ config     |                                  | 8007h - 800Ah |   4 words  
+------------|----------------------------------|---------------|-------------
+

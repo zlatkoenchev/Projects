@@ -1,0 +1,172 @@
+#include "types.h"
+#include "svc_uds.h"
+#include "svc_comm.h"
+#include "svc_nvm.h"
+#include "drv_eep.h"
+#include "main.h"
+#include "drv_io.h"
+
+
+#define WDBID_FLASH    0x01
+#define WDBID_NVMDATA   0x02
+
+#define WDBID_IOCTL    0x05
+
+#define WDBID_HFWRITE  0xF0
+
+#define RDBID_DEVCAPS  0x01
+#define RDBID_NVMDATA  0x02
+#define RDBID_IN_DATA  0x05
+
+static uint32 seed;
+
+void UDS_Init(void){
+    
+}
+
+static void ROL(uint8 num) {
+    while (num--) {
+        if (seed & 0x80000000) {
+            seed <<= 1;
+            seed |= 0x01;
+        } else {
+            seed <<= 1;
+        }
+    }
+}
+
+static void Calc_Key(void) {
+    ROL(7);
+    seed = seed ^ 0xCA236124;
+    ROL(5);
+    seed = seed ^ 0xAC321641;
+    ROL(3);
+    seed = seed ^ 0x01100112;
+    ROL(1);
+}
+
+uint8 UDS_CompareKey(void) {
+    uint32 s1;
+    Calc_Key();
+    s1 = (((uint32) RxData(C_PAGE + 3)) << 24) |
+            (((uint32) RxData(C_PAGE + 2)) << 16) |
+            (((uint32) RxData(C_PAGE + 1)) << 8) |
+            (RxData(C_PAGE));
+
+    if (seed != s1) {
+        seed = 0;
+        NEG_RESP(0x22);
+        return FALSE;
+    } else {
+        POS_RESP(0);
+        return TRUE;
+    }
+}
+
+void UDS_GetSeed(void) {
+    seed = (((uint32) OS_GetIdleTickCount()) << 16) | OS_GetTickCount();
+    TxData(3) = (uint8) (seed >> 24);
+    TxData(2) = (uint8) (seed >> 16);
+    TxData(1) = (uint8) (seed >> 8);
+    TxData(0) = (uint8) (seed);
+    POS_RESP(4);
+}
+
+static void WriteNVMBlockSync(uint8 block) {
+    NVM_WriteBlock(block);
+    while ( NVM_IsBlockWrite(block)) {
+        NVM_Task();
+    } 
+}
+
+void UDS_WDBID(void){
+    uint8 k,i,j;
+    
+    k = (uint8)(RxDataLen - 5); //len,nad,nad,res,cmd,wdbid,add4,data32
+    switch ( RxPage())
+{
+        case WDBID_NVMDATA:
+            i = 0;
+            j = 0;
+            k--;
+            while (k) {
+                j += NVM_WriteBlockData(RxData(6), i, RxData(7 + i));
+                i++;
+                k--;
+            }
+            if (j == 0) {
+                WriteNVMBlockSync(RxData(6));
+                POS_RESP(0);
+            }
+            break;
+       
+        case WDBID_IOCTL: //0 - off, 1..100 - on
+            if (k == 1) {
+                
+                CTRL_DiagCtrl(RxData(6) );
+                POS_RESP(0);
+            }
+            break;
+        
+        case WDBID_HFWRITE:
+            if (k == 2) {
+                MRF89XARegisterSet(RxData(6), RxData(7));
+                POS_RESP(0);
+            }
+            break;
+    }
+}
+
+void UDS_RDBID(void) {
+    uint16 k,i;
+    //k = RxDataLen - 5; //len,nad,nad,res,cmd,wdbid,add4,data32
+    switch (RxPage()) {
+        case RDBID_DEVCAPS:
+
+            TxData(0) = 1; //appl
+            TxData(1) = MRF89XA_RSSI; 
+            
+            k = DVC_RELAY;
+                        
+            TxData(2) = (uint8)(k>>8);
+            TxData(3) = (uint8) (k);
+            POS_RESP(4);
+            break;
+
+        case RDBID_NVMDATA:
+            k = NVM_GetBlockLenght(RxData(6));
+            if (k > 0) {
+                for (i = 0; i < k; i++) {
+                    TxData(i) = NVM_ReadBlockData(RxData(6), i);
+                }
+                POS_RESP(k);
+            }
+            break;
+            
+        case RDBID_IN_DATA:
+            k = 0;
+            TxData(0) = 0;
+            TxData(1) = 0;
+            TxData(2) = 0;
+            TxData(3) = 0;  
+            TxData(4) = 0;
+            TxData(5) = 0;
+            TxData(6) = 0;
+            TxData(7) = 0;
+            TxData(8) = 0;
+            TxData(9) = 0;
+            TxData(10) = 0;
+            TxData(11) = 0;
+            TxData(12) = 0;
+            TxData(13) = 0;
+            TxData(14) = 0;
+            TxData(15) = 0;
+            TxData(16) = 0;
+            TxData(17) = 0; 
+            TxData(18) = 0;
+            TxData(19) = 0 ;
+            
+            POS_RESP(20);
+            break;
+    }
+}

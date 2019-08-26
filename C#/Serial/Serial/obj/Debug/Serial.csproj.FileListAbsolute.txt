@@ -1,0 +1,60 @@
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Serial\bin\Debug\Serial.exe
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Serial\bin\Debug\Serial.pdb
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Serial\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Serial\obj\Debug\Serial.Form1.resources
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Serial\obj\Debug\Serial.Properties.Resources.resources
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Serial\obj\Debug\Serial.csproj.GenerateResource.Cache
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Serial\obj\Debug\Serial.exe
+C:\Documents and Settings\zlatko\Local Settings\Application Data\Temporary Projects\Serial\obj\Debug\Serial.pdb
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\obj\Debug\Serial.exe
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\obj\Debug\Serial.pdb
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\bin\Debug\Serial.exe
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\bin\Debug\Serial.pdb
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\obj\Debug\Serial.Properties.Resources.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\obj\Debug\Serial.csproj.GenerateResource.Cache
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\obj\Debug\Serial.Form1.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\obj\Debug\Serial.Form2.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\obj\Debug\Serial.Form3.resources
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\obj\Debug\Serial.exe
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\obj\Debug\Serial.pdb
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\bin\Debug\Serial.exe
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\bin\Debug\Serial.pdb
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\obj\Debug\Serial.Form1.resources
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\obj\Debug\Serial.Form2.resources
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\obj\Debug\Serial.Form3.resources
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\obj\Debug\Serial.Properties.Resources.resources
+C:\Documents and Settings\Dimitar Todorov\Desktop\BTR\SW\C# Project\Serial\Serial\obj\Debug\Serial.csproj.GenerateResource.Cache
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\obj\Debug\Serial.exe
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\obj\Debug\Serial.pdb
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\bin\Debug\Serial.exe
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\bin\Debug\Serial.pdb
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\obj\Debug\Serial.Form1.resources
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\obj\Debug\Serial.Form2.resources
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\obj\Debug\Serial.Form3.resources
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\obj\Debug\Serial.Properties.Resources.resources
+C:\Documents and Settings\zlatko\Desktop\Serial\Serial\Serial\obj\Debug\Serial.csproj.GenerateResource.Cache
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\obj\Debug\Serial.pdb
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\bin\Debug\Serial.pdb
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\obj\Debug\Serial.Properties.Resources.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\obj\Debug\Serial.csproj.GenerateResource.Cache
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\obj\Debug\Serial.FormIO.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\obj\Debug\Serial.FormView.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\obj\Debug\Serial.FormMDI.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\obj\Debug\Serial.FormGauge.resources
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\bin\Debug\Serial.exe
+C:\Documents and Settings\zlatko\My Documents\Visual Studio 2008\Projects\Serial\Serial\Serial\obj\Debug\Serial.exe
+C:\Projects\C#\Serial\Serial\obj\Debug\Serial.exe
+C:\Projects\C#\Serial\Serial\obj\Debug\Serial.pdb
+C:\Projects\C#\Serial\Serial\bin\Debug\Serial.exe
+C:\Projects\C#\Serial\Serial\bin\Debug\Serial.pdb
+C:\Projects\C#\Serial\Serial\obj\Debug\Serial.csprojResolveAssemblyReference.cache
+C:\Projects\C#\Serial\Serial\obj\Debug\Serial.FormGauge.resources
+C:\Projects\C#\Serial\Serial\obj\Debug\Serial.FormView.resources
+C:\Projects\C#\Serial\Serial\obj\Debug\Serial.FormMDI.resources
+C:\Projects\C#\Serial\Serial\obj\Debug\Serial.FormIO.resources
+C:\Projects\C#\Serial\Serial\obj\Debug\Serial.Properties.Resources.resources
+C:\Projects\C#\Serial\Serial\obj\Debug\Serial.csproj.GenerateResource.Cache

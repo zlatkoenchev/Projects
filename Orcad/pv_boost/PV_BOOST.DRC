@@ -1,0 +1,21 @@
+
+Checking for Invalid Pins in Package
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict U3,OUTPUT Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE2  (139.70, 76.20) 
+ERROR:  [DRC0004]  Possible pin type conflict U1,VO Output Connected to Power
+                    SCHEMATIC1, PAGE1  (212.60, 170.18) 
+ERROR:  [DRC0004]  Possible pin type conflict U2,VO Output Connected to Power
+                    SCHEMATIC1, PAGE1  (278.64, 170.18) 
+ERROR:  [DRC0004]  Possible pin type conflict U4,VDD Power Connected to Output
+                    SCHEMATIC1, PAGE2  (208.28, 30.48) 
+ERROR:  [DRC0004]  Possible pin type conflict U3,PLUS V Power Connected to Output
+                    SCHEMATIC1, PAGE2  (124.46, 30.48) 
+
+Checking for Invalid References
+
+Checking for Duplicate References

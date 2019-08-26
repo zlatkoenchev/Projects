@@ -1,0 +1,513 @@
+AutoECO Report
+FILE-A: C:\PROJECTS\ORCAD\PV_BOOST\PV_BOOST_II.MAX
+FILE-B: C:\PROJECTS\ORCAD\PV_BOOST\PV_BOOST.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package NPN_BCE
+Adding package PIC16F18313
+Adding component D18
+Adding component D81
+Adding component U9
+Found footprint SOJ.050/18/WB.350/L.450 from PRT file for part PIC16F18313, comp U9
+Adding component JP2
+Adding component S4
+Adding net N10853
+Adding net N00246
+Net N04986 renamed to N93430
+Adding net N1032661
+Net VCC_11V renamed to VCC_12VF
+Net N04699 renamed to N67200
+Net VCC_40V renamed to N103977
+Net N607550 renamed to DATA
+Net N76737 renamed to N002691
+Net N00396 renamed to N52084
+Net VCC_5V renamed to VCC_3V3
+Net N129070 renamed to N92214
+Net N73141 renamed to N934241
+Net N72995 renamed to N933881
+Net N73134 renamed to N94873
+Net A6 renamed to A2
+Net TEMP renamed to A4
+Net PWM2 renamed to PWM
+Net N74995 renamed to VCSH
+Net N06060 renamed to GT1
+Net VIN2 renamed to VIN
+Net N12610 renamed to N768290
+Net BT2 renamed to PGD
+Net CLK renamed to PGC
+Net N75002 renamed to VCSL
+Adding net SDA
+Net PWM1 renamed to SCL
+Net LED2 renamed to LED
+Deleting R38.2 from net 100MV
+Deleting R31.2 from net 100MV
+Deleting U4.9 from net A2
+Adding U9.3 to net A2
+Deleting U4.36 from net PGD
+Adding JP1.4 to net PGD
+Adding R24.2 to net PGD
+Adding U9.13 to net PGD
+Deleting U4.39 from net PGC
+Deleting R51.1 from net PGC
+Adding R21.2 to net PGC
+Adding S3.2 to net PGC
+Adding U9.12 to net PGC
+Deleting C56.2 from net GND_FIELD SIGNAL
+Deleting Q4.1 from net GND_FIELD SIGNAL
+Deleting C58.2 from net GND_FIELD SIGNAL
+Deleting C57.2 from net GND_FIELD SIGNAL
+Deleting U6.3 from net GND_FIELD SIGNAL
+Deleting C50.1 from net GND_FIELD SIGNAL
+Deleting U6.1 from net GND_FIELD SIGNAL
+Deleting C66.2 from net GND_FIELD SIGNAL
+Deleting C33.1 from net GND_FIELD SIGNAL
+Deleting U6.8 from net GND_FIELD SIGNAL
+Deleting U5.8 from net GND_FIELD SIGNAL
+Deleting D9.2 from net GND_FIELD SIGNAL
+Deleting U8.12 from net GND_FIELD SIGNAL
+Deleting C28.2 from net GND_FIELD SIGNAL
+Deleting R19.2 from net GND_FIELD SIGNAL
+Deleting C11.2 from net GND_FIELD SIGNAL
+Deleting C13.2 from net GND_FIELD SIGNAL
+Deleting C1.2 from net GND_FIELD SIGNAL
+Deleting C10.2 from net GND_FIELD SIGNAL
+Deleting C12.2 from net GND_FIELD SIGNAL
+Deleting C71.2 from net GND_FIELD SIGNAL
+Deleting C72.2 from net GND_FIELD SIGNAL
+Deleting C26.1 from net GND_FIELD SIGNAL
+Deleting C8.1 from net GND_FIELD SIGNAL
+Deleting C14.1 from net GND_FIELD SIGNAL
+Deleting C3.2 from net GND_FIELD SIGNAL
+Deleting C25.1 from net GND_FIELD SIGNAL
+Deleting C6.1 from net GND_FIELD SIGNAL
+Deleting R5.1 from net GND_FIELD SIGNAL
+Deleting FS2.2 from net GND_FIELD SIGNAL
+Deleting FS4.2 from net GND_FIELD SIGNAL
+Deleting C9.2 from net GND_FIELD SIGNAL
+Deleting R16.2 from net GND_FIELD SIGNAL
+Deleting C22.1 from net GND_FIELD SIGNAL
+Deleting C21.2 from net GND_FIELD SIGNAL
+Deleting C73.1 from net GND_FIELD SIGNAL
+Deleting R60.1 from net GND_FIELD SIGNAL
+Deleting R58.2 from net GND_FIELD SIGNAL
+Deleting R59.2 from net GND_FIELD SIGNAL
+Deleting C4.1 from net GND_FIELD SIGNAL
+Deleting R22.2 from net GND_FIELD SIGNAL
+Deleting C69.2 from net GND_FIELD SIGNAL
+Deleting C70.2 from net GND_FIELD SIGNAL
+Deleting C18.1 from net GND_FIELD SIGNAL
+Deleting C24.1 from net GND_FIELD SIGNAL
+Deleting C75.2 from net GND_FIELD SIGNAL
+Deleting C17.1 from net GND_FIELD SIGNAL
+Deleting C76.2 from net GND_FIELD SIGNAL
+Deleting C2.2 from net GND_FIELD SIGNAL
+Deleting Q1.3 from net GND_FIELD SIGNAL
+Deleting C7.1 from net GND_FIELD SIGNAL
+Deleting C16.1 from net GND_FIELD SIGNAL
+Deleting C23.1 from net GND_FIELD SIGNAL
+Deleting C15.1 from net GND_FIELD SIGNAL
+Deleting U5.1 from net GND_FIELD SIGNAL
+Deleting U5.3 from net GND_FIELD SIGNAL
+Deleting R15.2 from net GND_FIELD SIGNAL
+Deleting U8.7 from net GND_FIELD SIGNAL
+Deleting U8.13 from net GND_FIELD SIGNAL
+Deleting U1.2 from net GND_FIELD SIGNAL
+Deleting C53.2 from net GND_FIELD SIGNAL
+Deleting C32.1 from net GND_FIELD SIGNAL
+Deleting C31.2 from net GND_FIELD SIGNAL
+Deleting C34.2 from net GND_FIELD SIGNAL
+Deleting C27.2 from net GND_FIELD SIGNAL
+Deleting U2.2 from net GND_FIELD SIGNAL
+Deleting C36.2 from net GND_FIELD SIGNAL
+Deleting R17.2 from net GND_FIELD SIGNAL
+Deleting C51.2 from net GND_FIELD SIGNAL
+Deleting C43.2 from net GND_FIELD SIGNAL
+Deleting U4.12 from net GND_FIELD SIGNAL
+Deleting C59.2 from net GND_FIELD SIGNAL
+Deleting C62.2 from net GND_FIELD SIGNAL
+Deleting C29.2 from net GND_FIELD SIGNAL
+Deleting C37.2 from net GND_FIELD SIGNAL
+Deleting C68.2 from net GND_FIELD SIGNAL
+Deleting C30.2 from net GND_FIELD SIGNAL
+Deleting U4.31 from net GND_FIELD SIGNAL
+Deleting R55.2 from net GND_FIELD SIGNAL
+Deleting BR5.1 from net GND_FIELD SIGNAL
+Deleting Q7.1 from net GND_FIELD SIGNAL
+Deleting C35.2 from net GND_FIELD SIGNAL
+Deleting R28.2 from net GND_FIELD SIGNAL
+Deleting D10.2 from net GND_FIELD SIGNAL
+Deleting D11.2 from net GND_FIELD SIGNAL
+Deleting R2.2 from net GND_FIELD SIGNAL
+Deleting C5.1 from net GND_FIELD SIGNAL
+Deleting Q6.1 from net GND_FIELD SIGNAL
+Deleting FS3.2 from net GND_FIELD SIGNAL
+Deleting R6.2 from net GND_FIELD SIGNAL
+Adding R23.2 to net GND_FIELD SIGNAL
+Adding U9.14 to net GND_FIELD SIGNAL
+Adding D81.2 to net GND_FIELD SIGNAL
+Adding U5.5 to net GND_FIELD SIGNAL
+Adding U5.4 to net GND_FIELD SIGNAL
+Adding JP2.5 to net GND_FIELD SIGNAL
+Adding JP2.6 to net GND_FIELD SIGNAL
+Deleting U4.37 from net LED
+Adding U9.7 to net LED
+Deleting L2.1 from net N00162
+Deleting D4.1 from net N00162
+Deleting BR2.8 from net N00162
+Deleting BR2.6 from net N00162
+Deleting FS4.1 from net N00162
+Deleting R11.1 from net N00162
+Deleting C21.1 from net N00162
+Deleting C14.2 from net N00162
+Deleting C16.2 from net N00162
+Deleting C15.2 from net N00162
+Deleting BR2.7 from net N00162
+Deleting BR2.5 from net N00162
+Adding BR2.3 to net N00162
+Adding BR2.2 to net N00162
+Adding BR2.4 to net N00162
+Adding BR2.1 to net N00162
+Adding BR1.2 to net N00162
+Adding R13.1 to net N00162
+Adding FS2.1 to net N00162
+Adding C9.1 to net N00162
+Adding C4.2 to net N00162
+Adding C5.2 to net N00162
+Adding C2.1 to net N00162
+Adding C7.2 to net N00162
+Adding C1.1 to net N00162
+Adding C6.2 to net N00162
+Adding C3.1 to net N00162
+Adding C8.2 to net N00162
+Adding BR1.1 to net N00162
+Adding BR1.4 to net N00162
+Adding BR1.3 to net N00162
+Adding L1.1 to net N00162
+Adding D2.1 to net N00162
+Deleting L1.1 from net N52084
+Deleting C7.2 from net N52084
+Deleting C8.2 from net N52084
+Deleting C6.2 from net N52084
+Deleting C4.2 from net N52084
+Deleting D2.1 from net N52084
+Deleting BR1.1 from net N52084
+Deleting BR1.2 from net N52084
+Deleting BR1.4 from net N52084
+Deleting BR1.3 from net N52084
+Deleting FS2.1 from net N52084
+Deleting C9.1 from net N52084
+Deleting C2.1 from net N52084
+Deleting C1.1 from net N52084
+Deleting C5.2 from net N52084
+Deleting C3.1 from net N52084
+Adding C10.1 to net N52084
+Adding C11.1 to net N52084
+Adding FS1.1 to net N52084
+Adding C71.1 to net N52084
+Adding BR3.2 to net N52084
+Adding BR3.1 to net N52084
+Adding BR3.4 to net N52084
+Adding BR3.3 to net N52084
+Adding C18.2 to net N52084
+Adding C75.1 to net N52084
+Adding C17.2 to net N52084
+Adding C76.1 to net N52084
+Adding D15.2 to net N52084
+Deleting D4.2 from net N67200
+Deleting S1.2 from net N67200
+Adding S4.2 to net N67200
+Deleting R11.2 from net N93430
+Deleting D6.1 from net N93430
+Adding R18.2 to net N93430
+Deleting R26.2 from net N05766
+Deleting R28.1 from net N05766
+Adding R23.1 to net N05766
+Deleting C45.1 from net GT1
+Deleting C58.1 from net GT1
+Deleting C56.1 from net GT1
+Deleting U6.6 from net GT1
+Deleting R27.2 from net GT1
+Deleting C46.1 from net GT1
+Deleting C50.2 from net GT1
+Deleting C49.1 from net GT1
+Deleting C48.1 from net GT1
+Deleting C57.1 from net GT1
+Adding R1.1 to net GT1
+Adding U5.7 to net GT1
+Deleting R21.1 from net N768290
+Deleting D7.1 from net N768290
+Deleting R22.1 from net N768290
+Adding R4.1 to net N768290
+Adding C28.1 to net N16193
+Adding C28.2 to net N22451
+Deleting R3.2 from net N48610
+Adding D15.1 to net N50034
+Deleting D5.1 from net N933881
+Deleting Q3.2 from net N933881
+Deleting C28.1 from net N933881
+Adding R13.2 to net N933881
+Deleting R18.2 from net N94873
+Deleting Q3.1 from net N94873
+Adding Q2.1 to net N94873
+Deleting Q4.2 from net N934241
+Adding R15.2 to net N934241
+Deleting R48.1 from net VCSH
+Deleting C63.1 from net VCSH
+Adding R5.2 to net VCSH
+Adding BR3.8 to net VCSH
+Adding BR3.7 to net VCSH
+Adding BR3.6 to net VCSH
+Adding BR3.5 to net VCSH
+Deleting R48.2 from net VCSL
+Deleting C63.2 from net VCSL
+Adding C29.2 to net VCSL
+Adding C36.2 to net VCSL
+Adding R17.2 to net VCSL
+Adding C2.2 to net VCSL
+Adding U2.2 to net VCSL
+Adding C37.2 to net VCSL
+Adding C32.1 to net VCSL
+Adding C35.2 to net VCSL
+Adding Q1.3 to net VCSL
+Adding C1.2 to net VCSL
+Adding C3.2 to net VCSL
+Adding C71.2 to net VCSL
+Adding C31.2 to net VCSL
+Adding FS3.2 to net VCSL
+Adding BR1.8 to net VCSL
+Adding BR1.7 to net VCSL
+Adding BR1.6 to net VCSL
+Adding BR1.5 to net VCSL
+Adding C25.1 to net VCSL
+Adding C26.1 to net VCSL
+Adding C22.1 to net VCSL
+Adding C23.1 to net VCSL
+Adding C24.1 to net VCSL
+Adding C6.1 to net VCSL
+Adding C7.1 to net VCSL
+Adding C8.1 to net VCSL
+Adding C5.1 to net VCSL
+Adding R5.1 to net VCSL
+Adding C76.2 to net VCSL
+Adding C9.2 to net VCSL
+Adding C4.1 to net VCSL
+Adding BR2.6 to net VCSL
+Adding BR2.5 to net VCSL
+Adding BR2.7 to net VCSL
+Adding C18.1 to net VCSL
+Adding C17.1 to net VCSL
+Adding C75.2 to net VCSL
+Adding R16.2 to net VCSL
+Adding FS2.2 to net VCSL
+Adding C30.2 to net VCSL
+Adding U1.2 to net VCSL
+Adding C10.2 to net VCSL
+Adding C11.2 to net VCSL
+Adding BR2.8 to net VCSL
+Deleting R23.2 from net DATA
+Adding U9.11 to net DATA
+Deleting U8.1 from net SCL
+Deleting U8.2 from net SCL
+Deleting U4.16 from net SCL
+Adding U9.6 to net SCL
+Adding JP2.3 to net SCL
+Deleting U5.4 from net PWM
+Deleting U4.17 from net PWM
+Adding U9.10 to net PWM
+Deleting R24.2 from net RST
+Deleting U4.1 from net RST
+Adding R26.2 to net RST
+Adding U9.4 to net RST
+Deleting D10.1 from net A4
+Deleting R53.2 from net A4
+Deleting U4.8 from net A4
+Adding R19.2 to net A4
+Adding U9.8 to net A4
+Deleting BR5.2 from net VCC_3V3
+Deleting U8.14 from net VCC_3V3
+Deleting D6.2 from net VCC_3V3
+Deleting C43.1 from net VCC_3V3
+Deleting D7.2 from net VCC_3V3
+Deleting R56.1 from net VCC_3V3
+Deleting U4.11 from net VCC_3V3
+Deleting R53.1 from net VCC_3V3
+Deleting R13.1 from net VCC_3V3
+Deleting U4.32 from net VCC_3V3
+Deleting R54.1 from net VCC_3V3
+Adding R28.1 to net VCC_3V3
+Adding R21.1 to net VCC_3V3
+Adding U9.1 to net VCC_3V3
+Adding Q2.2 to net VCC_3V3
+Deleting R57.1 from net VCC_12VF
+Deleting Q8.3 from net VCC_12VF
+Deleting C33.2 from net VCC_12VF
+Adding C37.1 to net VCC_12VF
+Adding U2.1 to net VCC_12VF
+Adding JP2.1 to net VCC_12VF
+Adding JP2.2 to net VCC_12VF
+Deleting BR4.1 from net VCC_12V
+Deleting R23.1 from net VCC_12V
+Deleting C66.1 from net VCC_12V
+Adding D18.1 to net VCC_12V
+Deleting S1.1 from net N103977
+Deleting C27.1 from net N103977
+Deleting RE1.1 from net N103977
+Deleting D3.2 from net N103977
+Adding S4.1 to net N103977
+Deleting U4.4 from net VIN
+Adding U9.2 to net VIN
+Deleting U4.10 from net VOUT
+Deleting R17.1 from net VOUT
+Deleting R12.2 from net VOUT
+Adding R22.1 to net VOUT
+Adding U9.9 to net VOUT
+Adding U5.8 to net N10853
+Adding U5.1 to net N10853
+Adding C48.1 to net N10853
+Adding C49.1 to net N10853
+Adding C45.1 to net N10853
+Adding D18.2 to net N10853
+Adding C46.1 to net N10853
+Adding R12.2 to net N00246
+Adding R17.1 to net N00246
+Adding R22.2 to net N00246
+Adding R27.2 to net N1032661
+Adding D81.1 to net N1032661
+Adding U9.5 to net SDA
+Adding R28.2 to net SDA
+Adding JP2.4 to net SDA
+Deleting component U8
+Deleting component U6
+Deleting component U4
+Deleting component S1
+Deleting component RE1
+Deleting component R60
+Deleting component R59
+Deleting component R58
+Deleting component R57
+Deleting component R56
+Deleting component R55
+Deleting component R54
+Deleting component R53
+Deleting component R51
+Deleting component R48
+Deleting component R45
+Deleting component R43
+Deleting component R42
+Deleting component R41
+Deleting component R40
+Deleting component R39
+Deleting component R38
+Deleting component R37
+Deleting component R36
+Deleting component R35
+Deleting component R34
+Deleting component R33
+Deleting component R32
+Deleting component R31
+Deleting component R11
+Deleting component R9
+Deleting component R8
+Deleting component R6
+Deleting component R3
+Deleting component R2
+Deleting component Q8
+Deleting component Q7
+Deleting component Q6
+Deleting component Q5
+Deleting component Q4
+Deleting component Q3
+Deleting component L2
+Deleting component FS4
+Deleting component D16
+Deleting component D12
+Deleting component D11
+Deleting component D10
+Deleting component D9
+Deleting component D7
+Deleting component D6
+Deleting component D5
+Deleting component D4
+Deleting component D3
+Deleting component C73
+Deleting component C72
+Deleting component C70
+Deleting component C69
+Deleting component C68
+Deleting component C66
+Deleting component C63
+Deleting component C62
+Deleting component C61
+Deleting component C60
+Deleting component C59
+Deleting component C58
+Deleting component C57
+Deleting component C56
+Deleting component C55
+Deleting component C54
+Deleting component C53
+Deleting component C51
+Deleting component C50
+Deleting component C43
+Deleting component C34
+Deleting component C33
+Deleting component C27
+Deleting component C21
+Deleting component C16
+Deleting component C15
+Deleting component C14
+Deleting component C13
+Deleting component C12
+Deleting component BR5
+Deleting component BR4
+Deleting net N82620
+Deleting net N89600
+Deleting net VLIM
+Deleting net VIN1
+Deleting net TEMP2
+Deleting net RW
+Deleting net RS
+Deleting net RLO
+Deleting net REL
+Deleting net N231460
+Deleting net N77632
+Deleting net N75627
+Deleting net N75017
+Deleting net N74977
+Deleting net N74974
+Deleting net N74952
+Deleting net N74937
+Deleting net N56771
+Deleting net N56734
+Deleting net N54792
+Deleting net N44512
+Deleting net N20406
+Deleting net N19727
+Deleting net N16480
+Deleting net N13893
+Deleting net N13870
+Deleting net N13510
+Deleting net N10977
+Deleting net N10274
+Deleting net N08446
+Deleting net N08294
+Deleting net N08290
+Deleting net N07011
+Deleting net N06988
+Deleting net N05640
+Deleting net N05637
+Deleting net N00019
+Deleting net LED3
+Deleting net GT22
+Deleting net GT21
+Deleting net GT12
+Deleting net GT11
+Deleting net EN
+Deleting net DB7
+Deleting net DB6
+Deleting net DB5
+Deleting net DB4
+Deleting net BT1
+Deleting net A1
+Deleting net 5VL
+*EOF*
+No errors found

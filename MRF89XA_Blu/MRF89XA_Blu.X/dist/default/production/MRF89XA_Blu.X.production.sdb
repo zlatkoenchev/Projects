@@ -1,0 +1,151 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC PIC14 PIC14E SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1847 ]
+[d frameptr 6 ]
+"27 C:\Projects\MRF89XA_Blu/bootloader.c
+[v _Boot_EraseFbl Boot_EraseFbl `(v  1 e 1 0 ]
+"39
+[v _Boot_ProgrFbl Boot_ProgrFbl `(v  1 e 1 0 ]
+"16 C:\Projects\MRF89XA_Blu/drv_eep.c
+[v _Write_Eep Write_Eep `(v  1 e 1 0 ]
+"33
+[v _Read_Flash Read_Flash `(us  1 e 2 0 ]
+"51
+[v _Erase_FlashRow Erase_FlashRow `(v  1 e 1 0 ]
+"70
+[v _Write_FlashHalfRow Write_FlashHalfRow `(v  1 e 1 0 ]
+"66 C:\Projects\MRF89XA_Blu/main.c
+[v _Clock_Init Clock_Init `(v  1 s 1 Clock_Init ]
+"108
+[v _main main `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"22 C:\Projects\MRF89XA_Blu/bootloader.c
+[v _buf buf `[32]us  1 e 64 0 ]
+[s S56 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"372 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1847.h
+[s S65 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S70 . 1 `S56 1 . 1 0 `S65 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES70  1 e 1 @11 ]
+[s S19 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF0 1 0 :1:3 
+`uc 1 IRCF1 1 0 :1:4 
+`uc 1 IRCF2 1 0 :1:5 
+`uc 1 IRCF3 1 0 :1:6 
+`uc 1 SPLLEN 1 0 :1:7 
+]
+"1739
+[s S28 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF 1 0 :4:3 
+]
+[u S32 . 1 `S19 1 . 1 0 `S28 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES32  1 e 1 @153 ]
+"2989
+[v _EEADR EEADR `VEus  1 e 2 @401 ]
+"2996
+[v _EEADRL EEADRL `VEuc  1 e 1 @401 ]
+"3043
+[v _EEDATL EEDATL `VEuc  1 e 1 @403 ]
+"3081
+[v _EEDATH EEDATH `VEuc  1 e 1 @404 ]
+[s S146 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"3118
+[u S155 . 1 `S146 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES155  1 e 1 @405 ]
+"3163
+[v _EECON2 EECON2 `VEuc  1 e 1 @406 ]
+"108 C:\Projects\MRF89XA_Blu/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"117
+} 0
+"66
+[v _Clock_Init Clock_Init `(v  1 s 1 Clock_Init ]
+{
+"68
+[v Clock_Init@delay delay `VEus  1 a 2 0 ]
+"75
+} 0
+"39 C:\Projects\MRF89XA_Blu/bootloader.c
+[v _Boot_ProgrFbl Boot_ProgrFbl `(v  1 e 1 0 ]
+{
+"43
+[v Boot_ProgrFbl@bluaddr bluaddr `us  1 a 2 8 ]
+"42
+[v Boot_ProgrFbl@addr addr `us  1 a 2 6 ]
+"41
+[v Boot_ProgrFbl@i i `uc  1 a 1 10 ]
+"57
+} 0
+"70 C:\Projects\MRF89XA_Blu/drv_eep.c
+[v _Write_FlashHalfRow Write_FlashHalfRow `(v  1 e 1 0 ]
+{
+"72
+[v Write_FlashHalfRow@i i `uc  1 a 1 5 ]
+"70
+[v Write_FlashHalfRow@badd badd `us  1 p 2 0 ]
+[v Write_FlashHalfRow@pdata pdata `*.4uc  1 p 1 2 ]
+"104
+} 0
+"16
+[v _Write_Eep Write_Eep `(v  1 e 1 0 ]
+{
+[v Write_Eep@badd badd `uc  1 a 1 wreg ]
+[v Write_Eep@badd badd `uc  1 a 1 wreg ]
+[v Write_Eep@bdata bdata `uc  1 p 1 0 ]
+"19
+[v Write_Eep@badd badd `uc  1 a 1 1 ]
+"31
+} 0
+"33
+[v _Read_Flash Read_Flash `(us  1 e 2 0 ]
+{
+"35
+[v Read_Flash@result result `us  1 a 2 2 ]
+"33
+[v Read_Flash@badd badd `us  1 p 2 0 ]
+"49
+} 0
+"27 C:\Projects\MRF89XA_Blu/bootloader.c
+[v _Boot_EraseFbl Boot_EraseFbl `(v  1 e 1 0 ]
+{
+"29
+[v Boot_EraseFbl@addr addr `us  1 a 2 4 ]
+"37
+} 0
+"51 C:\Projects\MRF89XA_Blu/drv_eep.c
+[v _Erase_FlashRow Erase_FlashRow `(v  1 e 1 0 ]
+{
+[v Erase_FlashRow@badd badd `us  1 p 2 0 ]
+"67
+} 0

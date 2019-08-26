@@ -1,0 +1,432 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC PIC14 PIC14E SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1847 ]
+[d frameptr 6 ]
+"121 C:\Projects\MRF89XA_Fbl/main.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"52 C:\Projects\MRF89XA_Fbl/bootloader.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"142 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"129
+[v _MRF89XAInit MRF89XAInit `(uc  1 e 1 0 ]
+"164
+[v _MRF89XARegisterSet MRF89XARegisterSet `(v  1 e 1 0 ]
+"172
+[v _MRF89XARegisterRead MRF89XARegisterRead `(uc  1 e 1 0 ]
+"183
+[v _MRF89XAStartReception MRF89XAStartReception `(v  1 e 1 0 ]
+"199
+[v _MRF89XASendFrame MRF89XASendFrame `(v  1 e 1 0 ]
+"226
+[v _WriteFIFO WriteFIFO `(v  1 s 1 WriteFIFO ]
+"233
+[v _ReadFIFO ReadFIFO `(uc  1 s 1 ReadFIFO ]
+"241
+[v _MRF89XASetRFMode MRF89XASetRFMode `(v  1 e 1 0 ]
+"256
+[v _MRF89XACheckRSSI MRF89XACheckRSSI `(v  1 e 1 0 ]
+"261
+[v _MRF89XATask MRF89XATask `(v  1 e 1 0 ]
+"33 C:\Projects\MRF89XA_Fbl/bootloader.c
+[v _POS_RESP POS_RESP `(v  1 e 1 0 ]
+"38
+[v _Boot_CheckValidApp Boot_CheckValidApp `(v  1 e 1 0 ]
+"46
+[v _Boot_Init Boot_Init `(v  1 e 1 0 ]
+"91
+[v _Boot_RxProcess Boot_RxProcess `(v  1 e 1 0 ]
+"5 C:\Projects\MRF89XA_Fbl/drv_eep.c
+[v _Read_Eep Read_Eep `(uc  1 e 1 0 ]
+"16
+[v _Write_Eep Write_Eep `(v  1 e 1 0 ]
+"33
+[v _Read_Flash Read_Flash `(us  1 e 2 0 ]
+"51
+[v _Erase_FlashRow Erase_FlashRow `(v  1 e 1 0 ]
+"70
+[v _Write_FlashHalfRow Write_FlashHalfRow `(v  1 e 1 0 ]
+"67 C:\Projects\MRF89XA_Fbl/main.c
+[v _Clock_Init Clock_Init `(v  1 s 1 Clock_Init ]
+"77
+[v _Ports_Init Ports_Init `(v  1 s 1 Ports_Init ]
+"109
+[v _main main `(i  1 e 2 0 ]
+"131
+[v _ISR ISR `II(v  1 e 1 0 ]
+"6 C:\Projects\MRF89XA_Fbl/spi.c
+[v _SPI_HF_Init SPI_HF_Init `(v  1 e 1 0 ]
+"27
+[v _SPI_HF_Put SPI_HF_Put `(v  1 e 1 0 ]
+"55
+[v _SPI_HF_Get SPI_HF_Get `(uc  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"85 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _InitConfigRegs InitConfigRegs `DC[32]uc  1 e 32 0 ]
+"120
+[v _RF_Mode RF_Mode `uc  1 s 1 RF_Mode ]
+"121
+[v _TxPacket TxPacket `[64]uc  1 e 64 0 ]
+"122
+[v _RxPacket RxPacket `[64]uc  1 e 64 0 ]
+"123
+[v _MRF89XA_RSSI MRF89XA_RSSI `uc  1 e 1 0 ]
+"24 C:\Projects\MRF89XA_Fbl/bootloader.c
+[v _NWID NWID `[6]uc  1 s 6 NWID ]
+"25
+[v _FlashState FlashState `uc  1 s 1 FlashState ]
+"26
+[v _AppValidFlag AppValidFlag `uc  1 s 1 AppValidFlag ]
+"28
+[v _oldaddress oldaddress `us  1 s 2 oldaddress ]
+[s S56 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"372 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1847.h
+[s S65 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S70 . 1 `S56 1 . 1 0 `S65 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES70  1 e 1 @11 ]
+"1163
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1225
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+[s S19 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF0 1 0 :1:3 
+`uc 1 IRCF1 1 0 :1:4 
+`uc 1 IRCF2 1 0 :1:5 
+`uc 1 IRCF3 1 0 :1:6 
+`uc 1 SPLLEN 1 0 :1:7 
+]
+"1739
+[s S28 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF 1 0 :4:3 
+]
+[u S32 . 1 `S19 1 . 1 0 `S28 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES32  1 e 1 @153 ]
+"2050
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S143 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"2067
+[u S152 . 1 `S143 1 . 1 0 ]
+[v _LATAbits LATAbits `VES152  1 e 1 @268 ]
+"2107
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+[s S164 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2124
+[u S173 . 1 `S164 1 . 1 0 ]
+[v _LATBbits LATBbits `VES173  1 e 1 @269 ]
+"2790
+[v _APFCON0 APFCON0 `VEuc  1 e 1 @285 ]
+"2872
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2924
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2989
+[v _EEADR EEADR `VEus  1 e 2 @401 ]
+"2996
+[v _EEADRL EEADRL `VEuc  1 e 1 @401 ]
+"3043
+[v _EEDATL EEDATL `VEuc  1 e 1 @403 ]
+"3081
+[v _EEDATH EEDATH `VEuc  1 e 1 @404 ]
+[s S336 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"3118
+[u S345 . 1 `S336 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES345  1 e 1 @405 ]
+"3163
+[v _EECON2 EECON2 `VEuc  1 e 1 @406 ]
+"3597
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"3711
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"3833
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S190 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3862
+[s S199 . 1 `uc 1 SSPM 1 0 :4:0 
+]
+[u S201 . 1 `S190 1 . 1 0 `S199 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES201  1 e 1 @533 ]
+"4037
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+"4159
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @535 ]
+"7468
+[v _SSP1IE SSP1IE `VEb  1 e 0 @1163 ]
+"7470
+[v _SSP1IF SSP1IF `VEb  1 e 0 @139 ]
+"109 C:\Projects\MRF89XA_Fbl/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"129
+} 0
+"6 C:\Projects\MRF89XA_Fbl/spi.c
+[v _SPI_HF_Init SPI_HF_Init `(v  1 e 1 0 ]
+{
+"25
+} 0
+"77 C:\Projects\MRF89XA_Fbl/main.c
+[v _Ports_Init Ports_Init `(v  1 s 1 Ports_Init ]
+{
+"107
+} 0
+"261 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _MRF89XATask MRF89XATask `(v  1 e 1 0 ]
+{
+"265
+[v MRF89XATask@i i `uc  1 a 1 7 ]
+"266
+[v MRF89XATask@k k `uc  1 a 1 6 ]
+"302
+} 0
+"233
+[v _ReadFIFO ReadFIFO `(uc  1 s 1 ReadFIFO ]
+{
+"234
+[v ReadFIFO@value value `uc  1 a 1 1 ]
+"239
+} 0
+"256
+[v _MRF89XACheckRSSI MRF89XACheckRSSI `(v  1 e 1 0 ]
+{
+"258
+} 0
+"183
+[v _MRF89XAStartReception MRF89XAStartReception `(v  1 e 1 0 ]
+{
+"184
+[v MRF89XAStartReception@i i `uc  1 a 1 6 ]
+"196
+} 0
+"67 C:\Projects\MRF89XA_Fbl/main.c
+[v _Clock_Init Clock_Init `(v  1 s 1 Clock_Init ]
+{
+"69
+[v Clock_Init@delay delay `VEus  1 a 2 0 ]
+"76
+} 0
+"91 C:\Projects\MRF89XA_Fbl/bootloader.c
+[v _Boot_RxProcess Boot_RxProcess `(v  1 e 1 0 ]
+{
+"94
+[v Boot_RxProcess@addr addr `us  1 a 2 12 ]
+"95
+[v Boot_RxProcess@data data `us  1 a 2 8 ]
+"93
+[v Boot_RxProcess@delay delay `VEus  1 a 2 10 ]
+"92
+[v Boot_RxProcess@i i `uc  1 a 1 7 ]
+"182
+} 0
+"70 C:\Projects\MRF89XA_Fbl/drv_eep.c
+[v _Write_FlashHalfRow Write_FlashHalfRow `(v  1 e 1 0 ]
+{
+"72
+[v Write_FlashHalfRow@i i `uc  1 a 1 5 ]
+"70
+[v Write_FlashHalfRow@badd badd `us  1 p 2 0 ]
+[v Write_FlashHalfRow@pdata pdata `*.5uc  1 p 1 2 ]
+"104
+} 0
+"16
+[v _Write_Eep Write_Eep `(v  1 e 1 0 ]
+{
+[v Write_Eep@badd badd `uc  1 a 1 wreg ]
+[v Write_Eep@badd badd `uc  1 a 1 wreg ]
+[v Write_Eep@bdata bdata `uc  1 p 1 0 ]
+"19
+[v Write_Eep@badd badd `uc  1 a 1 1 ]
+"31
+} 0
+"33
+[v _Read_Flash Read_Flash `(us  1 e 2 0 ]
+{
+"35
+[v Read_Flash@result result `us  1 a 2 2 ]
+"33
+[v Read_Flash@badd badd `us  1 p 2 0 ]
+"49
+} 0
+"33 C:\Projects\MRF89XA_Fbl/bootloader.c
+[v _POS_RESP POS_RESP `(v  1 e 1 0 ]
+{
+[v POS_RESP@len len `uc  1 a 1 wreg ]
+[v POS_RESP@len len `uc  1 a 1 wreg ]
+[v POS_RESP@len len `uc  1 a 1 0 ]
+"36
+} 0
+"51 C:\Projects\MRF89XA_Fbl/drv_eep.c
+[v _Erase_FlashRow Erase_FlashRow `(v  1 e 1 0 ]
+{
+[v Erase_FlashRow@badd badd `us  1 p 2 0 ]
+"67
+} 0
+"46 C:\Projects\MRF89XA_Fbl/bootloader.c
+[v _Boot_Init Boot_Init `(v  1 e 1 0 ]
+{
+"47
+[v Boot_Init@i i `uc  1 a 1 11 ]
+"49
+[v Boot_Init@cs cs `uc  1 a 1 10 ]
+"48
+[v Boot_Init@ad ad `uc  1 a 1 9 ]
+"89
+} 0
+"199 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _MRF89XASendFrame MRF89XASendFrame `(v  1 e 1 0 ]
+{
+"200
+[v MRF89XASendFrame@i i `uc  1 a 1 6 ]
+"224
+} 0
+"226
+[v _WriteFIFO WriteFIFO `(v  1 s 1 WriteFIFO ]
+{
+[v WriteFIFO@Data Data `uc  1 a 1 wreg ]
+[v WriteFIFO@Data Data `uc  1 a 1 wreg ]
+"228
+[v WriteFIFO@Data Data `uc  1 a 1 2 ]
+"231
+} 0
+"129
+[v _MRF89XAInit MRF89XAInit `(uc  1 e 1 0 ]
+{
+"130
+[v MRF89XAInit@i i `uc  1 a 1 8 ]
+[v MRF89XAInit@input input `uc  1 a 1 7 ]
+[v MRF89XAInit@res res `uc  1 a 1 6 ]
+"162
+} 0
+"241
+[v _MRF89XASetRFMode MRF89XASetRFMode `(v  1 e 1 0 ]
+{
+[v MRF89XASetRFMode@mode mode `uc  1 a 1 wreg ]
+"242
+[v MRF89XASetRFMode@mcparam0_read mcparam0_read `uc  1 a 1 4 ]
+"241
+[v MRF89XASetRFMode@mode mode `uc  1 a 1 wreg ]
+"245
+[v MRF89XASetRFMode@mode mode `uc  1 a 1 5 ]
+"252
+} 0
+"164
+[v _MRF89XARegisterSet MRF89XARegisterSet `(v  1 e 1 0 ]
+{
+[v MRF89XARegisterSet@address address `uc  1 a 1 wreg ]
+[v MRF89XARegisterSet@address address `uc  1 a 1 wreg ]
+[v MRF89XARegisterSet@value value `uc  1 p 1 2 ]
+[v MRF89XARegisterSet@address address `uc  1 a 1 3 ]
+"170
+} 0
+"172
+[v _MRF89XARegisterRead MRF89XARegisterRead `(uc  1 e 1 0 ]
+{
+[v MRF89XARegisterRead@address address `uc  1 a 1 wreg ]
+"173
+[v MRF89XARegisterRead@value value `uc  1 a 1 2 ]
+"172
+[v MRF89XARegisterRead@address address `uc  1 a 1 wreg ]
+"174
+[v MRF89XARegisterRead@address address `uc  1 a 1 3 ]
+"181
+} 0
+"27 C:\Projects\MRF89XA_Fbl/spi.c
+[v _SPI_HF_Put SPI_HF_Put `(v  1 e 1 0 ]
+{
+[v SPI_HF_Put@v v `uc  1 a 1 wreg ]
+"28
+[v SPI_HF_Put@i i `VEuc  1 a 1 1 ]
+"27
+[v SPI_HF_Put@v v `uc  1 a 1 wreg ]
+"32
+[v SPI_HF_Put@v v `uc  1 a 1 0 ]
+"53
+} 0
+"55
+[v _SPI_HF_Get SPI_HF_Get `(uc  1 e 1 0 ]
+{
+"56
+[v SPI_HF_Get@spidata spidata `VEuc  1 a 1 0 ]
+"82
+} 0
+"38 C:\Projects\MRF89XA_Fbl/bootloader.c
+[v _Boot_CheckValidApp Boot_CheckValidApp `(v  1 e 1 0 ]
+{
+"44
+} 0
+"5 C:\Projects\MRF89XA_Fbl/drv_eep.c
+[v _Read_Eep Read_Eep `(uc  1 e 1 0 ]
+{
+[v Read_Eep@badd badd `uc  1 a 1 wreg ]
+[v Read_Eep@badd badd `uc  1 a 1 wreg ]
+"7
+[v Read_Eep@badd badd `uc  1 a 1 0 ]
+"14
+} 0
+"131 C:\Projects\MRF89XA_Fbl/main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"134
+} 0

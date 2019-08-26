@@ -1,0 +1,113 @@
+(ExpressProject "PV_boost"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\pv_boost.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (FLDSTUFF_Scope "0")
+    (FLDSTUFF_Action "0")
+    (FLDSTUFF_Report_File
+       "C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost.RPT")
+    (FLDSTUFF_Update_File
+       "C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost.UPD")
+    (FLDSTUFF__Uppercase_Result_Property "FALSE")
+    (FLDSTUFF_Uppercase_Update_Property "FALSE")
+    (FLDSTUFF_Uppercase_Unconditionally "FALSE")
+    (FLDSTUFF_Visibility "0")
+    (FLDSTUFF_inst_or_occurrence "1")
+    (FLDSTUFF_Create_Report_File "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Wires "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "C:\DOCUMENTS AND SETTINGS\ZLATKO\MY DOCUMENTS\PV_BOOST\PV_BOOST.DRC")
+    (Netlist_TAB "5")
+    (EDIF_Netlist_File
+       "C:\DOCUMENTS AND SETTINGS\ZLATKO\MY DOCUMENTS\PV_BOOST\PV_BOOST.EDN")
+    (EDIF_Allow_NonEDIF "FALSE")
+    (EDIF_Pin_Names "FALSE")
+    (EDIF_No_Library "FALSE")
+    (EDIF_Net_Props "FALSE")
+    (EDIF_Part_Props "FALSE")
+    (EDIF_Pin_Props "FALSE")
+    (EDIF_Designators "FALSE")
+    (EDIF_Part_Value "{Value}")
+    (EDIF_PCB_Footprint "{PCB Footprint}")
+    (EDIF_View_Output "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\Documents and Settings\zlatko\Desktop\zz.txt")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\DOCUMENTS AND SETTINGS\ZLATKO\MY DOCUMENTS\PV_BOOST\PV_BOOST.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (BOM_View_Output "FALSE")
+    (LAYOUT_Netlist_File
+       "C:\DOCUMENTS AND SETTINGS\ZLATKO\MY DOCUMENTS\PV_BOOST\PV_BOOST.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (LAYOUT_Run_ECO "TRUE")
+    (LAYOUT_Units "0"))
+  (Folder "Outputs"
+    (File ".\pv_boost.drc"
+      (Type "Report"))
+    (File ".\pv_boost.edn"
+      (Type "Report"))
+    (File "c:\documents and settings\zlatko\desktop\zz.txt"
+      (Type "Report"))
+    (File ".\pv_boost.mnl"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost.dsn")
+      (Path "Design Resources"
+         "C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Documents and Settings\zlatko\My Documents\pv_boost\pv_boost.dsn"
+         "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 646"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 88 914 88 540")
+        (Scroll "1860 142")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\ZLATKO\MY DOCUMENTS\PV_BOOST\PV_BOOST.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Documents and Settings\zlatko\My Documents"))

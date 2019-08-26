@@ -1,0 +1,1657 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC PIC14 PIC14E SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1847 ]
+[d frameptr 6 ]
+"145 C:\Projects\MRF89XA_ApplT/main.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"56 C:\Projects\MRF89XA_ApplT/drv_io.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"201 C:\Projects\MRF89XA_ApplT/app_TempReg.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"23 C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+[e E3028 . `uc
+PRG_NOPRESENCE 0
+PRG_DEF_PRESENCE 1
+PRG_PRESENCE 2
+]
+"32
+[e E2974 . `uc
+NVM_NWDATA 0
+NVM_PARAM 1
+NVM_PIRDATA 2
+NVM_TEMPPROG 3
+NVM_TEMPPROG2 4
+NVM_ACTNAD 5
+NVM_TEMPHISTORY 6
+NVM_TEMPCTRL 7
+NVM_TEMPPAR 8
+NVM_NUM_BLOCKS 9
+]
+"57 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"267
+[e E3037 . `uc
+MN_MAIN 0
+MN_CLOCK 1
+]
+"62 C:\Projects\MRF89XA_ApplT/svc_uds.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"80
+[e E3041 . `uc
+NVM_NWDATA 0
+NVM_PARAM 1
+NVM_PIRDATA 2
+NVM_TEMPPROG 3
+NVM_TEMPPROG2 4
+NVM_ACTNAD 5
+NVM_TEMPHISTORY 6
+NVM_TEMPCTRL 7
+NVM_TEMPPAR 8
+NVM_NUM_BLOCKS 9
+]
+"8 C:\Projects/LIBC/NVM/svc_nvm.c
+[e E2944 . `uc
+NVM_NWDATA 0
+NVM_PARAM 1
+NVM_PIRDATA 2
+NVM_TEMPPROG 3
+NVM_TEMPPROG2 4
+NVM_ACTNAD 5
+NVM_TEMPHISTORY 6
+NVM_TEMPCTRL 7
+NVM_TEMPPAR 8
+NVM_NUM_BLOCKS 9
+]
+"55
+[e E3002 . `uc
+NVM_DIFF 0
+NVM_WRITE_BYTE 1
+NVM_WRITE_CS 2
+]
+"124
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"142 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"73 C:\Projects/LIBC/COM/svc_comm.c
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"23 C:\Projects/LIBC/PRESENCE/app_Presence.c
+[e E3087 . `uc
+PRS_INIT 0
+PRS_WAIT 1
+PRS_ACTIVE 2
+PRS_ELAPSE 3
+PRW_WAIT3S 4
+]
+"70
+[e E2781 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"29 C:\Projects/LIBC/Si7021/drv_Si7021.c
+[e E2898 . `uc
+Si_RESET 0
+Si_INIT 1
+Si_HUM 2
+Si_HUM_RD 3
+Si_TEMP_RD 4
+]
+"44 C:\Projects/LIBC/COM/svc_comm.c
+[v _Comm_PrepareTransmit Comm_PrepareTransmit `(v  1 s 1 Comm_PrepareTransmit ]
+"50
+[v _NEG_RESP NEG_RESP `(v  1 e 1 0 ]
+"58
+[v _POS_RESP POS_RESP `(v  1 e 1 0 ]
+"72
+[v _Comm_InitMRF Comm_InitMRF `(v  1 s 1 Comm_InitMRF ]
+"86
+[v _Comm_Init Comm_Init `(v  1 e 1 0 ]
+"114
+[v _TransmitFrame TransmitFrame `(v  1 s 1 TransmitFrame ]
+"132
+[v _Comm_RxProcess Comm_RxProcess `(v  1 s 1 Comm_RxProcess ]
+"226
+[v _Comm_TaskSlow Comm_TaskSlow `(v  1 e 1 0 ]
+"235
+[v _Comm_Task Comm_Task `(v  1 e 1 0 ]
+"265
+[v _Comm_OnIdle Comm_OnIdle `(v  1 e 1 0 ]
+"301
+[v _Comm_IsAlreadyReceived Comm_IsAlreadyReceived `(uc  1 s 1 Comm_IsAlreadyReceived ]
+"129 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _MRF89XAInit MRF89XAInit `(uc  1 e 1 0 ]
+"164
+[v _MRF89XARegisterSet MRF89XARegisterSet `(v  1 e 1 0 ]
+"172
+[v _MRF89XARegisterRead MRF89XARegisterRead `(uc  1 e 1 0 ]
+"183
+[v _MRF89XAStartReception MRF89XAStartReception `(v  1 e 1 0 ]
+"199
+[v _MRF89XASendFrame MRF89XASendFrame `(v  1 e 1 0 ]
+"226
+[v _WriteFIFO WriteFIFO `(v  1 s 1 WriteFIFO ]
+"233
+[v _ReadFIFO ReadFIFO `(uc  1 s 1 ReadFIFO ]
+"241
+[v _MRF89XASetRFMode MRF89XASetRFMode `(v  1 e 1 0 ]
+"256
+[v _MRF89XACheckRSSI MRF89XACheckRSSI `(v  1 e 1 0 ]
+"261
+[v _MRF89XATask MRF89XATask `(v  1 e 1 0 ]
+"59 C:\Projects/LIBC/NVM/svc_nvm.c
+[v _PrepBlockData PrepBlockData `(v  1 s 1 PrepBlockData ]
+"75
+[v _NVM_WriteBlock NVM_WriteBlock `(v  1 e 1 0 ]
+"79
+[v _ReadBlock ReadBlock `(v  1 s 1 ReadBlock ]
+"104
+[v _NVM_Init NVM_Init `(v  1 e 1 0 ]
+"120
+[v _NVM_IsIdle NVM_IsIdle `(uc  1 e 1 0 ]
+"130
+[v _NVM_Task NVM_Task `(v  1 e 1 0 ]
+"200
+[v _NVM_GetBlockLenght NVM_GetBlockLenght `(uc  1 e 1 0 ]
+"208
+[v _NVM_WriteBlockData NVM_WriteBlockData `(uc  1 e 1 0 ]
+"219
+[v _NVM_ReadBlockData NVM_ReadBlockData `(uc  1 e 1 0 ]
+"27 C:\Projects/LIBC/PRESENCE/app_Presence.c
+[v _PRS_Init PRS_Init `(v  1 e 1 0 ]
+"34
+[v _PRS_RoomPresence PRS_RoomPresence `(uc  1 e 1 0 ]
+"38
+[v _ReloadTime ReloadTime `(v  1 s 1 ReloadTime ]
+"51
+[v _GetRIRLevel GetRIRLevel `(uc  1 s 1 GetRIRLevel ]
+"59
+[v _PRS_Task PRS_Task `(v  1 e 1 0 ]
+"120
+[v _PRS_Task1s PRS_Task1s `(v  1 e 1 0 ]
+"131
+[v _PRS_OnPIRFrame PRS_OnPIRFrame `(v  1 e 1 0 ]
+"10 C:\Projects/LIBC/RTC/app_RTC.c
+[v _RTC_Init RTC_Init `(v  1 e 1 0 ]
+"24
+[v _RTC_TaskSlow RTC_TaskSlow `(v  1 e 1 0 ]
+"50
+[v _RTC_OnRTCFrame RTC_OnRTCFrame `(v  1 e 1 0 ]
+"70
+[v _RTC_BCD2DEC RTC_BCD2DEC `(uc  1 e 1 0 ]
+"77
+[v _RTC_TimeToNumber RTC_TimeToNumber `(uc  1 e 1 0 ]
+"45 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _DrawClrLastLines DrawClrLastLines `(v  1 s 1 DrawClrLastLines ]
+"52
+[v _DrawTimeDate DrawTimeDate `(v  1 s 1 DrawTimeDate ]
+"113
+[v _DrawLargeTemp DrawLargeTemp `(v  1 s 1 DrawLargeTemp ]
+"151
+[v _DrawLargeHum DrawLargeHum `(v  1 s 1 DrawLargeHum ]
+"166
+[v _DrawLargeTime DrawLargeTime `(v  1 s 1 DrawLargeTime ]
+"194
+[v _DrawRegPower DrawRegPower `(v  1 s 1 DrawRegPower ]
+"250
+[v _DrawSetTempText DrawSetTempText `(v  1 s 1 DrawSetTempText ]
+"266
+[v _MNU_Init MNU_Init `(v  1 e 1 0 ]
+"273
+[v _MNU_Task MNU_Task `(v  1 e 1 0 ]
+"347
+[v _MNU_TaskButton MNU_TaskButton `(v  1 e 1 0 ]
+"26 C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+[v _DetermineProg DetermineProg `(v  1 s 1 DetermineProg ]
+"50
+[v _PRG_Init PRG_Init `(v  1 e 1 0 ]
+"56
+[v _DetermineMode DetermineMode `(v  1 s 1 DetermineMode ]
+"74
+[v _PRG_TaskSlow PRG_TaskSlow `(v  1 e 1 0 ]
+"84
+[v _PRG_SetNewTemp PRG_SetNewTemp `(v  1 e 1 0 ]
+"52 C:\Projects\MRF89XA_ApplT/app_TempReg.c
+[v _REG_Init REG_Init `(v  1 e 1 0 ]
+"104
+[v _REG_FZLogic REG_FZLogic `(v  1 s 1 REG_FZLogic ]
+"158
+[v _REG_TaskSlow REG_TaskSlow `(v  1 e 1 0 ]
+"214
+[v _REG_GetLevel REG_GetLevel `(uc  1 e 1 0 ]
+"12 C:\Projects\MRF89XA_ApplT/app_win_sens.c
+[v _WIN_Init WIN_Init `(v  1 e 1 0 ]
+"18
+[v _WIN_TaskSlow WIN_TaskSlow `(v  1 e 1 0 ]
+"32
+[v _WIN_IsOpen WIN_IsOpen `(uc  1 e 1 0 ]
+"36
+[v _App_OnWinSensor App_OnWinSensor `(v  1 e 1 0 ]
+"15 C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+[v _AirS_Init AirS_Init `(v  1 e 1 0 ]
+"31
+[v _AirS_Task AirS_Task `(v  1 e 1 0 ]
+"37
+[v _AirS_Task_Slow AirS_Task_Slow `(v  1 e 1 0 ]
+"63
+[v _App_OnAirTempSig App_OnAirTempSig `(v  1 e 1 0 ]
+"76
+[v _App_OnAirHumSig App_OnAirHumSig `(v  1 e 1 0 ]
+"15 C:\Projects\MRF89XA_ApplT/drv_DS3231.c
+[v _read_i2c_register read_i2c_register `(uc  1 s 1 read_i2c_register ]
+"25
+[v _write_i2c_register write_i2c_register `(uc  1 s 1 write_i2c_register ]
+"5 C:\Projects\MRF89XA_ApplT/drv_eep.c
+[v _Read_Eep Read_Eep `(uc  1 e 1 0 ]
+"15
+[v _Write_Eep Write_Eep `(v  1 e 1 0 ]
+"10 C:\Projects\MRF89XA_ApplT/drv_I2C.c
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+"15
+[v _I2C_Start I2C_Start `(uc  1 e 1 0 ]
+"22
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"30
+[v _I2C_Write I2C_Write `(uc  1 e 1 0 ]
+"57
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+"38 C:\Projects\MRF89XA_ApplT/drv_io.c
+[v _IO_DisablePIR IO_DisablePIR `(v  1 e 1 0 ]
+"42
+[v _IO_CalcTemp IO_CalcTemp `(v  1 s 1 IO_CalcTemp ]
+"49
+[v _IO_GetTempMeas IO_GetTempMeas `(s  1 e 2 0 ]
+"53
+[v _IO_GetPIRLevel IO_GetPIRLevel `(uc  1 e 1 0 ]
+"61
+[v _IO_GetPIRPin IO_GetPIRPin `(uc  1 e 1 0 ]
+"67
+[v _IO_GetSW1Press IO_GetSW1Press `(uc  1 e 1 0 ]
+"74
+[v _IO_GetSW2Press IO_GetSW2Press `(uc  1 e 1 0 ]
+"81
+[v _IO_TaskFast IO_TaskFast `(v  1 e 1 0 ]
+"159
+[v _IO_TaskSlow IO_TaskSlow `(v  1 e 1 0 ]
+"196
+[v _IO_Init IO_Init `(v  1 e 1 0 ]
+"228
+[v _IO_StartTimer1 IO_StartTimer1 `(v  1 e 1 0 ]
+"235
+[v _IO_StartTimer2 IO_StartTimer2 `(v  1 s 1 IO_StartTimer2 ]
+"176 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _LCDWriteCMD LCDWriteCMD `(v  1 e 1 0 ]
+"184
+[v _LCD_XY LCD_XY `(v  1 e 1 0 ]
+"191
+[v _LCD_ClearLine LCD_ClearLine `(v  1 e 1 0 ]
+"201
+[v _LCD_ClearLCD LCD_ClearLCD `(v  1 e 1 0 ]
+"211
+[v _LCD_LargeDigit LCD_LargeDigit `(v  1 e 1 0 ]
+"238
+[v _LCD_LargeDot LCD_LargeDot `(v  1 e 1 0 ]
+"246
+[v _LCD_Large2Dots LCD_Large2Dots `(v  1 e 1 0 ]
+"269
+[v _LCD_LargePlus LCD_LargePlus `(v  1 e 1 0 ]
+"279
+[v _LCD_LargeMinus LCD_LargeMinus `(v  1 e 1 0 ]
+"289
+[v _LCD_BCDNumber LCD_BCDNumber `(v  1 e 1 0 ]
+"313
+[v _LCD_BitmapV LCD_BitmapV `(v  1 e 1 0 ]
+"319
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+"331
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+"336
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"6 C:\Projects\MRF89XA_ApplT/drv_spi.c
+[v _SPI_HF_Init SPI_HF_Init `(v  1 e 1 0 ]
+"26
+[v _SPI_HF_Put SPI_HF_Put `(v  1 e 1 0 ]
+"58
+[v _SPI_HF_Get SPI_HF_Get `(uc  1 e 1 0 ]
+"57 C:\Projects\MRF89XA_ApplT/main.c
+[v _Clock_Init Clock_Init `(v  1 s 1 Clock_Init ]
+"75
+[v _Ports_Init Ports_Init `(v  1 s 1 Ports_Init ]
+"112
+[v _RequestReset RequestReset `(v  1 e 1 0 ]
+"116
+[v _main main `(i  1 e 2 0 ]
+"201
+[v _ISR ISR `II(v  1 e 1 0 ]
+"30 C:\Projects\MRF89XA_ApplT/svc_uds.c
+[v _ROL ROL `(v  1 s 1 ROL ]
+"41
+[v _Calc_Key Calc_Key `(v  1 s 1 Calc_Key ]
+"51
+[v _UDS_CompareKey UDS_CompareKey `(uc  1 e 1 0 ]
+"69
+[v _UDS_GetSeed UDS_GetSeed `(v  1 e 1 0 ]
+"78
+[v _WriteNVMBlockSync WriteNVMBlockSync `(v  1 s 1 WriteNVMBlockSync ]
+"85
+[v _UDS_WDBID UDS_WDBID `(v  1 e 1 0 ]
+"116
+[v _UDS_RDBID UDS_RDBID `(v  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+[s S861 . 9 `uc 1 TxTemp1SIG_TEMP1 1 0 `us 1 TxTemp1TxBuf 2 1 `uc 1 TxHumiditySIG_HUMIDITY 1 3 `uc 1 TxHumidityTxBuf 1 4 `uc 1 TxPresenceSIG_PRESENCE 1 5 `uc 1 TxPresenceTxBuf 1 6 `uc 1 TxActSIG_ACTUATOR 1 7 `uc 1 TxActTxBuf 1 8 ]
+"24 C:\Projects/LIBC/COM/svc_comm.c
+[v _ComTxData ComTxData `S861  1 e 9 0 ]
+[s S879 . 19 `uc 1 bTxReq 1 0 :1:0 
+`uc 1 bTxState 1 0 :1:1 
+`uc 1 bTxON 1 0 :1:2 
+`uc 1 bUnLocked 1 0 :1:3 
+`uc 1 TxPeriod 1 1 `uc 1 RxIx 1 2 `uc 1 CSRetries 1 3 `uc 1 MY_NAD 1 4 `uc 1 sigID 1 5 `uc 1 Min 1 6 `[4]uc 1 RxNADs 4 7 `[4]uc 1 RxCTRs 4 11 `[4]uc 1 RxTMRs 4 15 ]
+"37
+[v _ComData ComData `S879  1 e 19 0 ]
+"85 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _InitConfigRegs InitConfigRegs `DC[32]uc  1 e 32 0 ]
+"120
+[v _RF_Mode RF_Mode `uc  1 s 1 RF_Mode ]
+"121
+[v _TxPacket TxPacket `[64]uc  1 e 64 0 ]
+"122
+[v _RxPacket RxPacket `[64]uc  1 e 64 0 ]
+"123
+[v _MRF89XA_RSSI MRF89XA_RSSI `uc  1 e 1 0 ]
+"125
+[v _MRF89XA_Error MRF89XA_Error `uc  1 e 1 0 ]
+"8 C:\Projects/LIBC/NVM/svc_nvm.c
+[v _NVM_BlockSize NVM_BlockSize `DC[9]uc  1 e 9 0 ]
+"15
+[v _NVM_BlockAddr NVM_BlockAddr `DC[9]uc  1 e 9 0 ]
+"21
+[v _NVM_BlockRAM NVM_BlockRAM `DC[9]*.39Muc  1 e 18 0 ]
+"27
+[v _NVM_BlockROM NVM_BlockROM `DC[9]*.25DCBuc  1 e 18 0 ]
+"40
+[v _NVM_BlockStatus NVM_BlockStatus `[9]uc  1 e 9 0 ]
+"49
+[v _CSm CSm `uc  1 s 1 CSm ]
+"50
+[v _CurrentBlock CurrentBlock `uc  1 s 1 CurrentBlock ]
+"51
+[v _ByteCount ByteCount `uc  1 s 1 ByteCount ]
+"52
+[v _pRam pRam `*.39uc  1 s 2 pRam ]
+"53
+[v _pRom pRom `*.25DCBuc  1 s 2 pRom ]
+"54
+[v _addr addr `uc  1 s 1 addr ]
+"55
+[v _NVMState NVMState `E3002  1 s 1 NVMState ]
+"56
+[v _WorkBuff WorkBuff `[30]uc  1 s 30 WorkBuff ]
+[s S1588 . 1 `uc 1 bRemotePresence 1 0 :1:0 
+`uc 1 bTxFrame 1 0 :1:1 
+]
+"21 C:\Projects/LIBC/PRESENCE/app_Presence.c
+[v _pflags pflags `S1588  1 s 1 pflags ]
+"23
+[v _ePrs ePrs `E3087  1 s 1 ePrs ]
+"24
+[v _PresenceOff PresenceOff `uc  1 s 1 PresenceOff ]
+"25
+[v _PresenceTime PresenceTime `us  1 e 2 0 ]
+"7 C:\Projects/LIBC/RTC/app_RTC.c
+[v _RTC_Status RTC_Status `uc  1 e 1 0 ]
+[s S725 . 7 `uc 1 Seconds 1 0 `uc 1 Minutes 1 1 `uc 1 Hours 1 2 `uc 1 DOW 1 3 `uc 1 Day 1 4 `uc 1 Month 1 5 `uc 1 Year 1 6 ]
+"8
+[v _DateTime DateTime `S725  1 e 7 0 ]
+"31 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _Menu Menu `uc  1 s 1 Menu ]
+"32
+[v _Line Line `uc  1 s 1 Line ]
+"33
+[v app_Menu@u8temp u8temp `uc  1 s 1 u8temp ]
+"34
+[v _u8editmode u8editmode `uc  1 s 1 u8editmode ]
+"35
+[v _u8menuswitch u8menuswitch `uc  1 s 1 u8menuswitch ]
+"36
+[v _dotctr dotctr `uc  1 s 1 dotctr ]
+"37
+[v _TempHumFlag TempHumFlag `uc  1 s 1 TempHumFlag ]
+"20 C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+[v _nvblock nvblock `uc  1 s 1 nvblock ]
+"21
+[v _nvpos nvpos `uc  1 s 1 nvpos ]
+"22
+[v _ProgSetTemp ProgSetTemp `s  1 e 2 0 ]
+"23
+[v _c_mode c_mode `E3028  1 s 1 c_mode ]
+"24
+[v _bWriteNvm bWriteNvm `uc  1 s 1 bWriteNvm ]
+"11 C:\Projects\MRF89XA_ApplT/app_TempReg.c
+[v _newPWM newPWM `uc  1 e 1 0 ]
+[s S829 . 1 `uc 1 bForceOff 1 0 :1:0 
+`uc 1 bHeatDetStarted 1 0 :1:1 
+`uc 1 bTxFrame 1 0 :1:2 
+`uc 1 bAdapt 1 0 :1:3 
+]
+"19
+[v _sFlags sFlags `S829  1 s 1 sFlags ]
+"20
+[v _evalCntr evalCntr `uc  1 s 1 evalCntr ]
+"22
+[v _startTime startTime `us  1 s 2 startTime ]
+"23
+[v _startTemp startTemp `s  1 s 2 startTemp ]
+"24
+[v _oldSetTemp oldSetTemp `s  1 s 2 oldSetTemp ]
+"25
+[v _Delta Delta `s  1 e 2 0 ]
+[s S834 . 4 `uc 1 StartPwm 1 0 `uc 1 EvalTime 1 1 `uc 1 Rsv1 1 2 `uc 1 Rsv2 1 3 ]
+"28
+[v _REG_PARAMS_RAM REG_PARAMS_RAM `S834  1 e 4 0 ]
+"29
+[v _REG_PARAMS_ROM REG_PARAMS_ROM `DCS834  1 e 4 0 ]
+[s S839 . 4 `c 1 lim 1 0 `[3]c 1 de 3 1 ]
+"38
+[v _RAM_CTRL RAM_CTRL `[7]S839  1 e 28 0 ]
+"40
+[v _ROM_CRTRL ROM_CRTRL `DC[7]S839  1 e 28 0 ]
+"10 C:\Projects\MRF89XA_ApplT/app_win_sens.c
+[v _uSc uSc `[2]uc  1 s 2 uSc ]
+"11
+[v _cntr cntr `uc  1 s 1 cntr ]
+"9 C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+[v _currtemp currtemp `s  1 e 2 0 ]
+"10
+[v _currhum currhum `uc  1 e 1 0 ]
+"11
+[v _ftimer ftimer `uc  1 s 1 ftimer ]
+"12
+[v _oldhrs oldhrs `uc  1 s 1 oldhrs ]
+"13
+[v _TEMP_HISTORY TEMP_HISTORY `[24]uc  1 e 24 0 ]
+"11 C:\Projects\MRF89XA_ApplT/drv_io.c
+[v _AdcRaw AdcRaw `us  1 e 2 0 ]
+"12
+[v _AdcTempFilt AdcTempFilt `ul  1 e 4 0 ]
+"13
+[v _AdcTempCnt AdcTempCnt `uc  1 e 1 0 ]
+"14
+[v _AdcTemp AdcTemp `s  1 e 2 0 ]
+"15
+[v _sTemp sTemp `s  1 e 2 0 ]
+[s S508 . 2 `uc 1 bEdge 1 0 :1:0 
+`uc 1 bOld 1 0 :1:1 
+`uc 1 u8Ready 1 1 ]
+"33
+[v _PIRFlags PIRFlags `S508  1 e 2 0 ]
+"35
+[v _SW1buf SW1buf `uc  1 e 1 0 ]
+[v _SW2buf SW2buf `uc  1 e 1 0 ]
+[v _SWdeb1 SWdeb1 `uc  1 e 1 0 ]
+[v _SWdeb2 SWdeb2 `uc  1 e 1 0 ]
+[v _SWcnt1 SWcnt1 `uc  1 e 1 0 ]
+[v _SWcnt2 SWcnt2 `uc  1 e 1 0 ]
+"14 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _xp xp `uc  1 s 1 xp ]
+[v _yp yp `uc  1 s 1 yp ]
+"15
+[v _u8temp u8temp `uc  1 s 1 u8temp ]
+"18
+[v _ASCII ASCII `DC[470]uc  1 s 470 ASCII ]
+"116
+[v _LARGE LARGE `DC[360]uc  1 s 360 LARGE ]
+"51 C:\Projects\MRF89XA_ApplT/main.c
+[v _u16Tics u16Tics `us  1 e 2 0 ]
+"52
+[v _u16Reset u16Reset `us  1 e 2 0 ]
+"4 C:\Projects\MRF89XA_ApplT/svc_nvm_blocks.c
+[v _RAM_NWID RAM_NWID `[5]uc  1 e 5 0 ]
+"5
+[v _ROM_NWID ROM_NWID `DC[5]uc  1 e 5 0 ]
+[s S512 . 5 `uc 1 C_TEMP_OFFS 1 0 `us 1 C_TEMP_GAIN 2 1 `uc 1 C_DEF_TEMP_PR 1 3 `uc 1 C_DEF_TEMP_NOPR 1 4 ]
+"7
+[v _RAM_PARAM RAM_PARAM `S512  1 e 5 0 ]
+"8
+[v _ROM_PARAM ROM_PARAM `DCS512  1 e 5 0 ]
+[s S1190 . 9 `uc 1 PIR_CTRL 1 0 `uc 1 NAD1 1 1 `uc 1 NAD2 1 2 `uc 1 NAD3 1 3 `uc 1 NAD4 1 4 `us 1 PIR_TIME 2 5 `us 1 PIR_TIME_NIGHT 2 7 ]
+"11
+[v _RAM_PIRDATA RAM_PIRDATA `S1190  1 e 9 0 ]
+"12
+[v _ROM_PIRDATA ROM_PIRDATA `DCS1190  1 e 9 0 ]
+"15
+[v _RAM_TEMPPROG RAM_TEMPPROG `[14]uc  1 e 14 0 ]
+"16
+[v _RAM_TEMPPROG2 RAM_TEMPPROG2 `[14]uc  1 e 14 0 ]
+"17
+[v _ROM_TEMPPROG ROM_TEMPPROG `DC[14]uc  1 e 14 0 ]
+"20
+[v _RAM_TEMP_REGDATA RAM_TEMP_REGDATA `[4]uc  1 e 4 0 ]
+"21
+[v _ROM_TEMP_REGDATA ROM_TEMP_REGDATA `DC[4]uc  1 e 4 0 ]
+"24 C:\Projects\MRF89XA_ApplT/svc_uds.c
+[v _seed seed `ul  1 s 4 seed ]
+"349 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1847.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S271 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"372
+[s S280 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S285 . 1 `S271 1 . 1 0 `S280 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES285  1 e 1 @11 ]
+"489
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+[s S525 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"506
+[u S534 . 1 `S525 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES534  1 e 1 @13 ]
+"966
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"986
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S53 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"1007
+[s S61 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+[u S65 . 1 `S53 1 . 1 0 `S61 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES65  1 e 1 @28 ]
+"1163
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S434 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1180
+[u S443 . 1 `S434 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES443  1 e 1 @140 ]
+"1225
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1466
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S19 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF0 1 0 :1:3 
+`uc 1 IRCF1 1 0 :1:4 
+`uc 1 IRCF2 1 0 :1:5 
+`uc 1 IRCF3 1 0 :1:6 
+`uc 1 SPLLEN 1 0 :1:7 
+]
+"1739
+[s S28 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF 1 0 :4:3 
+]
+[u S32 . 1 `S19 1 . 1 0 `S28 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES32  1 e 1 @153 ]
+"1858
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1878
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1898
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S547 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"1923
+[s S555 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S559 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S562 . 1 `S547 1 . 1 0 `S555 1 . 1 0 `S559 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES562  1 e 1 @157 ]
+"1978
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2050
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S347 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"2067
+[u S356 . 1 `S347 1 . 1 0 ]
+[v _LATAbits LATAbits `VES356  1 e 1 @268 ]
+"2107
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+[s S326 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2124
+[u S335 . 1 `S326 1 . 1 0 ]
+[v _LATBbits LATBbits `VES335  1 e 1 @269 ]
+"2790
+[v _APFCON0 APFCON0 `VEuc  1 e 1 @285 ]
+"2872
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2924
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2989
+[v _EEADR EEADR `VEus  1 e 2 @401 ]
+"3043
+[v _EEDATL EEDATL `VEuc  1 e 1 @403 ]
+[s S244 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"3118
+[u S253 . 1 `S244 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES253  1 e 1 @405 ]
+"3163
+[v _EECON2 EECON2 `VEuc  1 e 1 @406 ]
+"3527
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3597
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"3711
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"3833
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S763 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3862
+[s S772 . 1 `uc 1 SSPM 1 0 :4:0 
+]
+[u S774 . 1 `S763 1 . 1 0 `S772 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES774  1 e 1 @533 ]
+"4037
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+"4159
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @535 ]
+"6343
+[v _PR4 PR4 `VEuc  1 e 1 @1046 ]
+"6363
+[v _T4CON T4CON `VEuc  1 e 1 @1047 ]
+[s S596 . 1 `uc 1 T4CKPS0 1 0 :1:0 
+`uc 1 T4CKPS1 1 0 :1:1 
+`uc 1 TMR4ON 1 0 :1:2 
+`uc 1 T4OUTPS0 1 0 :1:3 
+`uc 1 T4OUTPS1 1 0 :1:4 
+`uc 1 T4OUTPS2 1 0 :1:5 
+`uc 1 T4OUTPS3 1 0 :1:6 
+]
+"6384
+[s S604 . 1 `uc 1 T4CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T4OUTPS 1 0 :4:3 
+]
+[u S608 . 1 `S596 1 . 1 0 `S604 1 . 1 0 ]
+[v _T4CONbits T4CONbits `VES608  1 e 1 @1047 ]
+"6454
+[v _PR6 PR6 `VEuc  1 e 1 @1053 ]
+"6474
+[v _T6CON T6CON `VEuc  1 e 1 @1054 ]
+[s S626 . 1 `uc 1 T6CKPS0 1 0 :1:0 
+`uc 1 T6CKPS1 1 0 :1:1 
+`uc 1 TMR6ON 1 0 :1:2 
+`uc 1 T6OUTPS0 1 0 :1:3 
+`uc 1 T6OUTPS1 1 0 :1:4 
+`uc 1 T6OUTPS2 1 0 :1:5 
+`uc 1 T6OUTPS3 1 0 :1:6 
+]
+"6495
+[s S634 . 1 `uc 1 T6CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T6OUTPS 1 0 :4:3 
+]
+[u S638 . 1 `S626 1 . 1 0 `S634 1 . 1 0 ]
+[v _T6CONbits T6CONbits `VES638  1 e 1 @1054 ]
+"7468
+[v _SSP1IE SSP1IE `VEb  1 e 0 @1163 ]
+"7470
+[v _SSP1IF SSP1IF `VEb  1 e 0 @139 ]
+"7598
+[v _TMR2IE TMR2IE `VEb  1 e 0 @1161 ]
+"7600
+[v _TMR2IF TMR2IF `VEb  1 e 0 @137 ]
+"7604
+[v _TMR4IE TMR4IE `VEb  1 e 0 @1177 ]
+"7606
+[v _TMR4IF TMR4IF `VEb  1 e 0 @153 ]
+"7610
+[v _TMR6IE TMR6IE `VEb  1 e 0 @1179 ]
+"7612
+[v _TMR6IF TMR6IF `VEb  1 e 0 @155 ]
+"116 C:\Projects\MRF89XA_ApplT/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"118
+[v main@task1sec task1sec `uc  1 a 1 17 ]
+"117
+[v main@taskslot taskslot `uc  1 a 1 16 ]
+"199
+} 0
+"18 C:\Projects\MRF89XA_ApplT/app_win_sens.c
+[v _WIN_TaskSlow WIN_TaskSlow `(v  1 e 1 0 ]
+{
+"30
+} 0
+"12
+[v _WIN_Init WIN_Init `(v  1 e 1 0 ]
+{
+"16
+} 0
+"6 C:\Projects\MRF89XA_ApplT/drv_spi.c
+[v _SPI_HF_Init SPI_HF_Init `(v  1 e 1 0 ]
+{
+"24
+} 0
+"24 C:\Projects/LIBC/RTC/app_RTC.c
+[v _RTC_TaskSlow RTC_TaskSlow `(v  1 e 1 0 ]
+{
+"48
+} 0
+"10
+[v _RTC_Init RTC_Init `(v  1 e 1 0 ]
+{
+"22
+} 0
+"158 C:\Projects\MRF89XA_ApplT/app_TempReg.c
+[v _REG_TaskSlow REG_TaskSlow `(v  1 e 1 0 ]
+{
+"212
+} 0
+"104
+[v _REG_FZLogic REG_FZLogic `(v  1 s 1 REG_FZLogic ]
+{
+"156
+} 0
+"52
+[v _REG_Init REG_Init `(v  1 e 1 0 ]
+{
+"61
+} 0
+"75 C:\Projects\MRF89XA_ApplT/main.c
+[v _Ports_Init Ports_Init `(v  1 s 1 Ports_Init ]
+{
+"110
+} 0
+"120 C:\Projects/LIBC/PRESENCE/app_Presence.c
+[v _PRS_Task1s PRS_Task1s `(v  1 e 1 0 ]
+{
+"129
+} 0
+"59
+[v _PRS_Task PRS_Task `(v  1 e 1 0 ]
+{
+"118
+} 0
+"38
+[v _ReloadTime ReloadTime `(v  1 s 1 ReloadTime ]
+{
+[v ReloadTime@bLocal bLocal `uc  1 a 1 wreg ]
+[v ReloadTime@bLocal bLocal `uc  1 a 1 wreg ]
+"40
+[v ReloadTime@bLocal bLocal `uc  1 a 1 0 ]
+"49
+} 0
+"51
+[v _GetRIRLevel GetRIRLevel `(uc  1 s 1 GetRIRLevel ]
+{
+"57
+} 0
+"53 C:\Projects\MRF89XA_ApplT/drv_io.c
+[v _IO_GetPIRLevel IO_GetPIRLevel `(uc  1 e 1 0 ]
+{
+"59
+} 0
+"27 C:\Projects/LIBC/PRESENCE/app_Presence.c
+[v _PRS_Init PRS_Init `(v  1 e 1 0 ]
+{
+"32
+} 0
+"74 C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+[v _PRG_TaskSlow PRG_TaskSlow `(v  1 e 1 0 ]
+{
+"82
+} 0
+"56
+[v _DetermineMode DetermineMode `(v  1 s 1 DetermineMode ]
+{
+"72
+} 0
+"26
+[v _DetermineProg DetermineProg `(v  1 s 1 DetermineProg ]
+{
+"28
+[v DetermineProg@ix ix `uc  1 a 1 11 ]
+"29
+[v DetermineProg@ctime ctime `uc  1 a 1 10 ]
+"48
+} 0
+"77 C:\Projects/LIBC/RTC/app_RTC.c
+[v _RTC_TimeToNumber RTC_TimeToNumber `(uc  1 e 1 0 ]
+{
+"78
+[v RTC_TimeToNumber@r r `uc  1 a 1 9 ]
+"82
+} 0
+"50 C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+[v _PRG_Init PRG_Init `(v  1 e 1 0 ]
+{
+"54
+} 0
+"104 C:\Projects/LIBC/NVM/svc_nvm.c
+[v _NVM_Init NVM_Init `(v  1 e 1 0 ]
+{
+"118
+} 0
+"347 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _MNU_TaskButton MNU_TaskButton `(v  1 e 1 0 ]
+{
+"374
+} 0
+"84 C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+[v _PRG_SetNewTemp PRG_SetNewTemp `(v  1 e 1 0 ]
+{
+[v PRG_SetNewTemp@sIncrease sIncrease `c  1 a 1 wreg ]
+[v PRG_SetNewTemp@sIncrease sIncrease `c  1 a 1 wreg ]
+"86
+[v PRG_SetNewTemp@sIncrease sIncrease `c  1 a 1 11 ]
+"102
+} 0
+"74 C:\Projects\MRF89XA_ApplT/drv_io.c
+[v _IO_GetSW2Press IO_GetSW2Press `(uc  1 e 1 0 ]
+{
+"75
+[v IO_GetSW2Press@b b `uc  1 a 1 0 ]
+"79
+} 0
+"67
+[v _IO_GetSW1Press IO_GetSW1Press `(uc  1 e 1 0 ]
+{
+"68
+[v IO_GetSW1Press@b b `uc  1 a 1 0 ]
+"72
+} 0
+"273 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _MNU_Task MNU_Task `(v  1 e 1 0 ]
+{
+"345
+} 0
+"52
+[v _DrawTimeDate DrawTimeDate `(v  1 s 1 DrawTimeDate ]
+{
+"111
+} 0
+"289 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _LCD_BCDNumber LCD_BCDNumber `(v  1 e 1 0 ]
+{
+[v LCD_BCDNumber@digit digit `uc  1 a 1 wreg ]
+[v LCD_BCDNumber@digit digit `uc  1 a 1 wreg ]
+[v LCD_BCDNumber@bLzero bLzero `uc  1 p 1 10 ]
+[v LCD_BCDNumber@digit digit `uc  1 a 1 11 ]
+"299
+} 0
+"250 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _DrawSetTempText DrawSetTempText `(v  1 s 1 DrawSetTempText ]
+{
+"264
+} 0
+"331 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+{
+[v LCD_String@characters characters `*.25DCuc  1 p 2 10 ]
+"334
+} 0
+"194 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _DrawRegPower DrawRegPower `(v  1 s 1 DrawRegPower ]
+{
+"248
+} 0
+"32 C:\Projects\MRF89XA_ApplT/app_win_sens.c
+[v _WIN_IsOpen WIN_IsOpen `(uc  1 e 1 0 ]
+{
+"34
+} 0
+"34 C:\Projects/LIBC/PRESENCE/app_Presence.c
+[v _PRS_RoomPresence PRS_RoomPresence `(uc  1 e 1 0 ]
+{
+"36
+} 0
+"313 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _LCD_BitmapV LCD_BitmapV `(v  1 e 1 0 ]
+{
+[v LCD_BitmapV@bmp bmp `uc  1 a 1 wreg ]
+[v LCD_BitmapV@bmp bmp `uc  1 a 1 wreg ]
+[v LCD_BitmapV@bmp bmp `uc  1 a 1 1 ]
+"317
+} 0
+"166 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _DrawLargeTime DrawLargeTime `(v  1 s 1 DrawLargeTime ]
+{
+"192
+} 0
+"246 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _LCD_Large2Dots LCD_Large2Dots `(v  1 e 1 0 ]
+{
+[v LCD_Large2Dots@bON bON `uc  1 a 1 wreg ]
+[v LCD_Large2Dots@bON bON `uc  1 a 1 wreg ]
+[v LCD_Large2Dots@bON bON `uc  1 a 1 4 ]
+"264
+} 0
+"45 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _DrawClrLastLines DrawClrLastLines `(v  1 s 1 DrawClrLastLines ]
+{
+"50
+} 0
+"191 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _LCD_ClearLine LCD_ClearLine `(v  1 e 1 0 ]
+{
+"192
+[v LCD_ClearLine@i i `uc  1 a 1 1 ]
+"199
+} 0
+"113 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _DrawLargeTemp DrawLargeTemp `(v  1 s 1 DrawLargeTemp ]
+{
+[v DrawLargeTemp@t t `s  1 p 2 10 ]
+"149
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"35
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"269 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _LCD_LargePlus LCD_LargePlus `(v  1 e 1 0 ]
+{
+"277
+} 0
+"279
+[v _LCD_LargeMinus LCD_LargeMinus `(v  1 e 1 0 ]
+{
+"287
+} 0
+"238
+[v _LCD_LargeDot LCD_LargeDot `(v  1 e 1 0 ]
+{
+"244
+} 0
+"151 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _DrawLargeHum DrawLargeHum `(v  1 s 1 DrawLargeHum ]
+{
+"164
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 4 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 3 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 2 ]
+"18
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 8 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 7 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 5 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 6 ]
+"26
+} 0
+"211 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _LCD_LargeDigit LCD_LargeDigit `(v  1 e 1 0 ]
+{
+[v LCD_LargeDigit@dig dig `uc  1 a 1 wreg ]
+"213
+[v LCD_LargeDigit@offs offs `us  1 a 2 8 ]
+"212
+[v LCD_LargeDigit@i i `uc  1 a 1 7 ]
+"211
+[v LCD_LargeDigit@dig dig `uc  1 a 1 wreg ]
+"213
+[v LCD_LargeDigit@dig dig `uc  1 a 1 6 ]
+"236
+} 0
+"184
+[v _LCD_XY LCD_XY `(v  1 e 1 0 ]
+{
+[v LCD_XY@x x `uc  1 a 1 wreg ]
+[v LCD_XY@x x `uc  1 a 1 wreg ]
+[v LCD_XY@y y `uc  1 p 1 2 ]
+[v LCD_XY@x x `uc  1 a 1 3 ]
+"189
+} 0
+"319
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+{
+[v LCD_Char@character character `uc  1 a 1 wreg ]
+"323
+[v LCD_Char@j j `uc  1 a 1 7 ]
+"320
+[v LCD_Char@index index `us  1 a 2 8 ]
+"319
+[v LCD_Char@character character `uc  1 a 1 wreg ]
+[v LCD_Char@character character `uc  1 a 1 6 ]
+"329
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"266 C:\Projects\MRF89XA_ApplT/app_Menu.c
+[v _MNU_Init MNU_Init `(v  1 e 1 0 ]
+{
+"271
+} 0
+"201 C:\Projects\MRF89XA_ApplT/drv_lcd.c
+[v _LCD_ClearLCD LCD_ClearLCD `(v  1 e 1 0 ]
+{
+"202
+[v LCD_ClearLCD@index index `s  1 a 2 1 ]
+"209
+} 0
+"336
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"351
+} 0
+"176
+[v _LCDWriteCMD LCDWriteCMD `(v  1 e 1 0 ]
+{
+[v LCDWriteCMD@data data `uc  1 a 1 wreg ]
+[v LCDWriteCMD@data data `uc  1 a 1 wreg ]
+[v LCDWriteCMD@data data `uc  1 a 1 1 ]
+"182
+} 0
+"159 C:\Projects\MRF89XA_ApplT/drv_io.c
+[v _IO_TaskSlow IO_TaskSlow `(v  1 e 1 0 ]
+{
+"194
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"235 C:\Projects\MRF89XA_ApplT/drv_io.c
+[v _IO_StartTimer2 IO_StartTimer2 `(v  1 s 1 IO_StartTimer2 ]
+{
+[v IO_StartTimer2@Time Time `uc  1 a 1 wreg ]
+[v IO_StartTimer2@Time Time `uc  1 a 1 wreg ]
+[v IO_StartTimer2@Time Time `uc  1 a 1 0 ]
+"240
+} 0
+"42
+[v _IO_CalcTemp IO_CalcTemp `(v  1 s 1 IO_CalcTemp ]
+{
+"43
+[v IO_CalcTemp@offs8 offs8 `us  1 a 2 0 ]
+"47
+} 0
+"81
+[v _IO_TaskFast IO_TaskFast `(v  1 e 1 0 ]
+{
+"82
+[v IO_TaskFast@bUV bUV `uc  1 a 1 1 ]
+"157
+} 0
+"196
+[v _IO_Init IO_Init `(v  1 e 1 0 ]
+{
+"226
+} 0
+"10 C:\Projects\MRF89XA_ApplT/drv_I2C.c
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+{
+"13
+} 0
+"226 C:\Projects/LIBC/COM/svc_comm.c
+[v _Comm_TaskSlow Comm_TaskSlow `(v  1 e 1 0 ]
+{
+"233
+} 0
+"235
+[v _Comm_Task Comm_Task `(v  1 e 1 0 ]
+{
+"263
+} 0
+"265
+[v _Comm_OnIdle Comm_OnIdle `(v  1 e 1 0 ]
+{
+"299
+} 0
+"261 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _MRF89XATask MRF89XATask `(v  1 e 1 0 ]
+{
+"265
+[v MRF89XATask@i i `uc  1 a 1 6 ]
+"266
+[v MRF89XATask@k k `uc  1 a 1 5 ]
+"302
+} 0
+"233
+[v _ReadFIFO ReadFIFO `(uc  1 s 1 ReadFIFO ]
+{
+"234
+[v ReadFIFO@value value `uc  1 a 1 0 ]
+"239
+} 0
+"256
+[v _MRF89XACheckRSSI MRF89XACheckRSSI `(v  1 e 1 0 ]
+{
+"258
+} 0
+"132 C:\Projects/LIBC/COM/svc_comm.c
+[v _Comm_RxProcess Comm_RxProcess `(v  1 s 1 Comm_RxProcess ]
+{
+"224
+} 0
+"85 C:\Projects\MRF89XA_ApplT/svc_uds.c
+[v _UDS_WDBID UDS_WDBID `(v  1 e 1 0 ]
+{
+"86
+[v UDS_WDBID@k k `uc  1 a 1 11 ]
+[v UDS_WDBID@i i `uc  1 a 1 10 ]
+[v UDS_WDBID@j j `uc  1 a 1 9 ]
+"113
+} 0
+"78
+[v _WriteNVMBlockSync WriteNVMBlockSync `(v  1 s 1 WriteNVMBlockSync ]
+{
+[v WriteNVMBlockSync@block block `uc  1 a 1 wreg ]
+[v WriteNVMBlockSync@block block `uc  1 a 1 wreg ]
+[v WriteNVMBlockSync@block block `uc  1 a 1 5 ]
+"83
+} 0
+"75 C:\Projects/LIBC/NVM/svc_nvm.c
+[v _NVM_WriteBlock NVM_WriteBlock `(v  1 e 1 0 ]
+{
+[v NVM_WriteBlock@BlockIndex BlockIndex `uc  1 a 1 wreg ]
+[v NVM_WriteBlock@BlockIndex BlockIndex `uc  1 a 1 wreg ]
+[v NVM_WriteBlock@BlockIndex BlockIndex `uc  1 a 1 0 ]
+"77
+} 0
+"130
+[v _NVM_Task NVM_Task `(v  1 e 1 0 ]
+{
+"131
+[v NVM_Task@i i `uc  1 a 1 4 ]
+"184
+} 0
+"15 C:\Projects\MRF89XA_ApplT/drv_eep.c
+[v _Write_Eep Write_Eep `(v  1 e 1 0 ]
+{
+[v Write_Eep@badd badd `uc  1 a 1 wreg ]
+"17
+[v Write_Eep@SAVEICON SAVEICON `uc  1 a 1 2 ]
+"15
+[v Write_Eep@badd badd `uc  1 a 1 wreg ]
+[v Write_Eep@bdata bdata `uc  1 p 1 0 ]
+"17
+[v Write_Eep@badd badd `uc  1 a 1 1 ]
+"29
+} 0
+"79 C:\Projects/LIBC/NVM/svc_nvm.c
+[v _ReadBlock ReadBlock `(v  1 s 1 ReadBlock ]
+{
+"102
+} 0
+"5 C:\Projects\MRF89XA_ApplT/drv_eep.c
+[v _Read_Eep Read_Eep `(uc  1 e 1 0 ]
+{
+[v Read_Eep@badd badd `uc  1 a 1 wreg ]
+[v Read_Eep@badd badd `uc  1 a 1 wreg ]
+"7
+[v Read_Eep@badd badd `uc  1 a 1 0 ]
+"13
+} 0
+"59 C:\Projects/LIBC/NVM/svc_nvm.c
+[v _PrepBlockData PrepBlockData `(v  1 s 1 PrepBlockData ]
+{
+"69
+} 0
+"208
+[v _NVM_WriteBlockData NVM_WriteBlockData `(uc  1 e 1 0 ]
+{
+[v NVM_WriteBlockData@Block Block `uc  1 a 1 wreg ]
+"209
+[v NVM_WriteBlockData@pr pr `*.39uc  1 a 2 6 ]
+"208
+[v NVM_WriteBlockData@Block Block `uc  1 a 1 wreg ]
+[v NVM_WriteBlockData@offset offset `uc  1 p 1 0 ]
+[v NVM_WriteBlockData@data data `uc  1 p 1 1 ]
+"210
+[v NVM_WriteBlockData@Block Block `uc  1 a 1 8 ]
+"217
+} 0
+"116 C:\Projects\MRF89XA_ApplT/svc_uds.c
+[v _UDS_RDBID UDS_RDBID `(v  1 e 1 0 ]
+{
+"117
+[v UDS_RDBID@k k `us  1 a 2 10 ]
+[v UDS_RDBID@i i `us  1 a 2 8 ]
+"165
+} 0
+"214 C:\Projects\MRF89XA_ApplT/app_TempReg.c
+[v _REG_GetLevel REG_GetLevel `(uc  1 e 1 0 ]
+{
+"219
+} 0
+"219 C:\Projects/LIBC/NVM/svc_nvm.c
+[v _NVM_ReadBlockData NVM_ReadBlockData `(uc  1 e 1 0 ]
+{
+[v NVM_ReadBlockData@Block Block `uc  1 a 1 wreg ]
+"220
+[v NVM_ReadBlockData@pr pr `*.39uc  1 a 2 5 ]
+"219
+[v NVM_ReadBlockData@Block Block `uc  1 a 1 wreg ]
+[v NVM_ReadBlockData@offset offset `uc  1 p 1 0 ]
+"221
+[v NVM_ReadBlockData@Block Block `uc  1 a 1 4 ]
+"223
+} 0
+"120
+[v _NVM_IsIdle NVM_IsIdle `(uc  1 e 1 0 ]
+{
+"121
+[v NVM_IsIdle@i i `uc  1 a 1 0 ]
+"128
+} 0
+"200
+[v _NVM_GetBlockLenght NVM_GetBlockLenght `(uc  1 e 1 0 ]
+{
+[v NVM_GetBlockLenght@Block Block `uc  1 a 1 wreg ]
+[v NVM_GetBlockLenght@Block Block `uc  1 a 1 wreg ]
+[v NVM_GetBlockLenght@Block Block `uc  1 a 1 0 ]
+"206
+} 0
+"61 C:\Projects\MRF89XA_ApplT/drv_io.c
+[v _IO_GetPIRPin IO_GetPIRPin `(uc  1 e 1 0 ]
+{
+"64
+} 0
+"69 C:\Projects\MRF89XA_ApplT/svc_uds.c
+[v _UDS_GetSeed UDS_GetSeed `(v  1 e 1 0 ]
+{
+"76
+} 0
+"51
+[v _UDS_CompareKey UDS_CompareKey `(uc  1 e 1 0 ]
+{
+"52
+[v UDS_CompareKey@s1 s1 `ul  1 a 4 1 ]
+"67
+} 0
+"58 C:\Projects/LIBC/COM/svc_comm.c
+[v _POS_RESP POS_RESP `(v  1 e 1 0 ]
+{
+[v POS_RESP@len len `uc  1 a 1 wreg ]
+[v POS_RESP@len len `uc  1 a 1 wreg ]
+[v POS_RESP@len len `uc  1 a 1 0 ]
+"63
+} 0
+"50
+[v _NEG_RESP NEG_RESP `(v  1 e 1 0 ]
+{
+[v NEG_RESP@c c `uc  1 a 1 wreg ]
+[v NEG_RESP@c c `uc  1 a 1 wreg ]
+[v NEG_RESP@c c `uc  1 a 1 0 ]
+"56
+} 0
+"41 C:\Projects\MRF89XA_ApplT/svc_uds.c
+[v _Calc_Key Calc_Key `(v  1 s 1 Calc_Key ]
+{
+"49
+} 0
+"30
+[v _ROL ROL `(v  1 s 1 ROL ]
+{
+[v ROL@num num `uc  1 a 1 wreg ]
+[v ROL@num num `uc  1 a 1 wreg ]
+[v ROL@num num `uc  1 a 1 0 ]
+"39
+} 0
+"112 C:\Projects\MRF89XA_ApplT/main.c
+[v _RequestReset RequestReset `(v  1 e 1 0 ]
+{
+"114
+} 0
+"50 C:\Projects/LIBC/RTC/app_RTC.c
+[v _RTC_OnRTCFrame RTC_OnRTCFrame `(v  1 e 1 0 ]
+{
+"68
+} 0
+"131 C:\Projects/LIBC/PRESENCE/app_Presence.c
+[v _PRS_OnPIRFrame PRS_OnPIRFrame `(v  1 e 1 0 ]
+{
+"143
+} 0
+"44 C:\Projects/LIBC/COM/svc_comm.c
+[v _Comm_PrepareTransmit Comm_PrepareTransmit `(v  1 s 1 Comm_PrepareTransmit ]
+{
+"48
+} 0
+"301
+[v _Comm_IsAlreadyReceived Comm_IsAlreadyReceived `(uc  1 s 1 Comm_IsAlreadyReceived ]
+{
+"326
+} 0
+"36 C:\Projects\MRF89XA_ApplT/app_win_sens.c
+[v _App_OnWinSensor App_OnWinSensor `(v  1 e 1 0 ]
+{
+"49
+} 0
+"63 C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+[v _App_OnAirTempSig App_OnAirTempSig `(v  1 e 1 0 ]
+{
+"74
+} 0
+"76
+[v _App_OnAirHumSig App_OnAirHumSig `(v  1 e 1 0 ]
+{
+"80
+} 0
+"86 C:\Projects/LIBC/COM/svc_comm.c
+[v _Comm_Init Comm_Init `(v  1 e 1 0 ]
+{
+"112
+} 0
+"114
+[v _TransmitFrame TransmitFrame `(v  1 s 1 TransmitFrame ]
+{
+"130
+} 0
+"199 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _MRF89XASendFrame MRF89XASendFrame `(v  1 e 1 0 ]
+{
+"200
+[v MRF89XASendFrame@i i `uc  1 a 1 5 ]
+"224
+} 0
+"226
+[v _WriteFIFO WriteFIFO `(v  1 s 1 WriteFIFO ]
+{
+[v WriteFIFO@Data Data `uc  1 a 1 wreg ]
+[v WriteFIFO@Data Data `uc  1 a 1 wreg ]
+"228
+[v WriteFIFO@Data Data `uc  1 a 1 1 ]
+"231
+} 0
+"228 C:\Projects\MRF89XA_ApplT/drv_io.c
+[v _IO_StartTimer1 IO_StartTimer1 `(v  1 e 1 0 ]
+{
+[v IO_StartTimer1@Time Time `uc  1 a 1 wreg ]
+[v IO_StartTimer1@Time Time `uc  1 a 1 wreg ]
+[v IO_StartTimer1@Time Time `uc  1 a 1 0 ]
+"233
+} 0
+"38
+[v _IO_DisablePIR IO_DisablePIR `(v  1 e 1 0 ]
+{
+"40
+} 0
+"72 C:\Projects/LIBC/COM/svc_comm.c
+[v _Comm_InitMRF Comm_InitMRF `(v  1 s 1 Comm_InitMRF ]
+{
+"84
+} 0
+"129 C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+[v _MRF89XAInit MRF89XAInit `(uc  1 e 1 0 ]
+{
+"130
+[v MRF89XAInit@i i `uc  1 a 1 7 ]
+[v MRF89XAInit@input input `uc  1 a 1 6 ]
+[v MRF89XAInit@res res `uc  1 a 1 5 ]
+"162
+} 0
+"183
+[v _MRF89XAStartReception MRF89XAStartReception `(v  1 e 1 0 ]
+{
+"184
+[v MRF89XAStartReception@i i `uc  1 a 1 5 ]
+"196
+} 0
+"241
+[v _MRF89XASetRFMode MRF89XASetRFMode `(v  1 e 1 0 ]
+{
+[v MRF89XASetRFMode@mode mode `uc  1 a 1 wreg ]
+"242
+[v MRF89XASetRFMode@mcparam0_read mcparam0_read `uc  1 a 1 3 ]
+"241
+[v MRF89XASetRFMode@mode mode `uc  1 a 1 wreg ]
+"245
+[v MRF89XASetRFMode@mode mode `uc  1 a 1 4 ]
+"252
+} 0
+"164
+[v _MRF89XARegisterSet MRF89XARegisterSet `(v  1 e 1 0 ]
+{
+[v MRF89XARegisterSet@address address `uc  1 a 1 wreg ]
+[v MRF89XARegisterSet@address address `uc  1 a 1 wreg ]
+[v MRF89XARegisterSet@value value `uc  1 p 1 1 ]
+[v MRF89XARegisterSet@address address `uc  1 a 1 2 ]
+"170
+} 0
+"172
+[v _MRF89XARegisterRead MRF89XARegisterRead `(uc  1 e 1 0 ]
+{
+[v MRF89XARegisterRead@address address `uc  1 a 1 wreg ]
+"173
+[v MRF89XARegisterRead@value value `uc  1 a 1 1 ]
+"172
+[v MRF89XARegisterRead@address address `uc  1 a 1 wreg ]
+"174
+[v MRF89XARegisterRead@address address `uc  1 a 1 2 ]
+"181
+} 0
+"26 C:\Projects\MRF89XA_ApplT/drv_spi.c
+[v _SPI_HF_Put SPI_HF_Put `(v  1 e 1 0 ]
+{
+[v SPI_HF_Put@v v `uc  1 a 1 wreg ]
+[v SPI_HF_Put@v v `uc  1 a 1 wreg ]
+"30
+[v SPI_HF_Put@v v `uc  1 a 1 0 ]
+"56
+} 0
+"58
+[v _SPI_HF_Get SPI_HF_Get `(uc  1 e 1 0 ]
+{
+"89
+} 0
+"57 C:\Projects\MRF89XA_ApplT/main.c
+[v _Clock_Init Clock_Init `(v  1 s 1 Clock_Init ]
+{
+"73
+} 0
+"37 C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+[v _AirS_Task_Slow AirS_Task_Slow `(v  1 e 1 0 ]
+{
+"60
+} 0
+"70 C:\Projects/LIBC/RTC/app_RTC.c
+[v _RTC_BCD2DEC RTC_BCD2DEC `(uc  1 e 1 0 ]
+{
+[v RTC_BCD2DEC@x x `uc  1 a 1 wreg ]
+"71
+[v RTC_BCD2DEC@y y `uc  1 a 1 3 ]
+"70
+[v RTC_BCD2DEC@x x `uc  1 a 1 wreg ]
+[v RTC_BCD2DEC@x x `uc  1 a 1 4 ]
+"74
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 1 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 2 ]
+"51
+} 0
+"49 C:\Projects\MRF89XA_ApplT/drv_io.c
+[v _IO_GetTempMeas IO_GetTempMeas `(s  1 e 2 0 ]
+{
+"51
+} 0
+"31 C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+[v _AirS_Task AirS_Task `(v  1 e 1 0 ]
+{
+"35
+} 0
+"15
+[v _AirS_Init AirS_Init `(v  1 e 1 0 ]
+{
+"16
+[v AirS_Init@i i `uc  1 a 1 0 ]
+"29
+} 0
+"201 C:\Projects\MRF89XA_ApplT/main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"203
+} 0

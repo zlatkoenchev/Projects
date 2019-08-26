@@ -1,0 +1,23 @@
+ build/Release/production/_ext/1472/app_TempReg.d  \
+ build/Release/production/_ext/1472/app_TempReg.p1:  \
+ ../app_TempReg.c  \
+../compiler.h  \
+../drv_spi_hf.h  \
+../drv_io.h  \
+../MRF89XA_Cfg.h  \
+../../LIBC/COM/svc_comm.h  \
+../app_win_sens.h  \
+../app_ProgTemp.h  \
+../svc_comm_cfg_tx.h  \
+../../LIBC/RTC/app_RTC.h  \
+../app_TempReg.h  \
+../drv_air_sens.h  \
+../../LIBC/MRF89_Drv/MRF89XA.h  \
+../GenericTypeDefs.h  \
+../../LIBC/COM/Protocol.h  \
+../app_RTC_cfg.h  \
+../config.h  \
+../types.h  \
+../../LIBC/NVM/svc_nvm.h  \
+../../LIBC/PRESENCE/app_Presence.h  \
+../nvm_block_cfg.h 

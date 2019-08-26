@@ -1,0 +1,28 @@
+ build/Release/production/_ext/1472/svc_uds.d  \
+ build/Release/production/_ext/1472/svc_uds.p1:  \
+ ../svc_uds.c  \
+../compiler.h  \
+../app_prog.h  \
+../drv_spi_hf.h  \
+../drv_io.h  \
+../drv_relayBS.h  \
+../MRF89XA_Cfg.h  \
+../../LIBC/COM/svc_comm.h  \
+../svc_comm_cfg_tx.h  \
+../../LIBC/RTC/app_RTC.h  \
+../app_control.h  \
+../drv_eep.h  \
+../drv_Si7021.h  \
+../svc_uds.h  \
+../../LIBC/MRF89_Drv/MRF89XA.h  \
+../GenericTypeDefs.h  \
+../../LIBC/COM/Protocol.h  \
+../app_RTC_cfg.h  \
+../drv_relay.h  \
+../main.h  \
+../config.h  \
+../types.h  \
+../DS18B20.h  \
+../../LIBC/NVM/svc_nvm.h  \
+../../LIBC/PRESENCE/app_Presence.h  \
+../nvm_block_cfg.h 

@@ -1,0 +1,2730 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/Release/production\MRF89XA_ApplT.X.production.obj
+cinit CODE 0 38A 38A 4 2
+text1 CODE 0 146F 146F E 2
+text2 CODE 0 7FA 7FA 5 2
+text3 CODE 0 1461 1461 E 2
+text4 CODE 0 14E1 14E1 1C 2
+text5 CODE 0 1449 1449 B 2
+text6 CODE 0 8A9 8A9 AF 2
+text8 CODE 0 1454 1454 D 2
+text9 CODE 0 14B2 14B2 17 2
+text10 CODE 0 147D 147D 10 2
+text11 CODE 0 16E0 16E0 86 2
+text15 CODE 0 800 800 8 2
+text21 CODE 0 1678 1678 68 2
+text44 CODE 0 38E 38E 46C 2
+text46 CODE 0 14C9 14C9 18 2
+text52 CODE 0 14FD 14FD 1F 2
+text56 CODE 0 808 808 A1 2
+text60 CODE 0 1618 1618 60 2
+text61 CODE 0 151C 151C 28 2
+text64 CODE 0 1544 1544 40 2
+text85 CODE 0 958 958 22B 2
+text86 CODE 0 1766 1766 9A 2
+text92 CODE 0 149F 149F 13 2
+text93 CODE 0 1584 1584 49 2
+text95 CODE 0 15CD 15CD 4B 2
+text97 CODE 0 148D 148D 12 2
+nvBANK1 BANK1 1 E7 E7 2 1
+maintext CODE 0 B83 B83 47D 2
+cstackCOMMON COMMON 1 70 70 D 1
+cstackBANK0 BANK0 1 5C 5C 12 1
+stringtext1 STRCODE 0 1000 1000 1D6 2
+stringtext2 STRCODE 0 11D6 11D6 168 2
+stringtext3 STRCODE 0 1800 1800 20 2
+stringtext4 STRCODE 0 183C 183C 12 2
+stringtext5 STRCODE 0 184E 184E 12 2
+stringtext6 STRCODE 0 1878 1878 9 2
+stringtext7 STRCODE 0 1881 1881 9 2
+stringtext8 STRCODE 0 1820 1820 1C 2
+stringtext9 STRCODE 0 1860 1860 E 2
+intentry CODE 0 384 384 4 2
+bssBANK0 BANK0 1 20 20 3C 1
+bssBANK1 BANK1 1 A0 A0 47 1
+bssBANK2 BANK2 1 120 120 46 1
+bssBANK3 BANK3 1 1A0 1A0 40 1
+bssBANK4 BANK4 1 220 220 40 1
+bssBANK5 BANK5 1 2A0 2A0 3A 1
+swtext1 CONST 0 133E 133E A 2
+swtext2 CONST 0 1348 1348 A 2
+stringtext10 STRCODE 0 188A 188A 9 2
+stringtext11 STRCODE 0 1893 1893 5 2
+stringtext12 STRCODE 0 1898 1898 5 2
+stringtext13 STRCODE 0 189D 189D 4 2
+stringtext14 STRCODE 0 18A1 18A1 4 2
+stringtext15 STRCODE 0 186E 186E A 2
+stringtext16 STRCODE 0 18A5 18A5 4 2
+stringtext17 STRCODE 0 18A9 18A9 4 2
+stringtext18 STRCODE 0 18AD 18AD 4 2
+stringtext19 STRCODE 0 18B1 18B1 4 2
+stringtext20 STRCODE 0 18B5 18B5 4 2
+stringtext21 STRCODE 0 18B9 18B9 4 2
+stringtext22 STRCODE 0 18BD 18BD 4 2
+stringtext23 STRCODE 0 18C1 18C1 4 2
+stringtext24 STRCODE 0 18C5 18C5 4 2
+stringtext25 STRCODE 0 18C9 18C9 4 2
+stringtext26 STRCODE 0 18CD 18CD 4 2
+stringtext27 STRCODE 0 18D1 18D1 4 2
+stringtext28 STRCODE 0 18D5 18D5 4 2
+$e:\Temp\s5a4.obj
+reset_vec CODE 0 380 380 2 2
+end_init CODE 0 388 388 2 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 6E-6F 1
+RAM E9-EF 1
+RAM 166-16F 1
+RAM 1E0-1EF 1
+RAM 260-26F 1
+RAM 2DA-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK0 6E-6F 1
+BANK1 E9-EF 1
+BANK2 166-16F 1
+BANK3 1E0-1EF 1
+BANK4 260-26F 1
+BANK5 2DA-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 382-383 2
+CONST 7FF-7FF 2
+CONST 1352-1448 2
+CONST 18D9-1FFF 2
+ENTRY 382-383 2
+ENTRY 7FF-7FF 2
+ENTRY 1352-1448 2
+ENTRY 18D9-1FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+STACK 21CA-23EF 1
+CODE 382-383 2
+CODE 7FF-7FF 2
+CODE 1352-1448 2
+CODE 18D9-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+COMMON 7D-7D 1
+CONFIG 8007-8008 2
+EEDATA F000-F0FF 2
+STRCODE 382-383 2
+STRCODE 7FF-7FF 2
+STRCODE 1352-1448 2
+STRCODE 18D9-1FFF 2
+STRING 382-383 2
+STRING 7FF-7FF 2
+STRING 1352-1448 2
+STRING 18D9-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/Release/production\MRF89XA_ApplT.X.production.obj
+38A cinit CODE >8015:e:\Temp\s5a4.
+38A cinit CODE >8018:e:\Temp\s5a4.
+38A cinit CODE >8261:e:\Temp\s5a4.
+38A cinit CODE >8263:e:\Temp\s5a4.
+38B cinit CODE >8264:e:\Temp\s5a4.
+38C cinit CODE >8265:e:\Temp\s5a4.
+384 intentry CODE >29:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+384 intentry CODE >201:C:\Projects\MRF89XA_ApplT/main.c
+386 intentry CODE >203:C:\Projects\MRF89XA_ApplT/main.c
+148D text97 CODE >63:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+148D text97 CODE >64:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+1492 text97 CODE >66:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+149C text97 CODE >71:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+149E text97 CODE >74:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+15CD text95 CODE >301:C:\Projects/LIBC/COM/svc_comm.c
+15CD text95 CODE >302:C:\Projects/LIBC/COM/svc_comm.c
+15CF text95 CODE >303:C:\Projects/LIBC/COM/svc_comm.c
+15D0 text95 CODE >306:C:\Projects/LIBC/COM/svc_comm.c
+15D1 text95 CODE >307:C:\Projects/LIBC/COM/svc_comm.c
+15D2 text95 CODE >306:C:\Projects/LIBC/COM/svc_comm.c
+15D4 text95 CODE >307:C:\Projects/LIBC/COM/svc_comm.c
+15D5 text95 CODE >308:C:\Projects/LIBC/COM/svc_comm.c
+15D9 text95 CODE >310:C:\Projects/LIBC/COM/svc_comm.c
+15EC text95 CODE >312:C:\Projects/LIBC/COM/svc_comm.c
+15ED text95 CODE >315:C:\Projects/LIBC/COM/svc_comm.c
+15F6 text95 CODE >316:C:\Projects/LIBC/COM/svc_comm.c
+15FB text95 CODE >317:C:\Projects/LIBC/COM/svc_comm.c
+15FD text95 CODE >319:C:\Projects/LIBC/COM/svc_comm.c
+15FE text95 CODE >308:C:\Projects/LIBC/COM/svc_comm.c
+15FF text95 CODE >322:C:\Projects/LIBC/COM/svc_comm.c
+1607 text95 CODE >323:C:\Projects/LIBC/COM/svc_comm.c
+160C text95 CODE >324:C:\Projects/LIBC/COM/svc_comm.c
+1584 text93 CODE >131:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1584 text93 CODE >137:C:\Projects/LIBC/PRESENCE/app_Presence.c
+159C text93 CODE >139:C:\Projects/LIBC/PRESENCE/app_Presence.c
+15A1 text93 CODE >140:C:\Projects/LIBC/PRESENCE/app_Presence.c
+15A3 text93 CODE >143:C:\Projects/LIBC/PRESENCE/app_Presence.c
+15A4 text93 CODE >36:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15A4 text93 CODE >37:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15AC text93 CODE >38:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15AE text93 CODE >39:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15B1 text93 CODE >40:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15B2 text93 CODE >41:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15B5 text93 CODE >42:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15BD text93 CODE >43:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15BF text93 CODE >44:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15C2 text93 CODE >45:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15C3 text93 CODE >46:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+15C5 text93 CODE >49:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+149F text92 CODE >50:C:\Projects/LIBC/RTC/app_RTC.c
+149F text92 CODE >64:C:\Projects/LIBC/RTC/app_RTC.c
+14A1 text92 CODE >66:C:\Projects/LIBC/RTC/app_RTC.c
+14B1 text92 CODE >68:C:\Projects/LIBC/RTC/app_RTC.c
+1766 text86 CODE >51:C:\Projects\MRF89XA_ApplT/svc_uds.c
+1766 text86 CODE >53:C:\Projects\MRF89XA_ApplT/svc_uds.c
+1768 text86 CODE >57:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17AD text86 CODE >59:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17BC text86 CODE >61:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17BD text86 CODE >60:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17C1 text86 CODE >61:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17C3 text86 CODE >62:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17C4 text86 CODE >64:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17C7 text86 CODE >65:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17C8 text86 CODE >41:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17C8 text86 CODE >42:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17CB text86 CODE >43:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17D4 text86 CODE >44:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17D7 text86 CODE >45:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17E0 text86 CODE >46:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17E3 text86 CODE >47:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17EC text86 CODE >48:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17ED text86 CODE >30:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17EE text86 CODE >31:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17F2 text86 CODE >32:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17F5 text86 CODE >33:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17F9 text86 CODE >34:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17FA text86 CODE >35:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17FB text86 CODE >36:C:\Projects\MRF89XA_ApplT/svc_uds.c
+17FF text86 CODE >31:C:\Projects\MRF89XA_ApplT/svc_uds.c
+958 text85 CODE >69:C:\Projects\MRF89XA_ApplT/svc_uds.c
+958 text85 CODE >70:C:\Projects\MRF89XA_ApplT/svc_uds.c
+97B text85 CODE >71:C:\Projects\MRF89XA_ApplT/svc_uds.c
+97E text85 CODE >72:C:\Projects\MRF89XA_ApplT/svc_uds.c
+982 text85 CODE >73:C:\Projects\MRF89XA_ApplT/svc_uds.c
+986 text85 CODE >74:C:\Projects\MRF89XA_ApplT/svc_uds.c
+98A text85 CODE >75:C:\Projects\MRF89XA_ApplT/svc_uds.c
+98C text85 CODE >74:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+98C text85 CODE >75:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+98E text85 CODE >76:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+992 text85 CODE >77:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+993 text85 CODE >78:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+996 text85 CODE >79:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+998 text85 CODE >56:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+998 text85 CODE >58:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+99E text85 CODE >59:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9A1 text85 CODE >60:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9A3 text85 CODE >61:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9A4 text85 CODE >63:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9A9 text85 CODE >64:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9AB text85 CODE >65:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9AE text85 CODE >68:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9B1 text85 CODE >69:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9B2 text85 CODE >347:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9B2 text85 CODE >348:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9B7 text85 CODE >349:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9BA text85 CODE >350:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9BC text85 CODE >353:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9BF text85 CODE >358:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9C0 text85 CODE >359:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9C5 text85 CODE >360:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9C8 text85 CODE >361:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9CA text85 CODE >355:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9CD text85 CODE >357:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9CE text85 CODE >356:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9CF text85 CODE >357:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9D0 text85 CODE >369:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9D0 text85 CODE >370:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9D1 text85 CODE >369:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9D2 text85 CODE >370:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9D4 text85 CODE >371:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9D5 text85 CODE >374:C:\Projects\MRF89XA_ApplT/app_Menu.c
+9D6 text85 CODE >67:C:\Projects\MRF89XA_ApplT/drv_io.c
+9D6 text85 CODE >68:C:\Projects\MRF89XA_ApplT/drv_io.c
+9DA text85 CODE >69:C:\Projects\MRF89XA_ApplT/drv_io.c
+9DB text85 CODE >71:C:\Projects\MRF89XA_ApplT/drv_io.c
+9DC text85 CODE >72:C:\Projects\MRF89XA_ApplT/drv_io.c
+9DD text85 CODE >74:C:\Projects\MRF89XA_ApplT/drv_io.c
+9DD text85 CODE >75:C:\Projects\MRF89XA_ApplT/drv_io.c
+9E1 text85 CODE >76:C:\Projects\MRF89XA_ApplT/drv_io.c
+9E2 text85 CODE >78:C:\Projects\MRF89XA_ApplT/drv_io.c
+9E3 text85 CODE >79:C:\Projects\MRF89XA_ApplT/drv_io.c
+9E4 text85 CODE >84:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9E5 text85 CODE >86:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9EC text85 CODE >88:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9ED text85 CODE >90:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9F4 text85 CODE >91:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9F5 text85 CODE >94:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9F8 text85 CODE >95:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9F9 text85 CODE >98:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9FC text85 CODE >99:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+9FD text85 CODE >88:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+A05 text85 CODE >101:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+A08 text85 CODE >102:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+A09 text85 CODE >85:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A09 text85 CODE >88:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A0D text85 CODE >89:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A15 text85 CODE >92:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A16 text85 CODE >93:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A17 text85 CODE >94:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A18 text85 CODE >95:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A1A text85 CODE >96:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A28 text85 CODE >97:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A2A text85 CODE >100:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A2D text85 CODE >101:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A31 text85 CODE >102:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A33 text85 CODE >107:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A37 text85 CODE >108:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A3D text85 CODE >109:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A3F text85 CODE >113:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A40 text85 CODE >116:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A40 text85 CODE >120:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A4B text85 CODE >121:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A4B text85 CODE >123:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A4E text85 CODE >124:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A52 text85 CODE >126:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A55 text85 CODE >127:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A57 text85 CODE >128:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A58 text85 CODE >131:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A5B text85 CODE >132:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A5D text85 CODE >133:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A5F text85 CODE >137:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A64 text85 CODE >138:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A67 text85 CODE >139:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A71 text85 CODE >140:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A7F text85 CODE >139:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A83 text85 CODE >142:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A85 text85 CODE >147:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A8A text85 CODE >148:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A8D text85 CODE >149:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A8F text85 CODE >151:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A93 text85 CODE >152:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A97 text85 CODE >153:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A9B text85 CODE >154:C:\Projects\MRF89XA_ApplT/svc_uds.c
+A9E text85 CODE >155:C:\Projects\MRF89XA_ApplT/svc_uds.c
+AA3 text85 CODE >156:C:\Projects\MRF89XA_ApplT/svc_uds.c
+AA4 text85 CODE >157:C:\Projects\MRF89XA_ApplT/svc_uds.c
+AA5 text85 CODE >158:C:\Projects\MRF89XA_ApplT/svc_uds.c
+AA9 text85 CODE >160:C:\Projects\MRF89XA_ApplT/svc_uds.c
+AAE text85 CODE >162:C:\Projects\MRF89XA_ApplT/svc_uds.c
+AB0 text85 CODE >165:C:\Projects\MRF89XA_ApplT/svc_uds.c
+AB1 text85 CODE >58:C:\Projects/LIBC/COM/svc_comm.c
+AB2 text85 CODE >59:C:\Projects/LIBC/COM/svc_comm.c
+AB6 text85 CODE >60:C:\Projects/LIBC/COM/svc_comm.c
+AB9 text85 CODE >61:C:\Projects/LIBC/COM/svc_comm.c
+ABC text85 CODE >63:C:\Projects/LIBC/COM/svc_comm.c
+ABD text85 CODE >61:C:\Projects\MRF89XA_ApplT/drv_io.c
+ABD text85 CODE >63:C:\Projects\MRF89XA_ApplT/drv_io.c
+AC1 text85 CODE >64:C:\Projects\MRF89XA_ApplT/drv_io.c
+AC2 text85 CODE >200:C:\Projects/LIBC/NVM/svc_nvm.c
+AC3 text85 CODE >201:C:\Projects/LIBC/NVM/svc_nvm.c
+AC7 text85 CODE >202:C:\Projects/LIBC/NVM/svc_nvm.c
+ACA text85 CODE >26:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+ACA text85 CODE >31:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+ACF text85 CODE >32:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+AD1 text85 CODE >35:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+AD4 text85 CODE >38:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+AD7 text85 CODE >39:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+AD9 text85 CODE >40:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+ADC text85 CODE >41:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+ADD text85 CODE >42:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+AE4 text85 CODE >43:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+AE5 text85 CODE >42:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+AE7 text85 CODE >43:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+AEA text85 CODE >44:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+AF1 text85 CODE >219:C:\Projects/LIBC/NVM/svc_nvm.c
+AF2 text85 CODE >221:C:\Projects/LIBC/NVM/svc_nvm.c
+B00 text85 CODE >222:C:\Projects/LIBC/NVM/svc_nvm.c
+B09 text85 CODE >223:C:\Projects/LIBC/NVM/svc_nvm.c
+B0A text85 CODE >77:C:\Projects/LIBC/RTC/app_RTC.c
+B0A text85 CODE >78:C:\Projects/LIBC/RTC/app_RTC.c
+B0F text85 CODE >80:C:\Projects/LIBC/RTC/app_RTC.c
+B10 text85 CODE >79:C:\Projects/LIBC/RTC/app_RTC.c
+B12 text85 CODE >80:C:\Projects/LIBC/RTC/app_RTC.c
+B19 text85 CODE >81:C:\Projects/LIBC/RTC/app_RTC.c
+B1A text85 CODE >82:C:\Projects/LIBC/RTC/app_RTC.c
+B1B text85 CODE >70:C:\Projects/LIBC/RTC/app_RTC.c
+B1C text85 CODE >71:C:\Projects/LIBC/RTC/app_RTC.c
+B1F text85 CODE >72:C:\Projects/LIBC/RTC/app_RTC.c
+B25 text85 CODE >73:C:\Projects/LIBC/RTC/app_RTC.c
+B26 text85 CODE >74:C:\Projects/LIBC/RTC/app_RTC.c
+B27 text85 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B28 text85 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B29 text85 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B29 text85 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B2A text85 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B2B text85 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B2C text85 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B2D text85 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B2E text85 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B31 text85 CODE >50:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B32 text85 CODE >51:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+B33 text85 CODE >208:C:\Projects/LIBC/NVM/svc_nvm.c
+B34 text85 CODE >210:C:\Projects/LIBC/NVM/svc_nvm.c
+B3E text85 CODE >211:C:\Projects/LIBC/NVM/svc_nvm.c
+B4D text85 CODE >212:C:\Projects/LIBC/NVM/svc_nvm.c
+B5B text85 CODE >213:C:\Projects/LIBC/NVM/svc_nvm.c
+B5C text85 CODE >78:C:\Projects\MRF89XA_ApplT/svc_uds.c
+B5D text85 CODE >79:C:\Projects\MRF89XA_ApplT/svc_uds.c
+B5F text85 CODE >80:C:\Projects\MRF89XA_ApplT/svc_uds.c
+B66 text85 CODE >81:C:\Projects\MRF89XA_ApplT/svc_uds.c
+B69 text85 CODE >80:C:\Projects\MRF89XA_ApplT/svc_uds.c
+B6A text85 CODE >75:C:\Projects/LIBC/NVM/svc_nvm.c
+B6B text85 CODE >76:C:\Projects/LIBC/NVM/svc_nvm.c
+B70 text85 CODE >77:C:\Projects/LIBC/NVM/svc_nvm.c
+B79 text85 CODE >50:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+B7A text85 CODE >53:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+B7C text85 CODE >54:C:\Projects\MRF89XA_ApplT/app_ProgTemp.c
+1544 text64 CODE >235:C:\Projects/LIBC/COM/svc_comm.c
+1544 text64 CODE >239:C:\Projects/LIBC/COM/svc_comm.c
+154D text64 CODE >241:C:\Projects/LIBC/COM/svc_comm.c
+154E text64 CODE >242:C:\Projects/LIBC/COM/svc_comm.c
+154F text64 CODE >243:C:\Projects/LIBC/COM/svc_comm.c
+1550 text64 CODE >244:C:\Projects/LIBC/COM/svc_comm.c
+1551 text64 CODE >243:C:\Projects/LIBC/COM/svc_comm.c
+1552 text64 CODE >244:C:\Projects/LIBC/COM/svc_comm.c
+1553 text64 CODE >245:C:\Projects/LIBC/COM/svc_comm.c
+1555 text64 CODE >247:C:\Projects/LIBC/COM/svc_comm.c
+1564 text64 CODE >248:C:\Projects/LIBC/COM/svc_comm.c
+1566 text64 CODE >252:C:\Projects/LIBC/COM/svc_comm.c
+1568 text64 CODE >253:C:\Projects/LIBC/COM/svc_comm.c
+156C text64 CODE >254:C:\Projects/LIBC/COM/svc_comm.c
+1573 text64 CODE >255:C:\Projects/LIBC/COM/svc_comm.c
+1577 text64 CODE >256:C:\Projects/LIBC/COM/svc_comm.c
+1578 text64 CODE >258:C:\Projects/LIBC/COM/svc_comm.c
+157B text64 CODE >260:C:\Projects/LIBC/COM/svc_comm.c
+157C text64 CODE >253:C:\Projects/LIBC/COM/svc_comm.c
+157D text64 CODE >44:C:\Projects/LIBC/COM/svc_comm.c
+157D text64 CODE >45:C:\Projects/LIBC/COM/svc_comm.c
+1580 text64 CODE >47:C:\Projects/LIBC/COM/svc_comm.c
+1581 text64 CODE >46:C:\Projects/LIBC/COM/svc_comm.c
+1582 text64 CODE >47:C:\Projects/LIBC/COM/svc_comm.c
+151C text61 CODE >196:C:\Projects\MRF89XA_ApplT/drv_io.c
+151C text61 CODE >201:C:\Projects\MRF89XA_ApplT/drv_io.c
+151E text61 CODE >202:C:\Projects\MRF89XA_ApplT/drv_io.c
+1520 text61 CODE >203:C:\Projects\MRF89XA_ApplT/drv_io.c
+1521 text61 CODE >205:C:\Projects\MRF89XA_ApplT/drv_io.c
+1524 text61 CODE >208:C:\Projects\MRF89XA_ApplT/drv_io.c
+1526 text61 CODE >210:C:\Projects\MRF89XA_ApplT/drv_io.c
+1528 text61 CODE >213:C:\Projects\MRF89XA_ApplT/drv_io.c
+152B text61 CODE >214:C:\Projects\MRF89XA_ApplT/drv_io.c
+152D text61 CODE >216:C:\Projects\MRF89XA_ApplT/drv_io.c
+152F text61 CODE >217:C:\Projects\MRF89XA_ApplT/drv_io.c
+1531 text61 CODE >220:C:\Projects\MRF89XA_ApplT/drv_io.c
+1538 text61 CODE >221:C:\Projects\MRF89XA_ApplT/drv_io.c
+1539 text61 CODE >223:C:\Projects\MRF89XA_ApplT/drv_io.c
+153A text61 CODE >221:C:\Projects\MRF89XA_ApplT/drv_io.c
+153E text61 CODE >223:C:\Projects\MRF89XA_ApplT/drv_io.c
+1540 text61 CODE >224:C:\Projects\MRF89XA_ApplT/drv_io.c
+1542 text61 CODE >225:C:\Projects\MRF89XA_ApplT/drv_io.c
+1543 text61 CODE >226:C:\Projects\MRF89XA_ApplT/drv_io.c
+1618 text60 CODE >81:C:\Projects\MRF89XA_ApplT/drv_io.c
+1618 text60 CODE >82:C:\Projects\MRF89XA_ApplT/drv_io.c
+1619 text60 CODE >84:C:\Projects\MRF89XA_ApplT/drv_io.c
+161C text60 CODE >85:C:\Projects\MRF89XA_ApplT/drv_io.c
+161E text60 CODE >89:C:\Projects\MRF89XA_ApplT/drv_io.c
+161F text60 CODE >90:C:\Projects\MRF89XA_ApplT/drv_io.c
+1622 text60 CODE >91:C:\Projects\MRF89XA_ApplT/drv_io.c
+1623 text60 CODE >92:C:\Projects\MRF89XA_ApplT/drv_io.c
+1624 text60 CODE >93:C:\Projects\MRF89XA_ApplT/drv_io.c
+1624 text60 CODE >94:C:\Projects\MRF89XA_ApplT/drv_io.c
+1626 text60 CODE >98:C:\Projects\MRF89XA_ApplT/drv_io.c
+1626 text60 CODE >99:C:\Projects\MRF89XA_ApplT/drv_io.c
+1627 text60 CODE >102:C:\Projects\MRF89XA_ApplT/drv_io.c
+162D text60 CODE >104:C:\Projects\MRF89XA_ApplT/drv_io.c
+162F text60 CODE >105:C:\Projects\MRF89XA_ApplT/drv_io.c
+162F text60 CODE >107:C:\Projects\MRF89XA_ApplT/drv_io.c
+1630 text60 CODE >109:C:\Projects\MRF89XA_ApplT/drv_io.c
+1635 text60 CODE >110:C:\Projects\MRF89XA_ApplT/drv_io.c
+1636 text60 CODE >114:C:\Projects\MRF89XA_ApplT/drv_io.c
+163C text60 CODE >115:C:\Projects\MRF89XA_ApplT/drv_io.c
+163E text60 CODE >117:C:\Projects\MRF89XA_ApplT/drv_io.c
+163F text60 CODE >116:C:\Projects\MRF89XA_ApplT/drv_io.c
+1640 text60 CODE >117:C:\Projects\MRF89XA_ApplT/drv_io.c
+1641 text60 CODE >119:C:\Projects\MRF89XA_ApplT/drv_io.c
+1642 text60 CODE >120:C:\Projects\MRF89XA_ApplT/drv_io.c
+1645 text60 CODE >121:C:\Projects\MRF89XA_ApplT/drv_io.c
+1646 text60 CODE >122:C:\Projects\MRF89XA_ApplT/drv_io.c
+1649 text60 CODE >123:C:\Projects\MRF89XA_ApplT/drv_io.c
+164B text60 CODE >124:C:\Projects\MRF89XA_ApplT/drv_io.c
+164D text60 CODE >127:C:\Projects\MRF89XA_ApplT/drv_io.c
+1651 text60 CODE >128:C:\Projects\MRF89XA_ApplT/drv_io.c
+1652 text60 CODE >129:C:\Projects\MRF89XA_ApplT/drv_io.c
+1653 text60 CODE >132:C:\Projects\MRF89XA_ApplT/drv_io.c
+1654 text60 CODE >133:C:\Projects\MRF89XA_ApplT/drv_io.c
+1659 text60 CODE >134:C:\Projects\MRF89XA_ApplT/drv_io.c
+165A text60 CODE >138:C:\Projects\MRF89XA_ApplT/drv_io.c
+1660 text60 CODE >139:C:\Projects\MRF89XA_ApplT/drv_io.c
+1662 text60 CODE >141:C:\Projects\MRF89XA_ApplT/drv_io.c
+1663 text60 CODE >140:C:\Projects\MRF89XA_ApplT/drv_io.c
+1664 text60 CODE >141:C:\Projects\MRF89XA_ApplT/drv_io.c
+1665 text60 CODE >143:C:\Projects\MRF89XA_ApplT/drv_io.c
+1666 text60 CODE >144:C:\Projects\MRF89XA_ApplT/drv_io.c
+1669 text60 CODE >146:C:\Projects\MRF89XA_ApplT/drv_io.c
+166A text60 CODE >147:C:\Projects\MRF89XA_ApplT/drv_io.c
+166D text60 CODE >149:C:\Projects\MRF89XA_ApplT/drv_io.c
+166F text60 CODE >150:C:\Projects\MRF89XA_ApplT/drv_io.c
+1671 text60 CODE >153:C:\Projects\MRF89XA_ApplT/drv_io.c
+1675 text60 CODE >154:C:\Projects\MRF89XA_ApplT/drv_io.c
+1676 text60 CODE >155:C:\Projects\MRF89XA_ApplT/drv_io.c
+1677 text60 CODE >157:C:\Projects\MRF89XA_ApplT/drv_io.c
+808 text56 CODE >159:C:\Projects\MRF89XA_ApplT/drv_io.c
+808 text56 CODE >162:C:\Projects\MRF89XA_ApplT/drv_io.c
+80A text56 CODE >163:C:\Projects\MRF89XA_ApplT/drv_io.c
+80D text56 CODE >165:C:\Projects\MRF89XA_ApplT/drv_io.c
+810 text56 CODE >166:C:\Projects\MRF89XA_ApplT/drv_io.c
+811 text56 CODE >170:C:\Projects\MRF89XA_ApplT/drv_io.c
+814 text56 CODE >171:C:\Projects\MRF89XA_ApplT/drv_io.c
+815 text56 CODE >172:C:\Projects\MRF89XA_ApplT/drv_io.c
+816 text56 CODE >174:C:\Projects\MRF89XA_ApplT/drv_io.c
+82F text56 CODE >175:C:\Projects\MRF89XA_ApplT/drv_io.c
+836 text56 CODE >176:C:\Projects\MRF89XA_ApplT/drv_io.c
+83A text56 CODE >179:C:\Projects\MRF89XA_ApplT/drv_io.c
+83B text56 CODE >178:C:\Projects\MRF89XA_ApplT/drv_io.c
+83F text56 CODE >179:C:\Projects\MRF89XA_ApplT/drv_io.c
+841 text56 CODE >180:C:\Projects\MRF89XA_ApplT/drv_io.c
+843 text56 CODE >184:C:\Projects\MRF89XA_ApplT/drv_io.c
+846 text56 CODE >185:C:\Projects\MRF89XA_ApplT/drv_io.c
+84E text56 CODE >186:C:\Projects\MRF89XA_ApplT/drv_io.c
+858 text56 CODE >188:C:\Projects\MRF89XA_ApplT/drv_io.c
+85B text56 CODE >190:C:\Projects\MRF89XA_ApplT/drv_io.c
+85D text56 CODE >191:C:\Projects\MRF89XA_ApplT/drv_io.c
+85F text56 CODE >192:C:\Projects\MRF89XA_ApplT/drv_io.c
+866 text56 CODE >194:C:\Projects\MRF89XA_ApplT/drv_io.c
+867 text56 CODE >42:C:\Projects\MRF89XA_ApplT/drv_io.c
+867 text56 CODE >43:C:\Projects\MRF89XA_ApplT/drv_io.c
+86A text56 CODE >44:C:\Projects\MRF89XA_ApplT/drv_io.c
+86B text56 CODE >43:C:\Projects\MRF89XA_ApplT/drv_io.c
+86C text56 CODE >44:C:\Projects\MRF89XA_ApplT/drv_io.c
+86F text56 CODE >45:C:\Projects\MRF89XA_ApplT/drv_io.c
+873 text56 CODE >46:C:\Projects\MRF89XA_ApplT/drv_io.c
+879 text56 CODE >47:C:\Projects\MRF89XA_ApplT/drv_io.c
+87A text56 CODE >235:C:\Projects\MRF89XA_ApplT/drv_io.c
+87B text56 CODE >236:C:\Projects\MRF89XA_ApplT/drv_io.c
+87D text56 CODE >237:C:\Projects\MRF89XA_ApplT/drv_io.c
+87F text56 CODE >238:C:\Projects\MRF89XA_ApplT/drv_io.c
+881 text56 CODE >239:C:\Projects\MRF89XA_ApplT/drv_io.c
+883 text56 CODE >240:C:\Projects\MRF89XA_ApplT/drv_io.c
+884 text56 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+884 text56 CODE >119:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+888 text56 CODE >120:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+888 text56 CODE >121:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+88A text56 CODE >122:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+892 text56 CODE >123:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+896 text56 CODE >124:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+89A text56 CODE >125:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+8A0 text56 CODE >128:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+8A8 text56 CODE >129:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+14FD text52 CODE >266:C:\Projects\MRF89XA_ApplT/app_Menu.c
+14FD text52 CODE >267:C:\Projects\MRF89XA_ApplT/app_Menu.c
+14FE text52 CODE >269:C:\Projects\MRF89XA_ApplT/app_Menu.c
+14FF text52 CODE >267:C:\Projects\MRF89XA_ApplT/app_Menu.c
+1500 text52 CODE >268:C:\Projects\MRF89XA_ApplT/app_Menu.c
+1503 text52 CODE >269:C:\Projects\MRF89XA_ApplT/app_Menu.c
+1504 text52 CODE >270:C:\Projects\MRF89XA_ApplT/app_Menu.c
+1505 text52 CODE >201:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+1505 text52 CODE >202:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+1509 text52 CODE >203:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+150B text52 CODE >204:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+1514 text52 CODE >206:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+1518 text52 CODE >204:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+1519 text52 CODE >208:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+151B text52 CODE >209:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+14C9 text46 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+14CA text46 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+14CC text46 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+14CD text46 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+14D6 text46 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+14D7 text46 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+14DB text46 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+14DD text46 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+14DF text46 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+14E0 text46 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbmod.c
+38E text44 CODE >238:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+38E text44 CODE >239:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+38F text44 CODE >240:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+392 text44 CODE >241:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+395 text44 CODE >242:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+397 text44 CODE >243:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+399 text44 CODE >244:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+39A text44 CODE >273:C:\Projects\MRF89XA_ApplT/app_Menu.c
+39A text44 CODE >274:C:\Projects\MRF89XA_ApplT/app_Menu.c
+39B text44 CODE >281:C:\Projects\MRF89XA_ApplT/app_Menu.c
+39D text44 CODE >282:C:\Projects\MRF89XA_ApplT/app_Menu.c
+39E text44 CODE >284:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3A1 text44 CODE >285:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3A7 text44 CODE >286:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3A8 text44 CODE >287:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3A8 text44 CODE >288:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3AC text44 CODE >289:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3B2 text44 CODE >290:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3B3 text44 CODE >292:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3B6 text44 CODE >296:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3B6 text44 CODE >297:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3BD text44 CODE >298:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3C0 text44 CODE >302:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3C2 text44 CODE >303:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3C6 text44 CODE >304:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3C8 text44 CODE >305:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3C9 text44 CODE >306:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3CA text44 CODE >307:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3CB text44 CODE >308:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3CD text44 CODE >309:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3CF text44 CODE >310:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3D1 text44 CODE >311:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3D5 text44 CODE >278:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3E3 text44 CODE >316:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3E4 text44 CODE >325:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3E6 text44 CODE >326:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3E7 text44 CODE >330:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3E8 text44 CODE >331:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3E9 text44 CODE >332:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3EB text44 CODE >333:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3ED text44 CODE >334:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3EE text44 CODE >335:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3EF text44 CODE >334:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3F0 text44 CODE >335:C:\Projects\MRF89XA_ApplT/app_Menu.c
+3F2 text44 CODE >320:C:\Projects\MRF89XA_ApplT/app_Menu.c
+400 text44 CODE >274:C:\Projects\MRF89XA_ApplT/app_Menu.c
+408 text44 CODE >341:C:\Projects\MRF89XA_ApplT/app_Menu.c
+409 text44 CODE >342:C:\Projects\MRF89XA_ApplT/app_Menu.c
+40A text44 CODE >341:C:\Projects\MRF89XA_ApplT/app_Menu.c
+40B text44 CODE >342:C:\Projects\MRF89XA_ApplT/app_Menu.c
+40D text44 CODE >343:C:\Projects\MRF89XA_ApplT/app_Menu.c
+40E text44 CODE >345:C:\Projects\MRF89XA_ApplT/app_Menu.c
+40F text44 CODE >45:C:\Projects\MRF89XA_ApplT/app_Menu.c
+40F text44 CODE >46:C:\Projects\MRF89XA_ApplT/app_Menu.c
+414 text44 CODE >47:C:\Projects\MRF89XA_ApplT/app_Menu.c
+416 text44 CODE >48:C:\Projects\MRF89XA_ApplT/app_Menu.c
+418 text44 CODE >49:C:\Projects\MRF89XA_ApplT/app_Menu.c
+419 text44 CODE >52:C:\Projects\MRF89XA_ApplT/app_Menu.c
+419 text44 CODE >53:C:\Projects\MRF89XA_ApplT/app_Menu.c
+41D text44 CODE >55:C:\Projects\MRF89XA_ApplT/app_Menu.c
+421 text44 CODE >57:C:\Projects\MRF89XA_ApplT/app_Menu.c
+426 text44 CODE >58:C:\Projects\MRF89XA_ApplT/app_Menu.c
+429 text44 CODE >59:C:\Projects\MRF89XA_ApplT/app_Menu.c
+42F text44 CODE >60:C:\Projects\MRF89XA_ApplT/app_Menu.c
+435 text44 CODE >62:C:\Projects\MRF89XA_ApplT/app_Menu.c
+43A text44 CODE >63:C:\Projects\MRF89XA_ApplT/app_Menu.c
+43D text44 CODE >65:C:\Projects\MRF89XA_ApplT/app_Menu.c
+464 text44 CODE >68:C:\Projects\MRF89XA_ApplT/app_Menu.c
+469 text44 CODE >71:C:\Projects\MRF89XA_ApplT/app_Menu.c
+46E text44 CODE >74:C:\Projects\MRF89XA_ApplT/app_Menu.c
+473 text44 CODE >77:C:\Projects\MRF89XA_ApplT/app_Menu.c
+478 text44 CODE >80:C:\Projects\MRF89XA_ApplT/app_Menu.c
+47D text44 CODE >83:C:\Projects\MRF89XA_ApplT/app_Menu.c
+482 text44 CODE >86:C:\Projects\MRF89XA_ApplT/app_Menu.c
+487 text44 CODE >89:C:\Projects\MRF89XA_ApplT/app_Menu.c
+48C text44 CODE >92:C:\Projects\MRF89XA_ApplT/app_Menu.c
+491 text44 CODE >95:C:\Projects\MRF89XA_ApplT/app_Menu.c
+496 text44 CODE >98:C:\Projects\MRF89XA_ApplT/app_Menu.c
+49B text44 CODE >101:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4A0 text44 CODE >109:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4A1 text44 CODE >111:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4A2 text44 CODE >331:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4A2 text44 CODE >332:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4A9 text44 CODE >333:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4B3 text44 CODE >332:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4B4 text44 CODE >289:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4B5 text44 CODE >290:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4B9 text44 CODE >291:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4BE text44 CODE >292:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4C1 text44 CODE >294:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4C4 text44 CODE >297:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4C9 text44 CODE >298:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4CC text44 CODE >191:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4CC text44 CODE >193:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4CE text44 CODE >194:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4CF text44 CODE >196:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4D2 text44 CODE >194:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4D7 text44 CODE >198:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4D9 text44 CODE >199:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+4DA text44 CODE >250:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4DA text44 CODE >251:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4DF text44 CODE >252:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4E3 text44 CODE >254:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4E4 text44 CODE >253:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4E5 text44 CODE >254:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4E8 text44 CODE >255:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4ED text44 CODE >257:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4EE text44 CODE >194:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4EE text44 CODE >195:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4F1 text44 CODE >196:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4F6 text44 CODE >197:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4F9 text44 CODE >198:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4FC text44 CODE >199:C:\Projects\MRF89XA_ApplT/app_Menu.c
+4FF text44 CODE >200:C:\Projects\MRF89XA_ApplT/app_Menu.c
+500 text44 CODE >202:C:\Projects\MRF89XA_ApplT/app_Menu.c
+503 text44 CODE >203:C:\Projects\MRF89XA_ApplT/app_Menu.c
+506 text44 CODE >204:C:\Projects\MRF89XA_ApplT/app_Menu.c
+508 text44 CODE >207:C:\Projects\MRF89XA_ApplT/app_Menu.c
+50B text44 CODE >208:C:\Projects\MRF89XA_ApplT/app_Menu.c
+50E text44 CODE >210:C:\Projects\MRF89XA_ApplT/app_Menu.c
+511 text44 CODE >211:C:\Projects\MRF89XA_ApplT/app_Menu.c
+516 text44 CODE >212:C:\Projects\MRF89XA_ApplT/app_Menu.c
+519 text44 CODE >213:C:\Projects\MRF89XA_ApplT/app_Menu.c
+51B text44 CODE >216:C:\Projects\MRF89XA_ApplT/app_Menu.c
+51E text44 CODE >217:C:\Projects\MRF89XA_ApplT/app_Menu.c
+521 text44 CODE >219:C:\Projects\MRF89XA_ApplT/app_Menu.c
+524 text44 CODE >220:C:\Projects\MRF89XA_ApplT/app_Menu.c
+529 text44 CODE >221:C:\Projects\MRF89XA_ApplT/app_Menu.c
+52C text44 CODE >222:C:\Projects\MRF89XA_ApplT/app_Menu.c
+52E text44 CODE >225:C:\Projects\MRF89XA_ApplT/app_Menu.c
+531 text44 CODE >226:C:\Projects\MRF89XA_ApplT/app_Menu.c
+534 text44 CODE >228:C:\Projects\MRF89XA_ApplT/app_Menu.c
+537 text44 CODE >229:C:\Projects\MRF89XA_ApplT/app_Menu.c
+53C text44 CODE >230:C:\Projects\MRF89XA_ApplT/app_Menu.c
+53F text44 CODE >231:C:\Projects\MRF89XA_ApplT/app_Menu.c
+541 text44 CODE >233:C:\Projects\MRF89XA_ApplT/app_Menu.c
+544 text44 CODE >234:C:\Projects\MRF89XA_ApplT/app_Menu.c
+547 text44 CODE >236:C:\Projects\MRF89XA_ApplT/app_Menu.c
+547 text44 CODE >238:C:\Projects\MRF89XA_ApplT/app_Menu.c
+54C text44 CODE >239:C:\Projects\MRF89XA_ApplT/app_Menu.c
+551 text44 CODE >240:C:\Projects\MRF89XA_ApplT/app_Menu.c
+553 text44 CODE >242:C:\Projects\MRF89XA_ApplT/app_Menu.c
+558 text44 CODE >243:C:\Projects\MRF89XA_ApplT/app_Menu.c
+55A text44 CODE >246:C:\Projects\MRF89XA_ApplT/app_Menu.c
+55C text44 CODE >313:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+55D text44 CODE >314:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+55F text44 CODE >315:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+561 text44 CODE >316:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+563 text44 CODE >317:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+564 text44 CODE >214:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+564 text44 CODE >215:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+566 text44 CODE >216:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+567 text44 CODE >218:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+568 text44 CODE >219:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+569 text44 CODE >34:C:\Projects/LIBC/PRESENCE/app_Presence.c
+569 text44 CODE >35:C:\Projects/LIBC/PRESENCE/app_Presence.c
+56E text44 CODE >32:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+56E text44 CODE >33:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+579 text44 CODE >34:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+57A text44 CODE >269:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+57A text44 CODE >270:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+57B text44 CODE >271:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+57E text44 CODE >272:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+581 text44 CODE >273:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+584 text44 CODE >274:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+587 text44 CODE >275:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+589 text44 CODE >276:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+58B text44 CODE >277:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+58C text44 CODE >151:C:\Projects\MRF89XA_ApplT/app_Menu.c
+58C text44 CODE >153:C:\Projects\MRF89XA_ApplT/app_Menu.c
+591 text44 CODE >154:C:\Projects\MRF89XA_ApplT/app_Menu.c
+599 text44 CODE >155:C:\Projects\MRF89XA_ApplT/app_Menu.c
+59B text44 CODE >156:C:\Projects\MRF89XA_ApplT/app_Menu.c
+59F text44 CODE >157:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5A7 text44 CODE >158:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5A9 text44 CODE >160:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5AE text44 CODE >161:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5B1 text44 CODE >162:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5B4 text44 CODE >163:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5B6 text44 CODE >166:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5B6 text44 CODE >167:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5BB text44 CODE >168:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5BF text44 CODE >169:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5C4 text44 CODE >170:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5C8 text44 CODE >172:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5CD text44 CODE >173:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5D2 text44 CODE >174:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5D7 text44 CODE >175:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5E1 text44 CODE >176:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5E6 text44 CODE >177:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5EB text44 CODE >178:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5F0 text44 CODE >179:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5F4 text44 CODE >181:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5F5 text44 CODE >113:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5F5 text44 CODE >121:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5FA text44 CODE >122:C:\Projects\MRF89XA_ApplT/app_Menu.c
+5FC text44 CODE >124:C:\Projects\MRF89XA_ApplT/app_Menu.c
+601 text44 CODE >125:C:\Projects\MRF89XA_ApplT/app_Menu.c
+603 text44 CODE >126:C:\Projects\MRF89XA_ApplT/app_Menu.c
+604 text44 CODE >129:C:\Projects\MRF89XA_ApplT/app_Menu.c
+606 text44 CODE >130:C:\Projects\MRF89XA_ApplT/app_Menu.c
+606 text44 CODE >131:C:\Projects\MRF89XA_ApplT/app_Menu.c
+60B text44 CODE >132:C:\Projects\MRF89XA_ApplT/app_Menu.c
+612 text44 CODE >134:C:\Projects\MRF89XA_ApplT/app_Menu.c
+614 text44 CODE >135:C:\Projects\MRF89XA_ApplT/app_Menu.c
+619 text44 CODE >136:C:\Projects\MRF89XA_ApplT/app_Menu.c
+623 text44 CODE >137:C:\Projects\MRF89XA_ApplT/app_Menu.c
+628 text44 CODE >138:C:\Projects\MRF89XA_ApplT/app_Menu.c
+62A text44 CODE >139:C:\Projects\MRF89XA_ApplT/app_Menu.c
+631 text44 CODE >140:C:\Projects\MRF89XA_ApplT/app_Menu.c
+637 text44 CODE >141:C:\Projects\MRF89XA_ApplT/app_Menu.c
+63A text44 CODE >143:C:\Projects\MRF89XA_ApplT/app_Menu.c
+63F text44 CODE >144:C:\Projects\MRF89XA_ApplT/app_Menu.c
+641 text44 CODE >146:C:\Projects\MRF89XA_ApplT/app_Menu.c
+646 text44 CODE >147:C:\Projects\MRF89XA_ApplT/app_Menu.c
+649 text44 CODE >148:C:\Projects\MRF89XA_ApplT/app_Menu.c
+64B text44 CODE >184:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+64C text44 CODE >185:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+64E text44 CODE >186:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+650 text44 CODE >187:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+654 text44 CODE >188:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+657 text44 CODE >211:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+658 text44 CODE >213:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+659 text44 CODE >214:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+65A text44 CODE >213:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+65B text44 CODE >214:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+667 text44 CODE >215:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+669 text44 CODE >216:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+66B text44 CODE >217:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+66C text44 CODE >219:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+673 text44 CODE >217:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+676 text44 CODE >221:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+678 text44 CODE >222:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+67A text44 CODE >223:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+67B text44 CODE >224:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+67D text44 CODE >225:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+67E text44 CODE >226:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+685 text44 CODE >225:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+68A text44 CODE >229:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+68C text44 CODE >230:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+68D text44 CODE >231:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+68F text44 CODE >232:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+690 text44 CODE >233:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+697 text44 CODE >232:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+69A text44 CODE >235:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+69C text44 CODE >236:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+69D text44 CODE >279:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+69D text44 CODE >280:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+69E text44 CODE >281:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6A1 text44 CODE >282:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6A4 text44 CODE >283:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6A7 text44 CODE >284:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6AA text44 CODE >285:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6AC text44 CODE >286:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6AE text44 CODE >287:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6AF text44 CODE >246:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6B0 text44 CODE >247:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6B2 text44 CODE >248:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6B5 text44 CODE >249:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6B7 text44 CODE >251:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6BA text44 CODE >252:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6BD text44 CODE >253:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6C0 text44 CODE >254:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6C2 text44 CODE >255:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6C9 text44 CODE >256:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6CA text44 CODE >257:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6CD text44 CODE >258:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6CF text44 CODE >260:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6D2 text44 CODE >261:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6D5 text44 CODE >262:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6D7 text44 CODE >263:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6D9 text44 CODE >264:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6DA text44 CODE >26:C:\Projects\MRF89XA_ApplT/drv_spi.c
+6DB text44 CODE >30:C:\Projects\MRF89XA_ApplT/drv_spi.c
+6DD text44 CODE >31:C:\Projects\MRF89XA_ApplT/drv_spi.c
+6DF text44 CODE >32:C:\Projects\MRF89XA_ApplT/drv_spi.c
+6E2 text44 CODE >34:C:\Projects\MRF89XA_ApplT/drv_spi.c
+6E6 text44 CODE >319:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6E7 text44 CODE >320:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6ED text44 CODE >321:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6FA text44 CODE >322:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6FC text44 CODE >323:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+6FE text44 CODE >325:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+70C text44 CODE >323:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+70E text44 CODE >327:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+710 text44 CODE >328:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+712 text44 CODE >329:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+713 text44 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+713 text44 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+715 text44 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+717 text44 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+71B text44 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+71D text44 CODE >48:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+71F text44 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+723 text44 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+727 text44 CODE >53:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+728 text44 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+728 text44 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+729 text44 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+72B text44 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+730 text44 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+732 text44 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+734 text44 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+739 text44 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+73B text44 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+73D text44 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+741 text44 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+742 text44 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+742 text44 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+743 text44 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+745 text44 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+747 text44 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+748 text44 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+74A text44 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+752 text44 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+756 text44 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+757 text44 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+759 text44 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+75B text44 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+75E text44 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+763 text44 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+767 text44 CODE >42:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+768 text44 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+768 text44 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+769 text44 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+76B text44 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+770 text44 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+772 text44 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+774 text44 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+779 text44 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+77D text44 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+77E text44 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+77E text44 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+77F text44 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+781 text44 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+783 text44 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+784 text44 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+78C text44 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+790 text44 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+792 text44 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+794 text44 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+797 text44 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+79C text44 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+7A0 text44 CODE >35:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+7A1 text44 CODE >336:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7A1 text44 CODE >338:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7A3 text44 CODE >341:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7A4 text44 CODE >342:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7A5 text44 CODE >344:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7A8 text44 CODE >345:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7AB text44 CODE >346:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7AE text44 CODE >347:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7B1 text44 CODE >348:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7B4 text44 CODE >349:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7B6 text44 CODE >176:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7B7 text44 CODE >177:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7B9 text44 CODE >178:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7BA text44 CODE >179:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7BC text44 CODE >180:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7BE text44 CODE >181:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7BF text44 CODE >182:C:\Projects\MRF89XA_ApplT/drv_lcd.c
+7C0 text44 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7C1 text44 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7C2 text44 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7C5 text44 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7C6 text44 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7C7 text44 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7C9 text44 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7CA text44 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7CB text44 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7CB text44 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7CC text44 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7D0 text44 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7D2 text44 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7D3 text44 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7D4 text44 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7D6 text44 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+7D7 text44 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+1678 text21 CODE >104:C:\Projects/LIBC/NVM/svc_nvm.c
+1678 text21 CODE >107:C:\Projects/LIBC/NVM/svc_nvm.c
+167E text21 CODE >112:C:\Projects/LIBC/NVM/svc_nvm.c
+1680 text21 CODE >107:C:\Projects/LIBC/NVM/svc_nvm.c
+1683 text21 CODE >115:C:\Projects/LIBC/NVM/svc_nvm.c
+1684 text21 CODE >116:C:\Projects/LIBC/NVM/svc_nvm.c
+1686 text21 CODE >117:C:\Projects/LIBC/NVM/svc_nvm.c
+1687 text21 CODE >118:C:\Projects/LIBC/NVM/svc_nvm.c
+1688 text21 CODE >79:C:\Projects/LIBC/NVM/svc_nvm.c
+1688 text21 CODE >80:C:\Projects/LIBC/NVM/svc_nvm.c
+168B text21 CODE >81:C:\Projects/LIBC/NVM/svc_nvm.c
+168C text21 CODE >82:C:\Projects/LIBC/NVM/svc_nvm.c
+1695 text21 CODE >83:C:\Projects/LIBC/NVM/svc_nvm.c
+169B text21 CODE >84:C:\Projects/LIBC/NVM/svc_nvm.c
+169C text21 CODE >85:C:\Projects/LIBC/NVM/svc_nvm.c
+169F text21 CODE >81:C:\Projects/LIBC/NVM/svc_nvm.c
+16A2 text21 CODE >87:C:\Projects/LIBC/NVM/svc_nvm.c
+16AB text21 CODE >88:C:\Projects/LIBC/NVM/svc_nvm.c
+16AD text21 CODE >89:C:\Projects/LIBC/NVM/svc_nvm.c
+16AE text21 CODE >91:C:\Projects/LIBC/NVM/svc_nvm.c
+16B1 text21 CODE >92:C:\Projects/LIBC/NVM/svc_nvm.c
+16B4 text21 CODE >93:C:\Projects/LIBC/NVM/svc_nvm.c
+16BA text21 CODE >95:C:\Projects/LIBC/NVM/svc_nvm.c
+16C5 text21 CODE >96:C:\Projects/LIBC/NVM/svc_nvm.c
+16C8 text21 CODE >97:C:\Projects/LIBC/NVM/svc_nvm.c
+16CC text21 CODE >94:C:\Projects/LIBC/NVM/svc_nvm.c
+16D1 text21 CODE >99:C:\Projects/LIBC/NVM/svc_nvm.c
+16D3 text21 CODE >102:C:\Projects/LIBC/NVM/svc_nvm.c
+800 text15 CODE >27:C:\Projects/LIBC/PRESENCE/app_Presence.c
+800 text15 CODE >28:C:\Projects/LIBC/PRESENCE/app_Presence.c
+803 text15 CODE >29:C:\Projects/LIBC/PRESENCE/app_Presence.c
+804 text15 CODE >30:C:\Projects/LIBC/PRESENCE/app_Presence.c
+805 text15 CODE >31:C:\Projects/LIBC/PRESENCE/app_Presence.c
+807 text15 CODE >32:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1348 swtext2 CONST >61:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16E0 text11 CODE >59:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16E0 text11 CODE >60:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16E4 text11 CODE >64:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16E8 text11 CODE >65:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16EC text11 CODE >69:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16F1 text11 CODE >70:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16F3 text11 CODE >71:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16F6 text11 CODE >72:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16FA text11 CODE >74:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16FB text11 CODE >73:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16FC text11 CODE >74:C:\Projects/LIBC/PRESENCE/app_Presence.c
+16FD text11 CODE >79:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1702 text11 CODE >80:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1704 text11 CODE >81:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1707 text11 CODE >83:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1708 text11 CODE >82:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1709 text11 CODE >83:C:\Projects/LIBC/PRESENCE/app_Presence.c
+170B text11 CODE >85:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1710 text11 CODE >86:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1712 text11 CODE >87:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1715 text11 CODE >91:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1718 text11 CODE >92:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1719 text11 CODE >93:C:\Projects/LIBC/PRESENCE/app_Presence.c
+171A text11 CODE >94:C:\Projects/LIBC/PRESENCE/app_Presence.c
+171F text11 CODE >96:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1722 text11 CODE >97:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1724 text11 CODE >98:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1725 text11 CODE >104:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1729 text11 CODE >61:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1734 text11 CODE >118:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1735 text11 CODE >51:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1735 text11 CODE >52:C:\Projects/LIBC/PRESENCE/app_Presence.c
+173C text11 CODE >54:C:\Projects/LIBC/PRESENCE/app_Presence.c
+173D text11 CODE >56:C:\Projects/LIBC/PRESENCE/app_Presence.c
+173E text11 CODE >38:C:\Projects/LIBC/PRESENCE/app_Presence.c
+173F text11 CODE >40:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1744 text11 CODE >41:C:\Projects/LIBC/PRESENCE/app_Presence.c
+174B text11 CODE >43:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1753 text11 CODE >46:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1758 text11 CODE >47:C:\Projects/LIBC/PRESENCE/app_Presence.c
+175F text11 CODE >49:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1760 text11 CODE >53:C:\Projects\MRF89XA_ApplT/drv_io.c
+1760 text11 CODE >54:C:\Projects\MRF89XA_ApplT/drv_io.c
+1763 text11 CODE >56:C:\Projects\MRF89XA_ApplT/drv_io.c
+1764 text11 CODE >55:C:\Projects\MRF89XA_ApplT/drv_io.c
+1765 text11 CODE >56:C:\Projects\MRF89XA_ApplT/drv_io.c
+147D text10 CODE >120:C:\Projects/LIBC/PRESENCE/app_Presence.c
+147D text10 CODE >121:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1480 text10 CODE >122:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1485 text10 CODE >123:C:\Projects/LIBC/PRESENCE/app_Presence.c
+1489 text10 CODE >124:C:\Projects/LIBC/PRESENCE/app_Presence.c
+148A text10 CODE >126:C:\Projects/LIBC/PRESENCE/app_Presence.c
+148C text10 CODE >129:C:\Projects/LIBC/PRESENCE/app_Presence.c
+14B2 text9 CODE >75:C:\Projects\MRF89XA_ApplT/main.c
+14B2 text9 CODE >76:C:\Projects\MRF89XA_ApplT/main.c
+14B5 text9 CODE >97:C:\Projects\MRF89XA_ApplT/main.c
+14B8 text9 CODE >98:C:\Projects\MRF89XA_ApplT/main.c
+14B9 text9 CODE >100:C:\Projects\MRF89XA_ApplT/main.c
+14BC text9 CODE >101:C:\Projects\MRF89XA_ApplT/main.c
+14BE text9 CODE >104:C:\Projects\MRF89XA_ApplT/main.c
+14C0 text9 CODE >106:C:\Projects\MRF89XA_ApplT/main.c
+14C3 text9 CODE >107:C:\Projects\MRF89XA_ApplT/main.c
+14C5 text9 CODE >109:C:\Projects\MRF89XA_ApplT/main.c
+14C8 text9 CODE >110:C:\Projects\MRF89XA_ApplT/main.c
+1454 text8 CODE >52:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+1454 text8 CODE >54:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+1456 text8 CODE >55:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+145B text8 CODE >56:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+145D text8 CODE >58:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+145E text8 CODE >59:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+145F text8 CODE >60:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+1460 text8 CODE >61:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8A9 text6 CODE >158:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8A9 text6 CODE >159:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8AE text6 CODE >160:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8B2 text6 CODE >161:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8BF text6 CODE >162:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8C1 text6 CODE >163:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8C6 text6 CODE >165:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8D1 text6 CODE >166:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8D4 text6 CODE >180:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8E5 text6 CODE >181:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8E7 text6 CODE >182:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8F3 text6 CODE >183:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8F5 text6 CODE >186:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+8FD text6 CODE >188:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+901 text6 CODE >189:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+905 text6 CODE >190:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+906 text6 CODE >191:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+907 text6 CODE >192:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+908 text6 CODE >195:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+90D text6 CODE >196:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+90E text6 CODE >200:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+913 text6 CODE >201:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+914 text6 CODE >202:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+91B text6 CODE >203:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+920 text6 CODE >207:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+921 text6 CODE >210:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+92B text6 CODE >212:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+92C text6 CODE >104:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+92C text6 CODE >110:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+938 text6 CODE >111:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+93B text6 CODE >112:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+93C text6 CODE >113:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+945 text6 CODE >114:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+945 text6 CODE >116:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+950 text6 CODE >117:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+953 text6 CODE >118:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+956 text6 CODE >119:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+957 text6 CODE >156:C:\Projects\MRF89XA_ApplT/app_TempReg.c
+1449 text5 CODE >10:C:\Projects/LIBC/RTC/app_RTC.c
+1449 text5 CODE >12:C:\Projects/LIBC/RTC/app_RTC.c
+144B text5 CODE >21:C:\Projects/LIBC/RTC/app_RTC.c
+1453 text5 CODE >22:C:\Projects/LIBC/RTC/app_RTC.c
+14E1 text4 CODE >24:C:\Projects/LIBC/RTC/app_RTC.c
+14E1 text4 CODE >33:C:\Projects/LIBC/RTC/app_RTC.c
+14E3 text4 CODE >34:C:\Projects/LIBC/RTC/app_RTC.c
+14E4 text4 CODE >36:C:\Projects/LIBC/RTC/app_RTC.c
+14E6 text4 CODE >39:C:\Projects/LIBC/RTC/app_RTC.c
+14EA text4 CODE >43:C:\Projects/LIBC/RTC/app_RTC.c
+14F7 text4 CODE >45:C:\Projects/LIBC/RTC/app_RTC.c
+14F8 text4 CODE >112:C:\Projects\MRF89XA_ApplT/main.c
+14F8 text4 CODE >113:C:\Projects\MRF89XA_ApplT/main.c
+14FC text4 CODE >114:C:\Projects\MRF89XA_ApplT/main.c
+1461 text3 CODE >6:C:\Projects\MRF89XA_ApplT/drv_spi.c
+1461 text3 CODE >13:C:\Projects\MRF89XA_ApplT/drv_spi.c
+1463 text3 CODE >14:C:\Projects\MRF89XA_ApplT/drv_spi.c
+1464 text3 CODE >15:C:\Projects\MRF89XA_ApplT/drv_spi.c
+1465 text3 CODE >16:C:\Projects\MRF89XA_ApplT/drv_spi.c
+1467 text3 CODE >17:C:\Projects\MRF89XA_ApplT/drv_spi.c
+1469 text3 CODE >18:C:\Projects\MRF89XA_ApplT/drv_spi.c
+146B text3 CODE >22:C:\Projects\MRF89XA_ApplT/drv_spi.c
+146D text3 CODE >23:C:\Projects\MRF89XA_ApplT/drv_spi.c
+146E text3 CODE >24:C:\Projects\MRF89XA_ApplT/drv_spi.c
+7FA text2 CODE >12:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+7FA text2 CODE >13:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+7FC text2 CODE >14:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+7FD text2 CODE >15:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+7FE text2 CODE >16:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+146F text1 CODE >18:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+146F text1 CODE >20:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+1470 text1 CODE >21:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+1471 text1 CODE >20:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+1472 text1 CODE >21:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+1475 text1 CODE >22:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+1476 text1 CODE >23:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+1478 text1 CODE >24:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+1479 text1 CODE >26:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+147B text1 CODE >27:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+147C text1 CODE >30:C:\Projects\MRF89XA_ApplT/app_win_sens.c
+133E swtext1 CONST >172:C:\Projects\MRF89XA_ApplT/main.c
+B83 maintext CODE >116:C:\Projects\MRF89XA_ApplT/main.c
+B83 maintext CODE >121:C:\Projects\MRF89XA_ApplT/main.c
+B86 maintext CODE >122:C:\Projects\MRF89XA_ApplT/main.c
+B88 maintext CODE >123:C:\Projects\MRF89XA_ApplT/main.c
+B89 maintext CODE >124:C:\Projects\MRF89XA_ApplT/main.c
+B8C maintext CODE >125:C:\Projects\MRF89XA_ApplT/main.c
+B8F maintext CODE >128:C:\Projects\MRF89XA_ApplT/main.c
+B92 maintext CODE >130:C:\Projects\MRF89XA_ApplT/main.c
+B95 maintext CODE >131:C:\Projects\MRF89XA_ApplT/main.c
+B97 maintext CODE >134:C:\Projects\MRF89XA_ApplT/main.c
+B98 maintext CODE >135:C:\Projects\MRF89XA_ApplT/main.c
+B9B maintext CODE >136:C:\Projects\MRF89XA_ApplT/main.c
+B9E maintext CODE >137:C:\Projects\MRF89XA_ApplT/main.c
+BA1 maintext CODE >138:C:\Projects\MRF89XA_ApplT/main.c
+BA4 maintext CODE >139:C:\Projects\MRF89XA_ApplT/main.c
+BA7 maintext CODE >140:C:\Projects\MRF89XA_ApplT/main.c
+BAA maintext CODE >142:C:\Projects\MRF89XA_ApplT/main.c
+BAB maintext CODE >143:C:\Projects\MRF89XA_ApplT/main.c
+BAC maintext CODE >142:C:\Projects\MRF89XA_ApplT/main.c
+BAE maintext CODE >143:C:\Projects\MRF89XA_ApplT/main.c
+BB0 maintext CODE >163:C:\Projects\MRF89XA_ApplT/main.c
+BB1 maintext CODE >165:C:\Projects\MRF89XA_ApplT/main.c
+BB3 maintext CODE >166:C:\Projects\MRF89XA_ApplT/main.c
+BB6 maintext CODE >167:C:\Projects\MRF89XA_ApplT/main.c
+BB8 maintext CODE >168:C:\Projects\MRF89XA_ApplT/main.c
+BB9 maintext CODE >169:C:\Projects\MRF89XA_ApplT/main.c
+BBD maintext CODE >175:C:\Projects\MRF89XA_ApplT/main.c
+BC0 maintext CODE >176:C:\Projects\MRF89XA_ApplT/main.c
+BC1 maintext CODE >178:C:\Projects\MRF89XA_ApplT/main.c
+BC4 maintext CODE >179:C:\Projects\MRF89XA_ApplT/main.c
+BC5 maintext CODE >181:C:\Projects\MRF89XA_ApplT/main.c
+BC8 maintext CODE >182:C:\Projects\MRF89XA_ApplT/main.c
+BC9 maintext CODE >184:C:\Projects\MRF89XA_ApplT/main.c
+BCC maintext CODE >185:C:\Projects\MRF89XA_ApplT/main.c
+BCD maintext CODE >187:C:\Projects\MRF89XA_ApplT/main.c
+BCF maintext CODE >189:C:\Projects\MRF89XA_ApplT/main.c
+BDC maintext CODE >190:C:\Projects\MRF89XA_ApplT/main.c
+BDE maintext CODE >194:C:\Projects\MRF89XA_ApplT/main.c
+BE1 maintext CODE >147:C:\Projects\MRF89XA_ApplT/main.c
+BE3 maintext CODE >150:C:\Projects\MRF89XA_ApplT/main.c
+BE6 maintext CODE >152:C:\Projects\MRF89XA_ApplT/main.c
+BE7 maintext CODE >153:C:\Projects\MRF89XA_ApplT/main.c
+BEB maintext CODE >154:C:\Projects\MRF89XA_ApplT/main.c
+BEE maintext CODE >155:C:\Projects\MRF89XA_ApplT/main.c
+BF1 maintext CODE >156:C:\Projects\MRF89XA_ApplT/main.c
+BF4 maintext CODE >157:C:\Projects\MRF89XA_ApplT/main.c
+BF5 maintext CODE >158:C:\Projects\MRF89XA_ApplT/main.c
+BF8 maintext CODE >159:C:\Projects\MRF89XA_ApplT/main.c
+BFD maintext CODE >161:C:\Projects\MRF89XA_ApplT/main.c
+C00 maintext CODE >162:C:\Projects\MRF89XA_ApplT/main.c
+C01 maintext CODE >172:C:\Projects\MRF89XA_ApplT/main.c
+C0B maintext CODE >197:C:\Projects\MRF89XA_ApplT/main.c
+C0C maintext CODE >15:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C0C maintext CODE >17:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C0F maintext CODE >18:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C10 maintext CODE >17:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C11 maintext CODE >18:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C12 maintext CODE >19:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C13 maintext CODE >20:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C14 maintext CODE >22:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C15 maintext CODE >23:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C1C maintext CODE >22:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C22 maintext CODE >31:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C22 maintext CODE >35:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C23 maintext CODE >37:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C23 maintext CODE >38:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C27 maintext CODE >39:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C28 maintext CODE >40:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C29 maintext CODE >46:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C30 maintext CODE >47:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C32 maintext CODE >51:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C39 maintext CODE >52:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C3D maintext CODE >54:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C41 maintext CODE >55:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C47 maintext CODE >56:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C4B maintext CODE >57:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C5B maintext CODE >60:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+C5C maintext CODE >49:C:\Projects\MRF89XA_ApplT/drv_io.c
+C5C maintext CODE >50:C:\Projects\MRF89XA_ApplT/drv_io.c
+C61 maintext CODE >51:C:\Projects\MRF89XA_ApplT/drv_io.c
+C62 maintext CODE >57:C:\Projects\MRF89XA_ApplT/main.c
+C62 maintext CODE >58:C:\Projects\MRF89XA_ApplT/main.c
+C67 maintext CODE >63:C:\Projects\MRF89XA_ApplT/main.c
+C6E maintext CODE >65:C:\Projects\MRF89XA_ApplT/main.c
+C72 maintext CODE >66:C:\Projects\MRF89XA_ApplT/main.c
+C75 maintext CODE >67:C:\Projects\MRF89XA_ApplT/main.c
+C7C maintext CODE >68:C:\Projects\MRF89XA_ApplT/main.c
+C7F maintext CODE >69:C:\Projects\MRF89XA_ApplT/main.c
+C81 maintext CODE >70:C:\Projects\MRF89XA_ApplT/main.c
+C82 maintext CODE >71:C:\Projects\MRF89XA_ApplT/main.c
+C84 maintext CODE >72:C:\Projects\MRF89XA_ApplT/main.c
+C86 maintext CODE >73:C:\Projects\MRF89XA_ApplT/main.c
+C87 maintext CODE >120:C:\Projects/LIBC/NVM/svc_nvm.c
+C87 maintext CODE >122:C:\Projects/LIBC/NVM/svc_nvm.c
+C88 maintext CODE >123:C:\Projects/LIBC/NVM/svc_nvm.c
+C8E maintext CODE >124:C:\Projects/LIBC/NVM/svc_nvm.c
+C8F maintext CODE >122:C:\Projects/LIBC/NVM/svc_nvm.c
+C94 maintext CODE >127:C:\Projects/LIBC/NVM/svc_nvm.c
+C99 maintext CODE >130:C:\Projects/LIBC/NVM/svc_nvm.c
+C99 maintext CODE >133:C:\Projects/LIBC/NVM/svc_nvm.c
+C9A maintext CODE >135:C:\Projects/LIBC/NVM/svc_nvm.c
+C9F maintext CODE >136:C:\Projects/LIBC/NVM/svc_nvm.c
+CA5 maintext CODE >137:C:\Projects/LIBC/NVM/svc_nvm.c
+CA7 maintext CODE >140:C:\Projects/LIBC/NVM/svc_nvm.c
+CAC maintext CODE >141:C:\Projects/LIBC/NVM/svc_nvm.c
+CB0 maintext CODE >142:C:\Projects/LIBC/NVM/svc_nvm.c
+CB2 maintext CODE >143:C:\Projects/LIBC/NVM/svc_nvm.c
+CB7 maintext CODE >144:C:\Projects/LIBC/NVM/svc_nvm.c
+CC2 maintext CODE >145:C:\Projects/LIBC/NVM/svc_nvm.c
+CC5 maintext CODE >143:C:\Projects/LIBC/NVM/svc_nvm.c
+CC7 maintext CODE >147:C:\Projects/LIBC/NVM/svc_nvm.c
+CCB maintext CODE >148:C:\Projects/LIBC/NVM/svc_nvm.c
+CCE maintext CODE >135:C:\Projects/LIBC/NVM/svc_nvm.c
+CD0 maintext CODE >156:C:\Projects/LIBC/NVM/svc_nvm.c
+CDA maintext CODE >159:C:\Projects/LIBC/NVM/svc_nvm.c
+CE1 maintext CODE >161:C:\Projects/LIBC/NVM/svc_nvm.c
+CE6 maintext CODE >162:C:\Projects/LIBC/NVM/svc_nvm.c
+CE7 maintext CODE >163:C:\Projects/LIBC/NVM/svc_nvm.c
+CEA maintext CODE >164:C:\Projects/LIBC/NVM/svc_nvm.c
+CEB maintext CODE >165:C:\Projects/LIBC/NVM/svc_nvm.c
+CEE maintext CODE >166:C:\Projects/LIBC/NVM/svc_nvm.c
+CF1 maintext CODE >172:C:\Projects/LIBC/NVM/svc_nvm.c
+CF8 maintext CODE >175:C:\Projects/LIBC/NVM/svc_nvm.c
+CFC maintext CODE >177:C:\Projects/LIBC/NVM/svc_nvm.c
+CFE maintext CODE >178:C:\Projects/LIBC/NVM/svc_nvm.c
+CFF maintext CODE >133:C:\Projects/LIBC/NVM/svc_nvm.c
+D0B maintext CODE >184:C:\Projects/LIBC/NVM/svc_nvm.c
+D0C maintext CODE >5:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D0D maintext CODE >7:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D10 maintext CODE >8:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D11 maintext CODE >9:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D12 maintext CODE >10:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D13 maintext CODE >11:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D14 maintext CODE >12:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D16 maintext CODE >13:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D17 maintext CODE >15:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D18 maintext CODE >17:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D1B maintext CODE >18:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D1F maintext CODE >19:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D21 maintext CODE >20:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D22 maintext CODE >21:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D23 maintext CODE >22:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D24 maintext CODE >23:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D26 maintext CODE >24:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D28 maintext CODE >25:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D29 maintext CODE >26:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D2B maintext CODE >27:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D2D maintext CODE >28:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D2E maintext CODE >29:C:\Projects\MRF89XA_ApplT/drv_eep.c
+D2F maintext CODE >86:C:\Projects/LIBC/COM/svc_comm.c
+D2F maintext CODE >88:C:\Projects/LIBC/COM/svc_comm.c
+D31 maintext CODE >91:C:\Projects/LIBC/COM/svc_comm.c
+D34 maintext CODE >92:C:\Projects/LIBC/COM/svc_comm.c
+D36 maintext CODE >93:C:\Projects/LIBC/COM/svc_comm.c
+D38 maintext CODE >94:C:\Projects/LIBC/COM/svc_comm.c
+D3A maintext CODE >95:C:\Projects/LIBC/COM/svc_comm.c
+D3C maintext CODE >97:C:\Projects/LIBC/COM/svc_comm.c
+D3E maintext CODE >98:C:\Projects/LIBC/COM/svc_comm.c
+D3F maintext CODE >99:C:\Projects/LIBC/COM/svc_comm.c
+D40 maintext CODE >100:C:\Projects/LIBC/COM/svc_comm.c
+D41 maintext CODE >102:C:\Projects/LIBC/COM/svc_comm.c
+D42 maintext CODE >103:C:\Projects/LIBC/COM/svc_comm.c
+D48 maintext CODE >105:C:\Projects/LIBC/COM/svc_comm.c
+D4C maintext CODE >106:C:\Projects/LIBC/COM/svc_comm.c
+D4D maintext CODE >103:C:\Projects/LIBC/COM/svc_comm.c
+D4E maintext CODE >22:C:\Projects\MRF89XA_ApplT/svc_comm_cfg_tx.h
+D50 maintext CODE >23:C:\Projects\MRF89XA_ApplT/svc_comm_cfg_tx.h
+D52 maintext CODE >24:C:\Projects\MRF89XA_ApplT/svc_comm_cfg_tx.h
+D54 maintext CODE >28:C:\Projects\MRF89XA_ApplT/svc_comm_cfg_tx.h
+D56 maintext CODE >112:C:\Projects/LIBC/COM/svc_comm.c
+D57 maintext CODE >265:C:\Projects/LIBC/COM/svc_comm.c
+D57 maintext CODE >266:C:\Projects/LIBC/COM/svc_comm.c
+D5A maintext CODE >268:C:\Projects/LIBC/COM/svc_comm.c
+D5D maintext CODE >269:C:\Projects/LIBC/COM/svc_comm.c
+D5F maintext CODE >270:C:\Projects/LIBC/COM/svc_comm.c
+D63 maintext CODE >273:C:\Projects/LIBC/COM/svc_comm.c
+D66 maintext CODE >274:C:\Projects/LIBC/COM/svc_comm.c
+D6A maintext CODE >275:C:\Projects/LIBC/COM/svc_comm.c
+D6B maintext CODE >276:C:\Projects/LIBC/COM/svc_comm.c
+D6C maintext CODE >277:C:\Projects/LIBC/COM/svc_comm.c
+D6C maintext CODE >279:C:\Projects/LIBC/COM/svc_comm.c
+D6E maintext CODE >280:C:\Projects/LIBC/COM/svc_comm.c
+D6F maintext CODE >284:C:\Projects/LIBC/COM/svc_comm.c
+D72 maintext CODE >290:C:\Projects/LIBC/COM/svc_comm.c
+D74 maintext CODE >291:C:\Projects/LIBC/COM/svc_comm.c
+D78 maintext CODE >292:C:\Projects/LIBC/COM/svc_comm.c
+D7B maintext CODE >294:C:\Projects/LIBC/COM/svc_comm.c
+D7F maintext CODE >295:C:\Projects/LIBC/COM/svc_comm.c
+D81 maintext CODE >296:C:\Projects/LIBC/COM/svc_comm.c
+D82 maintext CODE >183:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D82 maintext CODE >185:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D83 maintext CODE >186:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D84 maintext CODE >185:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D85 maintext CODE >186:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D87 maintext CODE >188:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D8B maintext CODE >189:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D90 maintext CODE >192:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D91 maintext CODE >195:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D93 maintext CODE >261:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D93 maintext CODE >263:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D97 maintext CODE >272:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D99 maintext CODE >276:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D9B maintext CODE >278:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+D9E maintext CODE >279:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DA6 maintext CODE >281:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DA9 maintext CODE >282:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DAD maintext CODE >283:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DB0 maintext CODE >284:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DB1 maintext CODE >285:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DB4 maintext CODE >286:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DBD maintext CODE >287:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DBE maintext CODE >285:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DBF maintext CODE >293:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DC1 maintext CODE >292:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DC1 maintext CODE >294:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DC7 maintext CODE >296:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DCB maintext CODE >297:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DCE maintext CODE >302:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DCF maintext CODE >233:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DCF maintext CODE >235:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DD1 maintext CODE >236:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DD3 maintext CODE >237:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DD5 maintext CODE >238:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DD6 maintext CODE >239:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DD7 maintext CODE >129:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DD7 maintext CODE >132:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DD8 maintext CODE >133:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DE4 maintext CODE >132:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DE9 maintext CODE >137:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DEE maintext CODE >138:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DF0 maintext CODE >140:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DF3 maintext CODE >141:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DF5 maintext CODE >142:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DF6 maintext CODE >143:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DF7 maintext CODE >145:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DFB maintext CODE >146:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DFD maintext CODE >148:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+DFE maintext CODE >149:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E00 maintext CODE >143:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E03 maintext CODE >153:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E06 maintext CODE >155:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E0B maintext CODE >156:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E0C maintext CODE >160:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E12 maintext CODE >161:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E13 maintext CODE >162:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E14 maintext CODE >172:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E15 maintext CODE >174:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E17 maintext CODE >176:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E1A maintext CODE >177:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E1D maintext CODE >178:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E1F maintext CODE >179:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E21 maintext CODE >180:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E22 maintext CODE >181:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E23 maintext CODE >199:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E23 maintext CODE >202:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E28 maintext CODE >203:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E2D maintext CODE >204:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E37 maintext CODE >205:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E41 maintext CODE >208:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E47 maintext CODE >209:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E4F maintext CODE >208:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E51 maintext CODE >212:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E53 maintext CODE >72:C:\Projects/LIBC/COM/svc_comm.c
+E53 maintext CODE >73:C:\Projects/LIBC/COM/svc_comm.c
+E57 maintext CODE >74:C:\Projects/LIBC/COM/svc_comm.c
+E58 maintext CODE >77:C:\Projects/LIBC/COM/svc_comm.c
+E5E maintext CODE >78:C:\Projects/LIBC/COM/svc_comm.c
+E64 maintext CODE >79:C:\Projects/LIBC/COM/svc_comm.c
+E6A maintext CODE >80:C:\Projects/LIBC/COM/svc_comm.c
+E70 maintext CODE >81:C:\Projects/LIBC/COM/svc_comm.c
+E73 maintext CODE >82:C:\Projects/LIBC/COM/svc_comm.c
+E76 maintext CODE >164:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E77 maintext CODE >165:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E79 maintext CODE >166:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E7A maintext CODE >167:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E7E maintext CODE >168:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E81 maintext CODE >169:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E83 maintext CODE >170:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E84 maintext CODE >241:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E85 maintext CODE >245:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E86 maintext CODE >248:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E8E maintext CODE >249:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E90 maintext CODE >250:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E94 maintext CODE >251:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E97 maintext CODE >252:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+E98 maintext CODE >58:C:\Projects\MRF89XA_ApplT/drv_spi.c
+E98 maintext CODE >63:C:\Projects\MRF89XA_ApplT/drv_spi.c
+E9A maintext CODE >64:C:\Projects\MRF89XA_ApplT/drv_spi.c
+E9C maintext CODE >65:C:\Projects\MRF89XA_ApplT/drv_spi.c
+E9E maintext CODE >67:C:\Projects\MRF89XA_ApplT/drv_spi.c
+EA1 maintext CODE >69:C:\Projects\MRF89XA_ApplT/drv_spi.c
+EA3 maintext CODE >89:C:\Projects\MRF89XA_ApplT/drv_spi.c
+EA4 maintext CODE >226:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+EA5 maintext CODE >228:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+EA7 maintext CODE >229:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+EAA maintext CODE >230:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+EAC maintext CODE >231:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+EAD maintext CODE >256:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+EAD maintext CODE >257:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+EB1 maintext CODE >258:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+EB2 maintext CODE >228:C:\Projects\MRF89XA_ApplT/drv_io.c
+EB3 maintext CODE >229:C:\Projects\MRF89XA_ApplT/drv_io.c
+EB5 maintext CODE >230:C:\Projects\MRF89XA_ApplT/drv_io.c
+EB7 maintext CODE >231:C:\Projects\MRF89XA_ApplT/drv_io.c
+EB9 maintext CODE >232:C:\Projects\MRF89XA_ApplT/drv_io.c
+EBB maintext CODE >233:C:\Projects\MRF89XA_ApplT/drv_io.c
+EBC maintext CODE >114:C:\Projects/LIBC/COM/svc_comm.c
+EBC maintext CODE >115:C:\Projects/LIBC/COM/svc_comm.c
+EC0 maintext CODE >117:C:\Projects/LIBC/COM/svc_comm.c
+EC1 maintext CODE >118:C:\Projects/LIBC/COM/svc_comm.c
+EC3 maintext CODE >119:C:\Projects/LIBC/COM/svc_comm.c
+EC5 maintext CODE >120:C:\Projects/LIBC/COM/svc_comm.c
+EC8 maintext CODE >121:C:\Projects/LIBC/COM/svc_comm.c
+ECC maintext CODE >121:C:\Projects/LIBC/COM/svc_comm.c
+ECC maintext CODE >123:C:\Projects/LIBC/COM/svc_comm.c
+ECE maintext CODE >125:C:\Projects/LIBC/COM/svc_comm.c
+ED1 maintext CODE >126:C:\Projects/LIBC/COM/svc_comm.c
+ED2 maintext CODE >128:C:\Projects/LIBC/COM/svc_comm.c
+ED4 maintext CODE >38:C:\Projects\MRF89XA_ApplT/drv_io.c
+ED4 maintext CODE >39:C:\Projects\MRF89XA_ApplT/drv_io.c
+ED7 maintext CODE >40:C:\Projects\MRF89XA_ApplT/drv_io.c
+ED8 maintext CODE >59:C:\Projects/LIBC/NVM/svc_nvm.c
+ED8 maintext CODE >60:C:\Projects/LIBC/NVM/svc_nvm.c
+EE1 maintext CODE >61:C:\Projects/LIBC/NVM/svc_nvm.c
+EED maintext CODE >62:C:\Projects/LIBC/NVM/svc_nvm.c
+EF9 maintext CODE >63:C:\Projects/LIBC/NVM/svc_nvm.c
+EFE maintext CODE >68:C:\Projects/LIBC/NVM/svc_nvm.c
+EFF maintext CODE >69:C:\Projects/LIBC/NVM/svc_nvm.c
+F00 maintext CODE >132:C:\Projects/LIBC/COM/svc_comm.c
+F00 maintext CODE >133:C:\Projects/LIBC/COM/svc_comm.c
+F06 maintext CODE >136:C:\Projects/LIBC/COM/svc_comm.c
+F09 maintext CODE >137:C:\Projects/LIBC/COM/svc_comm.c
+F0A maintext CODE >139:C:\Projects/LIBC/COM/svc_comm.c
+F0C maintext CODE >148:C:\Projects/LIBC/COM/svc_comm.c
+F0D maintext CODE >141:C:\Projects/LIBC/COM/svc_comm.c
+F13 maintext CODE >142:C:\Projects/LIBC/COM/svc_comm.c
+F1A maintext CODE >17:C:\Projects\MRF89XA_ApplT/svc_comm_cfg_rx.h
+F21 maintext CODE >18:C:\Projects\MRF89XA_ApplT/svc_comm_cfg_rx.h
+F29 maintext CODE >21:C:\Projects\MRF89XA_ApplT/svc_comm_cfg_rx.h
+F31 maintext CODE >25:C:\Projects\MRF89XA_ApplT/svc_comm_cfg_rx.h
+F39 maintext CODE >26:C:\Projects\MRF89XA_ApplT/svc_comm_cfg_rx.h
+F3F maintext CODE >148:C:\Projects/LIBC/COM/svc_comm.c
+F44 maintext CODE >141:C:\Projects/LIBC/COM/svc_comm.c
+F45 maintext CODE >153:C:\Projects/LIBC/COM/svc_comm.c
+F48 maintext CODE >154:C:\Projects/LIBC/COM/svc_comm.c
+F4C maintext CODE >159:C:\Projects/LIBC/COM/svc_comm.c
+F4F maintext CODE >160:C:\Projects/LIBC/COM/svc_comm.c
+F55 maintext CODE >161:C:\Projects/LIBC/COM/svc_comm.c
+F58 maintext CODE >167:C:\Projects/LIBC/COM/svc_comm.c
+F5B maintext CODE >168:C:\Projects/LIBC/COM/svc_comm.c
+F5E maintext CODE >169:C:\Projects/LIBC/COM/svc_comm.c
+F61 maintext CODE >170:C:\Projects/LIBC/COM/svc_comm.c
+F66 maintext CODE >176:C:\Projects/LIBC/COM/svc_comm.c
+F69 maintext CODE >177:C:\Projects/LIBC/COM/svc_comm.c
+F6D maintext CODE >178:C:\Projects/LIBC/COM/svc_comm.c
+F70 maintext CODE >179:C:\Projects/LIBC/COM/svc_comm.c
+F74 maintext CODE >185:C:\Projects/LIBC/COM/svc_comm.c
+F77 maintext CODE >186:C:\Projects/LIBC/COM/svc_comm.c
+F7B maintext CODE >187:C:\Projects/LIBC/COM/svc_comm.c
+F7F maintext CODE >192:C:\Projects/LIBC/COM/svc_comm.c
+F82 maintext CODE >193:C:\Projects/LIBC/COM/svc_comm.c
+F85 maintext CODE >194:C:\Projects/LIBC/COM/svc_comm.c
+F89 maintext CODE >200:C:\Projects/LIBC/COM/svc_comm.c
+F8D maintext CODE >201:C:\Projects/LIBC/COM/svc_comm.c
+F8F maintext CODE >202:C:\Projects/LIBC/COM/svc_comm.c
+F94 maintext CODE >203:C:\Projects/LIBC/COM/svc_comm.c
+F96 maintext CODE >204:C:\Projects/LIBC/COM/svc_comm.c
+F98 maintext CODE >137:C:\Projects/LIBC/COM/svc_comm.c
+FB3 maintext CODE >219:C:\Projects/LIBC/COM/svc_comm.c
+FB7 maintext CODE >221:C:\Projects/LIBC/COM/svc_comm.c
+FBB maintext CODE >222:C:\Projects/LIBC/COM/svc_comm.c
+FBD maintext CODE >50:C:\Projects/LIBC/COM/svc_comm.c
+FBE maintext CODE >51:C:\Projects/LIBC/COM/svc_comm.c
+FC2 maintext CODE >52:C:\Projects/LIBC/COM/svc_comm.c
+FC5 maintext CODE >53:C:\Projects/LIBC/COM/svc_comm.c
+FC7 maintext CODE >54:C:\Projects/LIBC/COM/svc_comm.c
+FC9 maintext CODE >56:C:\Projects/LIBC/COM/svc_comm.c
+FCA maintext CODE >76:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+FCC maintext CODE >77:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+FD0 maintext CODE >78:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+FD2 maintext CODE >80:C:\Projects\MRF89XA_ApplT/drv_air_sens.c
+FF3 maintext CODE >226:C:\Projects/LIBC/COM/svc_comm.c
+FF3 maintext CODE >227:C:\Projects/LIBC/COM/svc_comm.c
+FF8 maintext CODE >228:C:\Projects/LIBC/COM/svc_comm.c
+FF9 maintext CODE >229:C:\Projects/LIBC/COM/svc_comm.c
+FFA maintext CODE >230:C:\Projects/LIBC/COM/svc_comm.c
+FFA maintext CODE >231:C:\Projects/LIBC/COM/svc_comm.c
+FFB maintext CODE >233:C:\Projects/LIBC/COM/svc_comm.c
+FFC maintext CODE >10:C:\Projects\MRF89XA_ApplT/drv_I2C.c
+FFC maintext CODE >11:C:\Projects\MRF89XA_ApplT/drv_I2C.c
+FFE maintext CODE >12:C:\Projects\MRF89XA_ApplT/drv_I2C.c
+FFF maintext CODE >13:C:\Projects\MRF89XA_ApplT/drv_I2C.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awdiv@counter 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_UDS_GetSeed 1318 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_Large2Dots@bON 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_u8editmode 45 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_ReadFIFO 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Read_Eep 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+UDS_RDBID@i 78 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+UDS_RDBID@k 7A 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PRG_TaskSlow 1318 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_BitmapV AC8 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hspace_0 18D9 0 ABS 0 - -
+__Hspace_1 2DA 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+_currhum 49 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MRF89XAStartReception 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_GetTempMeas 18B8 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_CalcTemp 10CE 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_WIN_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_ClearLCD 2A38 0 CODE 0 text52 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PrepBlockData 1DB0 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MRF89XACheckRSSI 1D5A 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_LCD_XY CAE 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_PRG_SetNewTemp 1412 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL2 FB0 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL4 2B8C 0 CODE 0 text93 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL6 16E2 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL8 2DA8 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_xp 5B 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_yp 5A 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_Large2Dots 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RAM_PARAM DA 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+__size_of_LCD_LargeDigit 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_DrawRegPower 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_ClearLine 9B4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_LargeMinus 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LATA 10C 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LATB 10D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Line 47 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Menu 48 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_WPUB 20D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___sp 0 0 STACK 2 stack e:\Temp\s5a4.obj
+_addr 3D 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_cntr 34 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ePrs 38 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_main 1706 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_pRam 26 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_pRom C7 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_seed 20 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+btemp 7E 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_UDS_CompareKey 2ECC 0 CODE 0 text86 dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_ReadBlockData@Block 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCDWriteCMD F80 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Calc_Key 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+start 710 0 CODE 0 init e:\Temp\s5a4.obj
+_DrawTimeDate 832 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_ReloadTime 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of___awdiv 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of___awmod 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MRF89XASetRFMode 1D30 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RequestReset 29F0 0 CODE 0 text4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_App_OnAirHumSig 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_DrawClrLastLines 832 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of___lbdiv 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of___lbmod 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hstringtext10 0 0 ABS 0 stringtext10 -
+__Hstringtext11 0 0 ABS 0 stringtext11 -
+__Hstringtext12 0 0 ABS 0 stringtext12 -
+__Hstringtext13 0 0 ABS 0 stringtext13 -
+__Hstringtext14 0 0 ABS 0 stringtext14 -
+__Hstringtext15 0 0 ABS 0 stringtext15 -
+__Hstringtext16 0 0 ABS 0 stringtext16 -
+__Hstringtext17 0 0 ABS 0 stringtext17 -
+__Hstringtext18 0 0 ABS 0 stringtext18 -
+__Hstringtext19 0 0 ABS 0 stringtext19 -
+__Hstringtext20 0 0 ABS 0 stringtext20 -
+__Hstringtext21 0 0 ABS 0 stringtext21 -
+__Hstringtext22 0 0 ABS 0 stringtext22 -
+__Hstringtext23 0 0 ABS 0 stringtext23 -
+__Hstringtext24 0 0 ABS 0 stringtext24 -
+__Hstringtext25 0 0 ABS 0 stringtext25 -
+__Hstringtext26 0 0 ABS 0 stringtext26 -
+__Hstringtext27 0 0 ABS 0 stringtext27 -
+__Hstringtext28 0 0 ABS 0 stringtext28 -
+__Hstringtext29 0 0 ABS 0 stringtext29 -
+__end_of_Comm_OnIdle 1B04 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_PRS_Task1s 291A 0 CODE 0 text10 dist/Release/production\MRF89XA_ApplT.X.production.obj
+RTC_TimeToNumber@r 79 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XARegisterRead@address 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MRF89XAInit 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MRF89XATask 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+?___lmul 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+?___wmul 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XARegisterSet@value 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_String@characters 7A 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_LargeDot 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_WriteBlock 16D4 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MRF89XASetRFMode 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_DrawClrLastLines 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_I2C_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_IsIdle 190E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+RTC_BCD2DEC@x 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+RTC_BCD2DEC@y 73 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MRF89XARegisterSet 1D08 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_Char DCC 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_Init F42 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_WriteFIFO 1D5A 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Write_Eep 1A5E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+__size_of_PRG_TaskSlow 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_BCDNumber@bLzero 7A 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_NVM_ReadBlockData 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_NVM_GetBlockLenght 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RTC_Status 51 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awmod@sign 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XAInit@input 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_WriteFIFO 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Write_Eep 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_DrawRegPower AB8 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MRF89XARegisterRead 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RAM_CTRL 2BE 0 BANK5 1 bssBANK5 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RAM_NWID D5 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ReadFIFO 1B9E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Read_Eep 1A18 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_Char E26 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_Init F6C 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+intlevel0 0 0 ENTRY 0 functab e:\Temp\s5a4.obj
+intlevel1 0 0 ENTRY 0 functab e:\Temp\s5a4.obj
+intlevel2 0 0 ENTRY 0 functab e:\Temp\s5a4.obj
+intlevel3 0 0 ENTRY 0 functab e:\Temp\s5a4.obj
+intlevel4 0 0 ENTRY 0 functab e:\Temp\s5a4.obj
+intlevel5 0 0 ENTRY 0 functab e:\Temp\s5a4.obj
+__ptext100 1D78 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext101 1C46 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext102 1D48 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext103 1D64 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext104 1DA8 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext105 1CA6 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext106 1BAE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext107 1B04 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext108 1D08 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext109 1CEC 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext110 1C28 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext111 DB4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext112 1D30 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext113 18C4 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext114 1846 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext115 1636 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext116 164E 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext117 18B8 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext118 1844 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext119 1818 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Comm_PrepareTransmit 2AFA 0 CODE 0 text64 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ROM_TEMP_REGDATA 313A 0 STRCODE 0 stringtext13 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_WriteNVMBlockSync 16B8 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___bmul@multiplicand 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Comm_IsAlreadyReceived 2C24 0 CODE 0 text95 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_GetTempMeas 18C4 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_OSCCONbits 99 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+Write_Eep@SAVEICON 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_REG_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_IsIdle@i 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_LargeDot 734 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ROM_TEMPPROG 30C0 0 STRCODE 0 stringtext9 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_WIN_Init FF4 0 CODE 0 text2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hfunctab 0 0 ENTRY 0 functab -
+__end_of_ReadFIFO 1BAE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Read_Eep 1A2E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_DrawTimeDate 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_WriteFIFO 1D48 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Write_Eep 1A2E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_RequestReset 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awdiv@sign 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__end_of_PRG_TaskSlow 1330 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+AirS_Init@i 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+?_IO_GetTempMeas 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_UDS_CompareKey 2F90 0 CODE 0 text86 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_SPI_HF_Get 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_SPI_HF_Put 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_WIN_Init FFE 0 CODE 0 text2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_TaskFast 2CF0 0 CODE 0 text60 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_TaskSlow 10CE 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_DateTime BC 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Calc_Key 2F90 0 CODE 0 text86 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MRF89XARegisterSet 1CEC 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_REG_FZLogic 1258 0 CODE 0 text6 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RTC_BCD2DEC 1636 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ADCON0 9D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ADCON1 9E 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ADRESH 9C 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ADRESL 9B 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+DetermineProg@ix 7B 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_AirS_Init 1844 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_AirS_Task 1846 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XAInit@res 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ANSELA 18C 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ANSELB 18D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_AirS_Task_Slow 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_AdcRaw 32 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_AirS_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_AirS_Task 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_WriteBlock 16E2 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_String 944 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_EECON1bits 195 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RAM_TEMP_REGDATA DF 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_GetPIRLevel 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ComTxData B3 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MRF89XACheckRSSI 1D64 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_PRG_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Calc_Key 2FDA 0 CODE 0 text86 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_I2C_Init 1FF8 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SPI_HF_Init 28C2 0 CODE 0 text3 dist/Release/production\MRF89XA_ApplT.X.production.obj
+Write_Eep@bdata 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hpa_nodes0 0 0 ABS 0 pa_nodes0 -
+__end_of___bmul 1666 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of___lmul 1152 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of___wmul E50 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_DrawTimeDate 944 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MRF89XARegisterRead 1C28 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_RequestReset 29FA 0 CODE 0 text4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_EECON2 196 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_EEDATL 193 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ByteCount 3E 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_IsIdle 1932 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_PrepBlockData 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MRF89XACheckRSSI 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbdiv@dividend 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbmod@divisor 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XASetRFMode@mcparam0_read 73 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lmaintext 0 0 ABS 0 maintext -
+__end_of_I2C_Init 2000 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+___bmul@multiplier 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_WIN_IsOpen ADC 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_AirS_Init 1818 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_AirS_Task 1844 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MRF89XASendFrame 1C46 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of___awdiv ED0 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of___awmod F42 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of___lbdiv FB0 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of___lbmod 29C2 0 CODE 0 text46 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Clock_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_INTCON B 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XASendFrame@i 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_REG_Init 28A8 0 CODE 0 text8 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_GetRIRLevel 2E6A 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_DrawSetTempText 9DC 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_OPTION_REG 95 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_ReadBlock 2DA8 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_Char@character 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_UDS_GetSeed 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+ReadFIFO@value 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_BitmapV 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_ReadBlock 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lpa_nodes0 0 0 ABS 0 pa_nodes0 -
+_NVM_BlockAddr 30F0 0 STRCODE 0 stringtext6 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_BlockSize 3102 0 STRCODE 0 stringtext7 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_XY C96 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_REG_Init 28C2 0 CODE 0 text8 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RAM_TEMPPROG2 141 0 BANK2 1 bssBANK2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_PrepBlockData 1E00 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_ROM_TEMPPROG 30DC 0 STRCODE 0 stringtext9 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lstringtext10 0 0 ABS 0 stringtext10 -
+__Lstringtext11 0 0 ABS 0 stringtext11 -
+__Lstringtext12 0 0 ABS 0 stringtext12 -
+__Lstringtext13 0 0 ABS 0 stringtext13 -
+__Lstringtext14 0 0 ABS 0 stringtext14 -
+__Lstringtext15 0 0 ABS 0 stringtext15 -
+__Lstringtext16 0 0 ABS 0 stringtext16 -
+__Lstringtext17 0 0 ABS 0 stringtext17 -
+__Lstringtext18 0 0 ABS 0 stringtext18 -
+__Lstringtext19 0 0 ABS 0 stringtext19 -
+__Lstringtext20 0 0 ABS 0 stringtext20 -
+__Lstringtext21 0 0 ABS 0 stringtext21 -
+__Lstringtext22 0 0 ABS 0 stringtext22 -
+__Lstringtext23 0 0 ABS 0 stringtext23 -
+__Lstringtext24 0 0 ABS 0 stringtext24 -
+__Lstringtext25 0 0 ABS 0 stringtext25 -
+__Lstringtext26 0 0 ABS 0 stringtext26 -
+__Lstringtext27 0 0 ABS 0 stringtext27 -
+__Lstringtext28 0 0 ABS 0 stringtext28 -
+__Lstringtext29 0 0 ABS 0 stringtext29 -
+__end_of_ROM_TEMP_REGDATA 3142 0 STRCODE 0 stringtext13 dist/Release/production\MRF89XA_ApplT.X.production.obj
+start_initialization 714 0 CODE 0 cinit dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_PRS_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_PRS_Task 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_DrawLargeHum B18 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_ROM_PIRDATA 3126 0 STRCODE 0 stringtext10 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ReadBlock 2D10 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_startTemp CB 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_startTime CD 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCDWriteCMD 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ROM_NWID 3130 0 STRCODE 0 stringtext12 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TRISAbits 8C 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PRG_Init 16F2 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_nvblock 4D 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_GetSW1Press 13AC 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_DisablePIR 1DA8 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PRS_OnPIRFrame 2B08 0 CODE 0 text93 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_ReadBlockData 1614 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_String 968 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MNU_TaskButton 1364 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+app_Menu@u8temp 46 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Ports_Init 2964 0 CODE 0 text9 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Comm_OnIdle 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ComData A0 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_GetSW2Press 13BA 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL2 FC4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL4 2B9A 0 CODE 0 text93 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL6 16F2 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL8 2DB4 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pcstackBANK0 5C 0 BANK0 1 cstackBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SSP1IE 48B 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SSP1IF 8B 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_ROM_NWID 313A 0 STRCODE 0 stringtext12 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SW1buf 57 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SW2buf 56 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SWcnt1 53 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SWcnt2 52 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SWdeb1 55 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SWdeb2 54 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_PRG_Init 16FA 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MNU_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MNU_Task 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TMR2IE 489 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TMR2IF 89 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TMR4IE 499 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TMR4IF 99 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TMR6IE 49B 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TMR6IF 9B 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+UDS_CompareKey@s1 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RTC_TaskSlow 29C2 0 CODE 0 text4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Comm_Init 1AAE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Comm_Task 2AFA 0 CODE 0 text64 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RTC_OnRTCFrame 293E 0 CODE 0 text92 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_WIN_IsOpen AF4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Comm_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Comm_Task 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_StartTimer1 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_StartTimer2 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_PRS_Task1s 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_ReadBlockData@offset 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_DrawSetTempText 9B4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_BCDNumber 968 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_XY 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbdiv@counter 77 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_u16Reset D3 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+DrawLargeTemp@t 7A 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+___int_sp 0 0 STACK 2 stack e:\Temp\s5a4.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 71C 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+_MRF89XAInit 1BAE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MRF89XATask 1B26 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+ROL@num 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_REG_PARAMS_RAM E3 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_REG_PARAMS_ROM 3142 0 STRCODE 0 stringtext14 dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_XY@x 73 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_XY@y 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__size_of_POS_RESP 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+_Comm_RxProcess 1E00 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_DrawLargeHum 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MRF89XARegisterRead 1C46 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_CalcTemp 10F4 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MRF89XASendFrame 1CA6 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 0 0 CONFIG 0 config -
+LCD_ClearLCD@index 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Comm_Init 1A5E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Comm_Task 2A88 0 CODE 0 text64 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_InitConfigRegs 3000 0 STRCODE 0 stringtext3 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit 714 0 CODE 0 cinit -
+_PRS_Init 1000 0 CODE 0 text15 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PRS_Task 2DC0 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+_APFCON0 11D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MRF89XASendFrame 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_TaskFast 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_TaskSlow 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_GetSW1Press 13BA 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_BitmapV@bmp 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_PRS_OnPIRFrame 2B48 0 CODE 0 text93 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_NEG_RESP 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MNU_TaskButton 13AC 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Comm_IsAlreadyReceived 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PORTBbits D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ProgSetTemp 2E 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_BlockRAM 309C 0 STRCODE 0 stringtext5 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_BlockROM 3078 0 STRCODE 0 stringtext4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_INTCONbits B 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_GetSW2Press 13C8 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_WriteBlockData@pr 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 710 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__size_of_RTC_TaskSlow 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lcode 0 0 ABS 0 code -
+__Linit 710 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 2000 0 STRCODE 0 stringtext1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext2 23AC 0 STRCODE 0 stringtext2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext3 3000 0 STRCODE 0 stringtext3 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext4 3078 0 STRCODE 0 stringtext4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext5 309C 0 STRCODE 0 stringtext5 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext6 30F0 0 STRCODE 0 stringtext6 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext7 3102 0 STRCODE 0 stringtext7 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext8 3040 0 STRCODE 0 stringtext8 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext9 30C0 0 STRCODE 0 stringtext9 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pnvBANK1 E7 0 BANK1 1 nvBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_PRS_Init 1010 0 CODE 0 text15 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_PRS_Task 2E6A 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SSP1CON1 215 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SSP1CON2 216 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SSP1CON3 217 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SSP1STAT 214 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext10 3114 0 STRCODE 0 stringtext10 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext11 3126 0 STRCODE 0 stringtext11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext12 3130 0 STRCODE 0 stringtext12 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext13 313A 0 STRCODE 0 stringtext13 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext14 3142 0 STRCODE 0 stringtext14 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext15 30DC 0 STRCODE 0 stringtext15 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext16 314A 0 STRCODE 0 stringtext16 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext17 3152 0 STRCODE 0 stringtext17 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext18 315A 0 STRCODE 0 stringtext18 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext19 3162 0 STRCODE 0 stringtext19 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext20 316A 0 STRCODE 0 stringtext20 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext21 3172 0 STRCODE 0 stringtext21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext22 317A 0 STRCODE 0 stringtext22 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext23 3182 0 STRCODE 0 stringtext23 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext24 318A 0 STRCODE 0 stringtext24 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext25 3192 0 STRCODE 0 stringtext25 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext26 319A 0 STRCODE 0 stringtext26 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext27 31A2 0 STRCODE 0 stringtext27 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext28 31AA 0 STRCODE 0 stringtext28 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pstringtext29 0 0 STRCODE 0 stringtext29 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___bmul 164E 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lmul 1108 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___wmul E26 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+ReloadTime@bLocal 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PresenceOff 37 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__size_of_PRG_SetNewTemp 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Ports_Init 2992 0 CODE 0 text9 dist/Release/production\MRF89XA_ApplT.X.production.obj
+int$flags 7E 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RF_Mode 3B 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_WriteBlockData 16B8 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__end_of_DrawLargeHum B6C 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL10 2DB4 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL12 FC4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL14 FD4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL16 FE4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL18 1FA6 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL20 16FA 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL22 1FB2 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL24 1FBE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL26 2C24 0 CODE 0 text95 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL28 1FCA 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL30 1FD4 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+PL32 1FDE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_CSm 40 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ISR 708 0 CODE 0 intentry dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PR2 1B 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PR4 416 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PR6 41D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ROL 2FDA 0 CODE 0 text86 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__S0 18D9 0 ABS 0 - -
+__S1 2DA 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_uSc 24 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+IO_StartTimer1@Time 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MNU_Init 29FA 0 CODE 0 text52 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MNU_Task 734 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RTC_TimeToNumber 1614 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Comm_InitMRF 1CA6 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_Init 2A88 0 CODE 0 text61 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_RTC_OnRTCFrame 2964 0 CODE 0 text92 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_Large2Dots D5E 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+IO_StartTimer2@Time 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_LargeDigit CAE 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_oldSetTemp C9 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_App_OnAirTempSig 291A 0 CODE 0 text97 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_LargeMinus D3A 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_c_mode 4B 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_AdcTempCnt 58 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+UDS_WDBID@i 7A 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+UDS_WDBID@j 79 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+UDS_WDBID@k 7B 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+IO_GetSW2Press@b 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TEMP_HISTORY 129 0 BANK2 1 bssBANK2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MNU_Init 2A0A 0 CODE 0 text52 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MNU_Task 81E 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_BCDNumber@digit 7B 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MRF89XA_Error 3A 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_dotctr 43 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_ReadBlockData 15E2 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_DetermineMode 1330 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_DetermineProg 1594 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_RTC_TaskSlow 29F0 0 CODE 0 text4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_REG_PARAMS_ROM 314A 0 STRCODE 0 stringtext14 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Comm_TaskSlow 1FE6 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TxPacket 220 0 BANK4 1 bssBANK4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_DisablePIR 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Comm_RxProcess 1F7A 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+POS_RESP@len 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_POS_RESP 1562 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_WIN_IsOpen$1753 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL10 2DC0 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL12 FD4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL14 FE4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL16 FF4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL18 1FB2 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL20 1706 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL22 1FBE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL24 1FCA 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL26 2C30 0 CODE 0 text95 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL28 1FD4 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL30 1FDE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_ofPL32 1FE6 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_NVM_IsIdle 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_ISR 710 0 CODE 0 intentry dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_ROL 3000 0 CODE 0 text86 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ftimer 36 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MRF89XARegisterSet 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_InitConfigRegs 3040 0 STRCODE 0 stringtext3 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
+__Lintentry 708 0 CODE 0 intentry -
+__end_of_MRF89XAStartReception 1B26 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+reset_vec 700 0 CODE 0 reset_vec e:\Temp\s5a4.obj
+_NVM_WriteBlockData 1666 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_BlockAddr 3102 0 STRCODE 0 stringtext6 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_BlockSize 3114 0 STRCODE 0 stringtext7 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_POS_RESP 157A 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TempHumFlag 42 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_DrawSetTempText 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_GetTempMeas 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of___bmul 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of___lmul 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of___wmul 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NEG_RESP 1F7A 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+__LbssBANK3 0 0 ABS 0 bssBANK3 -
+__LbssBANK4 0 0 ABS 0 bssBANK4 -
+__LbssBANK5 0 0 ABS 0 bssBANK5 -
+MRF89XARegisterRead@value 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_WriteBlockData@Block 78 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+__Lstringtext2 0 0 ABS 0 stringtext2 -
+__Lstringtext3 0 0 ABS 0 stringtext3 -
+__Lstringtext4 0 0 ABS 0 stringtext4 -
+__Lstringtext5 0 0 ABS 0 stringtext5 -
+__Lstringtext6 0 0 ABS 0 stringtext6 -
+__Lstringtext7 0 0 ABS 0 stringtext7 -
+__Lstringtext8 0 0 ABS 0 stringtext8 -
+__Lstringtext9 0 0 ABS 0 stringtext9 -
+Read_Eep@badd 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Comm_InitMRF 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_REG_FZLogic 12B0 0 CODE 0 text6 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_BCDNumber 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_RTC_BCD2DEC 164E 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MRF89XA_RSSI 41 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+IO_GetSW1Press@b 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awmod@counter 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NEG_RESP 1F94 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_UDS_GetSeed 12B0 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext10 28FA 0 CODE 0 text10 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext11 2DC0 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext12 2E7C 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext13 2E6A 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext14 2EC0 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext15 1000 0 CODE 0 text15 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext16 1318 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext17 1330 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext18 1594 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext19 1614 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext20 16F2 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext21 2CF0 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext22 1364 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext23 13C8 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext24 13BA 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext25 13AC 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext26 734 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext27 832 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext28 968 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext29 9B4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext30 944 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext31 9DC 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext32 ADC 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext33 AD2 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext34 AB8 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext35 B6C 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext36 D5E 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext37 81E 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext38 998 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext39 BEA 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext40 ED0 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext41 E50 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext42 AF4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext43 D3A 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext44 71C 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext45 B18 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext46 2992 0 CODE 0 text46 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext47 F80 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext48 CAE 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext49 C96 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext50 DCC 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext51 E26 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext52 29FA 0 CODE 0 text52 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext53 2A0A 0 CODE 0 text52 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext54 F42 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext55 F6C 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext56 1010 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext57 1108 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext58 10F4 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext59 10CE 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext60 2C30 0 CODE 0 text60 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext61 2A38 0 CODE 0 text61 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext62 1FF8 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext63 1FE6 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext64 2A88 0 CODE 0 text64 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext65 1AAE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext66 1B26 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext67 1B9E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext68 1D5A 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext69 1E00 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext70 1412 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext71 16B8 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext72 16D4 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext73 1932 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext74 1A2E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext75 2D10 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext76 1A18 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext77 1DB0 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext78 1666 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext79 1480 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext80 AC8 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext81 15E2 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext82 190E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext83 1584 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext84 157A 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext85 12B0 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext86 2ECC 0 CODE 0 text86 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext87 1562 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext88 1F7A 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext89 2F90 0 CODE 0 text86 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext90 2FDA 0 CODE 0 text86 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext91 29F0 0 CODE 0 text4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext92 293E 0 CODE 0 text92 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext93 2B08 0 CODE 0 text93 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext94 2AFA 0 CODE 0 text64 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext95 2B9A 0 CODE 0 text95 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext96 2B48 0 CODE 0 text93 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext97 291A 0 CODE 0 text97 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext98 1F94 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext99 1A5E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_UDS_CompareKey 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MRF89XAStartReception 1B04 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_newPWM 50 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_BitmapV AB8 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_GetBlockLenght@Block 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_DisablePIR 1DB0 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_Large2Dots DB4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awdiv E50 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awmod ED0 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_SPI_HF_Init 28DE 0 CODE 0 text3 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbdiv F80 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbmod 2992 0 CODE 0 text46 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_LargeDigit D3A 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+_REG_TaskSlow 1152 0 CODE 0 text6 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pmaintext 1706 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ReloadTime 2E7C 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_RTC_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lbigram 0 0 ABS 0 bigram -
+__end_of_LCD_LargeMinus D5E 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_oldhrs 35 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_NVM_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_BlockRAM 30C0 0 STRCODE 0 stringtext5 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_BlockROM 309C 0 STRCODE 0 stringtext4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_NVM_Task 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+main@task1sec 6D 0 BANK0 1 cstackBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+main@taskslot 6C 0 BANK0 1 cstackBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_pflags 39 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 0 config -
+WriteFIFO@Data 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_NVM_WriteBlock 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_GetPIRPin 157A 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_AdcTemp D1 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LATAbits 10C 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LATBbits 10D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbdiv@divisor 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_AirS_Task_Slow 1846 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_sFlags 4F 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Comm_InitMRF 1CEC 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_String 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_WriteBlockData@data 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_T6CONbits 41E 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+SPI_HF_Put@v 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PRS_RoomPresence AD2 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_GetPIRLevel 2EC0 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCDWriteCMD F6C 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_u8temp 59 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Comm_PrepareTransmit 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_LargeDigit@i 77 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_BCDNumber 998 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_RTC_TimeToNumber 1636 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_GetBlockLenght 1594 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_App_OnWinSensor 2B8C 0 CODE 0 text93 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_GetRIRLevel 2E7C 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_DrawLargeTemp BEA 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_DrawLargeTime B6C 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Comm_OnIdle 1AAE 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+IO_CalcTemp@offs8 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_CurrentBlock 3F 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+stackhi 23EF 0 ABS 0 - e:\Temp\s5a4.obj
+stacklo 21CA 0 ABS 0 - e:\Temp\s5a4.obj
+__end_of_App_OnAirTempSig 293E 0 CODE 0 text97 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_LargePlus AF4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RxPacket 1A0 0 BANK3 1 bssBANK3 dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_LargeDigit@offs 78 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ADCON0bits 9D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_RTC_TimeToNumber 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_WIN_IsOpen 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+NEG_RESP@c 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_Char@index 78 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_CalcTemp 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_App_OnAirTempSig 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+_PresenceTime 28 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RAM_PIRDATA 15D 0 BANK2 1 bssBANK2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__end_of_Comm_PrepareTransmit 2B08 0 CODE 0 text64 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lend_init 710 0 CODE 0 end_init -
+__size_of_REG_TaskSlow 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_WriteBlockData@offset 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TransmitFrame 1D78 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XAInit@i 77 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_PIRFlags 30 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCDWriteCMD@data 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_DetermineMode 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_DetermineProg 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XAStartReception@i 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_WriteNVMBlockSync 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+end_of_initialization 714 0 CODE 0 cinit dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Comm_TaskSlow 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SPI_HF_Get 1D30 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SPI_HF_Put DB4 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hintentry 710 0 CODE 0 intentry -
+__size_of_IO_GetPIRPin 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVMState 3C 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lstrings 0 0 ABS 0 strings -
+_RTC_Init 2892 0 CODE 0 text5 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awdiv@quotient 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+?___awmod 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_Init 2CF0 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_Task 1932 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_GetBlockLenght 1584 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hreset_vec 704 0 CODE 0 reset_vec -
+__end_of_ReloadTime 2EC0 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+__HbssBANK3 0 0 ABS 0 bssBANK3 -
+__HbssBANK4 0 0 ABS 0 bssBANK4 -
+__HbssBANK5 0 0 ABS 0 bssBANK5 -
+___awmod@dividend 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_App_OnAirHumSig 1FA6 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_AirS_Task_Slow 18B8 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+DetermineProg@ctime 7A 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_WIN_TaskSlow 28DE 0 CODE 0 text1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_RTC_Init 28A8 0 CODE 0 text5 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_Init 2D10 0 CODE 0 text21 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_NVM_Task 1A18 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext1 28DE 0 CODE 0 text1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext2 FF4 0 CODE 0 text2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext3 28C2 0 CODE 0 text3 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext4 29C2 0 CODE 0 text4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext5 2892 0 CODE 0 text5 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext6 1152 0 CODE 0 text6 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext7 1258 0 CODE 0 text6 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext8 28A8 0 CODE 0 text8 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__ptext9 2964 0 CODE 0 text9 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_GetPIRLevel 2ECC 0 CODE 0 text11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_ClearLine 998 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbdiv@quotient 78 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_REG_TaskSlow 1258 0 CODE 0 text6 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_evalCntr 4E 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_TaskFast 2C30 0 CODE 0 text60 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_TaskSlow 1010 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_App_OnWinSensor 2B48 0 CODE 0 text93 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Ports_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_currtemp 2C 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbmod@dividend 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+_u16Tics E7 0 BANK1 1 nvBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_GetPIRPin 1584 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_DetermineMode 1364 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_DetermineProg 15E2 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Comm_TaskSlow 1FF8 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_T4CONbits 417 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MRF89XAInit 1C28 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_MRF89XATask 1B9E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+WriteNVMBlockSync@block 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XATask@i 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XATask@k 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lreset_vec 700 0 CODE 0 reset_vec -
+_Clock_Init 18C4 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__Hstringtext2 0 0 ABS 0 stringtext2 -
+__Hstringtext3 0 0 ABS 0 stringtext3 -
+__Hstringtext4 0 0 ABS 0 stringtext4 -
+__Hstringtext5 0 0 ABS 0 stringtext5 -
+__Hstringtext6 0 0 ABS 0 stringtext6 -
+__Hstringtext7 0 0 ABS 0 stringtext7 -
+__Hstringtext8 0 0 ABS 0 stringtext8 -
+__Hstringtext9 0 0 ABS 0 stringtext9 -
+_REG_GetLevel AC8 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_PRS_RoomPresence ADC 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_StartTimer1 1D64 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+_IO_StartTimer2 10F4 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Comm_IsAlreadyReceived 2B9A 0 CODE 0 text95 dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_LargeDigit@dig 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of__initialization 714 0 CODE 0 cinit dist/Release/production\MRF89XA_ApplT.X.production.obj
+___awmod@divisor 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+IO_TaskFast@bUV 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lfunctab 0 0 ENTRY 0 functab -
+_IO_Init 2A38 0 CODE 0 text61 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_PRS_RoomPresence 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_Char@j 77 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_RAM_TEMPPROG 14F 0 BANK2 1 bssBANK2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_REG_FZLogic 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_RTC_BCD2DEC 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+_bWriteNvm 4A 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SSP1CON1bits 215 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_SPI_HF_Get 1D48 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_SPI_HF_Put DCC 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_WIN_TaskSlow 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lmul@product 78 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_ClearLCD 2A0A 0 CODE 0 text52 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_DrawLargeTemp 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_DrawLargeTime 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lmul@multiplicand 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_App_OnAirHumSig 1F94 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_LargePlus 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_u8menuswitch 44 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_NVM_BlockStatus 120 0 BANK2 1 bssBANK2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_SPI_HF_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_IO_GetSW1Press 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_PRS_OnPIRFrame 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_MRF89XASetRFMode 1D08 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_MNU_TaskButton 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_DrawClrLastLines 81E 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_SSP1BUF 211 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hend_init 714 0 CODE 0 end_init -
+__size_of_IO_GetSW2Press 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbmod@rem 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_WriteBlock@BlockIndex 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_main 1818 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_ASCII 23AC 0 STRCODE 0 stringtext1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_WorkBuff 2A0 0 BANK5 1 bssBANK5 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LARGE 267C 0 STRCODE 0 stringtext2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_ROM_CRTRL 3078 0 STRCODE 0 stringtext8 dist/Release/production\MRF89XA_ApplT.X.production.obj
+LCD_ClearLine@i 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_ROM_PARAM 3130 0 STRCODE 0 stringtext11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ASCII 2000 0 STRCODE 0 stringtext1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_AdcTempFilt C3 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_EEADR 191 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_Delta 2A 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_TransmitFrame 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LARGE 23AC 0 STRCODE 0 stringtext2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PORTB D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_T2CON 1C 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_T4CON 417 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_T6CON 41E 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TRISA 8C 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_TRISB 8D 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_REG_GetLevel 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__size_of_NVM_WriteBlockData 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PRG_SetNewTemp 13C8 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_nvpos 4C 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_sTemp CF 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_RTC_OnRTCFrame 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_WIN_TaskSlow 28FA 0 CODE 0 text1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ROM_PIRDATA 3114 0 STRCODE 0 stringtext10 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_UDS_RDBID 1562 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_UDS_WDBID 1480 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pintentry 708 0 CODE 0 intentry dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_GetRIRLevel 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_UDS_RDBID 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_ISR 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_ROL 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_PRS_Task1s 28FA 0 CODE 0 text10 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_UDS_WDBID 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+Write_Eep@badd 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_ReadBlockData@pr 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XASetRFMode@mode 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_DrawLargeTemp C96 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_DrawLargeTime BEA 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_Clock_Init 190E 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_StartTimer1 1D78 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_IO_StartTimer2 1108 0 CODE 0 text56 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__initialization 714 0 CODE 0 cinit dist/Release/production\MRF89XA_ApplT.X.production.obj
+___bmul@product 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_WriteNVMBlockSync 16D4 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_DrawRegPower 9DC 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_LCD_LargePlus B18 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pbssBANK2 120 0 BANK2 1 bssBANK2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pbssBANK3 1A0 0 BANK3 1 bssBANK3 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pbssBANK4 220 0 BANK4 1 bssBANK4 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pbssBANK5 2A0 0 BANK5 1 bssBANK5 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_T2CONbits 1C 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ROM_CRTRL 3040 0 STRCODE 0 stringtext8 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_ClearLCD 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+_ROM_PARAM 3126 0 STRCODE 0 stringtext11 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___wmul@product 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_Comm_RxProcess 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_App_OnWinSensor 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_ClearLine 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_Char 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__size_of_LCD_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_REG_GetLevel AD2 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+MRF89XARegisterSet@address 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_UDS_RDBID 1480 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+_UDS_WDBID 1412 0 CODE 0 text85 dist/Release/production\MRF89XA_ApplT.X.production.obj
+___lbmod@counter 73 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+_LCD_LargeDot 71C 0 CODE 0 text44 dist/Release/production\MRF89XA_ApplT.X.production.obj
+NVM_Task@i 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+__end_of_TransmitFrame 1DA8 0 CODE 0 maintext dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pswtext1 267C 0 CONST 0 swtext1 dist/Release/production\MRF89XA_ApplT.X.production.obj
+__pswtext2 2690 0 CONST 0 swtext2 dist/Release/production\MRF89XA_ApplT.X.production.obj
+PRG_SetNewTemp@sIncrease 7B 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_ApplT.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 146F 28DE E 2
+text3 0 1461 28C2 E 2
+text4 0 14E1 29C2 1C 2
+text5 0 1449 2892 B 2
+text6 0 8A9 1152 AF 2
+text8 0 1454 28A8 D 2
+text9 0 14B2 2964 17 2
+text10 0 147D 28FA 10 2
+text11 0 16E0 2DC0 86 2
+text15 0 800 1000 8 2
+text21 0 1678 2CF0 68 2
+text46 0 14C9 2992 18 2
+text52 0 14FD 29FA 1F 2
+text56 0 808 1010 A1 2
+text60 0 1618 2C30 60 2
+text61 0 151C 2A38 28 2
+text64 0 1544 2A88 40 2
+text85 0 958 12B0 22B 2
+text86 0 1766 2ECC 9A 2
+text92 0 149F 293E 13 2
+text93 0 1584 2B08 49 2
+text95 0 15CD 2B9A 4B 2
+text97 0 148D 291A 12 2
+maintext 0 B83 1706 47D 2
+cstackCOMMON 1 70 70 D 1
+stringtext1 0 1000 2000 33E 2
+stringtext3 0 1800 3000 D9 2
+intentry 0 384 708 47B 2
+reset_vec 0 380 700 2 2
+bssBANK0 1 20 20 4E 1
+bssBANK1 1 A0 A0 49 1
+bssBANK2 1 120 120 46 1
+bssBANK3 1 1A0 1A0 40 1
+bssBANK4 1 220 220 40 1
+bssBANK5 1 2A0 2A0 3A 1
+swtext1 0 133E 267C 14 2

@@ -1,0 +1,259 @@
+Post Processor Report
+OrCAD FILE: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.MAX
+Fri Mar 16 20:17:18 2018
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.TOP
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.TOP:
+---------------------------------------------------------
+D10:  0.0550 ROUND  --       0 Draws,      30 Flashes
+D11:  0.0550 SQUARE --       0 Draws,       3 Flashes
+D12:  0.0520 ROUND  --       0 Draws,       6 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       2 Flashes
+D14:  0.0600 SQUARE --       0 Draws,      18 Flashes
+D15:  0.0500 x 0.0340 RECTANGLE -----       1 Flashes
+D16:  0.0400 x 0.0340 RECTANGLE -----       2 Flashes
+D17:  0.1040 ROUND  --       0 Draws,       1 Flashes
+D18:  0.0710 ROUND  --       0 Draws,       9 Flashes
+D19:  0.0710 SQUARE --       0 Draws,       1 Flashes
+D20:  0.0400 x 0.0560 RECTANGLE -----       6 Flashes
+D21:  0.0580 ROUND  --       0 Draws,       5 Flashes
+D22:  0.0580 SQUARE --       0 Draws,       1 Flashes
+D23:  0.0120 ROUND  --      46 Draws,       0 Flashes
+D24:  0.0200 ROUND  --      34 Draws,       0 Flashes
+D25:  0.0500 ROUND  --       0 Draws,      12 Flashes
+D26:  0.0300 ROUND  --      41 Draws,       0 Flashes
+D27:  0.0400 ROUND  --       8 Draws,       0 Flashes
+---------------------------------------------------------
+ 18 D-Codes      -----     129 Draws,      97 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.BOT
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.BOT:
+---------------------------------------------------------
+D10:  0.0550 ROUND  --       0 Draws,      30 Flashes
+D11:  0.0550 SQUARE --       0 Draws,       3 Flashes
+D12:  0.0520 ROUND  --       0 Draws,       6 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       2 Flashes
+D14:  0.0600 SQUARE --       0 Draws,       8 Flashes
+D17:  0.1040 ROUND  --       0 Draws,       1 Flashes
+D18:  0.0710 ROUND  --       0 Draws,       9 Flashes
+D19:  0.0710 SQUARE --       0 Draws,       1 Flashes
+D21:  0.0580 ROUND  --       0 Draws,       5 Flashes
+D22:  0.0580 SQUARE --       0 Draws,       1 Flashes
+D23:  0.0120 ROUND  --      46 Draws,       0 Flashes
+D24:  0.0200 ROUND  --      52 Draws,       0 Flashes
+D25:  0.0500 ROUND  --       0 Draws,      12 Flashes
+D26:  0.0300 ROUND  --      21 Draws,       0 Flashes
+D27:  0.0400 ROUND  --       3 Draws,       0 Flashes
+D28:  0.0240 x 0.0860 OBLONG    -----      17 Flashes
+D29:  0.0240 x 0.0860 RECTANGLE -----       1 Flashes
+D30:  0.0650 SQUARE --       0 Draws,       4 Flashes
+D31:  0.0150 ROUND  --    1068 Draws,       0 Flashes
+D32:  0.0100 ROUND  --      29 Draws,       0 Flashes
+D33:  0.0010 ROUND  --    1761 Draws,       0 Flashes
+D34:  0.0250 ROUND  --       2 Draws,       0 Flashes
+D35:  0.1000 ROUND  --      12 Draws,       0 Flashes
+---------------------------------------------------------
+ 23 D-Codes      -----    2994 Draws,     100 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.GND
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.GND:
+---------------------------------------------------------
+D36:  0.0750 ROUND  --       0 Draws,      39 Flashes
+D37:  0.0750 SQUARE --       0 Draws,       3 Flashes
+D38:  0.0720 ROUND  --       0 Draws,       6 Flashes
+D39:  0.0720 SQUARE --       0 Draws,       2 Flashes
+D40:  0.0650 ROUND  --       0 Draws,       3 Flashes
+D41:  0.1100 ROUND  --       0 Draws,       1 Flashes
+D42:  0.0910 ROUND  --       0 Draws,       9 Flashes
+D43:  0.0910 SQUARE --       0 Draws,       1 Flashes
+D44:  0.0780 ROUND  --       0 Draws,       5 Flashes
+D45:  0.0780 SQUARE --       0 Draws,       1 Flashes
+D46:  0.0500 ROUND  --       4 Draws,       0 Flashes
+---------------------------------------------------------
+ 11 D-Codes      -----       4 Draws,      70 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.PWR
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.PWR:
+---------------------------------------------------------
+D36:  0.0750 ROUND  --       0 Draws,      39 Flashes
+D37:  0.0750 SQUARE --       0 Draws,       3 Flashes
+D38:  0.0720 ROUND  --       0 Draws,       6 Flashes
+D39:  0.0720 SQUARE --       0 Draws,       2 Flashes
+D40:  0.0650 ROUND  --       0 Draws,       3 Flashes
+D41:  0.1100 ROUND  --       0 Draws,       1 Flashes
+D42:  0.0910 ROUND  --       0 Draws,       9 Flashes
+D43:  0.0910 SQUARE --       0 Draws,       1 Flashes
+D44:  0.0780 ROUND  --       0 Draws,       5 Flashes
+D45:  0.0780 SQUARE --       0 Draws,       1 Flashes
+D46:  0.0500 ROUND  --       4 Draws,       0 Flashes
+---------------------------------------------------------
+ 11 D-Codes      -----       4 Draws,      70 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.SMT
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.SMT:
+---------------------------------------------------------
+D10:  0.0550 ROUND  --       0 Draws,      39 Flashes
+D11:  0.0550 SQUARE --       0 Draws,       3 Flashes
+D12:  0.0520 ROUND  --       0 Draws,       6 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       2 Flashes
+D14:  0.0600 SQUARE --       0 Draws,      18 Flashes
+D15:  0.0500 x 0.0340 RECTANGLE -----       1 Flashes
+D16:  0.0400 x 0.0340 RECTANGLE -----       2 Flashes
+D18:  0.0710 ROUND  --       0 Draws,       9 Flashes
+D19:  0.0710 SQUARE --       0 Draws,       1 Flashes
+D20:  0.0400 x 0.0560 RECTANGLE -----       6 Flashes
+D21:  0.0580 ROUND  --       0 Draws,       5 Flashes
+D22:  0.0580 SQUARE --       0 Draws,       1 Flashes
+D47:  0.0600 ROUND  --       0 Draws,       3 Flashes
+D48:  0.1090 ROUND  --       0 Draws,       1 Flashes
+---------------------------------------------------------
+ 14 D-Codes      -----       0 Draws,      97 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.SMB
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.SMB:
+---------------------------------------------------------
+D10:  0.0550 ROUND  --       0 Draws,      39 Flashes
+D11:  0.0550 SQUARE --       0 Draws,       3 Flashes
+D12:  0.0520 ROUND  --       0 Draws,       6 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       2 Flashes
+D14:  0.0600 SQUARE --       0 Draws,       8 Flashes
+D18:  0.0710 ROUND  --       0 Draws,       9 Flashes
+D19:  0.0710 SQUARE --       0 Draws,       1 Flashes
+D21:  0.0580 ROUND  --       0 Draws,       5 Flashes
+D22:  0.0580 SQUARE --       0 Draws,       1 Flashes
+D28:  0.0240 x 0.0860 OBLONG    -----      17 Flashes
+D29:  0.0240 x 0.0860 RECTANGLE -----       1 Flashes
+D47:  0.0600 ROUND  --       0 Draws,       3 Flashes
+D48:  0.1090 ROUND  --       0 Draws,       1 Flashes
+---------------------------------------------------------
+ 13 D-Codes      -----       0 Draws,      96 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.SST
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.SST:
+---------------------------------------------------------
+D33:  0.0010 ROUND  --      53 Draws,       0 Flashes
+D49:  0.0080 ROUND  --     342 Draws,       0 Flashes
+D50:  0.0060 ROUND  --     188 Draws,       0 Flashes
+---------------------------------------------------------
+  3 D-Codes      -----     583 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.SSB
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.SSB:
+---------------------------------------------------------
+D32:  0.0100 ROUND  --       7 Draws,       0 Flashes
+D33:  0.0010 ROUND  --      14 Draws,       0 Flashes
+D49:  0.0080 ROUND  --      13 Draws,       0 Flashes
+D50:  0.0060 ROUND  --      62 Draws,       0 Flashes
+---------------------------------------------------------
+  4 D-Codes      -----      96 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.AST
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.AST:
+---------------------------------------------------------
+D10:  0.0550 ROUND  --       0 Draws,      27 Flashes
+D11:  0.0550 SQUARE --       0 Draws,       3 Flashes
+D12:  0.0520 ROUND  --       0 Draws,       6 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       2 Flashes
+D14:  0.0600 SQUARE --       0 Draws,      18 Flashes
+D15:  0.0500 x 0.0340 RECTANGLE -----       1 Flashes
+D16:  0.0400 x 0.0340 RECTANGLE -----       2 Flashes
+D18:  0.0710 ROUND  --       0 Draws,       9 Flashes
+D19:  0.0710 SQUARE --       0 Draws,       1 Flashes
+D20:  0.0400 x 0.0560 RECTANGLE -----       6 Flashes
+D21:  0.0580 ROUND  --       0 Draws,       5 Flashes
+D22:  0.0580 SQUARE --       0 Draws,       1 Flashes
+D46:  0.0500 ROUND  --       4 Draws,       0 Flashes
+D49:  0.0080 ROUND  --     385 Draws,       0 Flashes
+D50:  0.0060 ROUND  --     330 Draws,       0 Flashes
+---------------------------------------------------------
+ 15 D-Codes      -----     719 Draws,      81 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.DRD
+
+Aperture totals for C:\PROJECTS\ORCAD\ACTUATOR\ACTUATOR.DRD:
+---------------------------------------------------------
+D32:  0.0100 ROUND  --     822 Draws,       0 Flashes
+D46:  0.0500 ROUND  --       4 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----     826 Draws,       0 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.0550 ROUND  --       0 Draws,     165 Flashes
+D11:  0.0550 SQUARE --       0 Draws,      15 Flashes
+D12:  0.0520 ROUND  --       0 Draws,      30 Flashes
+D13:  0.0520 SQUARE --       0 Draws,      10 Flashes
+D14:  0.0600 SQUARE --       0 Draws,      70 Flashes
+D15:  0.0500 x 0.0340 RECTANGLE -----       3 Flashes
+D16:  0.0400 x 0.0340 RECTANGLE -----       6 Flashes
+D17:  0.1040 ROUND  --       0 Draws,       2 Flashes
+D18:  0.0710 ROUND  --       0 Draws,      45 Flashes
+D19:  0.0710 SQUARE --       0 Draws,       5 Flashes
+D20:  0.0400 x 0.0560 RECTANGLE -----      18 Flashes
+D21:  0.0580 ROUND  --       0 Draws,      25 Flashes
+D22:  0.0580 SQUARE --       0 Draws,       5 Flashes
+D23:  0.0120 ROUND  --      92 Draws,       0 Flashes
+D24:  0.0200 ROUND  --      86 Draws,       0 Flashes
+D25:  0.0500 ROUND  --       0 Draws,      24 Flashes
+D26:  0.0300 ROUND  --      62 Draws,       0 Flashes
+D27:  0.0400 ROUND  --      11 Draws,       0 Flashes
+D28:  0.0240 x 0.0860 OBLONG    -----      34 Flashes
+D29:  0.0240 x 0.0860 RECTANGLE -----       2 Flashes
+D30:  0.0650 SQUARE --       0 Draws,       4 Flashes
+D31:  0.0150 ROUND  --    1068 Draws,       0 Flashes
+D32:  0.0100 ROUND  --     858 Draws,       0 Flashes
+D33:  0.0010 ROUND  --    1828 Draws,       0 Flashes
+D34:  0.0250 ROUND  --       2 Draws,       0 Flashes
+D35:  0.1000 ROUND  --      12 Draws,       0 Flashes
+D36:  0.0750 ROUND  --       0 Draws,      78 Flashes
+D37:  0.0750 SQUARE --       0 Draws,       6 Flashes
+D38:  0.0720 ROUND  --       0 Draws,      12 Flashes
+D39:  0.0720 SQUARE --       0 Draws,       4 Flashes
+D40:  0.0650 ROUND  --       0 Draws,       6 Flashes
+D41:  0.1100 ROUND  --       0 Draws,       2 Flashes
+D42:  0.0910 ROUND  --       0 Draws,      18 Flashes
+D43:  0.0910 SQUARE --       0 Draws,       2 Flashes
+D44:  0.0780 ROUND  --       0 Draws,      10 Flashes
+D45:  0.0780 SQUARE --       0 Draws,       2 Flashes
+D46:  0.0500 ROUND  --      16 Draws,       0 Flashes
+D47:  0.0600 ROUND  --       0 Draws,       6 Flashes
+D48:  0.1090 ROUND  --       0 Draws,       2 Flashes
+D49:  0.0080 ROUND  --     740 Draws,       0 Flashes
+D50:  0.0060 ROUND  --     580 Draws,       0 Flashes
+---------------------------------------------------------
+ 41 D-Codes      -----    5355 Draws,     611 Flashes
+
+
+No warnings or errors.

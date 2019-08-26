@@ -1,0 +1,15 @@
+C:\Users\zlatko\documents\visual studio 2010\Projects\font\font\bin\Debug\font.exe
+C:\Users\zlatko\documents\visual studio 2010\Projects\font\font\bin\Debug\font.pdb
+C:\Users\zlatko\documents\visual studio 2010\Projects\font\font\obj\x86\Debug\font.Form1.resources
+C:\Users\zlatko\documents\visual studio 2010\Projects\font\font\obj\x86\Debug\font.Properties.Resources.resources
+C:\Users\zlatko\documents\visual studio 2010\Projects\font\font\obj\x86\Debug\font.csproj.GenerateResource.Cache
+C:\Users\zlatko\documents\visual studio 2010\Projects\font\font\obj\x86\Debug\font.exe
+C:\Users\zlatko\documents\visual studio 2010\Projects\font\font\obj\x86\Debug\font.pdb
+C:\Projects\C#\font\font\obj\x86\Debug\font.exe
+C:\Projects\C#\font\font\obj\x86\Debug\font.pdb
+C:\Projects\C#\font\font\bin\Debug\font.exe
+C:\Projects\C#\font\font\bin\Debug\font.pdb
+C:\Projects\C#\font\font\obj\x86\Debug\font.Form1.resources
+C:\Projects\C#\font\font\obj\x86\Debug\font.Properties.Resources.resources
+C:\Projects\C#\font\font\obj\x86\Debug\font.csproj.GenerateResource.Cache
+C:\Projects\C#\font\font\obj\x86\Debug\font.csprojResolveAssemblyReference.cache

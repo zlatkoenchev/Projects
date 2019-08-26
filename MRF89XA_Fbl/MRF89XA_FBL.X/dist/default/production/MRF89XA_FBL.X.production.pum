@@ -1,0 +1,26 @@
+
+Psect Usage Map:
+
+ Psect      | Contents                       | Memory Range  | Size
+------------|--------------------------------|---------------|-------------
+ reset_vec  | Reset vector                   | 0000h - 0001h |   2 words  
+ intentry   | Interrupt context entry code   | 0004h - 0008h |   5 words  
+ end_init   | Initialization code            | 0009h - 000Ah |   2 words  
+ cinit      | Initialization code            | 000Bh - 0329h | 799 words  
+            |                                |               |             
+ stringtext | Strings and constant data      | 032Ah - 0349h |  32 words  
+------------|--------------------------------|---------------|-------------
+ cstackCOMM | Stack in common memory         | 0070h - 007Dh |  14 bytes  
+            |                                |               |             
+ bssBANK0   | BSS variables in bank 0        | 0020h - 002Ah |  11 bytes  
+ nvBANK0    | Persistent variables in bank 0 | 002Bh - 002Bh |   1 byte   
+            |                                |               |             
+ bssBANK1   | BSS variables in bank 1        | 00A0h - 00DFh |  64 bytes  
+            |                                |               |             
+ bssBANK2   | BSS variables in bank 2        | 0120h - 015Fh |  64 bytes  
+            |                                |               |             
+ abs_s1     | Absolute RAM variables         | 007Eh - 007Fh |   2 bytes  
+------------|--------------------------------|---------------|-------------
+ config     |                                | 8007h - 8008h |   2 words  
+------------|--------------------------------|---------------|-------------
+

@@ -1,0 +1,839 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$e:\Temp\s3bs.obj
+reset_vec CODE 0 0 0 1 2
+end_init CODE 0 1 1 1 2
+config CONFIG 0 8007 8007 4 2
+$dist/Release/production\MRF89XA_Switch.X.production.obj
+cinit CODE 0 7FE 7FE 2 2
+text1 CODE 0 637 637 2E 2
+text2 CODE 0 75B 75B A3 2
+text3 CODE 0 59A 59A 13 2
+text4 CODE 0 53C 53C 8 2
+text5 CODE 0 5CA 5CA 20 2
+text6 CODE 0 70B 70B 50 2
+text7 CODE 0 60A 60A 2D 2
+text8 CODE 0 534 534 8 2
+text9 CODE 0 544 544 9 2
+text10 CODE 0 6CB 6CB 40 2
+text11 CODE 0 665 665 32 2
+text12 CODE 0 697 697 34 2
+text13 CODE 0 589 589 11 2
+text14 CODE 0 557 557 B 2
+text15 CODE 0 57C 57C D 2
+text16 CODE 0 56F 56F D 2
+text17 CODE 0 562 562 D 2
+text18 CODE 0 5AD 5AD 1D 2
+maintext CODE 0 54D 54D A 2
+cstackCOMMON COMMON 1 70 70 A 1
+stringtext1 STRCODE 0 5EA 5EA 20 2
+stringtext2 STRCODE 0 52F 52F 5 2
+bssBANK0 BANK0 1 20 20 43 1
+bssCOMMON COMMON 1 7A 7A 4 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 63-6F 1
+RAM A0-EF 1
+RAM 120-16F 1
+BANK0 63-6F 1
+BANK1 A0-EF 1
+BANK2 120-16F 1
+CONST 2-52E 2
+ENTRY 2-52E 2
+IDLOC 8000-8003 2
+SFR10 500-56F 1
+SFR11 580-5EF 1
+SFR12 600-66F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+STACK 2043-20EF 1
+CODE 2-52E 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-1EF 1
+SFR4 200-26F 1
+SFR5 280-2EF 1
+SFR6 300-36F 1
+SFR7 380-3EF 1
+SFR8 400-46F 1
+SFR9 480-4EF 1
+BIGRAM 2000-20EF 1
+EEDATA F000-F0FF 2
+STRCODE 2-52E 2
+STRING 2-52E 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/Release/production\MRF89XA_Switch.X.production.obj
+7FE cinit CODE >6510:e:\Temp\s3bs.
+7FE cinit CODE >6513:e:\Temp\s3bs.
+7FE cinit CODE >6546:e:\Temp\s3bs.
+7FE cinit CODE >6548:e:\Temp\s3bs.
+7FF cinit CODE >6549:e:\Temp\s3bs.
+5AD text18 CODE >70:C:\Projects\MRF89XA_Switch/main.c
+5AD text18 CODE >71:C:\Projects\MRF89XA_Switch/main.c
+5AF text18 CODE >73:C:\Projects\MRF89XA_Switch/main.c
+5B1 text18 CODE >74:C:\Projects\MRF89XA_Switch/main.c
+5B2 text18 CODE >75:C:\Projects\MRF89XA_Switch/main.c
+5B3 text18 CODE >76:C:\Projects\MRF89XA_Switch/main.c
+5B4 text18 CODE >77:C:\Projects\MRF89XA_Switch/main.c
+5B5 text18 CODE >79:C:\Projects\MRF89XA_Switch/main.c
+5B7 text18 CODE >81:C:\Projects\MRF89XA_Switch/main.c
+5B8 text18 CODE >82:C:\Projects\MRF89XA_Switch/main.c
+5B9 text18 CODE >84:C:\Projects\MRF89XA_Switch/main.c
+5BB text18 CODE >87:C:\Projects\MRF89XA_Switch/main.c
+5C9 text18 CODE >88:C:\Projects\MRF89XA_Switch/main.c
+562 text17 CODE >61:C:\Projects\MRF89XA_Switch/drv_spi.c
+562 text17 CODE >66:C:\Projects\MRF89XA_Switch/drv_spi.c
+565 text17 CODE >67:C:\Projects\MRF89XA_Switch/drv_spi.c
+567 text17 CODE >68:C:\Projects\MRF89XA_Switch/drv_spi.c
+569 text17 CODE >70:C:\Projects\MRF89XA_Switch/drv_spi.c
+56C text17 CODE >72:C:\Projects\MRF89XA_Switch/drv_spi.c
+56E text17 CODE >92:C:\Projects\MRF89XA_Switch/drv_spi.c
+56F text16 CODE >29:C:\Projects\MRF89XA_Switch/drv_spi.c
+570 text16 CODE >33:C:\Projects\MRF89XA_Switch/drv_spi.c
+573 text16 CODE >34:C:\Projects\MRF89XA_Switch/drv_spi.c
+575 text16 CODE >35:C:\Projects\MRF89XA_Switch/drv_spi.c
+578 text16 CODE >37:C:\Projects\MRF89XA_Switch/drv_spi.c
+57C text15 CODE >172:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+57D text15 CODE >174:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+57F text15 CODE >176:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+582 text15 CODE >177:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+583 text15 CODE >178:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+585 text15 CODE >179:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+587 text15 CODE >180:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+588 text15 CODE >181:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+557 text14 CODE >164:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+558 text14 CODE >165:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+55A text14 CODE >166:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+55B text14 CODE >167:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+55D text14 CODE >168:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+55F text14 CODE >169:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+561 text14 CODE >170:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+589 text13 CODE >241:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+58A text13 CODE >245:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+58C text13 CODE >248:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+594 text13 CODE >249:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+596 text13 CODE >250:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+697 text12 CODE >129:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+697 text12 CODE >132:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+698 text12 CODE >133:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6A3 text12 CODE >132:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6A8 text12 CODE >137:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6AB text12 CODE >138:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6AF text12 CODE >140:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6B1 text12 CODE >141:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6B3 text12 CODE >142:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6B4 text12 CODE >143:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6B5 text12 CODE >145:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6B8 text12 CODE >146:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6BA text12 CODE >148:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6BB text12 CODE >149:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6BD text12 CODE >143:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6C0 text12 CODE >153:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6C2 text12 CODE >155:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6C5 text12 CODE >156:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6C9 text12 CODE >161:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+6CA text12 CODE >162:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+665 text11 CODE >27:C:\Projects\MRF89XA_Switch/svc_comm.c
+665 text11 CODE >29:C:\Projects\MRF89XA_Switch/svc_comm.c
+668 text11 CODE >30:C:\Projects\MRF89XA_Switch/svc_comm.c
+669 text11 CODE >33:C:\Projects\MRF89XA_Switch/svc_comm.c
+671 text11 CODE >34:C:\Projects\MRF89XA_Switch/svc_comm.c
+679 text11 CODE >35:C:\Projects\MRF89XA_Switch/svc_comm.c
+681 text11 CODE >36:C:\Projects\MRF89XA_Switch/svc_comm.c
+689 text11 CODE >37:C:\Projects\MRF89XA_Switch/svc_comm.c
+68F text11 CODE >38:C:\Projects\MRF89XA_Switch/svc_comm.c
+692 text11 CODE >39:C:\Projects\MRF89XA_Switch/svc_comm.c
+694 text11 CODE >40:C:\Projects\MRF89XA_Switch/svc_comm.c
+696 text11 CODE >42:C:\Projects\MRF89XA_Switch/svc_comm.c
+6CB text10 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6CB text10 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6CC text10 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6CE text10 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6D3 text10 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6D5 text10 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6D7 text10 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6DC text10 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6DE text10 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6E0 text10 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6E4 text10 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6E5 text10 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6E5 text10 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6E6 text10 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6E8 text10 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6EA text10 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6EB text10 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6ED text10 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6F5 text10 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6F9 text10 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6FA text10 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6FC text10 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+6FE text10 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+701 text10 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+706 text10 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+70A text10 CODE >42:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+544 text9 CODE >169:C:\Projects\MRF89XA_Switch/main.c
+544 text9 CODE >170:C:\Projects\MRF89XA_Switch/main.c
+54C text9 CODE >171:C:\Projects\MRF89XA_Switch/main.c
+534 text8 CODE >226:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+535 text8 CODE >228:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+537 text8 CODE >229:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+539 text8 CODE >230:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+53B text8 CODE >231:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+60A text7 CODE >199:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+60A text7 CODE >202:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+60C text7 CODE >203:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+615 text7 CODE >204:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+61E text7 CODE >205:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+627 text7 CODE >208:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+62D text7 CODE >209:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+633 text7 CODE >208:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+635 text7 CODE >212:C:\Projects/LIBC/MRF89_Drv/MRF89XA.c
+70B text6 CODE >44:C:\Projects\MRF89XA_Switch/svc_comm.c
+70C text6 CODE >47:C:\Projects\MRF89XA_Switch/svc_comm.c
+70E text6 CODE >48:C:\Projects\MRF89XA_Switch/svc_comm.c
+710 text6 CODE >49:C:\Projects\MRF89XA_Switch/svc_comm.c
+712 text6 CODE >50:C:\Projects\MRF89XA_Switch/svc_comm.c
+714 text6 CODE >51:C:\Projects\MRF89XA_Switch/svc_comm.c
+716 text6 CODE >52:C:\Projects\MRF89XA_Switch/svc_comm.c
+718 text6 CODE >53:C:\Projects\MRF89XA_Switch/svc_comm.c
+71A text6 CODE >54:C:\Projects\MRF89XA_Switch/svc_comm.c
+71C text6 CODE >55:C:\Projects\MRF89XA_Switch/svc_comm.c
+71E text6 CODE >56:C:\Projects\MRF89XA_Switch/svc_comm.c
+720 text6 CODE >57:C:\Projects\MRF89XA_Switch/svc_comm.c
+721 text6 CODE >58:C:\Projects\MRF89XA_Switch/svc_comm.c
+72F text6 CODE >60:C:\Projects\MRF89XA_Switch/svc_comm.c
+732 text6 CODE >61:C:\Projects\MRF89XA_Switch/svc_comm.c
+736 text6 CODE >62:C:\Projects\MRF89XA_Switch/svc_comm.c
+738 text6 CODE >63:C:\Projects\MRF89XA_Switch/svc_comm.c
+746 text6 CODE >64:C:\Projects\MRF89XA_Switch/svc_comm.c
+749 text6 CODE >65:C:\Projects\MRF89XA_Switch/svc_comm.c
+74B text6 CODE >66:C:\Projects\MRF89XA_Switch/svc_comm.c
+74C text6 CODE >67:C:\Projects\MRF89XA_Switch/svc_comm.c
+74C text6 CODE >68:C:\Projects\MRF89XA_Switch/svc_comm.c
+750 text6 CODE >70:C:\Projects\MRF89XA_Switch/svc_comm.c
+750 text6 CODE >71:C:\Projects\MRF89XA_Switch/svc_comm.c
+751 text6 CODE >75:C:\Projects\MRF89XA_Switch/svc_comm.c
+753 text6 CODE >76:C:\Projects\MRF89XA_Switch/svc_comm.c
+756 text6 CODE >78:C:\Projects\MRF89XA_Switch/svc_comm.c
+758 text6 CODE >79:C:\Projects\MRF89XA_Switch/svc_comm.c
+75A text6 CODE >80:C:\Projects\MRF89XA_Switch/svc_comm.c
+5CA text5 CODE >173:C:\Projects\MRF89XA_Switch/main.c
+5CA text5 CODE >174:C:\Projects\MRF89XA_Switch/main.c
+5CC text5 CODE >176:C:\Projects\MRF89XA_Switch/main.c
+5CE text5 CODE >177:C:\Projects\MRF89XA_Switch/main.c
+5D1 text5 CODE >179:C:\Projects\MRF89XA_Switch/main.c
+5D3 text5 CODE >180:C:\Projects\MRF89XA_Switch/main.c
+5D5 text5 CODE >181:C:\Projects\MRF89XA_Switch/main.c
+5D6 text5 CODE >182:C:\Projects\MRF89XA_Switch/main.c
+5D8 text5 CODE >183:C:\Projects\MRF89XA_Switch/main.c
+5DC text5 CODE >185:C:\Projects\MRF89XA_Switch/main.c
+5DE text5 CODE >186:C:\Projects\MRF89XA_Switch/main.c
+5DE text5 CODE >187:C:\Projects\MRF89XA_Switch/main.c
+5E0 text5 CODE >188:C:\Projects\MRF89XA_Switch/main.c
+5E2 text5 CODE >189:C:\Projects\MRF89XA_Switch/main.c
+5E4 text5 CODE >190:C:\Projects\MRF89XA_Switch/main.c
+5E6 text5 CODE >191:C:\Projects\MRF89XA_Switch/main.c
+5E8 text5 CODE >192:C:\Projects\MRF89XA_Switch/main.c
+5E9 text5 CODE >194:C:\Projects\MRF89XA_Switch/main.c
+53C text4 CODE >94:C:\Projects\MRF89XA_Switch/drv_spi.c
+53C text4 CODE >95:C:\Projects\MRF89XA_Switch/drv_spi.c
+53E text4 CODE >96:C:\Projects\MRF89XA_Switch/drv_spi.c
+540 text4 CODE >98:C:\Projects\MRF89XA_Switch/drv_spi.c
+541 text4 CODE >99:C:\Projects\MRF89XA_Switch/drv_spi.c
+543 text4 CODE >100:C:\Projects\MRF89XA_Switch/drv_spi.c
+59A text3 CODE >6:C:\Projects\MRF89XA_Switch/drv_spi.c
+59A text3 CODE >13:C:\Projects\MRF89XA_Switch/drv_spi.c
+59C text3 CODE >14:C:\Projects\MRF89XA_Switch/drv_spi.c
+59F text3 CODE >15:C:\Projects\MRF89XA_Switch/drv_spi.c
+5A1 text3 CODE >16:C:\Projects\MRF89XA_Switch/drv_spi.c
+5A2 text3 CODE >17:C:\Projects\MRF89XA_Switch/drv_spi.c
+5A3 text3 CODE >18:C:\Projects\MRF89XA_Switch/drv_spi.c
+5A5 text3 CODE >19:C:\Projects\MRF89XA_Switch/drv_spi.c
+5A7 text3 CODE >20:C:\Projects\MRF89XA_Switch/drv_spi.c
+5A9 text3 CODE >25:C:\Projects\MRF89XA_Switch/drv_spi.c
+5AB text3 CODE >26:C:\Projects\MRF89XA_Switch/drv_spi.c
+5AC text3 CODE >27:C:\Projects\MRF89XA_Switch/drv_spi.c
+75B text2 CODE >231:C:\Projects\MRF89XA_Switch/main.c
+75B text2 CODE >232:C:\Projects\MRF89XA_Switch/main.c
+75E text2 CODE >234:C:\Projects\MRF89XA_Switch/main.c
+75F text2 CODE >233:C:\Projects\MRF89XA_Switch/main.c
+762 text2 CODE >239:C:\Projects\MRF89XA_Switch/main.c
+764 text2 CODE >240:C:\Projects\MRF89XA_Switch/main.c
+76A text2 CODE >241:C:\Projects\MRF89XA_Switch/main.c
+770 text2 CODE >242:C:\Projects\MRF89XA_Switch/main.c
+77C text2 CODE >243:C:\Projects\MRF89XA_Switch/main.c
+77E text2 CODE >244:C:\Projects\MRF89XA_Switch/main.c
+781 text2 CODE >245:C:\Projects\MRF89XA_Switch/main.c
+786 text2 CODE >246:C:\Projects\MRF89XA_Switch/main.c
+787 text2 CODE >247:C:\Projects\MRF89XA_Switch/main.c
+789 text2 CODE >248:C:\Projects\MRF89XA_Switch/main.c
+78F text2 CODE >249:C:\Projects\MRF89XA_Switch/main.c
+792 text2 CODE >250:C:\Projects\MRF89XA_Switch/main.c
+794 text2 CODE >251:C:\Projects\MRF89XA_Switch/main.c
+797 text2 CODE >252:C:\Projects\MRF89XA_Switch/main.c
+79A text2 CODE >236:C:\Projects\MRF89XA_Switch/main.c
+79D text2 CODE >256:C:\Projects\MRF89XA_Switch/main.c
+7AB text2 CODE >258:C:\Projects\MRF89XA_Switch/main.c
+7B0 text2 CODE >259:C:\Projects\MRF89XA_Switch/main.c
+7B2 text2 CODE >258:C:\Projects\MRF89XA_Switch/main.c
+7B7 text2 CODE >261:C:\Projects\MRF89XA_Switch/main.c
+7BC text2 CODE >262:C:\Projects\MRF89XA_Switch/main.c
+7BE text2 CODE >264:C:\Projects\MRF89XA_Switch/main.c
+7C1 text2 CODE >266:C:\Projects\MRF89XA_Switch/main.c
+7C6 text2 CODE >267:C:\Projects\MRF89XA_Switch/main.c
+7CA text2 CODE >268:C:\Projects\MRF89XA_Switch/main.c
+7CB text2 CODE >270:C:\Projects\MRF89XA_Switch/main.c
+7CE text2 CODE >271:C:\Projects\MRF89XA_Switch/main.c
+7D2 text2 CODE >272:C:\Projects\MRF89XA_Switch/main.c
+7D8 text2 CODE >273:C:\Projects\MRF89XA_Switch/main.c
+7DA text2 CODE >274:C:\Projects\MRF89XA_Switch/main.c
+7E0 text2 CODE >275:C:\Projects\MRF89XA_Switch/main.c
+7E2 text2 CODE >277:C:\Projects\MRF89XA_Switch/main.c
+7E5 text2 CODE >278:C:\Projects\MRF89XA_Switch/main.c
+7E6 text2 CODE >279:C:\Projects\MRF89XA_Switch/main.c
+7EA text2 CODE >280:C:\Projects\MRF89XA_Switch/main.c
+7EB text2 CODE >281:C:\Projects\MRF89XA_Switch/main.c
+7EC text2 CODE >283:C:\Projects\MRF89XA_Switch/main.c
+7EF text2 CODE >284:C:\Projects\MRF89XA_Switch/main.c
+7F4 text2 CODE >285:C:\Projects\MRF89XA_Switch/main.c
+7F6 text2 CODE >286:C:\Projects\MRF89XA_Switch/main.c
+7FC text2 CODE >287:C:\Projects\MRF89XA_Switch/main.c
+637 text1 CODE >94:C:\Projects\MRF89XA_Switch/main.c
+637 text1 CODE >96:C:\Projects\MRF89XA_Switch/main.c
+63A text1 CODE >98:C:\Projects\MRF89XA_Switch/main.c
+63C text1 CODE >99:C:\Projects\MRF89XA_Switch/main.c
+63F text1 CODE >100:C:\Projects\MRF89XA_Switch/main.c
+641 text1 CODE >101:C:\Projects\MRF89XA_Switch/main.c
+644 text1 CODE >119:C:\Projects\MRF89XA_Switch/main.c
+647 text1 CODE >120:C:\Projects\MRF89XA_Switch/main.c
+649 text1 CODE >122:C:\Projects\MRF89XA_Switch/main.c
+64C text1 CODE >123:C:\Projects\MRF89XA_Switch/main.c
+64E text1 CODE >125:C:\Projects\MRF89XA_Switch/main.c
+650 text1 CODE >126:C:\Projects\MRF89XA_Switch/main.c
+653 text1 CODE >128:C:\Projects\MRF89XA_Switch/main.c
+655 text1 CODE >129:C:\Projects\MRF89XA_Switch/main.c
+658 text1 CODE >131:C:\Projects\MRF89XA_Switch/main.c
+65B text1 CODE >132:C:\Projects\MRF89XA_Switch/main.c
+65D text1 CODE >133:C:\Projects\MRF89XA_Switch/main.c
+65F text1 CODE >134:C:\Projects\MRF89XA_Switch/main.c
+661 text1 CODE >135:C:\Projects\MRF89XA_Switch/main.c
+662 text1 CODE >136:C:\Projects\MRF89XA_Switch/main.c
+664 text1 CODE >137:C:\Projects\MRF89XA_Switch/main.c
+54D maintext CODE >349:C:\Projects\MRF89XA_Switch/main.c
+54D maintext CODE >350:C:\Projects\MRF89XA_Switch/main.c
+54E maintext CODE >352:C:\Projects\MRF89XA_Switch/main.c
+54F maintext CODE >353:C:\Projects\MRF89XA_Switch/main.c
+550 maintext CODE >355:C:\Projects\MRF89XA_Switch/main.c
+553 maintext CODE >357:C:\Projects\MRF89XA_Switch/main.c
+554 maintext CODE >358:C:\Projects\MRF89XA_Switch/main.c
+555 maintext CODE >360:C:\Projects\MRF89XA_Switch/main.c
+556 maintext CODE >361:C:\Projects\MRF89XA_Switch/main.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+___awdiv@counter 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hspace_0 800B 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+_LATA 10C 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_LATC 10E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PIE0 90 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PIE1 91 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PIE2 92 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PIE3 93 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PIE4 94 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PMD0 911 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PMD1 912 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PMD2 913 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PMD3 914 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PMD4 915 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PMD5 916 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_WPUA 20C 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_WPUC 20E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+___sp 0 0 STACK 2 stack e:\Temp\s3bs.obj
+_main A9A 0 CODE 0 maintext dist/Release/production\MRF89XA_Switch.X.production.obj
+_temp 7D 0 COMMON 1 bssCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+_Voltage 7C 0 COMMON 1 bssCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+btemp 7E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_CalcUbat 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+start 2 0 CODE 0 init e:\Temp\s3bs.obj
+__size_of___awdiv 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_MRF89XASetRFMode B34 0 CODE 0 text13 dist/Release/production\MRF89XA_Switch.X.production.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+MRF89XARegisterRead@address 73 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_MRF89XAInit 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+MRF89XARegisterSet@value 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+_WSOpenTime 60 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_Switch.X.production.obj
+_MSSP1MD 48A9 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_MRF89XASetRFMode 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_MRF89XARegisterSet AC4 0 CODE 0 text14 dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_WriteFIFO A78 0 CODE 0 text8 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+MRF89XAInit@input 77 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_WriteFIFO 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+SPI_HF_Get@spidata 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_MRF89XARegisterRead 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+intlevel0 0 0 ENTRY 0 functab e:\Temp\s3bs.obj
+intlevel1 0 0 ENTRY 0 functab e:\Temp\s3bs.obj
+intlevel2 0 0 ENTRY 0 functab e:\Temp\s3bs.obj
+intlevel3 0 0 ENTRY 0 functab e:\Temp\s3bs.obj
+intlevel4 0 0 ENTRY 0 functab e:\Temp\s3bs.obj
+intlevel5 0 0 ENTRY 0 functab e:\Temp\s3bs.obj
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+wtemp0 7E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hfunctab 0 0 ENTRY 0 functab -
+_WriteFIFO A68 0 CODE 0 text8 dist/Release/production\MRF89XA_Switch.X.production.obj
+___awdiv@sign 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__CFG_LPBOREN$ON 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_SPI_HF_Deinit A78 0 CODE 0 text4 dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_SPI_HF_Get 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_SPI_HF_Put 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_CalcUbat A88 0 CODE 0 text9 dist/Release/production\MRF89XA_Switch.X.production.obj
+_MRF89XARegisterSet AAE 0 CODE 0 text14 dist/Release/production\MRF89XA_Switch.X.production.obj
+_ADCON0 9D 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_ADCON1 9E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_ADRESH 9C 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+MRF89XAInit@res 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+_ANSELA 18C 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_ANSELC 18E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_CalcUbat A9A 0 CODE 0 text9 dist/Release/production\MRF89XA_Switch.X.production.obj
+_SPI_HF_Init B34 0 CODE 0 text3 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hpa_nodes0 0 0 ABS 0 pa_nodes0 -
+_MRF89XARegisterRead AF8 0 CODE 0 text15 dist/Release/production\MRF89XA_Switch.X.production.obj
+__CFG_RSTOSC$LFINT 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+MRF89XASetRFMode@mcparam0_read 75 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lmaintext 0 0 ABS 0 maintext -
+_FVRCON 117 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+_MRF89XASendFrame C14 0 CODE 0 text7 dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of___awdiv E16 0 CODE 0 text10 dist/Release/production\MRF89XA_Switch.X.production.obj
+__CFG_FEXTOSC$OFF 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_Clock_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_MainLoop 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_INTCON B 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_INTPPS E10 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_IOCAN5 1C95 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+MRF89XASendFrame@i 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lpa_nodes0 0 0 ABS 0 pa_nodes0 -
+__CFG_PPS1WAY$OFF 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+start_initialization FFC 0 CODE 0 cinit dist/Release/production\MRF89XA_Switch.X.production.obj
+_OSCFRQ 91F 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+Comm_Transmit@val 78 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+_ROM_NWID A5E 0 STRCODE 0 stringtext2 dist/Release/production\MRF89XA_Switch.X.production.obj
+_TRISCbits 8E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_Ports_Init C6E 0 CODE 0 text1 dist/Release/production\MRF89XA_Switch.X.production.obj
+_ComData 7A 0 COMMON 1 bssCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+_ConvBat B94 0 CODE 0 text5 dist/Release/production\MRF89XA_Switch.X.production.obj
+_RC0PPS EA0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_RC2PPS EA2 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_SSP1IE 48B 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_SSP1IF 8B 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_ROM_NWID A68 0 STRCODE 0 stringtext2 dist/Release/production\MRF89XA_Switch.X.production.obj
+_SWDTEN 4B8 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_SYSCMD 488F 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_SPI_HF_Deinit 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_Comm_Init D2E 0 CODE 0 text11 dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_Comm_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_MainLoop EB6 0 CODE 0 text2 dist/Release/production\MRF89XA_Switch.X.production.obj
+_WDTCON 97 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+___int_sp 0 0 STACK 2 stack e:\Temp\s3bs.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 BANK3 1 bank3 -
+__Hbank4 0 0 BANK4 1 bank4 -
+__Hbank5 0 0 BANK5 1 bank5 -
+__Hbank6 0 0 BANK6 1 bank6 -
+__Hbank7 0 0 BANK7 1 bank7 -
+__Hbank8 0 0 BANK8 1 bank8 -
+__Hbank9 0 0 BANK9 1 bank9 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+_MRF89XAInit D2E 0 CODE 0 text12 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hbank10 0 0 BANK10 1 bank10 -
+__Hbank11 0 0 BANK11 1 bank11 -
+__Hbank12 0 0 BANK12 1 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__end_of_MainLoop FFC 0 CODE 0 text2 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+__end_of_MRF89XARegisterRead B12 0 CODE 0 text15 dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_MRF89XASendFrame C6E 0 CODE 0 text7 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10016 0 CONFIG 0 config -
+_Comm_Init CCA 0 CODE 0 text11 dist/Release/production\MRF89XA_Switch.X.production.obj
+_InitConfigRegs BD4 0 STRCODE 0 stringtext1 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 BANK3 1 bank3 -
+__Lbank4 0 0 BANK4 1 bank4 -
+__Lbank5 0 0 BANK5 1 bank5 -
+__Lbank6 0 0 BANK6 1 bank6 -
+__Lbank7 0 0 BANK7 1 bank7 -
+__Lbank8 0 0 BANK8 1 bank8 -
+__Lbank9 0 0 BANK9 1 bank9 -
+__Lcinit FFC 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+__end_of_SPI_HF_Deinit A88 0 CODE 0 text4 dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_MRF89XASendFrame 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_PORTAbits C 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_INTCONbits B 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 2 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 2 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 BD4 0 STRCODE 0 stringtext1 dist/Release/production\MRF89XA_Switch.X.production.obj
+__pstringtext2 A5E 0 STRCODE 0 stringtext2 dist/Release/production\MRF89XA_Switch.X.production.obj
+_SSP1CON1 215 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_SSP1CON2 216 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_SSP1CON3 217 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_SSP1STAT 214 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_Ports_Init CCA 0 CODE 0 text1 dist/Release/production\MRF89XA_Switch.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_Comm_Transmit E16 0 CODE 0 text6 dist/Release/production\MRF89XA_Switch.X.production.obj
+Comm_Transmit@input 79 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__S0 800B 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__CFG_WDTE$SWDTEN 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_TxPacket 20 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_MRF89XARegisterSet 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__CFG_BORV$LOW 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_InitConfigRegs C14 0 STRCODE 0 stringtext1 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lintentry 2 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec e:\Temp\s3bs.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+MRF89XARegisterRead@value 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+__Lstringtext2 0 0 ABS 0 stringtext2 -
+__ptext10 D96 0 CODE 0 text10 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext11 CCA 0 CODE 0 text11 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext12 D2E 0 CODE 0 text12 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext13 B12 0 CODE 0 text13 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext14 AAE 0 CODE 0 text14 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext15 AF8 0 CODE 0 text15 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext16 ADE 0 CODE 0 text16 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext17 AC4 0 CODE 0 text17 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext18 B5A 0 CODE 0 text18 dist/Release/production\MRF89XA_Switch.X.production.obj
+___awdiv D96 0 CODE 0 text10 dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_SPI_HF_Init B5A 0 CODE 0 text3 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lbank10 0 0 BANK10 1 bank10 -
+__Lbank11 0 0 BANK11 1 bank11 -
+__Lbank12 0 0 BANK12 1 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext A9A 0 CODE 0 maintext dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lbigram 0 0 ABS 0 bigram -
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 1000E 0 CONFIG 0 config -
+__CFG_CP$OFF 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+WriteFIFO@Data 72 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+_LATAbits 10C 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_LATCbits 10E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+SPI_HF_Put@i 71 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+SPI_HF_Put@v 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+stackhi 20EF 0 ABS 0 - e:\Temp\s3bs.obj
+stacklo 2043 0 ABS 0 - e:\Temp\s3bs.obj
+__size_of_Comm_Transmit 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_SSP1CLKPPS E20 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_OSCCON1 919 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_OSCCON3 91B 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_SSP1DATPPS E21 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_ADCON0bits 9D 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__pbssCOMMON 7A 0 COMMON 1 bssCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+_PIR0bits 10 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lend_init 2 0 CODE 0 end_init -
+__CFG_LVP$ON 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__CFG_CSWEN$ON 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+MRF89XAInit@i 78 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_SWSstate 7B 0 COMMON 1 bssCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+end_of_initialization FFC 0 CODE 0 cinit dist/Release/production\MRF89XA_Switch.X.production.obj
+_SPI_HF_Get AC4 0 CODE 0 text17 dist/Release/production\MRF89XA_Switch.X.production.obj
+_SPI_HF_Put ADE 0 CODE 0 text16 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hintentry 2 0 CODE 0 intentry -
+__CFG_STVREN$ON 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 76 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hreset_vec 2 0 CODE 0 reset_vec -
+__end_of_Comm_Transmit EB6 0 CODE 0 text6 dist/Release/production\MRF89XA_Switch.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__ptext1 C6E 0 CODE 0 text1 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext2 EB6 0 CODE 0 text2 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext3 B34 0 CODE 0 text3 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext4 A78 0 CODE 0 text4 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext5 B94 0 CODE 0 text5 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext6 E16 0 CODE 0 text6 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext7 C14 0 CODE 0 text7 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext8 A68 0 CODE 0 text8 dist/Release/production\MRF89XA_Switch.X.production.obj
+__ptext9 A88 0 CODE 0 text9 dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_Ports_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_ConvBat 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_MRF89XAInit D96 0 CODE 0 text12 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec -
+_Clock_Init B5A 0 CODE 0 text18 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__Hstringtext2 0 0 ABS 0 stringtext2 -
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of__initialization FFC 0 CODE 0 cinit dist/Release/production\MRF89XA_Switch.X.production.obj
+__Lfunctab 0 0 ENTRY 0 functab -
+__Lclrtext 0 0 ABS 0 clrtext -
+_SSP1CON1bits 215 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_SPI_HF_Get ADE 0 CODE 0 text17 dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_SPI_HF_Put AF8 0 CODE 0 text16 dist/Release/production\MRF89XA_Switch.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__size_of_SPI_HF_Init 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_MRF89XASetRFMode B12 0 CODE 0 text13 dist/Release/production\MRF89XA_Switch.X.production.obj
+_SSP1BUF 211 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hend_init 4 0 CODE 0 end_init -
+__end_of_main AAE 0 CODE 0 maintext dist/Release/production\MRF89XA_Switch.X.production.obj
+_ADACT 9F 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_ADCMD 489D 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_FVRMD 488E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_IDLEN 48C7 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_IOCAF 393 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_IOCIE 484 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_IOCIF 84 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_TRISA 8C 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_TRISC 8E 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+_WSDeb 62 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_Switch.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__CFG_CPD$OFF 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+MRF89XASetRFMode@mode 74 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_Clock_Init B94 0 CODE 0 text18 dist/Release/production\MRF89XA_Switch.X.production.obj
+__initialization FFC 0 CODE 0 cinit dist/Release/production\MRF89XA_Switch.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/Release/production\MRF89XA_Switch.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/Release/production\MRF89XA_Switch.X.production.obj
+__end_of_ConvBat BD4 0 CODE 0 text5 dist/Release/production\MRF89XA_Switch.X.production.obj
+MRF89XARegisterSet@address 73 0 COMMON 1 cstackCOMMON dist/Release/production\MRF89XA_Switch.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7FE FFC 2 2
+text1 0 637 C6E 2E 2
+text2 0 75B EB6 A3 2
+text3 0 59A B34 13 2
+text4 0 53C A78 8 2
+text5 0 5CA B94 20 2
+text6 0 70B E16 50 2
+text7 0 60A C14 2D 2
+text8 0 534 A68 8 2
+text9 0 544 A88 9 2
+text10 0 6CB D96 40 2
+text11 0 665 CCA 32 2
+text12 0 697 D2E 34 2
+text13 0 589 B12 11 2
+text14 0 557 AAE B 2
+text15 0 57C AF8 D 2
+text16 0 56F ADE D 2
+text17 0 562 AC4 D 2
+text18 0 5AD B5A 1D 2
+maintext 0 54D A9A A 2
+cstackCOMMON 1 70 70 E 1
+stringtext1 0 5EA BD4 20 2
+stringtext2 0 52F A5E 5 2
+reset_vec 0 0 0 2 2
+bssBANK0 1 20 20 43 1
+config 0 8007 1000E 4 2

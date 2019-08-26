@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Termo">
+</Property><Property Name="Solution File" Value="C:\Projects\C#\HF\Termo.sln">
+</Property><Property Name="Date" Value="Saturday, February 10, 2018">
+</Property><Property Name="Time" Value="14:44">
+</Property></Properties><Event ErrorLevel="0" Project="Termo" Source="Termo\Termo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Termo" Source="Termo\Termo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Termo.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Termo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Termo" Source="Termo\Termo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

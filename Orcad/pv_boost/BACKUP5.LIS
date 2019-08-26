@@ -1,0 +1,37 @@
+AutoECO Report
+FILE-A: C:\DOCUMENTS AND SETTINGS\ZLATKO\MY DOCUMENTS\PV_BOOST\BACKUP5.MAX
+FILE-B: C:\DOCUMENTS AND SETTINGS\ZLATKO\MY DOCUMENTS\PV_BOOST\PV_BOOST.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package 8_HEADER
+ERROR: Pin "3" in package 8_HEADER wasn't defined by footprint BLKCON.100/RH/TM1SQS/W.350/2_BR2
+ERROR: Pin "4" in package 8_HEADER wasn't defined by footprint BLKCON.100/RH/TM1SQS/W.350/2_BR2
+ERROR: Pin "5" in package 8_HEADER wasn't defined by footprint BLKCON.100/RH/TM1SQS/W.350/2_BR2
+ERROR: Pin "6" in package 8_HEADER wasn't defined by footprint BLKCON.100/RH/TM1SQS/W.350/2_BR2
+ERROR: Pin "7" in package 8_HEADER wasn't defined by footprint BLKCON.100/RH/TM1SQS/W.350/2_BR2
+ERROR: Pin "8" in package 8_HEADER wasn't defined by footprint BLKCON.100/RH/TM1SQS/W.350/2_BR2
+ERROR: Component BR2 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR2) has no pin 5
+ERROR: Component BR2 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR2) has no pin 8
+ERROR: Component BR2 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR2) has no pin 6
+ERROR: Component BR2 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR2) has no pin 7
+ERROR: Component BR3 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR3) has no pin 5
+ERROR: Component BR3 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR3) has no pin 8
+ERROR: Component BR3 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR3) has no pin 6
+ERROR: Component BR3 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR3) has no pin 7
+ERROR: Component BR1 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR1) has no pin 4
+ERROR: Component BR1 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR1) has no pin 3
+ERROR: Component BR3 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR3) has no pin 3
+ERROR: Component BR3 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR3) has no pin 4
+ERROR: Component BR1 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR1) has no pin 7
+ERROR: Component BR1 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR1) has no pin 8
+ERROR: Component BR1 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR1) has no pin 6
+ERROR: Component BR1 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR1) has no pin 5
+ERROR: Component BR2 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR2) has no pin 3
+ERROR: Component BR2 (with fp BLKCON.100/RH/TM1SQS/W.350/2_BR2) has no pin 4
+Adding BR2.2 to net N00392
+Adding BR3.2 to net N00162
+Deleting BR1.2 from net IOUTH
+Adding BR1.2 to net N00124
+Deleting BR2.2 from net CS2_H
+Deleting BR3.2 from net CS1_H
+*EOF*
+24 errors found

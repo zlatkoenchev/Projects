@@ -1,0 +1,25 @@
+ build/Release/production/_ext/1472/svc_uds.d  \
+ build/Release/production/_ext/1472/svc_uds.p1:  \
+ ../svc_uds.c  \
+../compiler.h  \
+../drv_spi_hf.h  \
+../drv_io.h  \
+../MRF89XA_Cfg.h  \
+../../LIBC/COM/svc_comm.h  \
+../app_ProgTemp.h  \
+../svc_comm_cfg_tx.h  \
+../../LIBC/RTC/app_RTC.h  \
+../drv_eep.h  \
+../app_TempReg.h  \
+../svc_uds.h  \
+../drv_air_sens.h  \
+../../LIBC/MRF89_Drv/MRF89XA.h  \
+../GenericTypeDefs.h  \
+../../LIBC/COM/Protocol.h  \
+../app_RTC_cfg.h  \
+../main.h  \
+../config.h  \
+../types.h  \
+../../LIBC/NVM/svc_nvm.h  \
+../../LIBC/PRESENCE/app_Presence.h  \
+../nvm_block_cfg.h 

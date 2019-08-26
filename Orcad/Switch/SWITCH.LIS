@@ -1,0 +1,164 @@
+Post Processor Report
+OrCAD FILE: C:\PROJECTS\ORCAD\SWITCH\SWITCH.MAX
+Sat Mar 16 14:32:53 2019
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\SWITCH\SWITCH.TOP
+
+Aperture totals for C:\PROJECTS\ORCAD\SWITCH\SWITCH.TOP:
+---------------------------------------------------------
+D10:  0.1240 ROUND  --       0 Draws,       4 Flashes
+D11:  0.0650 SQUARE --       0 Draws,      16 Flashes
+D12:  0.0600 SQUARE --       0 Draws,       8 Flashes
+D13:  0.0800 x 0.1160 RECTANGLE -----       2 Flashes
+D14:  0.0620 ROUND  --       0 Draws,       4 Flashes
+D15:  0.0550 ROUND  --       0 Draws,      10 Flashes
+D16:  0.0197 ROUND  --     369 Draws,       0 Flashes
+D17:  0.0100 ROUND  --      17 Draws,       0 Flashes
+D18:  0.0120 ROUND  --      31 Draws,       0 Flashes
+D19:  0.0394 ROUND  --      42 Draws,       0 Flashes
+D20:  0.0500 ROUND  --       0 Draws,      14 Flashes
+D21:  0.0250 ROUND  --       1 Draws,       0 Flashes
+---------------------------------------------------------
+ 12 D-Codes      -----     460 Draws,      58 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\SWITCH\SWITCH.BOT
+
+Aperture totals for C:\PROJECTS\ORCAD\SWITCH\SWITCH.BOT:
+---------------------------------------------------------
+D10:  0.1240 ROUND  --       0 Draws,       4 Flashes
+D11:  0.0650 SQUARE --       0 Draws,       6 Flashes
+D12:  0.0600 SQUARE --       0 Draws,      26 Flashes
+D14:  0.0620 ROUND  --       0 Draws,       4 Flashes
+D15:  0.0550 ROUND  --       0 Draws,      10 Flashes
+D16:  0.0197 ROUND  --      26 Draws,       0 Flashes
+D17:  0.0100 ROUND  --      16 Draws,       0 Flashes
+D18:  0.0120 ROUND  --     107 Draws,       0 Flashes
+D19:  0.0394 ROUND  --      32 Draws,       0 Flashes
+D20:  0.0500 ROUND  --       0 Draws,      14 Flashes
+D22:  0.0500 x 0.0340 RECTANGLE -----       1 Flashes
+D23:  0.0400 x 0.0340 RECTANGLE -----       2 Flashes
+D24:  0.0250 x 0.0940 OBLONG    -----      13 Flashes
+D25:  0.0250 x 0.0940 RECTANGLE -----       1 Flashes
+D26:  0.0039 ROUND  --     232 Draws,       0 Flashes
+---------------------------------------------------------
+ 15 D-Codes      -----     413 Draws,      81 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\SWITCH\SWITCH.SMT
+
+Aperture totals for C:\PROJECTS\ORCAD\SWITCH\SWITCH.SMT:
+---------------------------------------------------------
+D12:  0.0600 SQUARE --       0 Draws,       8 Flashes
+D13:  0.0800 x 0.1160 RECTANGLE -----       2 Flashes
+D15:  0.0550 ROUND  --       0 Draws,      14 Flashes
+D27:  0.1290 ROUND  --       0 Draws,       4 Flashes
+D28:  0.0670 ROUND  --       0 Draws,       4 Flashes
+D29:  0.0600 ROUND  --       0 Draws,      10 Flashes
+---------------------------------------------------------
+  6 D-Codes      -----       0 Draws,      42 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\SWITCH\SWITCH.SMB
+
+Aperture totals for C:\PROJECTS\ORCAD\SWITCH\SWITCH.SMB:
+---------------------------------------------------------
+D12:  0.0600 SQUARE --       0 Draws,      26 Flashes
+D15:  0.0550 ROUND  --       0 Draws,      14 Flashes
+D22:  0.0500 x 0.0340 RECTANGLE -----       1 Flashes
+D23:  0.0400 x 0.0340 RECTANGLE -----       2 Flashes
+D24:  0.0250 x 0.0940 OBLONG    -----      13 Flashes
+D25:  0.0250 x 0.0940 RECTANGLE -----       1 Flashes
+D27:  0.1290 ROUND  --       0 Draws,       4 Flashes
+D28:  0.0670 ROUND  --       0 Draws,       4 Flashes
+D29:  0.0600 ROUND  --       0 Draws,      10 Flashes
+---------------------------------------------------------
+  9 D-Codes      -----       0 Draws,      75 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\SWITCH\SWITCH.SST
+
+Aperture totals for C:\PROJECTS\ORCAD\SWITCH\SWITCH.SST:
+---------------------------------------------------------
+D17:  0.0100 ROUND  --      10 Draws,       0 Flashes
+D30:  0.0060 ROUND  --      89 Draws,       0 Flashes
+D31:  0.0010 ROUND  --      71 Draws,       0 Flashes
+D32:  0.0080 ROUND  --       8 Draws,       0 Flashes
+---------------------------------------------------------
+  4 D-Codes      -----     178 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\SWITCH\SWITCH.SSB
+
+Aperture totals for C:\PROJECTS\ORCAD\SWITCH\SWITCH.SSB:
+---------------------------------------------------------
+D30:  0.0060 ROUND  --     264 Draws,       0 Flashes
+D32:  0.0080 ROUND  --       5 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----     269 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\SWITCH\SWITCH.AST
+
+Aperture totals for C:\PROJECTS\ORCAD\SWITCH\SWITCH.AST:
+---------------------------------------------------------
+D12:  0.0600 SQUARE --       0 Draws,       8 Flashes
+D13:  0.0800 x 0.1160 RECTANGLE -----       2 Flashes
+D16:  0.0197 ROUND  --       5 Draws,       0 Flashes
+D17:  0.0100 ROUND  --      10 Draws,       0 Flashes
+D30:  0.0060 ROUND  --     148 Draws,       0 Flashes
+---------------------------------------------------------
+  5 D-Codes      -----     163 Draws,      10 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\SWITCH\SWITCH.DRD
+
+Aperture totals for C:\PROJECTS\ORCAD\SWITCH\SWITCH.DRD:
+---------------------------------------------------------
+D16:  0.0197 ROUND  --       5 Draws,       0 Flashes
+D17:  0.0100 ROUND  --     517 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----     522 Draws,       0 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.1240 ROUND  --       0 Draws,       8 Flashes
+D11:  0.0650 SQUARE --       0 Draws,      22 Flashes
+D12:  0.0600 SQUARE --       0 Draws,      76 Flashes
+D13:  0.0800 x 0.1160 RECTANGLE -----       6 Flashes
+D14:  0.0620 ROUND  --       0 Draws,       8 Flashes
+D15:  0.0550 ROUND  --       0 Draws,      48 Flashes
+D16:  0.0197 ROUND  --     405 Draws,       0 Flashes
+D17:  0.0100 ROUND  --     570 Draws,       0 Flashes
+D18:  0.0120 ROUND  --     138 Draws,       0 Flashes
+D19:  0.0394 ROUND  --      74 Draws,       0 Flashes
+D20:  0.0500 ROUND  --       0 Draws,      28 Flashes
+D21:  0.0250 ROUND  --       1 Draws,       0 Flashes
+D22:  0.0500 x 0.0340 RECTANGLE -----       2 Flashes
+D23:  0.0400 x 0.0340 RECTANGLE -----       4 Flashes
+D24:  0.0250 x 0.0940 OBLONG    -----      26 Flashes
+D25:  0.0250 x 0.0940 RECTANGLE -----       2 Flashes
+D26:  0.0039 ROUND  --     232 Draws,       0 Flashes
+D27:  0.1290 ROUND  --       0 Draws,       8 Flashes
+D28:  0.0670 ROUND  --       0 Draws,       8 Flashes
+D29:  0.0600 ROUND  --       0 Draws,      20 Flashes
+D30:  0.0060 ROUND  --     501 Draws,       0 Flashes
+D31:  0.0010 ROUND  --      71 Draws,       0 Flashes
+D32:  0.0080 ROUND  --      13 Draws,       0 Flashes
+---------------------------------------------------------
+ 23 D-Codes      -----    2005 Draws,     266 Flashes
+
+
+No warnings or errors.

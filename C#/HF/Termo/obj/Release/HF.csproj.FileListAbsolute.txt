@@ -1,0 +1,9 @@
+C:\Projects\C#\HF\Termo\bin\Release\Termo.exe
+C:\Projects\C#\HF\Termo\bin\Release\Termo.pdb
+C:\Projects\C#\HF\Termo\obj\Release\HFHome.Form1.resources
+C:\Projects\C#\HF\Termo\obj\Release\HFHome.Properties.Resources.resources
+C:\Projects\C#\HF\Termo\obj\Release\HFHome.Actuator.resources
+C:\Projects\C#\HF\Termo\obj\Release\HFHome.Termostat.resources
+C:\Projects\C#\HF\Termo\obj\Release\HF.csproj.GenerateResource.Cache
+C:\Projects\C#\HF\Termo\obj\Release\Termo.exe
+C:\Projects\C#\HF\Termo\obj\Release\Termo.pdb

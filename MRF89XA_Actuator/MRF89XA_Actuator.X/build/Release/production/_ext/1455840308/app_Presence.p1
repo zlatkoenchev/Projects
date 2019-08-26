@@ -1,0 +1,672 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"16 ../../LIBC/PRESENCE/app_Presence.c
+[s S367 :1 `uc 1 :1 `uc 1 ]
+[n S367 . bRemotePresence bTxFrame ]
+"23
+[c E3096 0 1 2 3 4 .. ]
+[n E3096 . PRS_INIT PRS_WAIT PRS_ACTIVE PRS_ELAPSE PRW_WAIT3S  ]
+"37 ../../LIBC/COM\svc_comm.h
+[s S366 `uc 1 `uc 1 `uc 1 `ul 1 `uc 1 `ul 1 `uc 1 `uc 1 ]
+[n S366 . TxPresenceSIG_PRESENCE TxPresenceTxBuf Energy1SIG_ENERGY1 Energy1TxBuf Energy2SIG_ENERGY2 Energy2TxBuf TxActSIG_ACTUATOR TxActTxBuf ]
+"42
+[v _ComTxData `S366 ~T0 @X0 0 e ]
+"19 ../../LIBC/RTC\app_RTC.h
+[s S364 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 ]
+[n S364 . Seconds Minutes Hours DOW Day Month Year ]
+"30
+[v _DateTime `S364 ~T0 @X0 0 e ]
+"11 ../../LIBC/PRESENCE\app_Presence.h
+[s S359 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `us 1 `us 1 ]
+[n S359 . PIR_CTRL NAD1 NAD2 NAD3 NAD4 PIR_TIME PIR_TIME_NIGHT ]
+"59 ../nvm_block_cfg.h
+[v _RAM_PIRDATA `S359 ~T0 @X0 0 e ]
+"19 ../../LIBC/COM\svc_comm.h
+[s S365 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc -> 4 `i `uc -> 4 `i `uc -> 4 `i ]
+[n S365 . bTxReq bTxState bTxON bUnLocked TxPeriod RxIx CSRetries MY_NAD sigID Min RxNADs RxCTRs RxTMRs ]
+"43
+[v _ComData `S365 ~T0 @X0 0 e ]
+"495 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1847.h
+[s S31 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"494
+[u S30 `S31 1 ]
+[n S30 . . ]
+"506
+[v _PORTBbits `VS30 ~T0 @X0 0 e@13 ]
+"70 ../../LIBC/PRESENCE/app_Presence.c
+[c E2781 0 1 .. ]
+[n E2781 _BOOL FALSE TRUE  ]
+"415 ../../LIBC/MRF89_Drv\MRF89XA.h
+[v _RxPacket `uc ~T0 @X0 -> 0 `x e ]
+"52 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f1847.h
+[; <" INDF0 equ 00h ;# ">
+"72
+[; <" INDF1 equ 01h ;# ">
+"92
+[; <" PCL equ 02h ;# ">
+"112
+[; <" STATUS equ 03h ;# ">
+"175
+[; <" FSR0L equ 04h ;# ">
+"195
+[; <" FSR0H equ 05h ;# ">
+"219
+[; <" FSR1L equ 06h ;# ">
+"239
+[; <" FSR1H equ 07h ;# ">
+"259
+[; <" BSR equ 08h ;# ">
+"311
+[; <" WREG equ 09h ;# ">
+"331
+[; <" PCLATH equ 0Ah ;# ">
+"351
+[; <" INTCON equ 0Bh ;# ">
+"429
+[; <" PORTA equ 0Ch ;# ">
+"491
+[; <" PORTB equ 0Dh ;# ">
+"553
+[; <" PIR1 equ 011h ;# ">
+"615
+[; <" PIR2 equ 012h ;# ">
+"666
+[; <" PIR3 equ 013h ;# ">
+"706
+[; <" PIR4 equ 014h ;# ">
+"732
+[; <" TMR0 equ 015h ;# ">
+"752
+[; <" TMR1 equ 016h ;# ">
+"759
+[; <" TMR1L equ 016h ;# ">
+"779
+[; <" TMR1H equ 017h ;# ">
+"799
+[; <" T1CON equ 018h ;# ">
+"871
+[; <" T1GCON equ 019h ;# ">
+"948
+[; <" TMR2 equ 01Ah ;# ">
+"968
+[; <" PR2 equ 01Bh ;# ">
+"988
+[; <" T2CON equ 01Ch ;# ">
+"1059
+[; <" CPSCON0 equ 01Eh ;# ">
+"1119
+[; <" CPSCON1 equ 01Fh ;# ">
+"1165
+[; <" TRISA equ 08Ch ;# ">
+"1227
+[; <" TRISB equ 08Dh ;# ">
+"1289
+[; <" PIE1 equ 091h ;# ">
+"1351
+[; <" PIE2 equ 092h ;# ">
+"1402
+[; <" PIE3 equ 093h ;# ">
+"1442
+[; <" PIE4 equ 094h ;# ">
+"1468
+[; <" OPTION_REG equ 095h ;# ">
+"1551
+[; <" PCON equ 096h ;# ">
+"1602
+[; <" WDTCON equ 097h ;# ">
+"1661
+[; <" OSCTUNE equ 098h ;# ">
+"1719
+[; <" OSCCON equ 099h ;# ">
+"1791
+[; <" OSCSTAT equ 09Ah ;# ">
+"1853
+[; <" ADRES equ 09Bh ;# ">
+"1860
+[; <" ADRESL equ 09Bh ;# ">
+"1880
+[; <" ADRESH equ 09Ch ;# ">
+"1900
+[; <" ADCON0 equ 09Dh ;# ">
+"1980
+[; <" ADCON1 equ 09Eh ;# ">
+"2052
+[; <" LATA equ 010Ch ;# ">
+"2109
+[; <" LATB equ 010Dh ;# ">
+"2171
+[; <" CM1CON0 equ 0111h ;# ">
+"2228
+[; <" CM1CON1 equ 0112h ;# ">
+"2294
+[; <" CM2CON0 equ 0113h ;# ">
+"2351
+[; <" CM2CON1 equ 0114h ;# ">
+"2417
+[; <" CMOUT equ 0115h ;# ">
+"2443
+[; <" BORCON equ 0116h ;# ">
+"2470
+[; <" FVRCON equ 0117h ;# ">
+"2546
+[; <" DACCON0 equ 0118h ;# ">
+"2607
+[; <" DACCON1 equ 0119h ;# ">
+"2659
+[; <" SRCON0 equ 011Ah ;# ">
+"2730
+[; <" SRCON1 equ 011Bh ;# ">
+"2792
+[; <" APFCON0 equ 011Dh ;# ">
+"2854
+[; <" APFCON1 equ 011Eh ;# ">
+"2874
+[; <" ANSELA equ 018Ch ;# ">
+"2926
+[; <" ANSELB equ 018Dh ;# ">
+"2991
+[; <" EEADR equ 0191h ;# ">
+"2998
+[; <" EEADRL equ 0191h ;# ">
+"3018
+[; <" EEADRH equ 0192h ;# ">
+"3038
+[; <" EEDAT equ 0193h ;# ">
+"3045
+[; <" EEDATL equ 0193h ;# ">
+"3050
+[; <" EEDATA equ 0193h ;# ">
+"3083
+[; <" EEDATH equ 0194h ;# ">
+"3103
+[; <" EECON1 equ 0195h ;# ">
+"3165
+[; <" EECON2 equ 0196h ;# ">
+"3185
+[; <" RCREG equ 0199h ;# ">
+"3205
+[; <" TXREG equ 019Ah ;# ">
+"3225
+[; <" SP1BRG equ 019Bh ;# ">
+"3232
+[; <" SP1BRGL equ 019Bh ;# ">
+"3237
+[; <" SPBRG equ 019Bh ;# ">
+"3241
+[; <" SPBRGL equ 019Bh ;# ">
+"3286
+[; <" SP1BRGH equ 019Ch ;# ">
+"3291
+[; <" SPBRGH equ 019Ch ;# ">
+"3324
+[; <" RCSTA equ 019Dh ;# ">
+"3386
+[; <" TXSTA equ 019Eh ;# ">
+"3448
+[; <" BAUDCON equ 019Fh ;# ">
+"3500
+[; <" WPUA equ 020Ch ;# ">
+"3529
+[; <" WPUB equ 020Dh ;# ">
+"3599
+[; <" SSP1BUF equ 0211h ;# ">
+"3604
+[; <" SSPBUF equ 0211h ;# ">
+"3637
+[; <" SSP1ADD equ 0212h ;# ">
+"3642
+[; <" SSPADD equ 0212h ;# ">
+"3675
+[; <" SSP1MSK equ 0213h ;# ">
+"3680
+[; <" SSPMSK equ 0213h ;# ">
+"3713
+[; <" SSP1STAT equ 0214h ;# ">
+"3718
+[; <" SSPSTAT equ 0214h ;# ">
+"3835
+[; <" SSP1CON1 equ 0215h ;# ">
+"3840
+[; <" SSPCON1 equ 0215h ;# ">
+"3844
+[; <" SSPCON equ 0215h ;# ">
+"4039
+[; <" SSP1CON2 equ 0216h ;# ">
+"4044
+[; <" SSPCON2 equ 0216h ;# ">
+"4161
+[; <" SSP1CON3 equ 0217h ;# ">
+"4166
+[; <" SSPCON3 equ 0217h ;# ">
+"4283
+[; <" SSP2BUF equ 0219h ;# ">
+"4303
+[; <" SSP2ADD equ 021Ah ;# ">
+"4323
+[; <" SSP2MSK equ 021Bh ;# ">
+"4343
+[; <" SSP2STAT equ 021Ch ;# ">
+"4405
+[; <" SSP2CON1 equ 021Dh ;# ">
+"4475
+[; <" SSP2CON2 equ 021Eh ;# ">
+"4537
+[; <" SSP2CON3 equ 021Fh ;# ">
+"4599
+[; <" CCPR1 equ 0291h ;# ">
+"4606
+[; <" CCPR1L equ 0291h ;# ">
+"4626
+[; <" CCPR1H equ 0292h ;# ">
+"4646
+[; <" CCP1CON equ 0293h ;# ">
+"4728
+[; <" PWM1CON equ 0294h ;# ">
+"4798
+[; <" CCP1AS equ 0295h ;# ">
+"4803
+[; <" ECCP1AS equ 0295h ;# ">
+"4960
+[; <" PSTR1CON equ 0296h ;# ">
+"5004
+[; <" CCPR2 equ 0298h ;# ">
+"5011
+[; <" CCPR2L equ 0298h ;# ">
+"5031
+[; <" CCPR2H equ 0299h ;# ">
+"5051
+[; <" CCP2CON equ 029Ah ;# ">
+"5133
+[; <" PWM2CON equ 029Bh ;# ">
+"5203
+[; <" CCP2AS equ 029Ch ;# ">
+"5208
+[; <" ECCP2AS equ 029Ch ;# ">
+"5365
+[; <" PSTR2CON equ 029Dh ;# ">
+"5409
+[; <" CCPTMRS equ 029Eh ;# ">
+"5414
+[; <" CCPTMRS0 equ 029Eh ;# ">
+"5583
+[; <" CCPR3 equ 0311h ;# ">
+"5590
+[; <" CCPR3L equ 0311h ;# ">
+"5610
+[; <" CCPR3H equ 0312h ;# ">
+"5630
+[; <" CCP3CON equ 0313h ;# ">
+"5694
+[; <" CCPR4 equ 0318h ;# ">
+"5701
+[; <" CCPR4L equ 0318h ;# ">
+"5721
+[; <" CCPR4H equ 0319h ;# ">
+"5741
+[; <" CCP4CON equ 031Ah ;# ">
+"5805
+[; <" IOCBP equ 0394h ;# ">
+"5875
+[; <" IOCBN equ 0395h ;# ">
+"5945
+[; <" IOCBF equ 0396h ;# ">
+"6015
+[; <" CLKRCON equ 039Ah ;# ">
+"6091
+[; <" MDCON equ 039Ch ;# ">
+"6142
+[; <" MDSRC equ 039Dh ;# ">
+"6195
+[; <" MDCARL equ 039Eh ;# ">
+"6260
+[; <" MDCARH equ 039Fh ;# ">
+"6325
+[; <" TMR4 equ 0415h ;# ">
+"6345
+[; <" PR4 equ 0416h ;# ">
+"6365
+[; <" T4CON equ 0417h ;# ">
+"6436
+[; <" TMR6 equ 041Ch ;# ">
+"6456
+[; <" PR6 equ 041Dh ;# ">
+"6476
+[; <" T6CON equ 041Eh ;# ">
+"6547
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"6579
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"6599
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"6619
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"6639
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"6659
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"6679
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"6699
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"6719
+[; <" STKPTR equ 0FEDh ;# ">
+"6739
+[; <" TOSL equ 0FEEh ;# ">
+"6759
+[; <" TOSH equ 0FEFh ;# ">
+"21 ../../LIBC/PRESENCE/app_Presence.c
+[v _pflags `S367 ~T0 @X0 1 s ]
+"23
+[v _ePrs `E3096 ~T0 @X0 1 s ]
+"24
+[v _PresenceOff `uc ~T0 @X0 1 s ]
+"25
+[v _PresenceTime `us ~T0 @X0 1 e ]
+"27
+[v _PRS_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _PRS_Init ]
+[f ]
+"28
+[e = _PresenceTime -> -> 20 `i `us ]
+"29
+[e = . _pflags 0 -> -> 0 `i `uc ]
+"30
+[e = _ePrs . `E3096 0 ]
+"31
+[e = . _ComTxData 1 -> -> 0 `i `uc ]
+"32
+[e :UE 368 ]
+}
+"34
+[v _PRS_RoomPresence `(uc ~T0 @X0 1 ef ]
+{
+[e :U _PRS_RoomPresence ]
+[f ]
+"35
+[e ) -> -> == -> _ePrs `i -> . `E3096 2 `i `i `uc ]
+[e $UE 369  ]
+"36
+[e :UE 369 ]
+}
+"38
+[v _ReloadTime `(v ~T0 @X0 1 sf1`uc ]
+{
+[e :U _ReloadTime ]
+[v _bLocal `uc ~T0 @X0 1 r1 ]
+[f ]
+"40
+[e $ ! < -> . _DateTime 2 `i -> 32 `i 371  ]
+{
+"41
+[e = _PresenceTime . _RAM_PIRDATA 5 ]
+"42
+}
+[e $U 372  ]
+[e :U 371 ]
+{
+"43
+[e = _PresenceTime . _RAM_PIRDATA 6 ]
+"44
+}
+[e :U 372 ]
+"46
+[e $ ! && != & -> _bLocal `i -> 1 `i -> 0 `i != & -> . _RAM_PIRDATA 0 `i -> 2 `i -> 0 `i 373  ]
+{
+"47
+[e $ ! != -> . _ComTxData 1 `i -> 1 `i 374  ]
+{
+[e = . _ComTxData 1 -> -> 1 `i `uc ]
+[e = . _ComData 0 -> -> 1 `i `uc ]
+}
+[e :U 374 ]
+"48
+}
+[e :U 373 ]
+"49
+[e :UE 370 ]
+}
+"51
+[v _GetRIRLevel `(uc ~T0 @X0 1 sf ]
+{
+[e :U _GetRIRLevel ]
+[f ]
+"52
+[e $ ! && != & -> . _RAM_PIRDATA 0 `i -> 2 `i -> 0 `i != -> . . _PORTBbits 0 7 `i -> -> -> 0 `i `Vuc `i 376  ]
+"53
+{
+"54
+[e ) -> -> 1 `i `uc ]
+[e $UE 375  ]
+"55
+}
+[e :U 376 ]
+"56
+[e ) -> -> 0 `i `uc ]
+[e $UE 375  ]
+"57
+[e :UE 375 ]
+}
+"59
+[v _PRS_Task `(v ~T0 @X0 1 ef ]
+{
+[e :U _PRS_Task ]
+[f ]
+"60
+[e $ ! != & -> . _RAM_PIRDATA 0 `i -> 1 `i -> 0 `i 378  ]
+{
+"61
+[e $U 380  ]
+"62
+{
+"63
+[e :U 381 ]
+"64
+[e $ ! == -> -> 0 `i `ui -> _PresenceTime `ui 382  ]
+{
+"65
+[e = _ePrs . `E3096 1 ]
+"66
+}
+[e :U 382 ]
+"67
+[e $U 379  ]
+"68
+[e :U 383 ]
+"69
+[e $ ! != -> ( _GetRIRLevel ..  `i -> -> -> 0 `i `uc `i 384  ]
+{
+"70
+[e ( _ReloadTime (1 -> . `E2781 1 `uc ]
+"71
+[e = _ePrs . `E3096 2 ]
+"72
+}
+[e $U 385  ]
+[e :U 384 ]
+[e $ ! != -> . _pflags 0 `i -> -> -> 0 `i `uc `i 386  ]
+{
+"73
+[e = . _pflags 0 -> . `E2781 0 `uc ]
+"74
+[e ( _ReloadTime (1 -> . `E2781 0 `uc ]
+"75
+[e = _ePrs . `E3096 2 ]
+"76
+}
+[e :U 386 ]
+"77
+[e :U 385 ]
+[e $U 379  ]
+"78
+[e :U 387 ]
+"79
+[e $ ! != -> ( _GetRIRLevel ..  `i -> -> -> 0 `i `uc `i 388  ]
+{
+"80
+[e ( _ReloadTime (1 -> . `E2781 1 `uc ]
+"81
+}
+[e $U 389  ]
+[e :U 388 ]
+[e $ ! != -> . _pflags 0 `i -> -> -> 0 `i `uc `i 390  ]
+{
+"82
+[e = . _pflags 0 -> . `E2781 0 `uc ]
+"83
+[e ( _ReloadTime (1 -> . `E2781 0 `uc ]
+"84
+}
+[e :U 390 ]
+"85
+[e :U 389 ]
+[e $ ! == -> -> 0 `i `ui -> _PresenceTime `ui 391  ]
+{
+"86
+[e = _PresenceOff -> -> 15 `i `uc ]
+"87
+[e = _ePrs . `E3096 3 ]
+"88
+}
+[e :U 391 ]
+"89
+[e $U 379  ]
+"90
+[e :U 392 ]
+"91
+[e $ ! != -> _PresenceOff `i -> -> -> 0 `i `uc `i 393  ]
+{
+"92
+[e -- _PresenceOff -> -> 1 `i `uc ]
+"93
+}
+[e $U 394  ]
+[e :U 393 ]
+{
+"94
+[e $ ! != -> ( _GetRIRLevel ..  `i -> -> -> 0 `i `uc `i 395  ]
+{
+"96
+[e = _PresenceOff -> -> 155 `i `uc ]
+"97
+[e = _ePrs . `E3096 4 ]
+"98
+}
+[e $U 396  ]
+[e :U 395 ]
+{
+"99
+[e = _ePrs . `E3096 1 ]
+"100
+}
+[e :U 396 ]
+"101
+}
+[e :U 394 ]
+"102
+[e $U 379  ]
+"103
+[e :U 397 ]
+"104
+[e $ ! != -> _PresenceOff `i -> -> -> 0 `i `uc `i 398  ]
+{
+"105
+[e -- _PresenceOff -> -> 1 `i `uc ]
+"106
+}
+[e $U 399  ]
+[e :U 398 ]
+{
+"107
+[e = _ePrs . `E3096 1 ]
+"108
+}
+[e :U 399 ]
+"109
+[e $U 379  ]
+"110
+[e :U 400 ]
+"111
+[e = _ePrs . `E3096 1 ]
+"112
+[e $U 379  ]
+"113
+}
+[e $U 379  ]
+"61
+[e :U 380 ]
+[e [\ _ePrs , $ . `E3096 0 381
+ , $ . `E3096 1 383
+ , $ . `E3096 2 387
+ , $ . `E3096 3 392
+ , $ . `E3096 4 397
+ 400 ]
+"113
+[e :U 379 ]
+"114
+}
+[e $U 401  ]
+"115
+[e :U 378 ]
+{
+"116
+[e = _ePrs . `E3096 2 ]
+"117
+}
+[e :U 401 ]
+"118
+[e :UE 377 ]
+}
+"120
+[v _PRS_Task1s `(v ~T0 @X0 1 ef ]
+{
+[e :U _PRS_Task1s ]
+[f ]
+"121
+[e $ ! != & -> . _RAM_PIRDATA 0 `i -> 1 `i -> 0 `i 403  ]
+{
+"122
+[e $ ! != -> _PresenceTime `ui -> -> -> 0 `i `us `ui 404  ]
+{
+"123
+[e -- _PresenceTime -> -> 1 `i `us ]
+"124
+}
+[e $U 405  ]
+"125
+[e :U 404 ]
+{
+"126
+[e = . _ComTxData 1 -> -> 0 `i `uc ]
+"127
+}
+[e :U 405 ]
+"128
+}
+[e :U 403 ]
+"129
+[e :UE 402 ]
+}
+"131
+[v _PRS_OnPIRFrame `(v ~T0 @X0 1 ef ]
+{
+[e :U _PRS_OnPIRFrame ]
+[f ]
+"137
+[e $ ! || || || == -> *U + &U _RxPacket * -> -> -> 2 `i `ui `ux -> -> # *U &U _RxPacket `ui `ux `i -> . _RAM_PIRDATA 1 `i == -> *U + &U _RxPacket * -> -> -> 2 `i `ui `ux -> -> # *U &U _RxPacket `ui `ux `i -> . _RAM_PIRDATA 2 `i == -> *U + &U _RxPacket * -> -> -> 2 `i `ui `ux -> -> # *U &U _RxPacket `ui `ux `i -> . _RAM_PIRDATA 3 `i == -> *U + &U _RxPacket * -> -> -> 2 `i `ui `ux -> -> # *U &U _RxPacket `ui `ux `i -> . _RAM_PIRDATA 4 `i 407  ]
+"138
+{
+"139
+[e $ ! != -> 0 `i -> *U &U *U + &U _RxPacket * -> -> + -> . _ComData 5 `i -> 1 `i `ui `ux -> -> # *U &U _RxPacket `ui `ux `i 408  ]
+{
+"140
+[e = . _pflags 0 -> -> 1 `i `uc ]
+"141
+}
+[e :U 408 ]
+"142
+}
+[e :U 407 ]
+"143
+[e :UE 406 ]
+}

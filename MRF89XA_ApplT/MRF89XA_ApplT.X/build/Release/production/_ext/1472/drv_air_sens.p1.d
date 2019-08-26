@@ -1,0 +1,21 @@
+ build/Release/production/_ext/1472/drv_air_sens.d  \
+ build/Release/production/_ext/1472/drv_air_sens.p1:  \
+ ../drv_air_sens.c  \
+../../LIBC/Si7021/drv_si7021.h  \
+../compiler.h  \
+../drv_spi_hf.h  \
+../drv_io.h  \
+../MRF89XA_Cfg.h  \
+../../LIBC/COM/svc_comm.h  \
+../svc_comm_cfg_tx.h  \
+../../LIBC/RTC/app_RTC.h  \
+../app_TempReg.h  \
+../../LIBC/MRF89_Drv/MRF89XA.h  \
+../GenericTypeDefs.h  \
+../../LIBC/COM/Protocol.h  \
+../app_RTC_cfg.h  \
+../config.h  \
+../types.h  \
+../../LIBC/NVM/svc_nvm.h  \
+../../LIBC/PRESENCE/app_Presence.h  \
+../nvm_block_cfg.h 

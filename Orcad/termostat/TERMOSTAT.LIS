@@ -1,0 +1,193 @@
+Post Processor Report
+OrCAD FILE: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.MAX
+Fri Mar 16 20:20:23 2018
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.TOP
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.TOP:
+---------------------------------------------------------
+D10:  0.0520 ROUND  --       0 Draws,      11 Flashes
+D11:  0.0550 ROUND  --       0 Draws,      41 Flashes
+D12:  0.0550 SQUARE --       0 Draws,       8 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       1 Flashes
+D14:  0.0620 ROUND  --       0 Draws,       8 Flashes
+D15:  0.0500 ROUND  --       0 Draws,      43 Flashes
+D16:  0.0120 ROUND  --      92 Draws,       0 Flashes
+D17:  0.0200 ROUND  --       9 Draws,       0 Flashes
+---------------------------------------------------------
+  8 D-Codes      -----     101 Draws,     112 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.BOT
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.BOT:
+---------------------------------------------------------
+D10:  0.0520 ROUND  --       0 Draws,      11 Flashes
+D11:  0.0550 ROUND  --       0 Draws,      41 Flashes
+D12:  0.0550 SQUARE --       0 Draws,       8 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       1 Flashes
+D14:  0.0620 ROUND  --       0 Draws,       8 Flashes
+D15:  0.0500 ROUND  --       0 Draws,      43 Flashes
+D16:  0.0120 ROUND  --     263 Draws,       0 Flashes
+D17:  0.0200 ROUND  --       9 Draws,       0 Flashes
+D18:  0.0600 SQUARE --       0 Draws,      44 Flashes
+D19:  0.0340 x 0.0500 RECTANGLE -----       1 Flashes
+D20:  0.0340 x 0.0400 RECTANGLE -----       2 Flashes
+D21:  0.0860 x 0.0240 OBLONG    -----      17 Flashes
+D22:  0.0860 x 0.0240 RECTANGLE -----       1 Flashes
+D23:  0.0650 SQUARE --       0 Draws,       4 Flashes
+D24:  0.0100 ROUND  --    4108 Draws,       0 Flashes
+D25:  0.0300 ROUND  --      28 Draws,       0 Flashes
+---------------------------------------------------------
+ 16 D-Codes      -----    4408 Draws,     181 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.GND
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.GND:
+---------------------------------------------------------
+D26:  0.0720 ROUND  --       0 Draws,      11 Flashes
+D27:  0.0750 ROUND  --       0 Draws,      84 Flashes
+D28:  0.0750 SQUARE --       0 Draws,       8 Flashes
+D29:  0.0720 SQUARE --       0 Draws,       1 Flashes
+D30:  0.0700 ROUND  --       0 Draws,       8 Flashes
+D31:  0.0500 ROUND  --       5 Draws,       0 Flashes
+---------------------------------------------------------
+  6 D-Codes      -----       5 Draws,     112 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.PWR
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.PWR:
+---------------------------------------------------------
+D26:  0.0720 ROUND  --       0 Draws,      11 Flashes
+D27:  0.0750 ROUND  --       0 Draws,      84 Flashes
+D28:  0.0750 SQUARE --       0 Draws,       8 Flashes
+D29:  0.0720 SQUARE --       0 Draws,       1 Flashes
+D30:  0.0700 ROUND  --       0 Draws,       8 Flashes
+D31:  0.0500 ROUND  --       5 Draws,       0 Flashes
+---------------------------------------------------------
+  6 D-Codes      -----       5 Draws,     112 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.SMT
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.SMT:
+---------------------------------------------------------
+D10:  0.0520 ROUND  --       0 Draws,      11 Flashes
+D11:  0.0550 ROUND  --       0 Draws,      84 Flashes
+D12:  0.0550 SQUARE --       0 Draws,       8 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       1 Flashes
+D32:  0.0670 ROUND  --       0 Draws,       8 Flashes
+---------------------------------------------------------
+  5 D-Codes      -----       0 Draws,     112 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.SMB
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.SMB:
+---------------------------------------------------------
+D10:  0.0520 ROUND  --       0 Draws,      11 Flashes
+D11:  0.0550 ROUND  --       0 Draws,      84 Flashes
+D12:  0.0550 SQUARE --       0 Draws,       8 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       1 Flashes
+D18:  0.0600 SQUARE --       0 Draws,      44 Flashes
+D19:  0.0340 x 0.0500 RECTANGLE -----       1 Flashes
+D20:  0.0340 x 0.0400 RECTANGLE -----       2 Flashes
+D21:  0.0860 x 0.0240 OBLONG    -----      17 Flashes
+D22:  0.0860 x 0.0240 RECTANGLE -----       1 Flashes
+D32:  0.0670 ROUND  --       0 Draws,       8 Flashes
+---------------------------------------------------------
+ 10 D-Codes      -----       0 Draws,     177 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.SST
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.SST:
+---------------------------------------------------------
+D33:  0.0080 ROUND  --     228 Draws,       0 Flashes
+---------------------------------------------------------
+  1 D-Codes      -----     228 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.SSB
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.SSB:
+---------------------------------------------------------
+D24:  0.0100 ROUND  --       7 Draws,       0 Flashes
+D33:  0.0080 ROUND  --     161 Draws,       0 Flashes
+D34:  0.0060 ROUND  --     466 Draws,       0 Flashes
+---------------------------------------------------------
+  3 D-Codes      -----     634 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.AST
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.AST:
+---------------------------------------------------------
+D10:  0.0520 ROUND  --       0 Draws,      11 Flashes
+D11:  0.0550 ROUND  --       0 Draws,      41 Flashes
+D12:  0.0550 SQUARE --       0 Draws,       8 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       1 Flashes
+D24:  0.0100 ROUND  --      31 Draws,       0 Flashes
+D31:  0.0500 ROUND  --       5 Draws,       0 Flashes
+D33:  0.0080 ROUND  --     349 Draws,       0 Flashes
+---------------------------------------------------------
+  7 D-Codes      -----     385 Draws,      61 Flashes
+
+*********************************************************
+
+Output file: C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.DRD
+
+Aperture totals for C:\PROJECTS\ORCAD\TERMOSTAT\TERMOSTAT.DRD:
+---------------------------------------------------------
+D24:  0.0100 ROUND  --     792 Draws,       0 Flashes
+D31:  0.0500 ROUND  --       5 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----     797 Draws,       0 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.0520 ROUND  --       0 Draws,      55 Flashes
+D11:  0.0550 ROUND  --       0 Draws,     291 Flashes
+D12:  0.0550 SQUARE --       0 Draws,      40 Flashes
+D13:  0.0520 SQUARE --       0 Draws,       5 Flashes
+D14:  0.0620 ROUND  --       0 Draws,      16 Flashes
+D15:  0.0500 ROUND  --       0 Draws,      86 Flashes
+D16:  0.0120 ROUND  --     355 Draws,       0 Flashes
+D17:  0.0200 ROUND  --      18 Draws,       0 Flashes
+D18:  0.0600 SQUARE --       0 Draws,      88 Flashes
+D19:  0.0340 x 0.0500 RECTANGLE -----       2 Flashes
+D20:  0.0340 x 0.0400 RECTANGLE -----       4 Flashes
+D21:  0.0860 x 0.0240 OBLONG    -----      34 Flashes
+D22:  0.0860 x 0.0240 RECTANGLE -----       2 Flashes
+D23:  0.0650 SQUARE --       0 Draws,       4 Flashes
+D24:  0.0100 ROUND  --    4938 Draws,       0 Flashes
+D25:  0.0300 ROUND  --      28 Draws,       0 Flashes
+D26:  0.0720 ROUND  --       0 Draws,      22 Flashes
+D27:  0.0750 ROUND  --       0 Draws,     168 Flashes
+D28:  0.0750 SQUARE --       0 Draws,      16 Flashes
+D29:  0.0720 SQUARE --       0 Draws,       2 Flashes
+D30:  0.0700 ROUND  --       0 Draws,      16 Flashes
+D31:  0.0500 ROUND  --      20 Draws,       0 Flashes
+D32:  0.0670 ROUND  --       0 Draws,      16 Flashes
+D33:  0.0080 ROUND  --     738 Draws,       0 Flashes
+D34:  0.0060 ROUND  --     466 Draws,       0 Flashes
+---------------------------------------------------------
+ 25 D-Codes      -----    6563 Draws,     867 Flashes
+
+
+No warnings or errors.

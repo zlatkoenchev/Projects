@@ -1,0 +1,23 @@
+ build/Release/production/_ext/1472/app_control.d  \
+ build/Release/production/_ext/1472/app_control.p1:  \
+ ../app_control.c  \
+../compiler.h  \
+../app_prog.h  \
+../drv_spi_hf.h  \
+../drv_io.h  \
+../MRF89XA_Cfg.h  \
+../../LIBC/COM/svc_comm.h  \
+../svc_comm_cfg_tx.h  \
+../app_control.h  \
+../../LIBC/RTC/app_RTC.h  \
+../drv_Si7021.h  \
+../../LIBC/MRF89_Drv/MRF89XA.h  \
+../GenericTypeDefs.h  \
+../../LIBC/COM/Protocol.h  \
+../app_RTC_cfg.h  \
+../drv_relay.h  \
+../config.h  \
+../types.h  \
+../../LIBC/NVM/svc_nvm.h  \
+../../LIBC/PRESENCE/app_Presence.h  \
+../nvm_block_cfg.h 

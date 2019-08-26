@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/Release/production\MRF89XA_ApplT.X.production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>7296</length>
+      <used>5215</used>
+      <free>2081</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>1024</length>
+      <used>422</used>
+      <free>602</free>
+    </memory>
+  </executable>
+</project>

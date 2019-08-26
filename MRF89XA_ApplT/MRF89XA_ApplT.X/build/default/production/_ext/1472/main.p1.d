@@ -1,0 +1,22 @@
+ build/default/production/_ext/1472/main.d  \
+ build/default/production/_ext/1472/main.p1:  \
+ ../main.c  \
+../compiler.h  \
+../drv_spi_hf.h  \
+../drv_io.h  \
+../app_Presence.h  \
+../svc_comm.h  \
+../MRF89XA_Cfg.h  \
+../svc_nvm.h  \
+../app_ProgTemp.h  \
+../app_TempReg.h  \
+../Protocol.h  \
+../../MRF89_Drv/MRF89XA.h  \
+../GenericTypeDefs.h  \
+../drv_I2c.h  \
+../app_RTC.h  \
+../app_Menu.h  \
+../drv_lcd.h  \
+../types.h  \
+../drv_DS3231.h  \
+../nvm_block_cfg.h 
